@@ -1,2 +1,2 @@
-# Kamino Protocol
+# Kimano Protocol
 A protocol based on arbitrum
