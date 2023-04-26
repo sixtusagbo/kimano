@@ -25,7 +25,8 @@
   });
 
   const hamburger = document.querySelector(".hamburger");
-  hamburger.addEventListener('click', () => {
+  const navbarTogglerButton = document.querySelector(".navbar-toggler");
+  navbarTogglerButton.addEventListener('click', () => {
     hamburger.classList.toggle("flip");
   });
 
