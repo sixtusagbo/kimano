@@ -102,44 +102,56 @@
     display: none;
   }
 
-  footer .subscribe {
+  footer {
+    .subscribe {
 
-    &-form,
-    &-form-inputs {
-      flex-direction: column;
-    }
-
-    &-form-inputs,
-    &-form-submit {
-      box-shadow: none;
-    }
-
-    &-form-inputs {
-      width: 100%;
-    }
-
-    &-form {
-
-      .name,
-      .email {
-        width: 100%;
-        margin-bottom: 20px;
+      &-form,
+      &-form-inputs {
+        flex-direction: column;
       }
 
-      .divider {
-        display: none;
+      &-form-inputs,
+      &-form-submit {
+        box-shadow: none;
       }
 
-      &-inputs input,
-      .name {
-        border-radius: 90px;
-      }
-
-      &-submit button,
-      &-inputs input {
+      &-form-inputs {
         width: 100%;
       }
+
+      &-form {
+
+        .name,
+        .email {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+
+        .divider {
+          display: none;
+        }
+
+        &-inputs input,
+        .name {
+          border-radius: 90px;
+        }
+
+        &-submit button,
+        &-inputs input {
+          width: 100%;
+        }
+      }
+
     }
 
+    .links {
+      .social {
+        flex-direction: column;
+
+        &-icons {
+          margin-top: 23px;
+        }
+      }
+    }
   }
 }

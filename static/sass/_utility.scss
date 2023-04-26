@@ -7,6 +7,27 @@ a {
   transition: all .3 ease;
 }
 
+.orange-button {
+  border-radius: 90px;
+  color: #fff;
+  background: $gradient-primary;
+  box-shadow: $shadow-primary;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 10px 6px;
+  line-height: 5em;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  max-width: 295px;
+  min-width: 230px;
+  max-height: 50px;
+  align-items: center;
+  margin-top: 30px;
+}
+
 .orange-large-outline-btn {
   background: $gradient-primary;
   background-clip: text;

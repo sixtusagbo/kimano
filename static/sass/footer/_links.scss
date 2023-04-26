@@ -1,0 +1,32 @@
+footer .links {
+  padding: 80px 0 90px;
+  border-top: 1px solid #142038;
+  background-color: #030C25;
+  display: flex;
+  flex-direction: row;
+
+  div.container {
+    margin-bottom: 83px;
+    border-bottom: 3px solid #000a19;
+    padding-bottom: 60px;
+    box-shadow: inset 0 -1px 0 0 #021238;
+  }
+
+  .social {
+
+    &-icons {
+      a {
+        color: #cbc1f4;
+
+        &:hover {
+          color: rgba(160, 174, 192, 1);
+        }
+      }
+
+      svg {
+        width: 27px;
+        height: 27px;
+      }
+    }
+  }
+}
