@@ -1,13 +1,27 @@
-let kimano = (($) => {
+(($) => {
   'use strict';
 
-  let kimano = {};
+  $('.ecosystem.show');
 
-  $(document).ready(function () {
-    console.log('Hello World!');
+  $('.ecosystem').on('click', function () {
+    if ($(window).width() > 960) {
+      if ($('.ecosystem-dropdown').css('display') == 'none') {
+        $('.ecosystem-dropdown').css('display', 'grid');
+        $(this).find('.material-icons').text('keyboard_arrow_up');
+      } else {
+        $('.ecosystem-dropdown').css('display', 'none');
+        $(this).find('.material-icons').text('keyboard_arrow_down');
+      }
+    } else {
+      // on mobile use mobile dropdown
+      if ($('.ecosystem-dropdown-mobile').css('display') == 'none') {
+        $('.ecosystem-dropdown-mobile').css('display', 'grid');
+        $(this).find('.material-icons').text('keyboard_arrow_up');
+      } else {
+        $('.ecosystem-dropdown-mobile').css('display', 'none');
+        $(this).find('.material-icons').text('keyboard_arrow_down');
+      }
+    }
   });
 
-  kimano.a = 'yeah';
-
-  return kimano;
 })(jQuery);

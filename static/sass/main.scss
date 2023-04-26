@@ -1,3 +1,19 @@
+@import 'variables';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import 'utility';
+
 body {
-  background-color: #001846;
+  background-color: $body-bg;
 }
+
+// Header
+@import 'header/topbar';
+@import 'header/menu';
+@import 'header/hero';
+
+// Footer
+
+// Page Specific
+
+// Responsiveness
+@import 'mobile';

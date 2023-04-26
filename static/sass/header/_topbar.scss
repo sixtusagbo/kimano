@@ -1,0 +1,51 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 10px;
+  background: linear-gradient(90deg, #001130, #001a47);
+  box-shadow: inset 0 0 1px 1px #001e5a;
+  border: solid #030c25;
+  border-width: 1px 1px 2px;
+  z-index: 9;
+  position: relative;
+
+  & p {
+    color: #e3e3e3a8;
+  }
+
+  &-announcement {
+    display: flex;
+    background: #00112f;
+    border-radius: 9px;
+    padding: 5px 21px;
+    box-shadow: 1px 1px 0 0 #001e5a, inset 2px 2px 0 0 #000c25;
+    border: 1px solid #001a47;
+    min-height: 50px;
+
+    img {
+      height: 38px;
+      width: 96px;
+    }
+  }
+
+  &-link {
+    margin-left: 12px;
+    border-bottom: 1px solid;
+    color: #1a69ff;
+    background: $gradient-primary;
+    border-image-slice: 1;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 #00000000;
+    -webkit-text-fill-color: transparent;
+    font-weight: 400;
+    border-image-source: $gradient-primary;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
