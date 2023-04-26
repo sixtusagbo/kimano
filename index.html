@@ -37,198 +37,229 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <nav class="navbar navbar-expand-md navbar-dark py-4 mb-4">
-      <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-brand me-auto">
-        <svg class="me-2" width="40" height="32">
-          <use xlink:href="#kimano"></use>
-        </svg>
-        <span class="fs-2 fw-bolder text-light">Kimano</span>
-      </a>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-dark pt-4 mb-4">
+        <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none navbar-brand me-auto">
+          <svg class="me-2" width="40" height="32">
+            <use xlink:href="#kimano"></use>
+          </svg>
+          <span class="fs-2 fw-bolder text-light">Kimano</span>
+        </a>
 
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menuBar"
-        aria-controls="menuBar" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="navbar-toggler-icon hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span>MENU</span>
-        </div>
-      </button>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menuBar"
+          aria-controls="menuBar" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="navbar-toggler-icon hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span>MENU</span>
+          </div>
+        </button>
 
-      <div class="navbar-collapse collapse" id="menuBar">
-        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active launch-dapp" href="/kimanoswap">
-              Launch Dapp <span class="material-icons fs-2">chevron_right</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ecosystem" href="#">
-              Ecosystem <span class="material-icons fs-2">keyboard_arrow_down</span>
-            </a>
+        <div class="navbar-collapse collapse" id="menuBar">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active launch-dapp" href="/kimanoswap">
+                Launch Dapp <span class="material-icons fs-2">chevron_right</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ecosystem" href="#">
+                Ecosystem <span class="material-icons fs-2">keyboard_arrow_down</span>
+              </a>
 
-            <ul class="ecosystem-dropdown">
+              <ul class="ecosystem-dropdown">
+                <li>
+                  <a href="/kimanorevoke">
+                    <img src="./static/images/revoke_icon.png" alt="KimanoRevoke Icon">
+                    <div class="d-flex flex-column">
+                      <p>KimanoRevoke</p>
+                      <p>Revoke tokens & NFT approvals</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/kimanoswap">
+                    <img src="./static/images/swap_icon.png" alt="KimanoSwap Icon">
+                    <div class="d-flex flex-column">
+                      <p>Kimanoswap</p>
+                      <p>Your All-In-One Multi-Chain Swap</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/kimanobridge">
+                    <img src="./static/images/bridge_icon.png" alt="KimanoBridge Icon">
+                    <div class="d-flex flex-column">
+                      <p>Kimanobridge</p>
+                      <p>Transfer cross-chain at block speed</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/kimanoown">
+                    <img src="./static/images/own_icon.png" alt="Kimanoown Icon">
+                    <div class="d-flex flex-column">
+                      <p>Kimanoown</p>
+                      <p>Secure your smart contract</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/kimanomigrate">
+                    <img src="./static/images/migrate_icon.png" alt="Kimanomigrate Icon">
+                    <div class="d-flex flex-column">
+                      <p>Kimanomigrate</p>
+                      <p>Migrate your smart contract & community</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/kimanonftstaking">
+                    <img src="./static/images/nft_staking_icon.png" alt="Kimanonftstaking Icon">
+                    <div class="d-flex flex-column">
+                      <p>Kimano nft staking</p>
+                      <p>Earn Kamino Rewards</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/kimanolaunch">
+                    <img src="./static/images/launch_icon.png" alt="Kimanolaunch Icon">
+                    <div class="d-flex flex-column">
+                      <p>Kimanolaunch</p>
+                      <p>Secure your project's presale</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/kimanolock">
+                    <img src="./static/images/lock_icon.png" alt="Kimanolock Icon">
+                    <div class="d-flex flex-column">
+                      <p>Kimanolock</p>
+                      <p>Lock liquidity under community voting</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/kimanowallet">
+                    <img src="./static/images/wallet_icon.png" alt="Kimanowallet Icon">
+                    <div class="d-flex flex-column">
+                      <p>Kimanowallet</p>
+                      <p>Secure your tokens on the blockchain</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+
+            </li>
+            <ul class="ecosystem-dropdown-mobile">
               <li>
                 <a href="/kimanorevoke">
                   <img src="./static/images/revoke_icon.png" alt="KimanoRevoke Icon">
-                  <div class="d-flex flex-column">
-                    <p>KimanoRevoke</p>
-                    <p>Revoke tokens & NFT approvals</p>
-                  </div>
+                  <p>KimanoRevoke</p>
                 </a>
               </li>
               <li>
                 <a href="/kimanoswap">
                   <img src="./static/images/swap_icon.png" alt="KimanoSwap Icon">
-                  <div class="d-flex flex-column">
-                    <p>Kimanoswap</p>
-                    <p>Your All-In-One Multi-Chain Swap</p>
-                  </div>
+                  <p>Kimanoswap</p>
                 </a>
               </li>
               <li>
                 <a href="/kimanobridge">
                   <img src="./static/images/bridge_icon.png" alt="KimanoBridge Icon">
-                  <div class="d-flex flex-column">
-                    <p>Kimanobridge</p>
-                    <p>Transfer cross-chain at block speed</p>
-                  </div>
+                  <p>Kimanobridge</p>
                 </a>
               </li>
               <li>
                 <a href="/kimanoown">
                   <img src="./static/images/own_icon.png" alt="Kimanoown Icon">
-                  <div class="d-flex flex-column">
-                    <p>Kimanoown</p>
-                    <p>Secure your smart contract</p>
-                  </div>
+                  <p>Kimanoown</p>
                 </a>
               </li>
               <li>
                 <a href="/kimanomigrate">
                   <img src="./static/images/migrate_icon.png" alt="Kimanomigrate Icon">
-                  <div class="d-flex flex-column">
-                    <p>Kimanomigrate</p>
-                    <p>Migrate your smart contract & community</p>
-                  </div>
+                  <p>Kimanomigrate</p>
                 </a>
               </li>
               <li>
                 <a href="/kimanonftstaking">
                   <img src="./static/images/nft_staking_icon.png" alt="Kimanonftstaking Icon">
-                  <div class="d-flex flex-column">
-                    <p>Kimano nft staking</p>
-                    <p>Earn Kamino Rewards</p>
-                  </div>
+                  <p>Kimano nft staking</p>
                 </a>
               </li>
               <li>
                 <a href="/kimanolaunch">
                   <img src="./static/images/launch_icon.png" alt="Kimanolaunch Icon">
-                  <div class="d-flex flex-column">
-                    <p>Kimanolaunch</p>
-                    <p>Secure your project's presale</p>
-                  </div>
+                  <p>Kimanolaunch</p>
                 </a>
               </li>
               <li>
                 <a href="/kimanolock">
                   <img src="./static/images/lock_icon.png" alt="Kimanolock Icon">
-                  <div class="d-flex flex-column">
-                    <p>Kimanolock</p>
-                    <p>Lock liquidity under community voting</p>
-                  </div>
+                  <p>Kimanolock</p>
                 </a>
               </li>
               <li>
                 <a href="/kimanowallet">
                   <img src="./static/images/wallet_icon.png" alt="Kimanowallet Icon">
-                  <div class="d-flex flex-column">
-                    <p>Kimanowallet</p>
-                    <p>Secure your tokens on the blockchain</p>
-                  </div>
+                  <p>Kimanowallet</p>
                 </a>
               </li>
             </ul>
-
-          </li>
-          <ul class="ecosystem-dropdown-mobile">
-            <li>
-              <a href="/kimanorevoke">
-                <img src="./static/images/revoke_icon.png" alt="KimanoRevoke Icon">
-                <p>KimanoRevoke</p>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link-other" href="#">Kamino</a>
             </li>
-            <li>
-              <a href="/kimanoswap">
-                <img src="./static/images/swap_icon.png" alt="KimanoSwap Icon">
-                <p>Kimanoswap</p>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link-other" href="#">Press</a>
             </li>
-            <li>
-              <a href="/kimanobridge">
-                <img src="./static/images/bridge_icon.png" alt="KimanoBridge Icon">
-                <p>Kimanobridge</p>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link-other" href="#">Articles</a>
             </li>
-            <li>
-              <a href="/kimanoown">
-                <img src="./static/images/own_icon.png" alt="Kimanoown Icon">
-                <p>Kimanoown</p>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link-other" href="#">community</a>
             </li>
-            <li>
-              <a href="/kimanomigrate">
-                <img src="./static/images/migrate_icon.png" alt="Kimanomigrate Icon">
-                <p>Kimanomigrate</p>
-              </a>
-            </li>
-            <li>
-              <a href="/kimanonftstaking">
-                <img src="./static/images/nft_staking_icon.png" alt="Kimanonftstaking Icon">
-                <p>Kimano nft staking</p>
-              </a>
-            </li>
-            <li>
-              <a href="/kimanolaunch">
-                <img src="./static/images/launch_icon.png" alt="Kimanolaunch Icon">
-                <p>Kimanolaunch</p>
-              </a>
-            </li>
-            <li>
-              <a href="/kimanolock">
-                <img src="./static/images/lock_icon.png" alt="Kimanolock Icon">
-                <p>Kimanolock</p>
-              </a>
-            </li>
-            <li>
-              <a href="/kimanowallet">
-                <img src="./static/images/wallet_icon.png" alt="Kimanowallet Icon">
-                <p>Kimanowallet</p>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link-other" href="#">faq</a>
             </li>
           </ul>
-          <li class="nav-item">
-            <a class="nav-link-other" href="#">Kamino</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link-other" href="#">Press</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link-other" href="#">Articles</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link-other" href="#">community</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link-other" href="#">faq</a>
-          </li>
-        </ul>
+        </div>
+      </nav>
+
+      <div class="container col-xxl-8 px-4 pb-5 text-light hero">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-4 hero_image">
+            <img src="./static/images/hero_globe.png" class="d-block mx-lg-auto img-fluid" width="700" height="500"
+              loading="lazy">
+          </div>
+          <div class="col-lg-8">
+            <h1 class="display-6 lh-1 mb-5 text-light" style="font-weight: 400;">
+              Building security and multi-chain solutions in Web3.
+            </h1>
+            <p class="lead">
+              Kimano is a blockchain technology company focused on increasing accessibility to DeFi by creating
+              security and multi-chain solutions for DeFi protocols. Start building with EverRise today.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4 hero-buttons">
+              <a href="/kimano" type="button" class="orange-large-outline-btn me-md-2">
+                Kimano
+                <span class="material-icons fs-2">chevron_right</span>
+              </a>
+              <a href="/kimanoswap" type="button" class="white-large-btn me-md-2">
+                Launch Dapp
+                <span class="material-icons fs-2">chevron_right</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-  </div>
+    </div>
+  </header>
+
 
   <script src="./static/vendor/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="./static/vendor/jquery/jquery.min.js"></script>

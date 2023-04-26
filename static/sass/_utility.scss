@@ -6,3 +6,11 @@ p {
 a {
   transition: all .3 ease;
 }
+
+.orange-large-outline-btn {
+  background: $gradient-primary;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-image-source: $gradient-primary;
+}

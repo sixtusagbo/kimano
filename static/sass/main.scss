@@ -7,6 +7,12 @@ body {
 }
 
 // Header
+header {
+  background-image: url('../images/hero_bg.png');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
 @import 'header/topbar';
 @import 'header/menu';
 @import 'header/hero';
