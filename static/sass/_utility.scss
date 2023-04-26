@@ -14,3 +14,9 @@ a {
   -webkit-text-fill-color: transparent;
   border-image-source: $gradient-primary;
 }
+
+input,
+input:focus {
+  border: none;
+  outline: none;
+}
