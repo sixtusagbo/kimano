@@ -1,9 +1,9 @@
 .subscribe {
-  padding: 10% 5%;
-  display: grid;
+  padding: 8% 4%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  column-gap: 20px;
   text-align: center;
 
   p:first-of-type {
