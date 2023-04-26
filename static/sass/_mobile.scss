@@ -79,4 +79,22 @@
       }
     }
   }
+
+  .hamburger.flip span {
+
+    &:nth-of-type(1),
+    &:nth-of-type(4) {
+      top: 18px;
+      width: 0;
+      left: 50%;
+    }
+
+    &:nth-of-type(2) {
+      transform: rotate(45deg);
+    }
+
+    &:nth-of-type(3) {
+      transform: rotate(-45deg);
+    }
+  }
 }
