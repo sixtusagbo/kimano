@@ -1,4 +1,4 @@
-.subscribe {
+footer .subscribe {
   padding: 8% 4%;
   display: flex;
   flex-direction: column;
@@ -106,7 +106,7 @@
       button {
         border-radius: 90px;
         color: #fff;
-        background: linear-gradient(90deg, #fb8b47, #ce2041);
+        background: $gradient-primary;
         box-shadow: inset 0 0 1px 1px #f78247;
         border: 4px solid #0b1f50;
         font-weight: 800;
