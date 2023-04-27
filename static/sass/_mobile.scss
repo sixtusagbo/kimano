@@ -152,6 +152,18 @@
           margin-top: 23px;
         }
       }
+
+      .site-map {
+        flex-direction: column;
+
+        div {
+          text-align: center;
+        }
+
+        ul {
+          justify-content: center;
+        }
+      }
     }
   }
 }
