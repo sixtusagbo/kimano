@@ -3,6 +3,7 @@ on:
     branches: [ "main" ]
     paths-ignore:
       - 'static/sass/'
+      - 'README.md'
 name: 🚀 Deploy website on push
 jobs:
   ftp-deploy:
