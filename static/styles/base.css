@@ -710,7 +710,7 @@ h2 span {
   position: relative
 }
 
-.TopBarAnnouncement {
+.top_bar_announcement {
   display: flex;
   background: #00112f;
   border-radius: 9px;
@@ -3809,26 +3809,26 @@ button#rcc-confirm-button {
   padding: 0 10px
 }
 
-.TopBarAnnouncementTxt p {
+.top_bar_announcement_text p {
   text-align: left;
   line-height: 1em
 }
 
-.TopBarAnnouncementTxt p:first-child {
+.top_bar_announcement_text p:first-child {
   margin-bottom: 2px
 }
 
-.TopBarAnnouncementTxt {
+.top_bar_announcement_text {
   display: flex;
   flex-direction: column;
   justify-content: center
 }
 
-.TopBarAnnouncementTxt p a:hover {
+.top_bar_announcement_text p a:hover {
   color: #fff
 }
 
-.TopBarAnnouncementImg {
+.top_bar_announcement_image {
   padding: 0 5px;
   display: flex;
   justify-content: center;
@@ -3836,7 +3836,7 @@ button#rcc-confirm-button {
   max-width: 106px
 }
 
-.TopBarAnnouncementTxt p a {
+.top_bar_announcement_text p a {
   margin-left: 12px;
   border-bottom: 1px solid;
   color: #1a69ff;
@@ -3853,17 +3853,17 @@ button#rcc-confirm-button {
 }
 
 @media only screen and (max-width:499px) and (min-width:0px) {
-  .TopBarAnnouncement {
+  .top_bar_announcement {
     padding: 0
   }
 
-  .TopBarAnnouncementImg {
+  .top_bar_announcement_image {
     max-width: 72px;
     padding: 0;
     display: none
   }
 
-  .TopBarAnnouncementTxt {
+  .top_bar_announcement_text {
     padding: 0 14px 0 3px
   }
 
@@ -3873,30 +3873,30 @@ button#rcc-confirm-button {
 }
 
 @media only screen and (max-width:398px) and (min-width:0px) {
-  .TopBarAnnouncementTxt p:first-child {
+  .top_bar_announcement_text p:first-child {
     max-width: 190px;
     margin-bottom: 5px
   }
 
-  .TopBarAnnouncementTxt p a {
+  .top_bar_announcement_text p a {
     margin-left: 4px
   }
 
-  .TopBarAnnouncement {
+  .top_bar_announcement {
     min-height: 65px;
     width: 100%
   }
 
-  .TopBarAnnouncementTxt,
-  .TopBarAnnouncementTxt p {
+  .top_bar_announcement_text,
+  .top_bar_announcement_text p {
     width: 100%
   }
 
-  .TopBarAnnouncementTxt p {
+  .top_bar_announcement_text p {
     min-width: 100%
   }
 
-  .HideOnSmallMobile {
+  .hide_on_small_mobile {
     display: none
   }
 }
