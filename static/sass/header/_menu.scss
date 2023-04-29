@@ -41,7 +41,6 @@
   font-size: 14px;
   letter-spacing: .03em;
   font-weight: 500;
-  @extend .ps-4, .pe-2;
 }
 
 .ecosystem-dropdown {
@@ -167,7 +166,7 @@
 }
 
 ul.navbar-nav li {
-  @extend .me-2;
+  margin-right: .5rem !important;
 }
 
 .navbar-toggler,

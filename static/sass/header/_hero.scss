@@ -15,6 +15,17 @@ header {
     text-shadow: 2px 2px #000e25;
   }
 
+  &-image {
+    img {
+      top: 0;
+      right: 9;
+      padding: 0;
+      margin: auto;
+      height: 100%;
+      overflow-y: hidden !important;
+    }
+  }
+
   &-buttons {
     text-transform: uppercase;
     display: flex;

@@ -18,7 +18,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="./static/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./static/styles/base.css">
+  <link rel="stylesheet" href="./static/styles/bootstrap.min.css">
   <link rel="stylesheet" href="./static/styles/main.min.css">
 </head>
 
@@ -61,7 +62,7 @@
         <div class="navbar-collapse collapse" id="menuBar">
           <ul class="navbar-nav ms-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active launch-dapp" href="/kimanoswap">
+              <a class="nav-link active ps-4 pe-2 launch-dapp" href="/kimanoswap">
                 Launch Dapp <span class="material-icons fs-2">chevron_right</span>
               </a>
             </li>
@@ -230,30 +231,29 @@
         </div>
       </nav>
 
-      <div class="container col-xxl-8 px-4 pb-5 text-light hero">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-4 hero_image">
-            <img src="./static/images/hero_globe.png" class="d-block mx-lg-auto img-fluid" width="700" height="500"
-              loading="lazy">
-          </div>
-          <div class="col-lg-8">
-            <h1 class="display-6 lh-1 mb-5 text-light" style="font-weight: 400;">
-              Building security and multi-chain solutions in Web3.
-            </h1>
-            <p class="lead">
-              Kimano is a blockchain technology company focused on increasing accessibility to DeFi by creating
-              security and multi-chain solutions for DeFi protocols. Start building with EverRise today.
-            </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4 hero-buttons">
-              <a href="/kimano" type="button" class="orange-large-outline-btn me-md-2">
-                Kimano
-                <span class="material-icons fs-2">chevron_right</span>
-              </a>
-              <a href="/kimanoswap" type="button" class="white-large-btn me-md-2">
-                Launch Dapp
-                <span class="material-icons fs-2">chevron_right</span>
-              </a>
-            </div>
+    </div>
+    <div class="container-fluid col-xxl-8 px-4 pb-5 text-light hero">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-4 hero-image" style="overflow-y: hidden !important;">
+          <img src="./static/images/hero_globe.png" loading="lazy">
+        </div>
+        <div class="col-lg-8">
+          <h1 class="display-6 lh-1 mb-5 text-light ms-5" style="font-weight: 400;">
+            Building security and multi-chain solutions in Web3.
+          </h1>
+          <p class="lead">
+            Kimano is a blockchain technology company focused on increasing accessibility to DeFi by creating
+            security and multi-chain solutions for DeFi protocols. Start building with EverRise today.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4 hero-buttons">
+            <a href="/kimano" type="button" class="orange-large-outline-btn me-md-2">
+              Kimano
+              <span class="material-icons fs-2">chevron_right</span>
+            </a>
+            <a href="/kimanoswap" type="button" class="white-large-btn me-md-2">
+              Launch Dapp
+              <span class="material-icons fs-2">chevron_right</span>
+            </a>
           </div>
         </div>
       </div>
@@ -383,8 +383,8 @@
     </section>
   </footer>
 
-  <script src="./static/vendor/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="./static/vendor/jquery/jquery.min.js"></script>
+  <script src="./static/scripts/jquery.min.js"></script>
+  <script src="./static/scripts/bootstrap.bundle.min.js"></script>
   <script src="./static/scripts/main.js"></script>
 </body>
 
