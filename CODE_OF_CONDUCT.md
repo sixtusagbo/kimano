@@ -126,3 +126,9 @@ enforcement ladder](https://github.com/mozilla/diversity).
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
+
+## Conventions followed in the code
+- Class names uses lowercase with underscores (Also known as snake case)
+  - Example: before: `LogoContainer`  after: `logo_container`
+- Replace rise with `our` and replace hypen `-` with underscore `_`
+  - Example: before: `rise-menu-item` after: `our_menu_item`
