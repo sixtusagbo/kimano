@@ -1223,7 +1223,7 @@ body>div>div {
 .hero_content_inner,
 .HowItWorksInner,
 .max-w-screen-xl,
-.PressGlobalInner,
+.press_global_inner,
 .RiseV1Section .global_inner,
 .RiseV2Section .global_inner,
 body.community .CommunityInner,
@@ -1249,7 +1249,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
 .HowItWorksInner,
 .max-w-screen-xl,
 .MoreFeaturesInner,
-.PressGlobalInner,
+.press_global_inner,
 .RiseV1Section .global_inner,
 .RiseV2Section .global_inner {
   max-width: 1920px
@@ -1275,7 +1275,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .hero_content_inner,
   .HowItWorksInner,
   .max-w-screen-xl,
-  .PressGlobalInner,
+  .press_global_inner,
   .RiseV1Section .global_inner,
   .RiseV2Section .global_inner,
   body.community .CommunityInner {
@@ -1302,7 +1302,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .hero_content_inner,
   .HowItWorksInner,
   .max-w-screen-xl,
-  .PressGlobalInner,
+  .press_global_inner,
   .RiseV1Section .global_inner,
   .RiseV2Section .global_inner,
   body.community .CommunityInner {
@@ -1471,8 +1471,8 @@ span.dropdown_trigger {
 }
 
 .global_outer,
-.PressSection,
-.PressSection>div,
+.press_section,
+.press_section>div,
 .ViewAllBlogs {
   display: flex;
   justify-content: center;
@@ -1480,7 +1480,7 @@ span.dropdown_trigger {
   width: 100%
 }
 
-.PressSection ul {
+.press_section ul {
   display: flex;
   justify-content: center;
   align-items: center
@@ -1496,11 +1496,11 @@ span.dropdown_trigger {
   margin-right: 3vw
 }
 
-.PressGlobalInner {
+.press_global_inner {
   flex-wrap: nowrap
 }
 
-.PressSection li.press-btn {
+.press_section li.press_btn {
   display: flex;
   justify-content: center;
   align-items: center
@@ -2109,7 +2109,7 @@ section.RedirectSection {
   .EverRiseGlobalInner.global_inner,
   .global_inner,
   .hero_content_inner,
-  .PressGlobalInner {
+  .press_global_inner {
     padding: 0 20px
   }
 
@@ -2273,7 +2273,7 @@ section.RedirectSection {
   .nav_inner,
   .global_inner,
   .hero_content_inner,
-  .PressGlobalInner {
+  .press_global_inner {
     padding: 0 20px
   }
 
@@ -2307,7 +2307,7 @@ section.RedirectSection {
   .EverRiseGlobalInner.global_inner,
   .global_inner,
   .hero_content_inner,
-  .PressGlobalInner {
+  .press_global_inner {
     padding: 0 15px
   }
 }
@@ -4157,7 +4157,7 @@ section.home_hero .global_inner {
 }
 
 @media only screen and (max-width:1920px) and (min-width:0px) {
-  .PressSection {
+  .press_section {
     height: 180px
   }
 
@@ -4371,14 +4371,14 @@ section.home_hero .global_inner {
   }
 }
 
-.PressSection {
+.press_section {
   background-color: #0b5390;
   background: linear-gradient(180deg, #074483, #1a79b1);
   box-shadow: inset 0 0 1px 1px #0d5ea5;
   border-bottom: 1px solid #4fa3db
 }
 
-li.press-btn a {
+li.press_btn a {
   border-radius: 90px;
   border: 2px solid rgb(9 70 135/77%);
   color: #fff;
@@ -4393,134 +4393,134 @@ li.press-btn a {
   box-shadow: inset 0 0 1px 1px #0a74ab
 }
 
-li.press-btn a:focus,
-li.press-btn a:hover {
+li.press_btn a:focus,
+li.press_btn a:hover {
   background: linear-gradient(180deg, rgb(26 121 177/45%), rgb(7 68 131/46%))
 }
 
-li.press-btn a:active {
+li.press_btn a:active {
   background: linear-gradient(180deg, rgb(7 68 131/46%), rgb(26 121 177/45%))
 }
 
-.LogoSlider {
+.logo_slider {
   width: 100%;
   display: flex
 }
 
-.loop-logo {
+.loop_logo {
   display: none
 }
 
-.PressSection {
+.press_section {
   height: 170px;
   z-index: 1;
   position: relative
 }
 
-li.press-logo img {
+li.press_logo img {
   max-width: 178px;
   max-height: 74px;
   width: 100%;
   height: auto
 }
 
-.LogoSlider {
+.logo_slider {
   width: 83.3%
 }
 
-ul.press-logo-container {
+ul.press_logo_container {
   width: 100%
 }
 
-ul.press-btn-container {
+ul.press_btn_container {
   width: 16.66%;
   min-width: 178px;
   justify-content: center;
   align-items: center
 }
 
-ul.press-logo-container li {
+ul.press_logo_container li {
   width: 15%;
   margin-right: 5%
 }
 
-ul.press-btn-container li {
+ul.press_btn_container li {
   width: 100%
 }
 
-li.press-logo {
+li.press_logo {
   display: flex
 }
 
 @media only screen and (max-width:1920px) and (min-width:1151px) {
-  .PressSection {
+  .press_section {
     height: 150px
   }
 }
 
 @media only screen and (max-width:1150px) and (min-width:0px) {
-  .PressGlobalInner {
+  .press_global_inner {
     flex-direction: column
   }
 
-  .LogoSlider {
+  .logo_slider {
     width: 100%
   }
 
-  ul.press-logo-container {
+  ul.press_logo_container {
     margin-bottom: 21px
   }
 
-  .PressSection ul {
+  .press_section ul {
     width: 100%;
     display: flex;
     justify-content: center
   }
 
-  li.press-btn a {
+  li.press_btn a {
     width: 385px;
     max-width: 90vw
   }
 }
 
 @media only screen and (max-width:9999px) and (min-width:769px) {
-  li.press-logo.loop-logo {
+  li.press_logo.loop_logo {
     display: none
   }
 }
 
 @media only screen and (max-width:768px) and (min-width:0px) {
-  .PressSection {
+  .press_section {
     height: 208px
   }
 
-  ul.press-logo-container li.loop-logo {
+  ul.press_logo_container li.loop_logo {
     display: block
   }
 
-  ul.press-logo-container ul.press-logo-container li {
+  ul.press_logo_container ul.press_logo_container li {
     width: 122px;
     min-width: 122px;
     max-width: 122px
   }
 
-  .LogoSlider {
+  .logo_slider {
     margin: auto;
     overflow: hidden;
     max-width: 768px
   }
 
-  li.press-logo {
+  li.press_logo {
     display: flex;
     justify-content: center;
     align-items: center
   }
 
-  li.press-logo>div {
+  li.press_logo>div {
     transform: scale(.8)
   }
 
-  .LogoSlider ul.press-logo-container {
+  .logo_slider ul.press_logo_container {
     width: 1500px;
     min-width: 1500px;
     max-width: 1500px;
@@ -4529,7 +4529,7 @@ li.press-logo {
     animation: LogoSlider 15s linear infinite
   }
 
-  .LogoSlider ul.press-logo-container li {
+  .logo_slider ul.press_logo_container li {
     width: 150px;
     min-width: 150px;
     max-width: 150px;
@@ -4557,7 +4557,7 @@ li.press-logo {
     }
   }
 
-  li.press-logo {
+  li.press_logo {
     display: block
   }
 }
