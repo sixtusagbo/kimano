@@ -688,11 +688,7 @@ body iframe[title="Button to launch messaging window"][style] {
   border-width: 0 !important
 }
 
-<<<<<<< Updated upstream
 .content {
-=======
-.ever_content {
->>>>>>> Stashed changes
   min-height: 100vh
 }
 
@@ -921,19 +917,11 @@ body.rise .our_nav {
 }
 
 .arrow span,
-<<<<<<< Updated upstream
 .content {
   background: #f5f5fa
 }
 
 body.home .content {
-=======
-.ever_content {
-  background: #f5f5fa
-}
-
-body.home .ever_content {
->>>>>>> Stashed changes
   background: #001236
 }
 
@@ -1221,18 +1209,13 @@ body>div>div {
 }
 
 .BlogHeader .global_inner,
-<<<<<<< Updated upstream
 .blog_widget_section .blog_widget_global_inner,
-=======
-.BlogWidgetSection .BlogWidgetGlobalInner,
->>>>>>> Stashed changes
 .CommunityFaqGlobalInner,
 .ContentImgGlobalInner,
 .CSDapp .DappFaqGlobalInner,
 .DappHeaderInner,
 .nav_inner,
 .FeaturesGlobalInner,
-<<<<<<< Updated upstream
 .footer_copyright .global_inner,
 .footer_links_inner,
 .foundation_section .global_inner,
@@ -1244,19 +1227,6 @@ body>div>div {
 .RiseV1Section .global_inner,
 .RiseV2Section .global_inner,
 body.community .CommunityInner,
-=======
-.FooterCopyright .global_inner,
-.FooterLinksInner,
-.FoundationSection .global_inner,
-.global_inner,
-.HeroContentInner,
-.HowItWorksInner,
-.max-w-screen-xl,
-.PressGlobalInner,
-.RiseV1Section .global_inner,
-.RiseV2Section .global_inner,
-body.community .community_inner,
->>>>>>> Stashed changes
 body:not(.rise) .CompactEcosystemSectionInner {
   width: 100%;
   max-width: 1920px;
@@ -1267,17 +1237,12 @@ body:not(.rise) .CompactEcosystemSectionInner {
 
 .AmaInner,
 .BlogHeader .global_inner,
-<<<<<<< Updated upstream
 .blog_widget_section .blog_widget_global_inner,
-=======
-.BlogWidgetSection .BlogWidgetGlobalInner,
->>>>>>> Stashed changes
 .BuybackSectionInner,
 .ContentImgGlobalInner,
 .DappHeaderInner,
 .faq_inner,
 .FeaturesGlobalInner,
-<<<<<<< Updated upstream
 .foundation_section .global_inner,
 .full_ecosystem_content,
 .hero_content_inner,
@@ -1285,15 +1250,6 @@ body:not(.rise) .CompactEcosystemSectionInner {
 .max-w-screen-xl,
 .MoreFeaturesInner,
 .press_global_inner,
-=======
-.FoundationSection .global_inner,
-.FullEcosystemContent,
-.HeroContentInner,
-.HowItWorksInner,
-.max-w-screen-xl,
-.MoreFeaturesInner,
-.PressGlobalInner,
->>>>>>> Stashed changes
 .RiseV1Section .global_inner,
 .RiseV2Section .global_inner {
   max-width: 1920px
@@ -1304,11 +1260,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .AboutSectionInner,
   .AmaInner,
   .BlogHeader .global_inner,
-<<<<<<< Updated upstream
   .blog_widget_section .blog_widget_global_inner,
-=======
-  .BlogWidgetSection .BlogWidgetGlobalInner,
->>>>>>> Stashed changes
   .ContentImgGlobalInner,
   .CSDapp .DappFaqGlobalInner,
   .DappHeaderInner,
@@ -1316,7 +1268,6 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .EverRiseTeamInner,
   .faq_inner,
   .FeaturesGlobalInner,
-<<<<<<< Updated upstream
   .footer_copyright .global_inner,
   .footer_links_inner,
   .foundation_section .global_inner,
@@ -1328,19 +1279,6 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .RiseV1Section .global_inner,
   .RiseV2Section .global_inner,
   body.community .CommunityInner {
-=======
-  .FooterCopyright .global_inner,
-  .FooterLinksInner,
-  .FoundationSection .global_inner,
-  .FullEcosystemContent,
-  .HeroContentInner,
-  .HowItWorksInner,
-  .max-w-screen-xl,
-  .PressGlobalInner,
-  .RiseV1Section .global_inner,
-  .RiseV2Section .global_inner,
-  body.community .community_inner {
->>>>>>> Stashed changes
     max-width: 90vw
   }
 }
@@ -1350,11 +1288,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .AboutSectionInner,
   .AmaInner,
   .BlogHeader .global_inner,
-<<<<<<< Updated upstream
   .blog_widget_section .blog_widget_global_inner,
-=======
-  .BlogWidgetSection .BlogWidgetGlobalInner,
->>>>>>> Stashed changes
   .ContentImgGlobalInner,
   .CSDapp .DappFaqGlobalInner,
   .DappHeaderInner,
@@ -1362,7 +1296,6 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .EverRiseTeamInner,
   .faq_inner,
   .FeaturesGlobalInner,
-<<<<<<< Updated upstream
   .footer_copyright .global_inner,
   .footer_links_inner,
   .foundation_section .global_inner,
@@ -1373,18 +1306,6 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .RiseV1Section .global_inner,
   .RiseV2Section .global_inner,
   body.community .CommunityInner {
-=======
-  .FooterCopyright .global_inner,
-  .FooterLinksInner,
-  .FoundationSection .global_inner,
-  .HeroContentInner,
-  .HowItWorksInner,
-  .max-w-screen-xl,
-  .PressGlobalInner,
-  .RiseV1Section .global_inner,
-  .RiseV2Section .global_inner,
-  body.community .community_inner {
->>>>>>> Stashed changes
     max-width: 100%
   }
 }
@@ -1498,11 +1419,7 @@ span.dropdown_trigger {
   transform: scaleX(-1)
 }
 
-<<<<<<< Updated upstream
 .content {
-=======
-.ever_content {
->>>>>>> Stashed changes
   flex: 1
 }
 
@@ -1542,11 +1459,7 @@ span.dropdown_trigger {
   margin-left: 0
 }
 
-<<<<<<< Updated upstream
 .home_hero .global_inner {
-=======
-.HomeHero .global_inner {
->>>>>>> Stashed changes
   height: calc(100vh - 250px);
   max-height: 820px;
   overflow: hidden;
@@ -1558,15 +1471,9 @@ span.dropdown_trigger {
 }
 
 .global_outer,
-<<<<<<< Updated upstream
 .press_section,
 .press_section>div,
 .view_all_blogs {
-=======
-.PressSection,
-.PressSection>div,
-.ViewAllBlogs {
->>>>>>> Stashed changes
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1612,11 +1519,7 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a:before {
   background-image: url(../images/ecosystem_icons_nw.png)
 }
 
-<<<<<<< Updated upstream
 .icon_revoke:before {
-=======
-.icon-rise:before {
->>>>>>> Stashed changes
   max-width: 100%;
   background-size: 100%;
   background-image: url(../images/revoke_icon.png) !important
@@ -1639,7 +1542,6 @@ a.EverBridgeeMM:before {
   background-position: 0 0
 }
 
-<<<<<<< Updated upstream
 .ERIconEverLock,
 a.lock_mm:before {
   background-position: 0 14.4%
@@ -1677,45 +1579,6 @@ a.migrate_mm:before {
 
 .icon_revoke,
 a.revoke_mm:before {
-=======
-.icon_rise,
-a.EverLockMM:before {
-  background-position: 0 14.4%
-}
-
-.icon_rise,
-a.EverOwnMM:before {
-  background-position: 0 28.58%
-}
-
-.icon_rise,
-a.EverSaleMM:before {
-  background-position: 0 42.8%
-}
-
-.icon_rise,
-a.EverSwapMM:before {
-  background-position: 0 57.25%
-}
-
-.icon_rise,
-a.EverWalletMM:before {
-  background-position: 0 71.54%
-}
-
-.icon_rise,
-a.StakingMM:before {
-  background-position: 0 85.78%
-}
-
-.icon_rise,
-a.EverMigrateMM:before {
-  background-position: 0 100%
-}
-
-.icon_rise,
-a.EverRevokeMM:before {
->>>>>>> Stashed changes
   background-repeat: no-repeat
 }
 
@@ -2102,13 +1965,8 @@ section.RedirectSection {
     width: 100%
   }
 
-<<<<<<< Updated upstream
   .content .ContentBorder>section:last-child,
   .content>section:last-child {
-=======
-  .ever_content .ContentBorder>section:last-child,
-  .ever_content>section:last-child {
->>>>>>> Stashed changes
     padding-bottom: 80px
   }
 
@@ -2240,19 +2098,11 @@ section.RedirectSection {
     margin: 0 10px
   }
 
-<<<<<<< Updated upstream
   .nav_inner,
   .EverRiseGlobalInner.global_inner,
   .global_inner,
   .hero_content_inner,
   .press_global_inner {
-=======
-  .EverNavInner,
-  .EverRiseGlobalInner.global_inner,
-  .global_inner,
-  .HeroContentInner,
-  .PressGlobalInner {
->>>>>>> Stashed changes
     padding: 0 20px
   }
 
@@ -2413,17 +2263,10 @@ section.RedirectSection {
     overflow-y: auto
   }
 
-<<<<<<< Updated upstream
   .nav_inner,
   .global_inner,
   .hero_content_inner,
   .press_global_inner {
-=======
-  .EverNavInner,
-  .global_inner,
-  .HeroContentInner,
-  .PressGlobalInner {
->>>>>>> Stashed changes
     padding: 0 20px
   }
 
@@ -2453,19 +2296,11 @@ section.RedirectSection {
     margin-top: 20px
   }
 
-<<<<<<< Updated upstream
   .nav_inner,
   .EverRiseGlobalInner.global_inner,
   .global_inner,
   .hero_content_inner,
   .press_global_inner {
-=======
-  .EverNavInner,
-  .EverRiseGlobalInner.global_inner,
-  .global_inner,
-  .HeroContentInner,
-  .PressGlobalInner {
->>>>>>> Stashed changes
     padding: 0 15px
   }
 }
@@ -2761,11 +2596,7 @@ li.parent_menu_item.active ul.child_menu {
   }
 }
 
-<<<<<<< Updated upstream
 svg.logo_image {
-=======
-svg.rise_logo text {
->>>>>>> Stashed changes
   text-transform: capitalize;
   opacity: 0
 }
@@ -2806,11 +2637,7 @@ svg.rise_logo text {
 }
 
 @media only screen and (max-width:768px) and (min-width:0px) {
-<<<<<<< Updated upstream
   .content>section:last-child {
-=======
-  .ever_content>section:last-child {
->>>>>>> Stashed changes
     padding-bottom: 40px
   }
 
@@ -2950,19 +2777,11 @@ span.faq_dapp_title {
   padding-bottom: 12px
 }
 
-<<<<<<< Updated upstream
 .FaqBlocks ul li:first-child .logo path.EverRiseTxt {
   fill: #012447
 }
 
 .FaqBlocks ul li:first-child .logo {
-=======
-.faq_block ul li:first-child .logo path.EverRiseTxt {
-  fill: #012447
-}
-
-.faq_block ul li:first-child .logo {
->>>>>>> Stashed changes
   max-width: 430px
 }
 
@@ -3004,11 +2823,7 @@ span.faq_dapp_title h2 {
   opacity: 0
 }
 
-<<<<<<< Updated upstream
 body.SiteFaq .PageHeader .section_arrow {
-=======
-body.site_faq .PageHeader .sectionArrow {
->>>>>>> Stashed changes
   padding-bottom: 80px
 }
 
@@ -3017,11 +2832,7 @@ body.site_faq .PageHeader .sectionArrow {
   text-decoration: underline
 }
 
-<<<<<<< Updated upstream
 body.SiteFaq .PageHeader .section_arrow:before {
-=======
-body.site_faq .PageHeader .sectionArrow:before {
->>>>>>> Stashed changes
   opacity: 0;
   visibility: hidden
 }
@@ -3084,26 +2895,16 @@ body.site_faq .HeaderTxt h1 {
 
 .AppWrap *,
 .BlogTags *,
-<<<<<<< Updated upstream
 .blog_widget_section *,
 .FaqBlocks * {
-=======
-.BlogWidgetSection *,
-.faq_block * {
->>>>>>> Stashed changes
   scrollbar-width: auto;
   scrollbar-color: grey transparent
 }
 
 .AppWrap ::-webkit-scrollbar,
 .BlogTags ::-webkit-scrollbar,
-<<<<<<< Updated upstream
 .blog_widget_section ::-webkit-scrollbar,
 .FaqBlocks ::-webkit-scrollbar {
-=======
-.BlogWidgetSection ::-webkit-scrollbar,
-.faq_block ::-webkit-scrollbar {
->>>>>>> Stashed changes
   width: 10px;
   border-radius: 10px;
   overflow: hidden
@@ -3111,25 +2912,15 @@ body.site_faq .HeaderTxt h1 {
 
 .AppWrap ::-webkit-scrollbar-track,
 .BlogTags ::-webkit-scrollbar-track,
-<<<<<<< Updated upstream
 .blog_widget_section ::-webkit-scrollbar-track,
 .FaqBlocks ::-webkit-scrollbar-track {
-=======
-.BlogWidgetSection ::-webkit-scrollbar-track,
-.faq_block ::-webkit-scrollbar-track {
->>>>>>> Stashed changes
   background: transparent
 }
 
 .AppWrap ::-webkit-scrollbar-thumb,
 .BlogTags ::-webkit-scrollbar-thumb,
-<<<<<<< Updated upstream
 .blog_widget_section ::-webkit-scrollbar-thumb,
 .FaqBlocks ::-webkit-scrollbar-thumb {
-=======
-.BlogWidgetSection ::-webkit-scrollbar-thumb,
-.faq_block ::-webkit-scrollbar-thumb {
->>>>>>> Stashed changes
   background-color: grey;
   border-radius: 10px;
   border: 2px solid transparent
@@ -3188,11 +2979,7 @@ body.site_faq .HeaderTxt h1 {
     max-width: 99%
   }
 
-<<<<<<< Updated upstream
   body.SiteFaq .PageHeader .section_arrow {
-=======
-  body.site_faq .PageHeader .sectionArrow {
->>>>>>> Stashed changes
     height: 30px;
     padding: 0
   }
@@ -3620,7 +3407,6 @@ section.subscribe_section {
   }
 }
 
-<<<<<<< Updated upstream
 .content .ContentBorder>section:last-child,
 .content>section:last-child {
   padding-bottom: 120px
@@ -3632,19 +3418,6 @@ section.subscribe_section {
 }
 
 .footer_copyright.global_outer {
-=======
-.ever_content .ContentBorder>section:last-child,
-.ever_content>section:last-child {
-  padding-bottom: 120px
-}
-
-.ever_content .ContentBorder>section:only-child,
-.ever_content>section:only-child {
-  padding-bottom: 0
-}
-
-.FooterCopyright.global_outer {
->>>>>>> Stashed changes
   height: 120px;
   font-weight: 100;
   color: #7b7e96;
@@ -3652,11 +3425,7 @@ section.subscribe_section {
   box-shadow: inset 0 1px 0 0 #00184675
 }
 
-<<<<<<< Updated upstream
 .footer_links_a span.logo {
-=======
-.FooterLinksA span.logo {
->>>>>>> Stashed changes
   display: block;
   position: relative;
   width: 100%;
@@ -3883,11 +3652,7 @@ a.footer_community_link {
     margin-bottom: 30px
   }
 
-<<<<<<< Updated upstream
   .footer_copyright.global_outer {
-=======
-  .FooterCopyright.global_outer {
->>>>>>> Stashed changes
     height: 160px
   }
 }
@@ -4311,11 +4076,7 @@ div#wrapper {
   left: 0
 }
 
-<<<<<<< Updated upstream
 section.home_hero .global_inner {
-=======
-section.HomeHero .global_inner {
->>>>>>> Stashed changes
   min-height: 660px
 }
 
@@ -4330,11 +4091,7 @@ section.HomeHero .global_inner {
   top: -11px
 }
 
-<<<<<<< Updated upstream
 .home_hero .global_inner {
-=======
-.HomeHero .global_inner {
->>>>>>> Stashed changes
   display: flex;
   justify-content: center;
   align-items: center
@@ -4399,11 +4156,7 @@ section.HomeHero .global_inner {
     height: 180px
   }
 
-<<<<<<< Updated upstream
   .home_hero .global_inner {
-=======
-  .HomeHero .global_inner {
->>>>>>> Stashed changes
     height: calc(100vh - 225px)
   }
 }
@@ -4436,21 +4189,13 @@ section.HomeHero .global_inner {
     margin-right: 0
   }
 
-<<<<<<< Updated upstream
   .home_hero .global_inner {
-=======
-  .HomeHero .global_inner {
->>>>>>> Stashed changes
     min-height: 960px
   }
 }
 
 @media only screen and (max-width:1024px) and (min-width:1023px) {
-<<<<<<< Updated upstream
   .home_hero .global_inner {
-=======
-  .HomeHero .global_inner {
->>>>>>> Stashed changes
     height: calc(100vh - 180px);
     min-height: 1080px
   }
@@ -4501,11 +4246,7 @@ section.HomeHero .global_inner {
     font-size: 6vw
   }
 
-<<<<<<< Updated upstream
   .home_hero .global_inner {
-=======
-  .HomeHero .global_inner {
->>>>>>> Stashed changes
     height: 100vh;
     min-height: 600 !important
   }
@@ -4573,11 +4314,7 @@ section.HomeHero .global_inner {
     margin-left: 6px
   }
 
-<<<<<<< Updated upstream
   .home_hero .global_inner {
-=======
-  .HomeHero .global_inner {
->>>>>>> Stashed changes
     max-height: 600px
   }
 }
@@ -4590,64 +4327,40 @@ section.HomeHero .global_inner {
 }
 
 @media only screen and (max-height:568px) and (min-width:320px) {
-<<<<<<< Updated upstream
   .home_hero .global_inner {
-=======
-  .HomeHero .global_inner {
->>>>>>> Stashed changes
     min-height: 600px
   }
 }
 
 @media only screen and (max-height:1024px) and (min-width:600px) {
-<<<<<<< Updated upstream
   .home_hero .global_inner {
-=======
-  .HomeHero .global_inner {
->>>>>>> Stashed changes
     min-height: 100vh
   }
 }
 
 @media only screen and (max-height:1366px) and (min-width:1024px) {
-<<<<<<< Updated upstream
   .home_hero .global_inner {
-=======
-  .HomeHero .global_inner {
->>>>>>> Stashed changes
     height: calc(100vh - 236px);
     min-height: 850px
   }
 }
 
 @media only screen and (max-height:1024px) and (min-width:1366px) {
-<<<<<<< Updated upstream
   .home_hero .global_inner {
-=======
-  .HomeHero .global_inner {
->>>>>>> Stashed changes
     height: calc(100vh - 0px);
     min-height: unset
   }
 }
 
 @media only screen and (min-width:1921px) and (max-width:99999px) {
-<<<<<<< Updated upstream
   .home_hero .global_inner {
-=======
-  .HomeHero .global_inner {
->>>>>>> Stashed changes
     height: calc(100vh - 283px);
     min-height: 1050px
   }
 }
 
 @media only screen and (max-width:480px) and (min-height:850px) {
-<<<<<<< Updated upstream
   .home_hero .global_inner {
-=======
-  .HomeHero .global_inner {
->>>>>>> Stashed changes
     height: calc(100vh - 126px);
     min-height: unset
   }
@@ -5122,11 +4835,7 @@ li.press_logo {
 
 @media only screen and (max-width:400px) and (min-width:0px) {
 
-<<<<<<< Updated upstream
   .ecosystem_section_top_inner,
-=======
-  .EcosystemSectionTopInner,
->>>>>>> Stashed changes
   .global_inner.EverRiseGlobalInner {
     padding: 0 20px
   }
@@ -5278,11 +4987,7 @@ li.press_logo {
   background-attachment: fixed
 }
 
-<<<<<<< Updated upstream
 .foundation_section .global_inner {
-=======
-.FoundationSection .global_inner {
->>>>>>> Stashed changes
   flex-direction: column;
   align-items: center
 }
@@ -5336,11 +5041,7 @@ body.home .foundation_section h2 {
   color: #d8dde2
 }
 
-<<<<<<< Updated upstream
 .foundation_section .global_inner>p:last-child {
-=======
-.FoundationSection .global_inner>p:last-child {
->>>>>>> Stashed changes
   margin: 3em 0 0;
   font-size: 1.4em;
   text-shadow: 1px 1px 0 #000;
@@ -5349,11 +5050,7 @@ body.home .foundation_section h2 {
   text-align: center
 }
 
-<<<<<<< Updated upstream
 .foundation_section .global_inner>p:first-of-type {
-=======
-.FoundationSection .global_inner>p:first-of-type {
->>>>>>> Stashed changes
   font-size: 1.3em;
   margin-bottom: 100px;
   max-width: 1040px;
@@ -5381,11 +5078,7 @@ body.home .foundation_section h2 {
 }
 
 @media only screen and (max-width:1350px) and (min-width:0px) {
-<<<<<<< Updated upstream
   .foundation_section .global_inner {
-=======
-  .FoundationSection .global_inner {
->>>>>>> Stashed changes
     max-width: 1450px;
     padding: 0 25px;
     width: 100%
@@ -5435,11 +5128,7 @@ body.home .foundation_section h2 {
     margin-bottom: 2em
   }
 
-<<<<<<< Updated upstream
   .foundation_section .global_inner>p:last-child {
-=======
-  .FoundationSection .global_inner>p:last-child {
->>>>>>> Stashed changes
     margin: 1em 0 0
   }
 
@@ -5449,11 +5138,7 @@ body.home .foundation_section h2 {
 }
 
 @media only screen and (max-width:600px) and (min-width:0px) {
-<<<<<<< Updated upstream
   .foundation_section .global_inner {
-=======
-  .FoundationSection .global_inner {
->>>>>>> Stashed changes
     max-width: 1450px;
     padding: 0 15px;
     width: 100%
@@ -5463,11 +5148,7 @@ body.home .foundation_section h2 {
     font-size: 8.8vw
   }
 
-<<<<<<< Updated upstream
   .foundation_section .global_inner>p:last-child {
-=======
-  .FoundationSection .global_inner>p:last-child {
->>>>>>> Stashed changes
     font-size: 5vw
   }
 
@@ -5475,11 +5156,7 @@ body.home .foundation_section h2 {
     font-size: 2em
   }
 
-<<<<<<< Updated upstream
   .foundation_section .global_inner>p:first-of-type {
-=======
-  .FoundationSection .global_inner>p:first-of-type {
->>>>>>> Stashed changes
     font-size: 1.2em;
     margin-bottom: 60px
   }
@@ -6706,11 +6383,7 @@ body.blog-post li>p {
   margin-bottom: 0 !important
 }
 
-<<<<<<< Updated upstream
 body.rise .content {
-=======
-body.rise .ever_content {
->>>>>>> Stashed changes
   background: #030d2b
 }
 
@@ -9670,11 +9343,7 @@ body.community .bottom_articles h2 {
   text-align: center
 }
 
-<<<<<<< Updated upstream
 .ImgHeaderHero .social_icon_list svg {
-=======
-.img_header_hero .SocialIconList svg {
->>>>>>> Stashed changes
   width: 100%;
   height: auto;
   max-width: 32px
@@ -9689,11 +9358,7 @@ p.img_header_hero_txt a {
   font-weight: 400
 }
 
-<<<<<<< Updated upstream
 .ImgHeaderHero .social_icon_list a:not(:last-child) {
-=======
-.img_header_hero .SocialIconList a:not(:last-child) {
->>>>>>> Stashed changes
   margin-right: 1.4em
 }
 
@@ -9859,19 +9524,11 @@ ul.FeaturedVids .YtThumb {
 }
 
 @media only screen and (max-width:380px) {
-<<<<<<< Updated upstream
   .ImgHeaderHero .social_icon_list svg {
     max-width: 25px
   }
 
   .ImgHeaderHero .social_icon_list a:not(:last-child) {
-=======
-  .img_header_hero .SocialIconList svg {
-    max-width: 25px
-  }
-
-  .img_header_hero .SocialIconList a:not(:last-child) {
->>>>>>> Stashed changes
     margin-right: 1.1em
   }
 }
@@ -11056,11 +10713,7 @@ section.DappFaqSection .CommunityFaqSectionLeft {
   margin-right: 5%
 }
 
-<<<<<<< Updated upstream
 body.EverDapp .content {
-=======
-body.EverDapp .ever_content {
->>>>>>> Stashed changes
   background: #001333
 }
 
@@ -11400,11 +11053,7 @@ body.EverDapp .section_arrow:before {
 }
 
 @media only screen and (max-width:850px) and (min-width:0px) {
-<<<<<<< Updated upstream
   body.EverDapp .content .global_inner {
-=======
-  body.EverDapp .ever_content .global_inner {
->>>>>>> Stashed changes
     padding-left: 40px;
     padding-right: 40px
   }
@@ -11515,11 +11164,7 @@ body.EverDapp .section_arrow:before {
     font-size: 6.5vw
   }
 
-<<<<<<< Updated upstream
   body.EverDapp .content .global_inner {
-=======
-  body.EverDapp .ever_content .global_inner {
->>>>>>> Stashed changes
     padding-left: 20px;
     padding-right: 20px
   }
@@ -11564,11 +11209,7 @@ body.EverDapp .section_arrow:before {
     padding: 0 60px
   }
 
-<<<<<<< Updated upstream
   body.EverDapp .content .global_inner {
-=======
-  body.EverDapp .ever_content .global_inner {
->>>>>>> Stashed changes
     padding-left: 20px;
     padding-right: 20px
   }
@@ -11583,11 +11224,7 @@ body.EverDapp .section_arrow:before {
     font-size: 1.15em
   }
 
-<<<<<<< Updated upstream
   body.EverDapp .content .global_inner {
-=======
-  body.EverDapp .ever_content .global_inner {
->>>>>>> Stashed changes
     padding-left: 10px;
     padding-right: 10px
   }
@@ -11854,11 +11491,7 @@ body.EverBridge .HowItWorksImg>div {
     padding: 60px 20px 80px
   }
 
-<<<<<<< Updated upstream
   body.EverDapp .content section.FeaturesSection .global_inner {
-=======
-  body.EverDapp .ever_content section.FeaturesSection .global_inner {
->>>>>>> Stashed changes
     padding-left: 0;
     padding-right: 0
   }
@@ -12687,11 +12320,7 @@ body.EverBridge .ContentImgSection:last-child .ContentImgSectionImg {
     width: 100%
   }
 
-<<<<<<< Updated upstream
   .content>section:last-child {
-=======
-  .ever_content>section:last-child {
->>>>>>> Stashed changes
     padding-bottom: 80px
   }
 
@@ -13144,11 +12773,7 @@ body.EverSwap .DappFaqGlobalInner .CommunityFaqSectionLeft p {
   max-width: 700px
 }
 
-<<<<<<< Updated upstream
-.EverDapp .content .CommunityFaqSectionLeft h3 {
-=======
 .EverDapp .ever_content .CommunityFaqSectionLeft h3 {
->>>>>>> Stashed changes
   color: #fff;
   font-size: 23px;
   font-weight: 800;
@@ -13662,21 +13287,12 @@ body.legal-page {
   overflow: hidden
 }
 
-<<<<<<< Updated upstream
 body.legal-page .content>section:last-child {
   padding-bottom: 0
 }
 
 body.legal-page .content,
 body.legal-page div#wrapper {
-=======
-body.legal-page .ever_content>section:last-child {
-  padding-bottom: 0
-}
-
-body.legal-page .ever_content,
-body.legal-page div#__next {
->>>>>>> Stashed changes
   min-height: auto
 }
 
@@ -13778,11 +13394,7 @@ body.legal-page .topbar {
   padding-bottom: 0
 }
 
-<<<<<<< Updated upstream
 body.legal-page .content {
-=======
-body.legal-page .ever_content {
->>>>>>> Stashed changes
   height: calc(100vh - 202px);
   min-height: calc(100vh - 202px);
   max-height: calc(100vh - 202px);
@@ -13935,11 +13547,7 @@ body.legal-page table tr td:first-child {
 }
 
 @media only screen and (max-width:960px) and (min-width:0px) {
-<<<<<<< Updated upstream
   body.legal-page .content {
-=======
-  body.legal-page .ever_content {
->>>>>>> Stashed changes
     height: calc(100vh - 167px);
     min-height: calc(100vh - 167px);
     max-height: calc(100vh - 167px);
@@ -14013,11 +13621,7 @@ body.legal-page table tr td:first-child {
     font-size: 13px
   }
 
-<<<<<<< Updated upstream
   .footer_copyright_inner.global_inner {
-=======
-  .FooterCopyrightInner.global_inner {
->>>>>>> Stashed changes
     padding: 3px
   }
 }
@@ -14262,11 +13866,7 @@ body.stats-page .stats-container {
   color: #fff
 }
 
-<<<<<<< Updated upstream
 body.stats-page .content {
-=======
-body.stats-page .ever_content {
->>>>>>> Stashed changes
   background: #001235
 }
 
