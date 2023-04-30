@@ -673,7 +673,7 @@ h6 {
   line-height: 1.1em
 }
 
-div#__next {
+div#wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh
@@ -688,7 +688,7 @@ body iframe[title="Button to launch messaging window"][style] {
   border-width: 0 !important
 }
 
-.EverContent {
+.content {
   min-height: 100vh
 }
 
@@ -874,14 +874,14 @@ noLineHeight {
   border: 1px solid #031e4d
 }
 
-.nav,
+.our_nav,
 nav ul li.parent_menu_item>ul {
   background-color: #001846
 }
 
-body.EverDapp .nav,
-body.home .nav,
-body.rise .nav {
+body.EverDapp .our_nav,
+body.home .our_nav,
+body.rise .our_nav {
   background: transparent;
   background-color: transparent;
   margin-bottom: -122px;
@@ -901,8 +901,8 @@ body.rise .nav {
 }
 
 .dapp-menu-item span.RightArrow,
-.nav li a,
-.nav li a:after,
+.our_nav li a,
+.our_nav li a:after,
 .our_menu_item span.RightArrow {
   fill: #cbe1f4;
   color: #cbe1f4
@@ -917,11 +917,11 @@ body.rise .nav {
 }
 
 .arrow span,
-.EverContent {
+.content {
   background: #f5f5fa
 }
 
-body.home .EverContent {
+body.home .content {
   background: #001236
 }
 
@@ -933,8 +933,8 @@ li.dapp_menu_item.active .arrow span {
   background: #fff
 }
 
-.nav li.dapp_menu_item:hover a,
-.nav li.dapp_menu_item:hover a span:after,
+.our_nav li.dapp_menu_item:hover a,
+.our_nav li.dapp_menu_item:hover a span:after,
 .our_menu_item li.dapp_menu_item:hover span.RightArrow,
 li.dapp_menu_item.active a {
   fill: #fff;
@@ -961,11 +961,11 @@ li.dapp_menu_item.active a {
   }
 }
 
-.HeroContentRight p a:hover {
+.hero_content_right p a:hover {
   text-decoration: underline
 }
 
-.HeroContentBtns {
+.hero_content_btns {
   text-transform: uppercase;
   display: flex;
   flex-wrap: wrap;
@@ -973,7 +973,7 @@ li.dapp_menu_item.active a {
   color: #fff
 }
 
-.HeroContentBtns a {
+.hero_content_btns a {
   font-size: 1em;
   display: flex;
   justify-content: center;
@@ -989,21 +989,21 @@ li.dapp_menu_item.active a {
   margin-right: 30px
 }
 
-.NCSHowItWorks .HeroContentBtns a {
+.NCSHowItWorks .hero_content_btns a {
   font-size: .8em
 }
 
-.HeroContentBtns a.WhiteHeroBtn:after,
-.HeroContentBtns a:after {
+.hero_content_btns a.white_hero_btn:after,
+.hero_content_btns a:after {
   color: #fff
 }
 
-a.OrangeHeroBtn,
+a.orange_hero_btn,
 a.RedHeroBtn {
   border-image-source: linear-gradient(90deg, #fb8b47, #ce2041)
 }
 
-a.OrangeHeroBtn span,
+a.orange_hero_btn span,
 a.RedHeroBtn {
   background: linear-gradient(90deg, #fb8b47, #ce2041);
   background-clip: text;
@@ -1011,7 +1011,7 @@ a.RedHeroBtn {
   -webkit-text-fill-color: transparent
 }
 
-a.OrangeHeroBtn:after,
+a.orange_hero_btn:after,
 a.RedHeroBtn:after {
   color: #dc4243
 }
@@ -1027,18 +1027,18 @@ a.BlueHeroBtn span {
   -webkit-text-fill-color: transparent
 }
 
-.HeroContentBtns a.BlueHeroBtn:after {
+.hero_content_btns a.BlueHeroBtn:after {
   color: #01ace5
 }
 
-.HeroContentBtns a.WhiteHeroBtn {
+.hero_content_btns a.white_hero_btn {
   border-color: #fff;
   -webkit-text-fill-color: #fff;
   border-image-source: unset;
   background: transparent
 }
 
-.HeroContentBtns a.WhiteHeroBtn:after {
+.hero_content_btns a.white_hero_btn:after {
   color: #fff !important
 }
 
@@ -1153,7 +1153,7 @@ a.BlueHeroBtn span {
   border-radius: 20px
 }
 
-.PArrow:after,
+.p_arrow:after,
 .our_menu_item .menu_name:after {
   content: "";
   display: block;
@@ -1176,20 +1176,20 @@ a.BlueHeroBtn span {
   left: -2px
 }
 
-.PArrow.up:after {
+.p_arrow.up:after {
   transform: rotate(45deg)
 }
 
-.PArrow.down:after {
+.p_arrow.down:after {
   transform: rotate(225deg);
   margin-top: -.3em
 }
 
-.PArrow.right:after {
+.p_arrow.right:after {
   transform: rotate(135deg)
 }
 
-.PArrow.left:after {
+.p_arrow.left:after {
   transform: rotate(315deg)
 }
 
@@ -1198,7 +1198,7 @@ body>div>div {
   z-index: 0
 }
 
-.nav {
+.our_nav {
   z-index: 8
 }
 
@@ -1208,7 +1208,7 @@ body>div>div {
   }
 }
 
-.BlogHeader .GlobalInner,
+.BlogHeader .global_inner,
 .BlogWidgetSection .BlogWidgetGlobalInner,
 .CommunityFaqGlobalInner,
 .ContentImgGlobalInner,
@@ -1216,16 +1216,16 @@ body>div>div {
 .DappHeaderInner,
 .nav_inner,
 .FeaturesGlobalInner,
-.FooterCopyright .GlobalInner,
+.FooterCopyright .global_inner,
 .FooterLinksInner,
-.FoundationSection .GlobalInner,
-.GlobalInner,
-.HeroContentInner,
+.FoundationSection .global_inner,
+.global_inner,
+.hero_content_inner,
 .HowItWorksInner,
 .max-w-screen-xl,
 .PressGlobalInner,
-.RiseV1Section .GlobalInner,
-.RiseV2Section .GlobalInner,
+.RiseV1Section .global_inner,
+.RiseV2Section .global_inner,
 body.community .CommunityInner,
 body:not(.rise) .CompactEcosystemSectionInner {
   width: 100%;
@@ -1236,22 +1236,22 @@ body:not(.rise) .CompactEcosystemSectionInner {
 }
 
 .AmaInner,
-.BlogHeader .GlobalInner,
+.BlogHeader .global_inner,
 .BlogWidgetSection .BlogWidgetGlobalInner,
 .BuybackSectionInner,
 .ContentImgGlobalInner,
 .DappHeaderInner,
 .FaqInner,
 .FeaturesGlobalInner,
-.FoundationSection .GlobalInner,
+.FoundationSection .global_inner,
 .FullEcosystemContent,
-.HeroContentInner,
+.hero_content_inner,
 .HowItWorksInner,
 .max-w-screen-xl,
 .MoreFeaturesInner,
 .PressGlobalInner,
-.RiseV1Section .GlobalInner,
-.RiseV2Section .GlobalInner {
+.RiseV1Section .global_inner,
+.RiseV2Section .global_inner {
   max-width: 1920px
 }
 
@@ -1259,7 +1259,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
 
   .AboutSectionInner,
   .AmaInner,
-  .BlogHeader .GlobalInner,
+  .BlogHeader .global_inner,
   .BlogWidgetSection .BlogWidgetGlobalInner,
   .ContentImgGlobalInner,
   .CSDapp .DappFaqGlobalInner,
@@ -1268,16 +1268,16 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .EverRiseTeamInner,
   .FaqInner,
   .FeaturesGlobalInner,
-  .FooterCopyright .GlobalInner,
+  .FooterCopyright .global_inner,
   .FooterLinksInner,
-  .FoundationSection .GlobalInner,
+  .FoundationSection .global_inner,
   .FullEcosystemContent,
-  .HeroContentInner,
+  .hero_content_inner,
   .HowItWorksInner,
   .max-w-screen-xl,
   .PressGlobalInner,
-  .RiseV1Section .GlobalInner,
-  .RiseV2Section .GlobalInner,
+  .RiseV1Section .global_inner,
+  .RiseV2Section .global_inner,
   body.community .CommunityInner {
     max-width: 90vw
   }
@@ -1287,7 +1287,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
 
   .AboutSectionInner,
   .AmaInner,
-  .BlogHeader .GlobalInner,
+  .BlogHeader .global_inner,
   .BlogWidgetSection .BlogWidgetGlobalInner,
   .ContentImgGlobalInner,
   .CSDapp .DappFaqGlobalInner,
@@ -1296,15 +1296,15 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .EverRiseTeamInner,
   .FaqInner,
   .FeaturesGlobalInner,
-  .FooterCopyright .GlobalInner,
+  .FooterCopyright .global_inner,
   .FooterLinksInner,
-  .FoundationSection .GlobalInner,
-  .HeroContentInner,
+  .FoundationSection .global_inner,
+  .hero_content_inner,
   .HowItWorksInner,
   .max-w-screen-xl,
   .PressGlobalInner,
-  .RiseV1Section .GlobalInner,
-  .RiseV2Section .GlobalInner,
+  .RiseV1Section .global_inner,
+  .RiseV2Section .global_inner,
   body.community .CommunityInner {
     max-width: 100%
   }
@@ -1321,9 +1321,9 @@ body:not(.rise) .CompactEcosystemSectionInner {
   width: 50%
 }
 
-.nav,
+.our_nav,
 .nav_inner,
-.nav nav,
+.our_nav nav,
 .primary_links>ul:first-child {
   display: flex;
   width: 100%;
@@ -1363,7 +1363,7 @@ li.parent_menu_item.HoverMeActive:hover ul.child_menu {
   display: flex
 }
 
-.nav nav a,
+.our_nav nav a,
 span.menu_name {
   min-height: 30px;
   text-transform: uppercase;
@@ -1419,7 +1419,7 @@ span.dropdown_trigger {
   transform: scaleX(-1)
 }
 
-.EverContent {
+.content {
   flex: 1
 }
 
@@ -1427,46 +1427,46 @@ span.dropdown_trigger {
   font-weight: 500
 }
 
-.HeroContent p a {
+.hero_content p a {
   text-decoration: underline;
   font-weight: bolder
 }
 
-.CommunityFaqSectionLeft .HeroContentBtns {
+.CommunityFaqSectionLeft .hero_content_btns {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center
 }
 
-.HeroContentBtns a:hover {
+.hero_content_btns a:hover {
   filter: saturate(180%) brightness(110%)
 }
 
-.HeroContentBtns a:first-child:hover:after,
-.HeroContentBtns a:nth-child(2):hover:after,
-.HeroContentBtns a:nth-child(3):hover:after {
+.hero_content_btns a:first-child:hover:after,
+.hero_content_btns a:nth-child(2):hover:after,
+.hero_content_btns a:nth-child(3):hover:after {
   -webkit-animation: RightBounce 1s infinite;
   animation: RightBounce 1s infinite
 }
 
-.HeroContentBtns a:after {
+.hero_content_btns a:after {
   width: 14px;
   height: 14px
 }
 
-.HeroContentBtns a:first-child {
+.hero_content_btns a:first-child {
   margin-left: 0
 }
 
-.HomeHero .GlobalInner {
+.home_hero .global_inner {
   height: calc(100vh - 250px);
   max-height: 820px;
   overflow: hidden;
   min-height: 1100px
 }
 
-.HomeHero .HeroContent {
+.home_hero .hero_content {
   position: absolute
 }
 
@@ -1486,7 +1486,7 @@ span.dropdown_trigger {
   align-items: center
 }
 
-.HeroContentLeft {
+.hero_content_left {
   right: 287px;
   margin-top: -82px;
   width: 30%;
@@ -1523,13 +1523,13 @@ span.dropdown_trigger {
 li.parent_menu_item.dapp_menu_item ul.child_menu li a:before {
   max-width: 100%;
   background-size: 100%;
-  background-image: url(https://www.everrise.com/assets/images/icon/RiseEcosystemIconsNW.png)
+  background-image: url(../images/ecosystem_icons_nw.png)
 }
 
 .icon_revoke:before {
   max-width: 100%;
   background-size: 100%;
-  background-image: url(https://www.everrise.com/assets/images/icon/EverRevokeIcon.png) !important
+  background-image: url(../images/revoke_icon.png) !important
 }
 
 img.ERIconEverRise {
@@ -1647,7 +1647,7 @@ body.rise .RiseFeaturesSection {
   z-index: 4
 }
 
-.HeroContentBtns a:last-child {
+.hero_content_btns a:last-child {
   margin-right: 0
 }
 
@@ -1865,7 +1865,7 @@ section.RedirectSection {
     content: "Revoke token & NFT approvals"
   }
 
-  .nav li.dapp_menu_item:hover .arrow span,
+  .our_nav li.dapp_menu_item:hover .arrow span,
   li.dapp_menu_item.active:hover .arrow span {
     background: #fff
   }
@@ -1895,9 +1895,9 @@ section.RedirectSection {
     margin-left: 22px
   }
 
-  .nav,
+  .our_nav,
   .nav_inner,
-  .nav nav {
+  .our_nav nav {
     justify-content: center
   }
 
@@ -1922,12 +1922,12 @@ section.RedirectSection {
     display: none
   }
 
-  .nav nav {
+  .our_nav nav {
     width: 100%
   }
 
-  .nav nav,
-  .nav nav ul {
+  .our_nav nav,
+  .our_nav nav ul {
     display: flex;
     justify-content: space-between
   }
@@ -1972,8 +1972,8 @@ section.RedirectSection {
     width: 100%
   }
 
-  .EverContent .ContentBorder>section:last-child,
-  .EverContent>section:last-child {
+  .content .ContentBorder>section:last-child,
+  .content>section:last-child {
     padding-bottom: 80px
   }
 
@@ -2082,7 +2082,7 @@ section.RedirectSection {
     margin-bottom: 20px
   }
 
-  .nav nav a {
+  .our_nav nav a {
     justify-content: flex-start
   }
 
@@ -2101,14 +2101,14 @@ section.RedirectSection {
   }
 
   .nav_inner,
-  .HeroContentInner {
+  .hero_content_inner {
     margin: 0 10px
   }
 
   .nav_inner,
-  .EverRiseGlobalInner.GlobalInner,
-  .GlobalInner,
-  .HeroContentInner,
+  .EverRiseGlobalInner.global_inner,
+  .global_inner,
+  .hero_content_inner,
   .PressGlobalInner {
     padding: 0 20px
   }
@@ -2211,7 +2211,7 @@ section.RedirectSection {
     left: 50%
   }
 
-  html.riseMobileMenu .nav {
+  html.riseMobileMenu .our_nav {
     width: 100vw;
     height: calc(100vh - 52px);
     position: absolute;
@@ -2219,7 +2219,7 @@ section.RedirectSection {
     margin-top: 79px
   }
 
-  .nav nav {
+  .our_nav nav {
     width: 100%;
     display: flex;
     flex-direction: column
@@ -2271,8 +2271,8 @@ section.RedirectSection {
   }
 
   .nav_inner,
-  .GlobalInner,
-  .HeroContentInner,
+  .global_inner,
+  .hero_content_inner,
   .PressGlobalInner {
     padding: 0 20px
   }
@@ -2286,7 +2286,7 @@ section.RedirectSection {
     align-items: center
   }
 
-  section.CompactEcosystemSection .HeroContentBtns {
+  section.CompactEcosystemSection .hero_content_btns {
     align-items: center;
     justify-content: center
   }
@@ -2298,22 +2298,22 @@ section.RedirectSection {
 
 @media only screen and (max-width:600px) and (min-width:0px) {
 
-  .CompactEcosystemSectionInner .HeroContentBtns>a:nth-child(2),
-  .CompactEcosystemSectionInner .HeroContentBtns>a:nth-child(3) {
+  .CompactEcosystemSectionInner .hero_content_btns>a:nth-child(2),
+  .CompactEcosystemSectionInner .hero_content_btns>a:nth-child(3) {
     margin-top: 20px
   }
 
   .nav_inner,
-  .EverRiseGlobalInner.GlobalInner,
-  .GlobalInner,
-  .HeroContentInner,
+  .EverRiseGlobalInner.global_inner,
+  .global_inner,
+  .hero_content_inner,
   .PressGlobalInner {
     padding: 0 15px
   }
 }
 
 @media only screen and (max-width:550px) and (min-width:0px) {
-  .CommunityFaqSectionLeft .HeroContentBtns {
+  .CommunityFaqSectionLeft .hero_content_btns {
     padding: 0 20px
   }
 
@@ -2644,11 +2644,11 @@ svg.logo_image {
 }
 
 @media only screen and (max-width:768px) and (min-width:0px) {
-  .EverContent>section:last-child {
+  .content>section:last-child {
     padding-bottom: 40px
   }
 
-  .HeroContentBtns a {
+  .hero_content_btns a {
     padding: 12px
   }
 
@@ -3412,13 +3412,13 @@ section.SubscribeSection {
   }
 }
 
-.EverContent .ContentBorder>section:last-child,
-.EverContent>section:last-child {
+.content .ContentBorder>section:last-child,
+.content>section:last-child {
   padding-bottom: 120px
 }
 
-.EverContent .ContentBorder>section:only-child,
-.EverContent>section:only-child {
+.content .ContentBorder>section:only-child,
+.content>section:only-child {
   padding-bottom: 0
 }
 
@@ -3766,7 +3766,7 @@ body.Ever404 .BlogWidgetSection {
   padding: 20px
 }
 
-.Ever404Content .HeroContentBtns {
+.Ever404Content .hero_content_btns {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -3774,7 +3774,7 @@ body.Ever404 .BlogWidgetSection {
 }
 
 @media only screen and (max-width:450px) and (min-width:0px) {
-  .Ever404Content .HeroContentBtns a {
+  .Ever404Content .hero_content_btns a {
     width: 100%;
     margin: 13px
   }
@@ -3909,7 +3909,7 @@ button#rcc-confirm-button {
   }
 }
 
-.LetUsInInnerWrap.GlobalInner {
+.LetUsInInnerWrap.global_inner {
   display: flex;
   justify-content: center
 }
@@ -4055,23 +4055,23 @@ h1.OrangeTxtRightGrad {
   }
 }
 
-.HomeHero,
-div#__next {
+.home_hero,
+div#wrapper {
   z-index: 0;
   position: relative
 }
 
-.HomeHero {
+.home_hero {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-image: url(https://www.everrise.com/assets/images/bg/HomeHeroBG.png);
+  background-image: url(../images/hero_bg.png);
   background-repeat: no-repeat;
   background-position: 100% 100%
 }
 
-.HomeHero:after,
-.HomeHero:before {
+.home_hero:after,
+.home_hero:before {
   content: "";
   display: block;
   height: 100vh;
@@ -4081,28 +4081,28 @@ div#__next {
   left: 0
 }
 
-section.HomeHero .GlobalInner {
+section.home_hero .global_inner {
   min-height: 660px
 }
 
-.HomeHero:after {
+.home_hero:after {
   background: linear-gradient(90deg, #001333, #001333 15%, rgba(0, 19, 51, 0) 70%, rgba(0, 19, 51, 0));
   left: -10%;
   height: 99999px
 }
 
-.HomeHero:before {
+.home_hero:before {
   background-image: linear-gradient(#001333, #021638 5%, rgba(0, 19, 51, 0) 30%, rgba(0, 19, 51, 0));
   top: -11px
 }
 
-.HomeHero .GlobalInner {
+.home_hero .global_inner {
   display: flex;
   justify-content: center;
   align-items: center
 }
 
-.HeroContentContainer {
+.hero_content_container {
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -4110,31 +4110,31 @@ section.HomeHero .GlobalInner {
   flex: 1
 }
 
-.HeroContentInner {
+.hero_content_inner {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center
 }
 
-.HeroContent {
+.hero_content {
   z-index: 2
 }
 
-.HeroContentRight {
+.hero_content_right {
   color: #eee;
   max-width: 55%;
   margin-top: 1%;
   z-index: 1
 }
 
-.HeroContentRight h1 {
+.hero_content_right h1 {
   font-size: 2.6em;
   margin-bottom: 50px;
   line-height: 1.2
 }
 
-.HeroContentRight p {
+.hero_content_right p {
   font-size: 1.23em;
   font-weight: 300;
   letter-spacing: .02em;
@@ -4145,13 +4145,13 @@ section.HomeHero .GlobalInner {
 }
 
 @media only screen and (max-width:9999px) and (min-width:800px) {
-  section.HomeHero .HeroContentRight {
+  section.home_hero .hero_content_right {
     min-width: 730px
   }
 }
 
 @media only screen and (max-width:2040px) and (min-width:1940px) {
-  .HeroContentLeft {
+  .hero_content_left {
     margin-right: -2vw
   }
 }
@@ -4161,17 +4161,17 @@ section.HomeHero .GlobalInner {
     height: 180px
   }
 
-  .HomeHero .GlobalInner {
+  .home_hero .global_inner {
     height: calc(100vh - 225px)
   }
 }
 
 @media only screen and (max-width:1740px) and (min-width:0px) {
-  .HeroContentRight h1 {
+  .hero_content_right h1 {
     font-size: 40px
   }
 
-  .HeroContentLeft {
+  .hero_content_left {
     position: absolute;
     max-width: 430px;
     right: 7vw;
@@ -4180,91 +4180,91 @@ section.HomeHero .GlobalInner {
 }
 
 @media only screen and (max-width:1480px) and (min-width:0px) {
-  .HeroContentRight h1 {
+  .hero_content_right h1 {
     font-size: 40px
   }
 
-  .HeroContentLeft {
+  .hero_content_left {
     min-width: 512px;
     left: 76vw;
     opacity: .6
   }
 
-  .HeroContentRight {
+  .hero_content_right {
     margin-right: 0
   }
 
-  .HomeHero .GlobalInner {
+  .home_hero .global_inner {
     min-height: 960px
   }
 }
 
 @media only screen and (max-width:1024px) and (min-width:1023px) {
-  .HomeHero .GlobalInner {
+  .home_hero .global_inner {
     height: calc(100vh - 180px);
     min-height: 1080px
   }
 }
 
 @media only screen and (max-width:1024px) and (min-width:0px) {
-  .HeroContentLeft {
+  .hero_content_left {
     display: none
   }
 }
 
 @media only screen and (max-width:950px) and (min-width:0px) {
-  .HeroContentRight {
+  .hero_content_right {
     min-width: 100%;
     padding: 20px
   }
 
-  .HeroContentRight p {
+  .hero_content_right p {
     font-size: 1em;
     letter-spacing: .04em;
     color: #e3e9ed;
     margin-bottom: 40px
   }
 
-  .HeroContentRight h1 {
+  .hero_content_right h1 {
     font-size: 35px;
     margin-bottom: 20px
   }
 
-  .HomeHero:after {
+  .home_hero:after {
     background: linear-gradient(90deg, #001333 1%, #001333 0, rgba(0, 19, 51, 0) 130%, rgba(0, 19, 51, 0) 0);
     left: 0
   }
 }
 
 @media only screen and (max-width:823px) and (min-width:0px) {
-  .HeroContentRight h1 {
+  .hero_content_right h1 {
     font-size: 44px
   }
 
-  .RiseInfoSection .HeroContentBtns a {
+  .RiseInfoSection .hero_content_btns a {
     font-size: 2.7vw
   }
 }
 
 @media only screen and (max-width:768px) and (min-width:0px) {
-  .HeroContentRight h1 {
+  .hero_content_right h1 {
     font-size: 6vw
   }
 
-  .HomeHero .GlobalInner {
+  .home_hero .global_inner {
     height: 100vh;
     min-height: 600 !important
   }
 
-  .HomeHero:after {
+  .home_hero:after {
     min-height: 900vh;
     background: linear-gradient(90deg, #001333, #001333 5%, rgba(0, 19, 51, 0) 110%, rgba(0, 19, 51, 0) 0);
     left: 0
   }
 
-  body.EverDapp .nav,
-  body.home .nav,
-  body.rise .nav {
+  body.EverDapp .our_nav,
+  body.home .our_nav,
+  body.rise .our_nav {
     margin-bottom: -86px
   }
 
@@ -4272,19 +4272,19 @@ section.HomeHero .GlobalInner {
     margin-bottom: 40px
   }
 
-  section.HomeHero .HeroContentBtns a:not(last-child) {
+  section.home_hero .hero_content_btns a:not(last-child) {
     width: calc(50% - 10px)
   }
 
-  section.HomeHero .HeroContentBtns a:first-child {
+  section.home_hero .hero_content_btns a:first-child {
     margin-right: 20px
   }
 
-  section.HomeHero .HeroContentBtns a:nth-child(2) {
+  section.home_hero .hero_content_btns a:nth-child(2) {
     margin-right: 0
   }
 
-  section.HomeHero .HeroContentBtns a:nth-child(3) {
+  section.home_hero .hero_content_btns a:nth-child(3) {
     width: 100%;
     margin-top: 20px
   }
@@ -4295,77 +4295,77 @@ section.HomeHero .GlobalInner {
     margin-bottom: 20px
   }
 
-  .HeroContentRight h1 {
+  .hero_content_right h1 {
     font-size: 6.8vw
   }
 
-  .HeroContentRight {
+  .hero_content_right {
     padding: 0
   }
 
-  .HeroContentRight p {
+  .hero_content_right p {
     font-size: .9em;
     letter-spacing: .03em;
     margin-bottom: 40px
   }
 
-  .HeroContentBtns a {
+  .hero_content_btns a {
     font-size: 1em
   }
 
-  .PArrow:after,
+  .p_arrow:after,
   .our_menu_item .menu_name:after {
     transform: rotate(135deg) scale(.7);
     margin-left: 6px
   }
 
-  .HomeHero .GlobalInner {
+  .home_hero .global_inner {
     max-height: 600px
   }
 }
 
 @media only screen and (max-width:400px) and (min-width:0px) {
-  .HeroContentRight p {
+  .hero_content_right p {
     font-size: 13px;
     letter-spacing: .01em
   }
 }
 
 @media only screen and (max-height:568px) and (min-width:320px) {
-  .HomeHero .GlobalInner {
+  .home_hero .global_inner {
     min-height: 600px
   }
 }
 
 @media only screen and (max-height:1024px) and (min-width:600px) {
-  .HomeHero .GlobalInner {
+  .home_hero .global_inner {
     min-height: 100vh
   }
 }
 
 @media only screen and (max-height:1366px) and (min-width:1024px) {
-  .HomeHero .GlobalInner {
+  .home_hero .global_inner {
     height: calc(100vh - 236px);
     min-height: 850px
   }
 }
 
 @media only screen and (max-height:1024px) and (min-width:1366px) {
-  .HomeHero .GlobalInner {
+  .home_hero .global_inner {
     height: calc(100vh - 0px);
     min-height: unset
   }
 }
 
 @media only screen and (min-width:1921px) and (max-width:99999px) {
-  .HomeHero .GlobalInner {
+  .home_hero .global_inner {
     height: calc(100vh - 283px);
     min-height: 1050px
   }
 }
 
 @media only screen and (max-width:480px) and (min-height:850px) {
-  .HomeHero .GlobalInner {
+  .home_hero .global_inner {
     height: calc(100vh - 126px);
     min-height: unset
   }
@@ -4593,7 +4593,7 @@ li.press-logo {
   margin-right: 100px
 }
 
-.EcosystemSection .GlobalInner {
+.EcosystemSection .global_inner {
   padding: 140px 0
 }
 
@@ -4755,7 +4755,7 @@ li.press-logo {
     text-align: left
   }
 
-  .GlobalInner.EverRiseGlobalInner {
+  .global_inner.EverRiseGlobalInner {
     margin: 2px 0;
     width: 100%;
     position: relative
@@ -4841,7 +4841,7 @@ li.press-logo {
 @media only screen and (max-width:400px) and (min-width:0px) {
 
   .EcosystemSectionTopInner,
-  .GlobalInner.EverRiseGlobalInner {
+  .global_inner.EverRiseGlobalInner {
     padding: 0 20px
   }
 }
@@ -4992,7 +4992,7 @@ li.press-logo {
   background-attachment: fixed
 }
 
-.FoundationSection .GlobalInner {
+.FoundationSection .global_inner {
   flex-direction: column;
   align-items: center
 }
@@ -5046,7 +5046,7 @@ body.home .FoundationSection h2 {
   color: #d8dde2
 }
 
-.FoundationSection .GlobalInner>p:last-child {
+.FoundationSection .global_inner>p:last-child {
   margin: 3em 0 0;
   font-size: 1.4em;
   text-shadow: 1px 1px 0 #000;
@@ -5055,7 +5055,7 @@ body.home .FoundationSection h2 {
   text-align: center
 }
 
-.FoundationSection .GlobalInner>p:first-of-type {
+.FoundationSection .global_inner>p:first-of-type {
   font-size: 1.3em;
   margin-bottom: 100px;
   max-width: 1040px;
@@ -5067,11 +5067,11 @@ body.home .FoundationSection h2 {
   background: linear-gradient(0deg, #00437b, #051a49 50%, #031237)
 }
 
-.GlobalInner>p:last-child a {
+.global_inner>p:last-child a {
   text-decoration: underline
 }
 
-.GlobalInner>p:last-child a:hover {
+.global_inner>p:last-child a:hover {
   color: #fff
 }
 
@@ -5083,7 +5083,7 @@ body.home .FoundationSection h2 {
 }
 
 @media only screen and (max-width:1350px) and (min-width:0px) {
-  .FoundationSection .GlobalInner {
+  .FoundationSection .global_inner {
     max-width: 1450px;
     padding: 0 25px;
     width: 100%
@@ -5133,7 +5133,7 @@ body.home .FoundationSection h2 {
     margin-bottom: 2em
   }
 
-  .FoundationSection .GlobalInner>p:last-child {
+  .FoundationSection .global_inner>p:last-child {
     margin: 1em 0 0
   }
 
@@ -5143,7 +5143,7 @@ body.home .FoundationSection h2 {
 }
 
 @media only screen and (max-width:600px) and (min-width:0px) {
-  .FoundationSection .GlobalInner {
+  .FoundationSection .global_inner {
     max-width: 1450px;
     padding: 0 15px;
     width: 100%
@@ -5153,7 +5153,7 @@ body.home .FoundationSection h2 {
     font-size: 8.8vw
   }
 
-  .FoundationSection .GlobalInner>p:last-child {
+  .FoundationSection .global_inner>p:last-child {
     font-size: 5vw
   }
 
@@ -5161,7 +5161,7 @@ body.home .FoundationSection h2 {
     font-size: 2em
   }
 
-  .FoundationSection .GlobalInner>p:first-of-type {
+  .FoundationSection .global_inner>p:first-of-type {
     font-size: 1.2em;
     margin-bottom: 60px
   }
@@ -5496,7 +5496,7 @@ section.CompactEcosystemSection {
   flex-direction: column
 }
 
-.CompactEcosystemSection .HeroContentBtns a {
+.CompactEcosystemSection .hero_content_btns a {
   margin-top: 30px
 }
 
@@ -5603,7 +5603,7 @@ section.CompactEcosystemSection {
 }
 
 @media only screen and (max-width:768px) and (min-width:0px) {
-  .CompactEcosystemSection .HeroContentBtns a {
+  .CompactEcosystemSection .hero_content_btns a {
     padding: 20px
   }
 }
@@ -5626,22 +5626,22 @@ section.CompactEcosystemSection {
     font-size: 1.4em
   }
 
-  section.CompactEcosystemSection .HeroContentBtns a {
+  section.CompactEcosystemSection .hero_content_btns a {
     margin-left: 0;
     margin-right: 0
   }
 
-  .CompactEcosystemSectionInner .HeroContentBtns {
+  .CompactEcosystemSectionInner .hero_content_btns {
     padding: 0 20px
   }
 
-  .DappHeaderContentContainer .HeroContentBtns a:not(last-child) {
+  .DappHeaderContentContainer .hero_content_btns a:not(last-child) {
     margin-bottom: 20px
   }
 }
 
 @media only screen and (max-width:600px) and (min-width:0px) {
-  .CompactEcosystemSection .HeroContentBtns {
+  .CompactEcosystemSection .hero_content_btns {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5649,17 +5649,17 @@ section.CompactEcosystemSection {
     margin-top: 45px
   }
 
-  .CompactEcosystemSection .HeroContentBtns a {
+  .CompactEcosystemSection .hero_content_btns a {
     width: 90%;
     margin-left: 0;
     margin-right: 0
   }
 
-  .CompactEcosystemSectionInner.GlobalInner {
+  .CompactEcosystemSectionInner.global_inner {
     align-items: center
   }
 
-  .CompactEcosystemSection .HeroContentBtns a:not(first-child) {
+  .CompactEcosystemSection .hero_content_btns a:not(first-child) {
     margin-top: 0
   }
 
@@ -5843,7 +5843,7 @@ body.blog-post .BlogWidgetGlobalInner {
   align-items: center
 }
 
-.BlogHeader .GlobalInner {
+.BlogHeader .global_inner {
   justify-content: center
 }
 
@@ -5906,7 +5906,7 @@ body.blog-post .BlogWidgetSection h2 {
   color: #27282a
 }
 
-body.blog-post .BlogWidgetSection .PArrow.right {
+body.blog-post .BlogWidgetSection .p_arrow.right {
   display: flex;
   justify-content: center;
   align-items: center
@@ -6117,7 +6117,7 @@ ul.BlogTagsInner {
   overflow-x: auto
 }
 
-header.RecentArticlesHeader .PArrow:after {
+header.RecentArticlesHeader .p_arrow:after {
   width: 8px;
   height: 8px;
   border-top: 1px solid;
@@ -6388,7 +6388,7 @@ body.blog-post li>p {
   margin-bottom: 0 !important
 }
 
-body.rise .EverContent {
+body.rise .content {
   background: #030d2b
 }
 
@@ -6402,7 +6402,7 @@ body.rise .EverContent {
   width: 100%
 }
 
-.RiseHeader .HeroContentBtns {
+.RiseHeader .hero_content_btns {
   text-transform: uppercase;
   display: flex;
   flex-wrap: wrap;
@@ -6471,7 +6471,7 @@ body.rise .EverContent {
   position: relative
 }
 
-.RiseHero .GlobalInner {
+.RiseHero .global_inner {
   margin-top: auto;
   justify-content: center
 }
@@ -6509,11 +6509,11 @@ body.rise .EverContent {
   letter-spacing: .06em
 }
 
-.RiseHero .HeroContentBtns {
+.RiseHero .hero_content_btns {
   margin: 1em 0
 }
 
-.RiseHeroContent .HeroContentBtns {
+.RiseHeroContent .hero_content_btns {
   justify-content: center
 }
 
@@ -6528,22 +6528,22 @@ body.rise .EverContent {
 }
 
 @media only screen and (max-width:1400px) and (min-width:0px) {
-  .RiseHeader .HeroContentBtns a:nth-child(3) {
+  .RiseHeader .hero_content_btns a:nth-child(3) {
     width: 100%;
     margin-top: 10px
   }
 
-  .RiseHeader .HeroContentBtns a:first-child,
-  .RiseHeader .HeroContentBtns a:nth-child(2) {
+  .RiseHeader .hero_content_btns a:first-child,
+  .RiseHeader .hero_content_btns a:nth-child(2) {
     width: calc(50% - 10px);
     margin-right: 0
   }
 
-  .RiseHeader .HeroContentBtns a:first-child {
+  .RiseHeader .hero_content_btns a:first-child {
     margin-right: 20px
   }
 
-  .RiseHeader .DappHeaderContent .HeroContentBtns a {
+  .RiseHeader .DappHeaderContent .hero_content_btns a {
     margin-bottom: 10px;
     padding: 15px
   }
@@ -6556,7 +6556,7 @@ body.rise .EverContent {
     margin-right: 4vw
   }
 
-  .RiseHeader .HeroContentBtns {
+  .RiseHeader .hero_content_btns {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6573,14 +6573,14 @@ body.rise .EverContent {
     margin-right: 4vw
   }
 
-  .RiseHeader .DappHeaderContent .HeroContentBtns a {
+  .RiseHeader .DappHeaderContent .hero_content_btns a {
     margin-bottom: 10px;
     padding: 15px
   }
 }
 
 @media only screen and (max-width:1120px) and (min-width:0px) {
-  .RiseHeroContent .HeroContentBtns a {
+  .RiseHeroContent .hero_content_btns a {
     font-size: 18px
   }
 
@@ -6599,7 +6599,7 @@ body.rise .EverContent {
 }
 
 @media only screen and (max-width:955px) and (min-width:0px) {
-  section.RiseHero .GlobalInner {
+  section.RiseHero .global_inner {
     padding: 0 5px
   }
 }
@@ -6619,11 +6619,11 @@ body.rise .EverContent {
 }
 
 @media only screen and (max-width:768px) and (min-width:0px) {
-  section.RiseHero .GlobalInner {
+  section.RiseHero .global_inner {
     padding: 10px 5px
   }
 
-  .RiseV2Section .GlobalInner>p strong {
+  .RiseV2Section .global_inner>p strong {
     margin-bottom: 0
   }
 
@@ -6641,7 +6641,7 @@ body.rise .EverContent {
     font-size: 1.8em
   }
 
-  .RiseHeroContent .HeroContentBtns {
+  .RiseHeroContent .hero_content_btns {
     transform: scale(.95)
   }
 
@@ -6713,7 +6713,7 @@ body.rise .EverContent {
 }
 
 @media only screen and (max-width:330px) and (min-width:0px) {
-  .RiseHeroContent .HeroContentBtns a {
+  .RiseHeroContent .hero_content_btns a {
     font-size: 15px
   }
 }
@@ -6873,7 +6873,7 @@ p.ContractID:before {
   font-size: 30px
 }
 
-.RiseHeroContent .HeroContentBtns a {
+.RiseHeroContent .hero_content_btns a {
   font-weight: 500
 }
 
@@ -7190,7 +7190,7 @@ p.swapServiceTxtLinks {
 }
 
 @media only screen and (max-width:769px) and (min-width:0px) {
-  .RiseV1Section .HeroContentBtns {
+  .RiseV1Section .hero_content_btns {
     margin-top: 0
   }
 
@@ -7287,7 +7287,7 @@ section.RiseV1Section h2 {
   padding: 80px 0 150px
 }
 
-.GetRiseSection .GlobalInner {
+.GetRiseSection .global_inner {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7318,8 +7318,8 @@ section.RiseV1Section h2 {
   background: linear-gradient(216deg, #001130, #001a47)
 }
 
-.GetRiseSection .GlobalInner>p,
-.RiseV2Section .GlobalInner>p {
+.GetRiseSection .global_inner>p,
+.RiseV2Section .global_inner>p {
   text-align: center;
   margin: 40px;
   color: #c8c8c8;
@@ -7328,7 +7328,7 @@ section.RiseV1Section h2 {
   font-size: 1em
 }
 
-.GetRiseSection .GlobalInner>p:first-of-type {
+.GetRiseSection .global_inner>p:first-of-type {
   position: relative;
   top: -15px;
   font-size: 18px
@@ -7338,12 +7338,12 @@ section.RiseV1Section h2 {
   max-width: 1225px
 }
 
-.GetRiseSection .HeroContentBtns {
+.GetRiseSection .hero_content_btns {
   width: 100%;
   margin-top: 60px
 }
 
-.GetRiseSection .HeroContentBtns,
+.GetRiseSection .hero_content_btns,
 a.WhitepaperLink {
   display: flex;
   justify-content: center;
@@ -7451,7 +7451,7 @@ section.RiseV1Section h3:first-of-type {
     padding: 20px 0 10px
   }
 
-  .GetRiseSection .GlobalInner {
+  .GetRiseSection .global_inner {
     padding: 15px 35px 0
   }
 
@@ -7503,7 +7503,7 @@ section.RiseV1Section h3:first-of-type {
     padding: 90px 40px 140px
   }
 
-  .GetRiseSection .HeroContentBtns a {
+  .GetRiseSection .hero_content_btns a {
     font-size: 2.7vw;
     width: 46%
   }
@@ -7521,17 +7521,17 @@ section.RiseV1Section h3:first-of-type {
     margin-right: 0
   }
 
-  .GetRiseSection .GlobalInner {
+  .GetRiseSection .global_inner {
     padding: 0 10px
   }
 
-  .GetRiseSection .GlobalInner>p:last-of-type {
+  .GetRiseSection .global_inner>p:last-of-type {
     margin-bottom: 0;
     padding-bottom: 30px
   }
 
-  .GetRiseSection .GlobalInner>p:not(:first-of-type),
-  .RiseV2Section .GlobalInner>p {
+  .GetRiseSection .global_inner>p:not(:first-of-type),
+  .RiseV2Section .global_inner>p {
     padding: 30px 0 70px;
     margin: 0 10px
   }
@@ -7546,11 +7546,11 @@ section.RiseV1Section h3:first-of-type {
 }
 
 @media only screen and (max-width:550px) and (min-width:0px) {
-  .RiseHeroContent .HeroContentBtns a:not(:last-child) {
+  .RiseHeroContent .hero_content_btns a:not(:last-child) {
     margin-bottom: 22px !important
   }
 
-  .RiseHeroContent .HeroContentBtns a {
+  .RiseHeroContent .hero_content_btns a {
     width: 100% !important;
     margin: 0 !important
   }
@@ -7569,33 +7569,33 @@ section.RiseV1Section h3:first-of-type {
     color: #fff
   }
 
-  section.GetRiseSection .GlobalInner {
+  section.GetRiseSection .global_inner {
     padding: 0 20px
   }
 
-  .GetRiseSection .GlobalInner>p:last-of-type {
+  .GetRiseSection .global_inner>p:last-of-type {
     font-size: 16px
   }
 
-  .GetRiseSection .HeroContentBtns {
+  .GetRiseSection .hero_content_btns {
     flex-direction: column
   }
 
-  .GetRiseSection .HeroContentBtns a {
+  .GetRiseSection .hero_content_btns a {
     width: 100%;
     margin-left: 0;
     margin-right: 0
   }
 
-  .GetRiseSection .HeroContentBtns a:not(:last-child) {
+  .GetRiseSection .hero_content_btns a:not(:last-child) {
     margin-bottom: 3em
   }
 
-  .GetRiseSection .HeroContentBtns a {
+  .GetRiseSection .hero_content_btns a {
     font-size: 20px
   }
 
-  .GetRiseSection .HeroContentBtns a:not(:last-child) {
+  .GetRiseSection .hero_content_btns a:not(:last-child) {
     margin-bottom: 2em
   }
 
@@ -7633,12 +7633,12 @@ section.RiseV1Section h3:first-of-type {
 }
 
 @media only screen and (max-width:500px) and (min-width:0px) {
-  .GetRiseSection .GlobalInner>p:not(:first-of-type) {
+  .GetRiseSection .global_inner>p:not(:first-of-type) {
     padding: 30px 0 70px;
     margin: 0
   }
 
-  .V2BtmTxt .HeroContentBtns a {
+  .V2BtmTxt .hero_content_btns a {
     width: 94%
   }
 }
@@ -7670,7 +7670,7 @@ section.RiseV1Section h3:first-of-type {
   border-radius: 16px
 }
 
-.RiseV2Section .GlobalInner {
+.RiseV2Section .global_inner {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -7685,7 +7685,7 @@ section.RiseV1Section h3:first-of-type {
   margin-bottom: 10px
 }
 
-.RiseV2Section .GlobalInner>p {
+.RiseV2Section .global_inner>p {
   max-width: 845px;
   margin: initial
 }
@@ -7695,7 +7695,7 @@ section.RiseV1Section h3:first-of-type {
   justify-content: center
 }
 
-.RiseV2Section .GlobalInner>p strong {
+.RiseV2Section .global_inner>p strong {
   font-size: 1.5em;
   display: block;
   margin-bottom: -11px;
@@ -7703,7 +7703,7 @@ section.RiseV1Section h3:first-of-type {
   margin-top: 11px
 }
 
-.RiseV2Section .GlobalInner>p:last-of-type {
+.RiseV2Section .global_inner>p:last-of-type {
   font-weight: 500
 }
 
@@ -7720,7 +7720,7 @@ section.RiseV1Section h3:first-of-type {
   font-weight: 700
 }
 
-.RiseV2Section .GlobalInner>p {
+.RiseV2Section .global_inner>p {
   margin-bottom: 30px
 }
 
@@ -7739,7 +7739,7 @@ section.RiseV1Section h3:first-of-type {
   font-size: 19px
 }
 
-.V2BtmTxt .HeroContentBtns {
+.V2BtmTxt .hero_content_btns {
   margin-top: 2em;
   display: flex;
   justify-content: center
@@ -7794,7 +7794,7 @@ a.CardHeroBtn {
 }
 
 @media only screen and (max-width:1280px) and (min-width:0px) {
-  .RiseV2Section .GlobalInner {
+  .RiseV2Section .global_inner {
     margin: 0 10px;
     width: calc(100vw - 10px)
   }
@@ -7823,13 +7823,13 @@ a.CardHeroBtn {
     margin-right: 0
   }
 
-  .RiseV2Section .GlobalInner>p:last-of-type {
+  .RiseV2Section .global_inner>p:last-of-type {
     margin-top: 50px
   }
 }
 
 @media only screen and (max-width:1150px) and (min-width:0px) {
-  .RiseV2Section .GlobalInner {
+  .RiseV2Section .global_inner {
     padding: 80px 0 120px
   }
 }
@@ -7848,7 +7848,7 @@ a.CardHeroBtn {
     margin-right: 1em
   }
 
-  .RiseV2Section .GlobalInner>p {
+  .RiseV2Section .global_inner>p {
     padding: 20px;
     max-width: 650px
   }
@@ -7858,7 +7858,7 @@ a.CardHeroBtn {
     margin: 13px 0 0
   }
 
-  .RiseV2Section .GlobalInner>p:last-of-type {
+  .RiseV2Section .global_inner>p:last-of-type {
     margin-top: 10px
   }
 }
@@ -7870,7 +7870,7 @@ a.CardHeroBtn {
     margin-right: 0
   }
 
-  .RiseV2Section .GlobalInner {
+  .RiseV2Section .global_inner {
     margin: 0 1.5em;
     width: calc(100vw - 1.5em)
   }
@@ -7886,11 +7886,11 @@ a.CardHeroBtn {
     margin-bottom: -10px
   }
 
-  .RiseV2Section .GlobalInner>p {
+  .RiseV2Section .global_inner>p {
     margin-bottom: 15px
   }
 
-  .RiseV2Section .GlobalInner {
+  .RiseV2Section .global_inner {
     padding: 60px 0
   }
 }
@@ -7900,7 +7900,7 @@ a.CardHeroBtn {
     margin-bottom: 1em
   }
 
-  .RiseV2Section .GlobalInner {
+  .RiseV2Section .global_inner {
     margin: 0 15px;
     width: calc(100vw - 15px)
   }
@@ -7918,7 +7918,7 @@ a.CardHeroBtn {
     padding-left: 3px
   }
 
-  .RiseV2Section .GlobalInner>p {
+  .RiseV2Section .global_inner>p {
     padding: 20px 0
   }
 }
@@ -7976,7 +7976,7 @@ a.CardHeroBtn {
   z-index: 1
 }
 
-.BuybackSectionContent .HeroContentBtns {
+.BuybackSectionContent .hero_content_btns {
   margin-top: 40px
 }
 
@@ -8036,25 +8036,25 @@ a.CardHeroBtn {
     max-width: 800px
   }
 
-  .BuybackSection .HeroContentBtns a:not(last-child) {
+  .BuybackSection .hero_content_btns a:not(last-child) {
     width: calc(50% - 15px)
   }
 
-  .BuybackSection .HeroContentBtns a:last-child {
+  .BuybackSection .hero_content_btns a:last-child {
     width: 100%;
     margin-top: 33px
   }
 
-  .BuybackSection .HeroContentBtns a:first-child {
+  .BuybackSection .hero_content_btns a:first-child {
     margin-right: 0
   }
 
-  .BuybackSection .HeroContentBtns a:nth-child(2) {
+  .BuybackSection .hero_content_btns a:nth-child(2) {
     margin-left: 30px;
     margin-right: 0
   }
 
-  .BuybackSection .HeroContentBtns {
+  .BuybackSection .hero_content_btns {
     transform: scale(1)
   }
 
@@ -8084,7 +8084,7 @@ a.CardHeroBtn {
 }
 
 @media only screen and (max-width:580px) and (min-width:0px) {
-  .BuybackSection .HeroContentBtns a {
+  .BuybackSection .hero_content_btns a {
     font-size: 3.6vw
   }
 }
@@ -8118,12 +8118,12 @@ a.CardHeroBtn {
 }
 
 @media only screen and (max-width:550px) and (min-width:0px) {
-  section.RiseHero .HeroContentBtns a:last-child {
+  section.RiseHero .hero_content_btns a:last-child {
     margin-top: 30px
   }
 }
 
-.HeroContentBtns {
+.hero_content_btns {
   filter: saturate(180%) brightness(110%)
 }
 
@@ -8437,12 +8437,12 @@ body.rise .CommunityFaqSectionRight {
     margin-right: 10px
   }
 
-  body.rise .CommunityFaqSectionLeft .HeroContentBtns {
+  body.rise .CommunityFaqSectionLeft .hero_content_btns {
     width: 100%;
     max-width: 330px
   }
 
-  body.rise .CommunityFaqSectionLeft .HeroContentBtns a:first-child {
+  body.rise .CommunityFaqSectionLeft .hero_content_btns a:first-child {
     margin: initial;
     width: 100%
   }
@@ -8545,12 +8545,12 @@ body.rise section.CompactEcosystemSection {
   max-width: 1920px
 }
 
-.MigraitonBanner .HeroContentBtns {
+.MigraitonBanner .hero_content_btns {
   justify-content: center;
   margin: 30px 30px 0
 }
 
-.MigraitonBanner .HeroContentBtns a {
+.MigraitonBanner .hero_content_btns a {
   height: 65px;
   font-size: 17px
 }
@@ -8672,7 +8672,7 @@ body.rise section.CompactEcosystemSection {
     font-size: 60px
   }
 
-  .MigraitonBanner .HeroContentBtns a {
+  .MigraitonBanner .hero_content_btns a {
     height: 65px;
     font-size: 17px;
     padding: 0 24px
@@ -8721,18 +8721,18 @@ body.rise section.CompactEcosystemSection {
 }
 
 @media only screen and (max-width:550px) and (min-width:0px) {
-  .MigraitonBanner .HeroContentBtns {
+  .MigraitonBanner .hero_content_btns {
     flex-direction: column;
     align-items: center
   }
 
-  .MigraitonBanner .HeroContentBtns a {
+  .MigraitonBanner .hero_content_btns a {
     margin: 0;
     max-width: 90%;
     width: 100%
   }
 
-  .MigraitonBanner .HeroContentBtns a:not(last-child) {
+  .MigraitonBanner .hero_content_btns a:not(last-child) {
     margin-bottom: 20px
   }
 
@@ -9523,7 +9523,7 @@ ul.FeaturedVids .YtThumb {
     margin-bottom: 40px
   }
 
-  body.community .GlobalInner {
+  body.community .global_inner {
     padding: 0 10px
   }
 }
@@ -10368,14 +10368,14 @@ body.ama-archive .BlogCard-tag {
   margin-top: 0
 }
 
-.StickySidebar .CommunityFaqSectionLeft .HeroContentBtns {
+.StickySidebar .CommunityFaqSectionLeft .hero_content_btns {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center
 }
 
-.StickySidebar .CommunityFaqSectionLeft .HeroContentBtns a {
+.StickySidebar .CommunityFaqSectionLeft .hero_content_btns a {
   height: 50px;
   font-size: 19px;
   min-width: 180px
@@ -10709,7 +10709,7 @@ ul.FeaturedVids li:first-child a:hover .YtThumb:before {
 }
 
 section.DappFaqSection section.DappFaqSection,
-section.DappFaqSection section.DappFaqSection .GlobalInner {
+section.DappFaqSection section.DappFaqSection .global_inner {
   padding: 0
 }
 
@@ -10718,7 +10718,7 @@ section.DappFaqSection .CommunityFaqSectionLeft {
   margin-right: 5%
 }
 
-body.EverDapp .EverContent {
+body.EverDapp .content {
   background: #001333
 }
 
@@ -10918,7 +10918,7 @@ body.EverDapp .sectionArrow:before {
   align-items: center
 }
 
-.DappHeaderContent .HeroContentBtns a {
+.DappHeaderContent .hero_content_btns a {
   font-size: 1em;
   padding: 0 25px;
   line-height: 1.1em
@@ -11035,7 +11035,7 @@ body.EverDapp .sectionArrow:before {
   }
 
   .DappHeaderContent,
-  section.DappHeader .HeroContentBtns {
+  section.DappHeader .hero_content_btns {
     justify-content: center
   }
 }
@@ -11058,7 +11058,7 @@ body.EverDapp .sectionArrow:before {
 }
 
 @media only screen and (max-width:850px) and (min-width:0px) {
-  body.EverDapp .EverContent .GlobalInner {
+  body.EverDapp .content .global_inner {
     padding-left: 40px;
     padding-right: 40px
   }
@@ -11128,7 +11128,7 @@ body.EverDapp .sectionArrow:before {
     padding: 60px 0 140px
   }
 
-  .DappHeaderContent .HeroContentBtns a {
+  .DappHeaderContent .hero_content_btns a {
     padding: 0 10px
   }
 
@@ -11136,11 +11136,11 @@ body.EverDapp .sectionArrow:before {
     text-align: left
   }
 
-  .DappHeader .HeroContentBtns {
+  .DappHeader .hero_content_btns {
     flex-direction: column
   }
 
-  body.EverDapp .HeroContentBtns a {
+  body.EverDapp .hero_content_btns a {
     width: 100%;
     min-width: 100%
   }
@@ -11169,7 +11169,7 @@ body.EverDapp .sectionArrow:before {
     font-size: 6.5vw
   }
 
-  body.EverDapp .EverContent .GlobalInner {
+  body.EverDapp .content .global_inner {
     padding-left: 20px;
     padding-right: 20px
   }
@@ -11186,7 +11186,7 @@ body.EverDapp .sectionArrow:before {
     width: 95%
   }
 
-  section.DappHeader .HeroContentBtns {
+  section.DappHeader .hero_content_btns {
     max-width: 80vw;
     font-size: 3.5vw
   }
@@ -11214,7 +11214,7 @@ body.EverDapp .sectionArrow:before {
     padding: 0 60px
   }
 
-  body.EverDapp .EverContent .GlobalInner {
+  body.EverDapp .content .global_inner {
     padding-left: 20px;
     padding-right: 20px
   }
@@ -11225,11 +11225,11 @@ body.EverDapp .sectionArrow:before {
 }
 
 @media only screen and (max-width:350px) and (min-width:0px) {
-  .DappHeaderContent .HeroContentBtns a {
+  .DappHeaderContent .hero_content_btns a {
     font-size: 1.15em
   }
 
-  body.EverDapp .EverContent .GlobalInner {
+  body.EverDapp .content .global_inner {
     padding-left: 10px;
     padding-right: 10px
   }
@@ -11496,7 +11496,7 @@ body.EverBridge .HowItWorksImg>div {
     padding: 60px 20px 80px
   }
 
-  body.EverDapp .EverContent section.FeaturesSection .GlobalInner {
+  body.EverDapp .content section.FeaturesSection .global_inner {
     padding-left: 0;
     padding-right: 0
   }
@@ -12325,7 +12325,7 @@ body.EverBridge .ContentImgSection:last-child .ContentImgSectionImg {
     width: 100%
   }
 
-  .EverContent>section:last-child {
+  .content>section:last-child {
     padding-bottom: 80px
   }
 
@@ -12537,7 +12537,7 @@ body.EverOwn .MoreFeatures ul.MoreFeaturesCards>li:last-child h2 {
   margin-top: .5em
 }
 
-.EverOwnServicesSection .GlobalInner {
+.EverOwnServicesSection .global_inner {
   z-index: 1
 }
 
@@ -12554,7 +12554,7 @@ body.EverOwn .MoreFeatures ul.MoreFeaturesCards>li:last-child h2 {
   }
 }
 
-.VideoHowtoInner.GlobalInner {
+.VideoHowtoInner.global_inner {
   justify-content: center;
   padding-top: 75px;
   padding-bottom: 130px
@@ -12613,11 +12613,11 @@ body.EverOwn .MoreFeatures ul.MoreFeaturesCards>li:last-child h2 {
   width: 100%
 }
 
-.VideoHowToTxt .HeroContentBtns a {
+.VideoHowToTxt .hero_content_btns a {
   font-size: 26px
 }
 
-.VideoHowToTxt .HeroContentBtns {
+.VideoHowToTxt .hero_content_btns {
   margin: 30px 0
 }
 
@@ -12638,7 +12638,7 @@ section.VideoHowto {
   background: #030d2b
 }
 
-.VideoHowtoContent .HeroContentBtns {
+.VideoHowtoContent .hero_content_btns {
   align-items: center;
   justify-content: center
 }
@@ -12708,7 +12708,7 @@ body.CSDapp.EverDapp .DappHeaderH1 h1 {
   text-align: left
 }
 
-body.CSDapp.EverDapp .DappHeaderContent .HeroContentBtns a:nth-child(2):after {
+body.CSDapp.EverDapp .DappHeaderContent .hero_content_btns a:nth-child(2):after {
   color: #fefefe
 }
 
@@ -12743,7 +12743,7 @@ body.CSDapp.EverDapp .FaqTitle {
 }
 
 @media only screen and (max-width:1100px) {
-  body.EverDapp .HeroContentBtns a {
+  body.EverDapp .hero_content_btns a {
     font-size: 20px
   }
 }
@@ -12778,7 +12778,7 @@ body.EverSwap .DappFaqGlobalInner .CommunityFaqSectionLeft p {
   max-width: 700px
 }
 
-.EverDapp .EverContent .CommunityFaqSectionLeft h3 {
+.EverDapp .content .CommunityFaqSectionLeft h3 {
   color: #fff;
   font-size: 23px;
   font-weight: 800;
@@ -12786,11 +12786,11 @@ body.EverSwap .DappFaqGlobalInner .CommunityFaqSectionLeft p {
   margin-bottom: 6px
 }
 
-body.EverOwn .DappHeaderContent a.WhiteHeroBtn span {
+body.EverOwn .DappHeaderContent a.white_hero_btn span {
   font-size: 18px
 }
 
-body.EverBridge .ContentImgSectionTxt .HeroContentBtns a {
+body.EverBridge .ContentImgSectionTxt .hero_content_btns a {
   height: 60px;
   font-size: 19px;
   line-height: 1em
@@ -13292,12 +13292,12 @@ body.legal-page {
   overflow: hidden
 }
 
-body.legal-page .EverContent>section:last-child {
+body.legal-page .content>section:last-child {
   padding-bottom: 0
 }
 
-body.legal-page .EverContent,
-body.legal-page div#__next {
+body.legal-page .content,
+body.legal-page div#wrapper {
   min-height: auto
 }
 
@@ -13399,7 +13399,7 @@ body.legal-page .topbar {
   padding-bottom: 0
 }
 
-body.legal-page .EverContent {
+body.legal-page .content {
   height: calc(100vh - 202px);
   min-height: calc(100vh - 202px);
   max-height: calc(100vh - 202px);
@@ -13552,7 +13552,7 @@ body.legal-page table tr td:first-child {
 }
 
 @media only screen and (max-width:960px) and (min-width:0px) {
-  body.legal-page .EverContent {
+  body.legal-page .content {
     height: calc(100vh - 167px);
     min-height: calc(100vh - 167px);
     max-height: calc(100vh - 167px);
@@ -13626,7 +13626,7 @@ body.legal-page table tr td:first-child {
     font-size: 13px
   }
 
-  .FooterCopyrightInner.GlobalInner {
+  .FooterCopyrightInner.global_inner {
     padding: 3px
   }
 }
@@ -13871,6 +13871,6 @@ body.stats-page .stats-container {
   color: #fff
 }
 
-body.stats-page .EverContent {
+body.stats-page .content {
   background: #001235
 }
