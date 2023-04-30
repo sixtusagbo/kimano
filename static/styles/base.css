@@ -1235,7 +1235,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   flex-wrap: wrap
 }
 
-.AmaInner,
+.ama-inner,
 .BlogHeader .global_inner,
 .blog_widget_section .blog_widget_global_inner,
 .BuybackSectionInner,
@@ -1258,7 +1258,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
 @media only screen and (max-width:1921px) and (min-width:1301px) {
 
   .AboutSectionInner,
-  .AmaInner,
+  .ama-inner,
   .BlogHeader .global_inner,
   .blog_widget_section .blog_widget_global_inner,
   .ContentImgGlobalInner,
@@ -1286,7 +1286,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
 @media only screen and (max-width:1300px) and (min-width:0px) {
 
   .AboutSectionInner,
-  .AmaInner,
+  .ama-inner,
   .BlogHeader .global_inner,
   .blog_widget_section .blog_widget_global_inner,
   .ContentImgGlobalInner,
@@ -3432,7 +3432,7 @@ section.subscribe_section {
   max-width: 260px
 }
 
-.CommunitySocialInner {
+.community_social_inner {
   margin-left: -10px;
   margin-right: -10px
 }
@@ -9366,30 +9366,30 @@ body.community .community_inner {
   flex-direction: column
 }
 
-body.community .FeaturedVids li {
+body.community .feature_vids li {
   width: calc(33.333% - 0px);
   margin-right: 20px;
   margin-left: 0;
   font-family: Roboto, sans-serif
 }
 
-body.community .FeaturedVids li:last-child {
+body.community .feature_vids li:last-child {
   margin-right: 0
 }
 
-body.community ul.FeaturedVids {
+body.community ul.feature_vids {
   border-width: 0;
   padding: 0
 }
 
-body.community ul.FeaturedVids .AmaNextThumb,
-body.community ul.FeaturedVids .YtThumb {
+body.community ul.feature_vids .ama_next_thumb,
+body.community ul.feature_vids .yt_thumb {
   overflow: hidden;
   border-radius: 16px
 }
 
-.YtThumb img,
-ul.FeaturedVids .YtThumb {
+.yt_thumb img,
+ul.feature_vids .yt_thumb {
   width: 100%
 }
 
@@ -9428,7 +9428,7 @@ ul.FeaturedVids .YtThumb {
     margin-bottom: 60px
   }
 
-  body.community ul.FeaturedVids .YtThumb {
+  body.community ul.feature_vids .yt_thumb {
     border-radius: 6px
   }
 
@@ -9467,7 +9467,7 @@ ul.FeaturedVids .YtThumb {
     width: 100%
   }
 
-  .FeaturedVids li:first-child {
+  .feature_vids li:first-child {
     min-width: auto
   }
 
@@ -9487,15 +9487,15 @@ ul.FeaturedVids .YtThumb {
     border-width: 0
   }
 
-  .SocialCardTxt p {
+  .social_card_text p {
     font-size: 15px
   }
 
-  .SocialCardTxt a {
+  .social_card_text a {
     padding: 10px
   }
 
-  .SocialCardTxt {
+  .social_card_text {
     padding: 13px
   }
 
@@ -9533,14 +9533,14 @@ ul.FeaturedVids .YtThumb {
   }
 }
 
-.SectionTitleLink {
+.section_title_link {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center
 }
 
-span.SDivider {
+spans_divider {
   display: block;
   width: 100%;
   flex: 1;
@@ -9549,7 +9549,7 @@ span.SDivider {
   margin: 0 20px
 }
 
-.SectionTitleLink a {
+.section_title_link a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9561,12 +9561,12 @@ span.SDivider {
   padding: 10px 21px
 }
 
-.SectionTitleLink {
+.section_title_link {
   margin-bottom: 25px;
   padding: 0 4px
 }
 
-.SectionTitleLink h2 {
+.section_title_link h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -9575,28 +9575,28 @@ span.SDivider {
   color: #0b327d
 }
 
-p.AMADate {
+p.ama_date {
   margin-left: 5px;
   font-size: 14px;
   margin-top: 7px
 }
 
-ul.FeaturedVids li:not(:first-child) h3 {
+ul.feature_vids li:not(:first-child) h3 {
   padding-top: 0
 }
 
-ul.FeaturedVids li:first-child h3 {
+ul.feature_vids li:first-child h3 {
   margin-top: 10px
 }
 
-ul.FeaturedVids li h3 {
+ul.feature_vids li h3 {
   margin-left: 4px;
   max-width: 99%;
   width: 100%;
   text-align: left
 }
 
-span.NextAmaDate p {
+span.next_ama_date p {
   margin: 0;
   padding: 0;
   background: linear-gradient(270deg, #fb8b47, #ce2041);
@@ -9608,7 +9608,7 @@ span.NextAmaDate p {
   font-size: 2.3em
 }
 
-span.NextAmaDate {
+span.next_ama_date {
   border-radius: 99px;
   margin: 0 14px;
   width: -webkit-fit-content;
@@ -9617,7 +9617,7 @@ span.NextAmaDate {
 }
 
 .AmaContentTop>a:last-child,
-span.NextAmaDate {
+span.next_ama_date {
   display: flex;
   justify-content: center;
   align-items: center
@@ -9635,13 +9635,13 @@ span.NextAmaDate {
 }
 
 @media only screen and (max-width:1700px) {
-  span.NextAmaDate p {
+  span.next_ama_date p {
     font-size: 2.3vw
   }
 }
 
 @media only screen and (max-width:1300px) {
-  ul.FeaturedVids {
+  ul.feature_vids {
     flex-wrap: wrap
   }
 
@@ -9655,50 +9655,50 @@ span.NextAmaDate {
     width: 260px
   }
 
-  body.community .FeaturedVids li {
+  body.community .feature_vids li {
     width: calc(50% - 0px);
     margin-right: 0;
     margin-left: 0
   }
 
-  body.community .FeaturedVids li:first-child {
+  body.community .feature_vids li:first-child {
     width: calc(100% - 0px);
     margin-bottom: 10px
   }
 
-  body.community .FeaturedVids li:nth-child(2) {
+  body.community .feature_vids li:nth-child(2) {
     margin-left: 20px;
     margin-right: 20px
   }
 
-  body.community .AmaNextThumbContent {
+  body.community .ama_next_thumb_content {
     width: 100%;
     flex-direction: inherit;
     justify-content: center;
     align-items: center
   }
 
-  body.community .AmaLinks {
+  body.community .ama_links {
     margin-top: 0
   }
 
-  .AmaLinks,
-  .AmaNextThumbTxt {
+  .ama_links,
+  .ama_next_thumb_txt {
     width: 100%;
     text-align: center;
     justify-content: center;
     align-items: center
   }
 
-  span.NextAmaDate {
+  span.next_ama_date {
     width: auto
   }
 
-  .AmaNextThumbTxt {
+  .ama_next_thumb_txt {
     width: 57%
   }
 
-  body.community .AmaLinks {
+  body.community .ama_links {
     width: 40%;
     max-width: 270px;
     flex-direction: column;
@@ -9706,162 +9706,162 @@ span.NextAmaDate {
     margin-left: 20px
   }
 
-  body.community .AmaLinks a {
+  body.community .ama_links a {
     width: 100%;
     justify-content: center;
     margin-bottom: 11px;
     margin-right: 0
   }
 
-  body.community span.NextAmaDate p {
+  body.community span.next_ama_date p {
     font-size: 4.2vw
   }
 
-  body.community p.NextAmaPreTxt {
+  body.community p.next_ama_pre_txt {
     font-size: 21px
   }
 
-  body.community .AmaNextThumb {
+  body.community .ama_next_thumb {
     max-height: 275px
   }
 
-  body.community .FeaturedVids li {
+  body.community .feature_vids li {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center
   }
 
-  body.community ul.FeaturedVids .YtThumb {
+  body.community ul.feature_vids .yt_thumb {
     order: 2
   }
 
-  body.community ul.FeaturedVids h2 {
+  body.community ul.feature_vids h2 {
     padding: 0 10px 20px
   }
 
-  .SectionTitleLink {
+  .section_title_link {
     padding-right: 20px;
     padding-left: 20px
   }
 
-  .SectionTitleLink a,
-  .SectionTitleLink span.SDivider {
+  .section_title_link a,
+  .section_title_link span .s_divider {
     display: none
   }
 
-  body.community .FeaturedVids li:not(:first-child) {
+  body.community .feature_vids li:not(:first-child) {
     margin: 10px;
     width: calc(50% - 10px)
   }
 
-  body.community .SectionTitleLink,
-  body.community ul.FeaturedVids li:first-child h3 {
+  body.community .section_title_link,
+  body.community ul.feature_vids li:first-child h3 {
     margin-bottom: 10px
   }
 
-  body.community .SectionTitleLink {
+  body.community .section_title_link {
     padding-left: 8px
   }
 
-  body.community .FeaturedVids li:nth-child(2) {
+  body.community .feature_vids li:nth-child(2) {
     margin-left: 0
   }
 
-  body.community .FeaturedVids li:nth-child(3) {
+  body.community .feature_vids li:nth-child(3) {
     margin-right: 0
   }
 }
 
 @media only screen and (max-width:800px) {
-  body.community span.NextAmaDate p {
+  body.community span.next_ama_date p {
     font-size: 4vw
   }
 
-  body.community .AmaNextThumbTxt {
+  body.community .ama_next_thumb_txt {
     width: 75%
   }
 }
 
 @media only screen and (max-width:768px) {
-  .SectionTitleLink {
+  .section_title_link {
     text-align: center;
     justify-content: center;
     font-size: 3vw
   }
 
-  body.community ul.FeaturedVids li:first-child h3 {
+  body.community ul.feature_vids li:first-child h3 {
     margin-bottom: 26px;
     text-align: center;
     max-width: 440px
   }
 
-  body.community .FeaturedVids li:nth-child(2) {
+  body.community .feature_vids li:nth-child(2) {
     margin-left: 0
   }
 
-  body.community .FeaturedVids li:nth-child(3) {
+  body.community .feature_vids li:nth-child(3) {
     margin-right: 0
   }
 
-  body.community .FeaturedVids li:not(:first-child) {
+  body.community .feature_vids li:not(:first-child) {
     width: calc(50% - 10px);
     margin-top: 20px
   }
 }
 
 @media only screen and (max-width:600px) {
-  body.community .AmaNextThumb {
+  body.community .ama_next_thumb {
     max-height: 100%
   }
 
-  body.community .AmaNextThumbContent {
+  body.community .ama_next_thumb_content {
     flex-direction: column;
     flex-wrap: wrap
   }
 
-  body.community p.NextAmaPreTxt {
+  body.community p.next_ama_pre_txt {
     font-size: 15px
   }
 
-  body.community .AmaLinks {
+  body.community .ama_links {
     width: 85%;
     flex-direction: row;
     max-width: 100%;
     margin: 30px 10px 0
   }
 
-  body.community .AmaLinks a:first-child {
+  body.community .ama_links a:first-child {
     margin-right: 10px
   }
 
-  body.community .AmaLinks a:last-child {
+  body.community .ama_links a:last-child {
     margin-left: 10px
   }
 
-  body.community .AmaNextThumbTxt {
+  body.community .ama_next_thumb_txt {
     width: 100%
   }
 
-  body.community span.NextAmaDate p {
+  body.community span.next_ama_date p {
     font-size: 7.2vw
   }
 
-  body.community .AmaLinks a {
+  body.community .ama_links a {
     padding: 8px 2px
   }
 
-  body.community .FeaturedVids li:nth-child(2) {
+  body.community .feature_vids li:nth-child(2) {
     margin-top: 35px
   }
 
-  body.community .FeaturedVids li:not(:first-child) {
+  body.community .feature_vids li:not(:first-child) {
     width: 100%;
     margin-left: 0;
     margin-right: 0
   }
 
-  .AmaContent {
+  .ama_content {
     display: flex;
     justify-content: center;
     align-items: center
@@ -9874,29 +9874,29 @@ span.NextAmaDate {
 }
 
 @media only screen and (max-width:700px) {
-  body.community .AmaLinks {
+  body.community .ama_links {
     flex-wrap: wrap;
     flex-direction: column
   }
 
-  body.community ul.FeaturedVids .AmaNextThumb {
+  body.community ul.feature_vids .ama_next_thumb {
     height: 310px
   }
 
-  body.community .AmaLinks a:first-child {
+  body.community .ama_links a:first-child {
     margin-right: 0
   }
 
-  body.community .AmaLinks a:last-child {
+  body.community .ama_links a:last-child {
     margin-left: 0
   }
 
-  li.SocialCard {
+  li.social_card {
     width: calc(100% - 20px)
   }
 }
 
-li.SocialCard {
+li.social_card {
   width: calc(50% - 20px);
   background: #fff;
   margin: 10px;
@@ -9907,38 +9907,38 @@ li.SocialCard {
   border-radius: 16px
 }
 
-li.SocialCard:first-child,
-li.SocialCard:nth-child(2),
-li.SocialCard:nth-child(3) {
+li.social_card:first-child,
+li.social_card:nth-child(2),
+li.social_card:nth-child(3) {
   width: calc(33.33% - 20px);
   flex-direction: column;
   justify-content: center;
   align-items: center
 }
 
-.SocialCardTxt,
-li.SocialCard:first-child .SocialCardTxt,
-li.SocialCard:nth-child(2) .SocialCardTxt,
-li.SocialCard:nth-child(3) .SocialCardTxt {
+.social_card_text,
+li.social_card:first-child .social_card_text,
+li.social_card:nth-child(2) .social_card_text,
+li.social_card:nth-child(3) .social_card_text {
   border-left: 0 solid #eef1f4;
   border-top: 5px solid #eef1f4;
   height: 100%
 }
 
-.SocialCard svg {
+.social_card svg {
   width: 100%
 }
 
-.SocialCardIcon {
+.social_card_icon {
   max-width: 125px
 }
 
-.CommunitySocialInner ul {
+.community_social_inner ul {
   display: flex;
   flex-wrap: wrap
 }
 
-.SocialCardIcon {
+.social_card_icon {
   max-width: 100px;
   width: 100%;
   padding: 20px;
@@ -9946,25 +9946,25 @@ li.SocialCard:nth-child(3) .SocialCardTxt {
   margin: 0 20px
 }
 
-.SocialCardIcon svg {
+.social_card_icon svg {
   fill: #1d9bf0
 }
 
-.SocialCardTxt {
+.social_card_text {
   border-left: 5px solid #eef1f4;
   padding: 40px 40px 10px;
   display: flex;
   flex-direction: column
 }
 
-.SocialCardTxt h2 {
+.social_card_text h2 {
   font-size: 1.8em;
   font-weight: 700;
   margin-bottom: 20px;
   color: #313131
 }
 
-.SocialCardTxt a {
+.social_card_text a {
   border: 1px solid #cdcdcd;
   padding: 12px 18px;
   display: flex;
@@ -9980,71 +9980,71 @@ li.SocialCard:nth-child(3) .SocialCardTxt {
   margin: auto 0 30px
 }
 
-.SocialCardTxt a:hover {
+.social_card_text a:hover {
   background: linear-gradient(90deg, #fea162, #e62020);
   color: #fff
 }
 
-.SocialCardTxt p {
+.social_card_text p {
   margin-bottom: 15px
 }
 
-.SocialCard .telegram-svg-icon {
+.social_card .telegram-svg-icon {
   fill: #30aae9
 }
 
-.SocialCard .reddit-svg-icon {
+.social_card .reddit-svg-icon {
   fill: #f54b00
 }
 
-.SocialCard .discord-svg-icon {
+.social_card .discord-svg-icon {
   fill: #5165f6
 }
 
-.SocialCard .youtube-svg-icon {
+.social_card .youtube-svg-icon {
   fill: #cd201f
 }
 
-.SocialCard .instagram-svg-icon {
+.social_card .instagram-svg-icon {
   fill: #8321db
 }
 
-.CommunitySocialInner {
+.community_social_inner {
   position: relative
 }
 
 @media only screen and (max-width:1600px) {
-  li.SocialCard {
+  li.social_card {
     text-align: center
   }
 
-  .SocialCardTxt,
-  li.SocialCard {
+  .social_card_text,
+  li.social_card {
     flex-direction: column;
     justify-content: center;
     align-items: center
   }
 
-  .SocialCardTxt {
+  .social_card_text {
     padding-top: 12px;
     display: flex
   }
 
-  .SocialCardIcon {
+  .social_card_icon {
     margin-top: 27px;
     justify-content: center
   }
 
-  .SocialCardTxt {
+  .social_card_text {
     border-left: 0 solid #eef1f4
   }
 }
 
 @media only screen and (max-width:1450px) {
 
-  li.SocialCard:first-child,
-  li.SocialCard:nth-child(2),
-  li.SocialCard:nth-child(3) {
+  li.social_card:first-child,
+  li.social_card:nth-child(2),
+  li.social_card:nth-child(3) {
     width: calc(50% - 20px);
     flex-direction: column;
     justify-content: center;
@@ -10054,43 +10054,43 @@ li.SocialCard:nth-child(3) .SocialCardTxt {
 
 @media only screen and (max-width:850px) {
 
-  li.SocialCard,
-  li.SocialCard:first-child,
-  li.SocialCard:nth-child(2),
-  li.SocialCard:nth-child(3) {
+  li.social_card,
+  li.social_card:first-child,
+  li.social_card:nth-child(2),
+  li.social_card:nth-child(3) {
     width: calc(100% - 0px);
     margin: 10px !important
   }
 }
 
 @media only screen and (max-width:768px) {
-  li.SocialCard {
+  li.social_card {
     text-align: center;
     width: calc(100% - 20px)
   }
 
-  .SocialCardTxt,
-  li.SocialCard {
+  .social_card_text,
+  li.social_card {
     flex-direction: column;
     justify-content: center;
     align-items: center
   }
 
-  .SocialCardTxt {
+  .social_card_text {
     padding-top: 12px;
     display: flex
   }
 
-  .SocialCardIcon {
+  .social_card_icon {
     margin-top: 27px;
     justify-content: center
   }
 
-  .SocialCardTxt h2 {
+  .social_card_text h2 {
     font-size: 1.5em
   }
 
-  .SocialCardTxt {
+  .social_card_text {
     padding: 25px
   }
 }
@@ -10154,7 +10154,7 @@ body.ama-archive .PostMeta img {
   background: #001338
 }
 
-.AmaContent {
+.ama_content {
   width: 100%
 }
 
@@ -10179,7 +10179,7 @@ ul.ama {
   justify-content: center
 }
 
-.AmaContent>h2 {
+.ama_content>h2 {
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 16px;
@@ -10196,7 +10196,7 @@ ul.ama {
   width: fit-content
 }
 
-ul.ama .YtThumb:after {
+ul.ama .yt_thumb:after {
   content: "AMA";
   background: #fff;
   width: 61px;
@@ -10229,7 +10229,7 @@ ul.ama li {
 }
 
 .ama h3,
-ul.FeaturedVids h2 {
+ul.feature_vids h2 {
   font-size: 16px;
   text-transform: none;
   font-weight: 700;
@@ -10245,7 +10245,7 @@ ul.FeaturedVids h2 {
   font-size: 12px
 }
 
-.YtThumb:before {
+.yt_thumb:before {
   content: "";
   height: 40px;
   width: 54px;
@@ -10253,7 +10253,7 @@ ul.FeaturedVids h2 {
   position: absolute
 }
 
-.YtThumb {
+.yt_thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10265,7 +10265,7 @@ ul.FeaturedVids h2 {
 .youtube-iconb,
 .youtube-iconc,
 .youtube-icond,
-.YtThumb:before,
+.yt_thumb:before,
 a.YoutubeSubBtn:before {
   max-width: 100%;
   background-size: 100%;
@@ -10273,20 +10273,20 @@ a.YoutubeSubBtn:before {
 }
 
 .youtube-icona,
-.YtThumb:before,
+.yt_thumb:before,
 a.YoutubeSubBtn:before {
   background-position: 0 0;
   background-size: 100%
 }
 
-.FeaturedVids li a .YtThumb:before {
+.feature_vids li a .yt_thumb:before {
   width: 80px;
   height: 58px
 }
 
-.FeaturedVids li a:hover .YtThumb:before,
+.feature_vids li a:hover .yt_thumb:before,
 .youtube-iconb,
-ul.ama li a:hover .YtThumb:before {
+ul.ama li a:hover .yt_thumb:before {
   background-position: 0 33.484163%;
   background-size: 100%
 }
@@ -10390,7 +10390,7 @@ body.ama-archive .blog_card_tag {
   padding-bottom: 90px
 }
 
-.AmaContent {
+.ama_content {
   border-bottom: 1px solid #cecece
 }
 
@@ -10424,23 +10424,23 @@ body.ama-archive .blog_card_tag {
   margin-bottom: 20px
 }
 
-.FeaturedVids li:first-child {
+.feature_vids li:first-child {
   width: calc(50% - 10px);
   margin-right: 10px;
   min-width: 300px
 }
 
-.FeaturedVids li:nth-child(2) {
+.feature_vids li:nth-child(2) {
   width: calc(50% - 10px);
   margin-left: 10px
 }
 
-.CropYTStandardImg {
+.crop_yt_standard_img {
   overflow: hidden;
   width: 100%
 }
 
-.CropYTStandardImg img {
+.crop_yt_standard_img img {
   margin-top: -9.4%;
   margin-bottom: -9.4%;
   width: 100%;
@@ -10452,7 +10452,7 @@ body.ama-archive .blog_card_tag {
   flex-wrap: wrap
 }
 
-.AmaNextThumb {
+.ama_next_thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10473,7 +10473,7 @@ body.blog-archive .CommunityFaqSectionLeft {
   text-align: center
 }
 
-.AmaNextThumbContent {
+.ama_next_thumb_content {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -10481,20 +10481,20 @@ body.blog-archive .CommunityFaqSectionLeft {
   flex-direction: column
 }
 
-p.NextAmaPreTxt {
+p.next_ama_pre_txt {
   font-size: 16px;
   line-height: 1em;
   color: #d1d1d1;
   margin: 0
 }
 
-.AmaNextThumb img {
+.ama_next_thumb img {
   pointer-events: none;
   opacity: 0
 }
 
-ul.FeaturedVids h2,
-ul.FeaturedVids h3 {
+ul.feature_vids h2,
+ul.feature_vids h3 {
   font-size: 1.22em;
   letter-spacing: 0;
   text-transform: none;
@@ -10503,66 +10503,66 @@ ul.FeaturedVids h3 {
   line-height: 1.4em
 }
 
-p.ClientTimeZone {
+p.client_time_zone {
   color: #d7d7d7;
   font-size: 12px;
   font-weight: 100;
   margin-top: -.5em
 }
 
-.AmaLinks {
+.ama_links {
   margin-top: 25px
 }
 
-ul.FeaturedVids {
+ul.feature_vids {
   display: flex;
   width: 100%
 }
 
-.AmaContent {
+.ama_content {
   display: flex
 }
 
-.AmaContentTop {
+.ama_content_top {
   padding-bottom: 30px;
   margin-bottom: 44px
 }
 
-.AmaArchiveList {
+.ama_archive_list {
   width: 65%
 }
 
-.AmaLinks a:first-child {
+.ama_links a:first-child {
   margin-right: 1em
 }
 
-.AmaLinks,
-.AmaLinks a {
+.ama_links,
+.ama_links a {
   display: flex
 }
 
-.AmaLinks a {
+.ama_links a {
   color: #fff;
   padding: 12px 20px;
   border: 1px solid;
   align-items: center
 }
 
-.AmaLinks svg {
+.ama_links svg {
   margin-right: 10px
 }
 
-ul.FeaturedVids li:first-child .YtThumb:before {
+ul.feature_vids li:first-child .yt_thumb:before {
   width: 80px;
   height: 55px
 }
 
-ul.FeaturedVids li:first-child a:hover .YtThumb:before {
+ul.feature_vids li:first-child a:hover .yt_thumb:before {
   background-position: 0 33.484163%;
   background-size: 100%
 }
 
-.AmaArchiveList h2 {
+.Ama_archive_list h2 {
   width: 100%;
   font-weight: 800;
   margin-bottom: 25px;
@@ -10597,7 +10597,7 @@ ul.FeaturedVids li:first-child a:hover .YtThumb:before {
     position: relative
   }
 
-  .AmaContent {
+  .ama_content {
     flex-direction: column
   }
 
@@ -10607,17 +10607,17 @@ ul.FeaturedVids li:first-child a:hover .YtThumb:before {
 }
 
 @media only screen and (max-width:1000px) {
-  body.ama-archive ul.FeaturedVids {
+  body.ama-archive ul.feature_vids {
     flex-direction: column
   }
 
-  .FeaturedVids li:first-child,
-  .FeaturedVids li:nth-child(2) {
+  .feature_vids li:first-child,
+  .feature_vids li:nth-child(2) {
     width: 100%;
     margin: 0
   }
 
-  span.NextAmaDate p {
+  span.next_ama_date p {
     font-size: 5.3vw
   }
 
@@ -10627,7 +10627,7 @@ ul.FeaturedVids li:first-child a:hover .YtThumb:before {
 }
 
 @media only screen and (max-width:500px) {
-  .AmaInner {
+  .ama-inner {
     padding: 0 10px
   }
 
@@ -10635,20 +10635,20 @@ ul.FeaturedVids li:first-child a:hover .YtThumb:before {
     padding-bottom: 100px
   }
 
-  ul.FeaturedVids {
+  ul.feature_vids {
     padding-bottom: 55px;
     margin-bottom: 45px
   }
 
-  p.NextAmaPreTxt {
+  p.next_ama_pre_txt {
     font-size: 18px
   }
 
-  .SectionTitleLink h2 {
+  .section_title_link h2 {
     font-size: 2.3em
   }
 
-  ul.FeaturedVids li h3 {
+  ul.feature_vids li h3 {
     margin-left: 0
   }
 }
@@ -12773,7 +12773,7 @@ body.EverSwap .DappFaqGlobalInner .CommunityFaqSectionLeft p {
   max-width: 700px
 }
 
-.EverDapp .ever_content .CommunityFaqSectionLeft h3 {
+.EverDapp .CommunityFaqSectionLeft h3 {
   color: #fff;
   font-size: 23px;
   font-weight: 800;
