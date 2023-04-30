@@ -84,7 +84,8 @@ select {
 [type=reset],
 [type=submit],
 button {
-  -webkit-appearance: button
+  appearance: button;
+  -webkit-appearance: button;
 }
 
 ::-moz-focus-inner {
@@ -114,6 +115,7 @@ progress {
 }
 
 [type=search] {
+  appearance: textfield;
   -webkit-appearance: textfield;
   outline-offset: -2px
 }
@@ -265,7 +267,6 @@ object,
 svg,
 video {
   display: block;
-  vertical-align: middle
 }
 
 img,
@@ -1005,6 +1006,7 @@ a.RedHeroBtn {
 a.OrangeHeroBtn span,
 a.RedHeroBtn {
   background: linear-gradient(90deg, #fb8b47, #ce2041);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
@@ -1020,6 +1022,7 @@ a.BlueHeroBtn {
 
 a.BlueHeroBtn span {
   background: linear-gradient(90deg, #01f3f5, #0093df);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
@@ -1090,6 +1093,7 @@ a.BlueHeroBtn span {
 .OrangeTxtLeftGrad span {
   background: linear-gradient(270deg, #fb8b47, #ce2041);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   text-shadow: 0 0 #00000000;
   -webkit-text-fill-color: transparent;
@@ -1102,6 +1106,7 @@ a.BlueHeroBtn span {
 .OrangeTxtRightGrad span {
   background: linear-gradient(90deg, #fb8b47, #ce2041);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   text-shadow: 0 0 #00000000;
   -webkit-text-fill-color: transparent;
@@ -1114,6 +1119,7 @@ a.BlueHeroBtn span {
 .BlueTxtLeftGrad span {
   background: linear-gradient(270deg, #01d5f5, #0083df);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   text-shadow: 0 0 #00000000;
   -webkit-text-fill-color: transparent;
@@ -1126,6 +1132,7 @@ a.BlueHeroBtn span {
 .BlueTxtRightGrad span {
   background: linear-gradient(90deg, #01d5f5, #0083df);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   text-shadow: 0 0 #00000000;
   -webkit-text-fill-color: transparent;
@@ -3070,7 +3077,7 @@ body.SiteFaq .HeaderTxt h1 {
 
 .SubName {
   border-top-right-radius: 0;
-  border-botttom-right-radius: 0;
+  border-bottom-right-radius: 0;
   border-top-left-radius: 90px;
   border-bottom-left-radius: 90px;
   overflow: hidden;
@@ -3842,6 +3849,7 @@ button#rcc-confirm-button {
   color: #1a69ff;
   background: linear-gradient(90deg, #fb8b47, #ce2041);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   text-shadow: 0 0 #00000000;
   -webkit-text-fill-color: transparent;
@@ -4616,6 +4624,7 @@ li.press-logo {
 .home .EverRiseSectionRight h2>span>span {
   background: linear-gradient(270deg, #fb8b47, #ce2041);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
@@ -5018,6 +5027,7 @@ li.press-logo {
   color: #e8ebf1;
   background: linear-gradient(270deg, #de6932, #be2c3f);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 2
@@ -7042,6 +7052,7 @@ p.swapServiceTxtLinks {
 }
 
 .ContractID input {
+  appearance: none;
   -webkit-appearance: none;
   background: transparent;
   width: 100%;
@@ -8747,6 +8758,7 @@ body.rise section.CompactEcosystemSection {
   display: initial;
   background: linear-gradient(270deg, #fb8b47, #ce2041);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.2em;
@@ -9138,6 +9150,7 @@ span.SwapLink.EverSwapLink a>span:first-child {
   color: #d2d2d2a8;
   background: linear-gradient(90deg, #fb8b47, #ce2041);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   text-shadow: 0 0 #00000000;
   -webkit-text-fill-color: transparent;
@@ -12681,6 +12694,7 @@ body.CSDapp.EverDapp .DappHeaderH1 h1:after {
   font-size: 20px;
   background: linear-gradient(90deg, #fb8b47, #ce2041);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   text-shadow: 0 0 #00000000;
   -webkit-text-fill-color: transparent;
@@ -12823,6 +12837,7 @@ body.about h1 {
   color: #fff;
   background: linear-gradient(270deg, #fb8b47, #ce2041);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: -webkit-fit-content;
@@ -13308,6 +13323,7 @@ body.legal-page .topbar {
   letter-spacing: .03em;
   background: linear-gradient(270deg, #fb8b47, #ce2041);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
