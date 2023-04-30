@@ -346,7 +346,7 @@ video {
   margin-bottom: 2.5rem
 }
 
-.mb-2 {
+.mb_2 {
   margin-bottom: .5rem
 }
 
@@ -394,11 +394,11 @@ video {
   display: none
 }
 
-.h-full {
+.h_full {
   height: 100%
 }
 
-.w-full {
+.w_full {
   width: 100%
 }
 
@@ -414,7 +414,7 @@ video {
   max-width: 1280px
 }
 
-.flex-grow {
+.flex_grow {
   flex-grow: 1
 }
 
@@ -445,7 +445,7 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr))
 }
 
-.flex-col {
+.flex_col {
   flex-direction: column
 }
 
@@ -520,12 +520,12 @@ video {
   padding-bottom: 4rem
 }
 
-.px-6 {
+.px_6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem
 }
 
-.py-4 {
+.py_4 {
   padding-top: 1rem;
   padding-bottom: 1rem
 }
@@ -553,11 +553,11 @@ video {
   padding-top: 2rem
 }
 
-.text-xs {
+.text_xs {
   font-size: .75rem
 }
 
-.text-xl {
+.text_xl {
   font-size: 1.25rem
 }
 
@@ -581,7 +581,7 @@ video {
   font-size: 1.125rem
 }
 
-.font-bold {
+.font_bold {
   font-weight: 700
 }
 
@@ -601,17 +601,17 @@ video {
   letter-spacing: .05em
 }
 
-.text-gray-500 {
+.text_gray_500 {
   --tw-text-opacity: 1;
   color: rgba(160, 174, 192, var(--tw-text-opacity))
 }
 
-.text-gray-800 {
+.text_gray_800 {
   --tw-text-opacity: 1;
   color: rgba(45, 55, 72, var(--tw-text-opacity))
 }
 
-.text-gray-700 {
+.text_gray_700 {
   --tw-text-opacity: 1;
   color: rgba(74, 85, 104, var(--tw-text-opacity))
 }
@@ -1209,7 +1209,7 @@ body>div>div {
 }
 
 .BlogHeader .global_inner,
-.BlogWidgetSection .BlogWidgetGlobalInner,
+.blog_widget_section .blog_widget_global_inner,
 .CommunityFaqGlobalInner,
 .ContentImgGlobalInner,
 .CSDapp .DappFaqGlobalInner,
@@ -1237,7 +1237,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
 
 .AmaInner,
 .BlogHeader .global_inner,
-.BlogWidgetSection .BlogWidgetGlobalInner,
+.blog_widget_section .blog_widget_global_inner,
 .BuybackSectionInner,
 .ContentImgGlobalInner,
 .DappHeaderInner,
@@ -1260,7 +1260,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .AboutSectionInner,
   .AmaInner,
   .BlogHeader .global_inner,
-  .BlogWidgetSection .BlogWidgetGlobalInner,
+  .blog_widget_section .blog_widget_global_inner,
   .ContentImgGlobalInner,
   .CSDapp .DappFaqGlobalInner,
   .DappHeaderInner,
@@ -1288,7 +1288,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .AboutSectionInner,
   .AmaInner,
   .BlogHeader .global_inner,
-  .BlogWidgetSection .BlogWidgetGlobalInner,
+  .blog_widget_section .blog_widget_global_inner,
   .ContentImgGlobalInner,
   .CSDapp .DappFaqGlobalInner,
   .DappHeaderInner,
@@ -1473,7 +1473,7 @@ span.dropdown_trigger {
 .global_outer,
 .press_section,
 .press_section>div,
-.ViewAllBlogs {
+.view_all_blogs {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1672,7 +1672,7 @@ body.rise .RiseFeaturesSection {
   border: 2px solid #020a22
 }
 
-.sectionArrow {
+.section_arrow {
   background: #f5f5fa;
   height: 72px;
   overflow: hidden;
@@ -1680,7 +1680,7 @@ body.rise .RiseFeaturesSection {
   width: 100%
 }
 
-.sectionArrow:before {
+.section_arrow:before {
   content: "";
   position: absolute;
   z-index: 2;
@@ -1944,27 +1944,27 @@ section.RedirectSection {
 }
 
 @media only screen and (max-width:1350px) and (min-width:0px) {
-  .BlogWidgetSection .BlogCard {
+  .blog_widget_section .blog_card {
     margin-right: 2em
   }
 
-  .BlogWidgetSection .BlogCard,
-  .BlogWidgetSection .BlogCard:last-child {
+  .blog_widget_section .blog_card,
+  .blog_widget_section .blog_card:last-child {
     margin-right: 2em;
     min-width: 40vw;
     margin-bottom: 40px
   }
 
-  .BlogWidgetSection .BlogCard:last-child {
+  .blog_widget_section .blog_card:last-child {
     margin-right: 20px
   }
 
-  .BlogWidgetGlobalInner {
+  .blog_widget_global_inner {
     overflow: hidden;
     overflow-x: auto
   }
 
-  .BlogWidgetSection .BlogWidgetGlobalInner {
+  .blog_widget_section .blog_widget_global_inner {
     display: flex;
     justify-content: flex-start;
     padding: 0;
@@ -1977,19 +1977,19 @@ section.RedirectSection {
     padding-bottom: 80px
   }
 
-  .BottomArticles {
+  .bottom_articles {
     padding-top: 50px
   }
 
-  .BlogWidgetSection h2 {
+  .blog_widget_section h2 {
     font-size: 30px
   }
 
-  .BlogWidgetSection .BlogCard:first-child {
+  .blog_widget_section .blog_card:first-child {
     margin-left: 1.2em
   }
 
-  .BlogWidgetSection .BlogCard {
+  .blog_widget_section .blog_card {
     margin-right: 15px
   }
 }
@@ -2658,11 +2658,11 @@ svg.logo_image {
 }
 
 @media only screen and (max-width:450px) and (min-width:0px) {
-  section.BlogWidgetSection .ViewAllBlogs a {
+  section.blog_widget_section .view_all_blogs a {
     font-size: 4.5vw
   }
 
-  .ViewAllBlogs {
+  .view_all_blogs {
     height: 80px;
     width: 102.2%;
     margin: 50px 0 0
@@ -2828,7 +2828,7 @@ span.FaqDappTitle h2 {
   opacity: 0
 }
 
-body.SiteFaq .PageHeader .sectionArrow {
+body.SiteFaq .PageHeader .section_arrow {
   padding-bottom: 80px
 }
 
@@ -2837,7 +2837,7 @@ body.SiteFaq .PageHeader .sectionArrow {
   text-decoration: underline
 }
 
-body.SiteFaq .PageHeader .sectionArrow:before {
+body.SiteFaq .PageHeader .section_arrow:before {
   opacity: 0;
   visibility: hidden
 }
@@ -2900,7 +2900,7 @@ body.SiteFaq .HeaderTxt h1 {
 
 .AppWrap *,
 .BlogTags *,
-.BlogWidgetSection *,
+.blog_widget_section *,
 .FaqBlocks * {
   scrollbar-width: auto;
   scrollbar-color: grey transparent
@@ -2908,7 +2908,7 @@ body.SiteFaq .HeaderTxt h1 {
 
 .AppWrap ::-webkit-scrollbar,
 .BlogTags ::-webkit-scrollbar,
-.BlogWidgetSection ::-webkit-scrollbar,
+.blog_widget_section ::-webkit-scrollbar,
 .FaqBlocks ::-webkit-scrollbar {
   width: 10px;
   border-radius: 10px;
@@ -2917,14 +2917,14 @@ body.SiteFaq .HeaderTxt h1 {
 
 .AppWrap ::-webkit-scrollbar-track,
 .BlogTags ::-webkit-scrollbar-track,
-.BlogWidgetSection ::-webkit-scrollbar-track,
+.blog_widget_section ::-webkit-scrollbar-track,
 .FaqBlocks ::-webkit-scrollbar-track {
   background: transparent
 }
 
 .AppWrap ::-webkit-scrollbar-thumb,
 .BlogTags ::-webkit-scrollbar-thumb,
-.BlogWidgetSection ::-webkit-scrollbar-thumb,
+.blog_widget_section ::-webkit-scrollbar-thumb,
 .FaqBlocks ::-webkit-scrollbar-thumb {
   background-color: grey;
   border-radius: 10px;
@@ -2932,7 +2932,7 @@ body.SiteFaq .HeaderTxt h1 {
 }
 
 .BlogTags ::-webkit-scrollbar-thumb,
-.BlogWidgetSection ::-webkit-scrollbar-thumb {
+.blog_widget_section ::-webkit-scrollbar-thumb {
   background-color: #e2e2e2
 }
 
@@ -2984,7 +2984,7 @@ body.SiteFaq .HeaderTxt h1 {
     max-width: 99%
   }
 
-  body.SiteFaq .PageHeader .sectionArrow {
+  body.SiteFaq .PageHeader .section_arrow {
     height: 30px;
     padding: 0
   }
@@ -3723,7 +3723,7 @@ a.footer_community_link {
   }
 }
 
-body.Ever404 .BlogWidgetSection {
+body.Ever404 .blog_widget_section {
   padding-bottom: 65px
 }
 
@@ -4948,11 +4948,11 @@ li.press_logo {
     width: 100%
   }
 
-  .BlogWidgetSection h2 {
+  .blog_widget_section h2 {
     font-size: 1.7em
   }
 
-  .BottomArticles {
+  .bottom_articles {
     padding-top: 54px
   }
 
@@ -5177,7 +5177,7 @@ body.home .foundation_section h2 {
 }
 
 @media only screen and (max-width:768px) and (min-width:0px) {
-  .ViewAllBlogs a {
+  .view_all_blogs a {
     font-size: 1em;
     padding: 20px 24px
   }
@@ -5185,8 +5185,8 @@ body.home .foundation_section h2 {
 
 @media only screen and (max-width:400px) and (min-width:0px) {
 
-  .BlogWidgetSection .BlogCard,
-  .BlogWidgetSection .BlogCard:last-child {
+  .blog_widget_section .blog_card,
+  .blog_widget_section .blog_card:last-child {
     margin-right: 1.2em;
     min-width: 75vw
   }
@@ -5713,7 +5713,7 @@ section.CompactEcosystemSection {
   }
 }
 
-.BlogWidgetSection {
+.blog_widget_section {
   background: #f5f5fa;
   flex-direction: column;
   overflow: hidden
@@ -5730,24 +5730,24 @@ body.SiteFaq .ImgHeaderHeroRight h1 {
   max-width: 700px
 }
 
-.BlogWidgetSection .BlogWidgetGlobalInner {
+.blog_widget_section .blog_widget_global_inner {
   display: flex;
   justify-content: center
 }
 
-body.blog-post .BlogWidgetGlobalInner {
+body.blog-post .blog_widget_global_inner {
   padding: 0
 }
 
-.BlogCardContentWrap {
+.blog_card_content_wrap {
   padding: 25px 20px 35px
 }
 
-.BlogWidgetSection .BlogCardContentWrap {
+.blog_widget_section .blog_card_content_wrap {
   background: #fff
 }
 
-.BlogWidgetSection .BlogCard {
+.blog_widget_section .blog_card {
   position: relative;
   display: flex;
   border-radius: 4px;
@@ -5755,18 +5755,18 @@ body.blog-post .BlogWidgetGlobalInner {
   width: calc(33.333% - 0px)
 }
 
-.BlogWidgetSection .BlogCard:last-child {
+.blog_widget_section .blog_card:last-child {
   margin-right: 0
 }
 
-.BlogCard a {
+.blog_card a {
   width: 100%;
   overflow: hidden;
   border-radius: 22px;
   box-shadow: 3px 12px 26px 3px rgb(0 23 101/10%)
 }
 
-.ViewAllBlogs a {
+.view_all_blogs a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5780,32 +5780,32 @@ body.blog-post .BlogWidgetGlobalInner {
   background: #082b5c
 }
 
-.BlogCardImgWrap {
+.blog_card_img_wrap {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%
 }
 
-.ViewAllBlogs {
+.view_all_blogs {
   height: 80px;
   width: 102.2%;
   margin: 80px 0 40px
 }
 
-.CategoryTags {
+.category_tags {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
   position: absolute
 }
 
-.BlogCardContentWrap {
+.blog_card_content_wrap {
   display: flex;
   flex-direction: column;
   justify-content: center
 }
 
-.BlogCard-tag {
+.blog_card_tag {
   background: #fff;
   margin: 7px 6px;
   padding: 4px 18px;
@@ -5813,7 +5813,7 @@ body.blog-post .BlogWidgetGlobalInner {
   font-size: 13px
 }
 
-.BlogWidgetSection h2 {
+.blog_widget_section h2 {
   font-size: 2.5em;
   text-transform: uppercase;
   font-weight: 900;
@@ -5822,7 +5822,7 @@ body.blog-post .BlogWidgetGlobalInner {
   text-align: center
 }
 
-.BlogCard p {
+.blog_card p {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -5831,7 +5831,7 @@ body.blog-post .BlogWidgetGlobalInner {
   color: #001740
 }
 
-.BlogCard header {
+.blog_card header {
   margin-top: 20px
 }
 
@@ -5853,15 +5853,15 @@ body.blog-post .BlogWidgetGlobalInner {
 
 .BlogContentInner,
 body.blog-post .BlogHeader header,
-body.blog-post .BlogWidgetGlobalInner {
+body.blog-post .blog_widget_global_inner {
   max-width: 900px
 }
 
-body.blog-post .BlogWidgetSection {
+body.blog-post .blog_widget_section {
   background-color: #fff
 }
 
-body.blog-post .BlogWidgetGlobalInner {
+body.blog-post .blog_widget_global_inner {
   flex-direction: column
 }
 
@@ -5869,7 +5869,7 @@ body.blog-post .BlogWidgetGlobalInner {
   display: flex
 }
 
-body.blog-post .BlogWidgetSection .BlogCard {
+body.blog-post .blog_widget_section .blog_card {
   margin-right: 2em
 }
 
@@ -5877,11 +5877,11 @@ body.blog-post .BlogWidgetSection .BlogCard {
   display: none
 }
 
-body.blog-post .BlogCardHeader p {
+body.blog-post .blog_card_header p {
   display: block
 }
 
-.RecentArticles .BlogCardContentWrap header {
+.RecentArticles .blog_card_content_wrap header {
   margin: 0
 }
 
@@ -5891,7 +5891,7 @@ body.blog-post .BlogCardHeader p {
   justify-content: space-between
 }
 
-body.blog-post .BlogWidgetSection h3 {
+body.blog-post .blog_widget_section h3 {
   margin: initial;
   font-size: 16px;
   color: #000;
@@ -5900,13 +5900,13 @@ body.blog-post .BlogWidgetSection h3 {
   letter-spacing: 0
 }
 
-body.blog-post .BlogWidgetSection h2 {
+body.blog-post .blog_widget_section h2 {
   font-size: 23px;
   margin: initial;
   color: #27282a
 }
 
-body.blog-post .BlogWidgetSection .p_arrow.right {
+body.blog-post .blog_widget_section .p_arrow.right {
   display: flex;
   justify-content: center;
   align-items: center
@@ -5916,14 +5916,14 @@ body.blog-post .BlogWidgetSection .p_arrow.right {
   margin: 30px 0
 }
 
-body.blog-post .BlogWidgetSection a,
-body.blog-post .BlogWidgetSection h2,
-body.blog-post .BlogWidgetSection h3,
-body.blog-post .BlogWidgetSection p {
+body.blog-post .blog_widget_section a,
+body.blog-post .blog_widget_section h2,
+body.blog-post .blog_widget_section h3,
+body.blog-post .blog_widget_section p {
   font-family: Roboto, sans-serif
 }
 
-body.blog-post .BlogCardContentWrap {
+body.blog-post .blog_card_content_wrap {
   border: 1px solid #eeecec
 }
 
@@ -6150,21 +6150,21 @@ body.blog-archive .HeaderTxt {
   align-items: center
 }
 
-body.blog-archive .BlogCardContentWrap {
+body.blog-archive .blog_card_content_wrap {
   background-color: #fff
 }
 
-.BlogWidgetSection .BlogWidgetGlobalInner {
+.blog_widget_section .blog_widget_global_inner {
   flex-wrap: nowrap;
   justify-content: flex-start
 }
 
-.BlogCardContentWrap a,
-.BlogCardContentWrap h2,
-.BlogCardContentWrap p,
-.BlogCardContentWrap span,
-.BlogCard h2,
-.BlogCard h3 {
+.blog_card_content_wrap a,
+.blog_card_content_wrap h2,
+.blog_card_content_wrap p,
+.blog_card_content_wrap span,
+.blog_card h2,
+.blog_card h3 {
   font-family: Roboto, sans-serif
 }
 
@@ -6178,7 +6178,7 @@ body.blog-archive .BlogHeader header h1 {
   margin-bottom: 20px
 }
 
-.BlogCardDate {
+.blog_card_date {
   margin-bottom: 8px
 }
 
@@ -6198,7 +6198,7 @@ body.blog-archive .PostMeta {
   padding: 0
 }
 
-.PageHeader .sectionArrow {
+.PageHeader .section_arrow {
   background: #f5f5fa;
   padding-bottom: 130px
 }
@@ -6208,9 +6208,9 @@ body.blog-archive .gap-x-3 {
   column-gap: 2rem
 }
 
-.BlogCardContentWrap h2,
-.BlogCard h2,
-.BlogCard h3 {
+.blog_card_content_wrap h2,
+.blog_card h2,
+.blog_card h3 {
   font-size: 23px;
   text-transform: none;
   font-weight: 600;
@@ -6278,17 +6278,17 @@ body.blog-archive .sidebar-primary {
   padding-bottom: 80px
 }
 
-.BottomArticles {
+.bottom_articles {
   padding-top: 120px
 }
 
-.BottomArticles .BlogCard header,
-.SBPrimaryContainer .BlogCard header {
+.bottom_articles .blog_card header,
+.SBPrimaryContainer .blog_card header {
   margin-top: 0
 }
 
 @media only screen and (max-width:1350px) {
-  .BlogWidgetSection .BlogCard {
+  .blog_widget_section .blog_card {
     margin-right: 25px
   }
 
@@ -6354,7 +6354,7 @@ body.blog-archive .sidebar-primary {
 }
 
 @media only screen and (max-width:550px) {
-  .BlogWidgetSection h2 {
+  .blog_widget_section h2 {
     font-size: 30px
   }
 }
@@ -8335,7 +8335,7 @@ body.rise .CommunityFaqSectionRight {
   margin-bottom: 1em
 }
 
-.BottomArticles h2 {
+.bottom_articles h2 {
   width: 100%;
   font-weight: 800;
   margin-bottom: 25px;
@@ -8343,30 +8343,30 @@ body.rise .CommunityFaqSectionRight {
   color: #0b327d
 }
 
-.BottomArticles article {
+.bottom_articles article {
   width: calc(33.333% - 20px);
   margin-right: 20px
 }
 
-.BottomArticles article:last-child {
+.bottom_articles article:last-child {
   margin-right: 0
 }
 
-.BottomArticles {
+.bottom_articles {
   display: flex;
   padding-top: 80px;
   width: 100%
 }
 
-.BlogCard header {
+.blog_card header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: -1px 0
 }
 
-.BottomArticles .BlogCard h2,
-.BottomArticles .BlogCard h3 {
+.bottom_articles .blog_card h2,
+.bottom_articles .blog_card h3 {
   font-size: 1em;
   order: 2;
   font-size: 16px;
@@ -9287,11 +9287,11 @@ p.swapServiceTxtLinks a:last-child>span:first-child {
   }
 }
 
-.BlogWidgetSection {
+.blog_widget_section {
   padding-top: 100px
 }
 
-body.community .BottomArticles h2 {
+body.community .bottom_articles h2 {
   font-size: 2.5em;
   text-align: center
 }
@@ -9476,11 +9476,11 @@ ul.FeaturedVids .YtThumb {
     min-width: auto
   }
 
-  .BottomArticles {
+  .bottom_articles {
     padding-top: 50px
   }
 
-  body.community .BottomArticles h2 {
+  body.community .bottom_articles h2 {
     font-size: 1.8em
   }
 }
@@ -9504,12 +9504,12 @@ ul.FeaturedVids .YtThumb {
     padding: 13px
   }
 
-  .BlogWidgetGlobalInner {
+  .blog_widget_global_inner {
     padding-left: 0
   }
 
-  .BlogWidgetSection .BlogCard,
-  .BlogWidgetSection .BlogCard:last-child {
+  .blog_widget_section .blog_card,
+  .blog_widget_section .blog_card:last-child {
     min-width: 85vw
   }
 }
@@ -10155,7 +10155,7 @@ body.ama-archive .PostMeta img {
   margin-top: 19px
 }
 
-.PageHeader .sectionArrow:before {
+.PageHeader .section_arrow:before {
   background: #001338
 }
 
@@ -10229,7 +10229,7 @@ ul.ama li {
   padding-bottom: 30px
 }
 
-.StickySidebar .BlogCard header {
+.StickySidebar .blog_card header {
   margin: 0
 }
 
@@ -10346,7 +10346,7 @@ a.YoutubeSubBtn:before {
   margin-right: 14px
 }
 
-body.ama-archive .BlogCard-tag {
+body.ama-archive .blog_card_tag {
   font-size: 11px
 }
 
@@ -10381,7 +10381,7 @@ body.ama-archive .BlogCard-tag {
   min-width: 180px
 }
 
-.StickySidebar .BlogCardContentWrap h3 {
+.StickySidebar .blog_card_content_wrap h3 {
   font-size: 18px;
   text-transform: none;
   font-weight: 600;
@@ -10575,7 +10575,7 @@ ul.FeaturedVids li:first-child a:hover .YtThumb:before {
   color: #0b327d
 }
 
-.BottomArticles h2 {
+.bottom_articles h2 {
   text-align: center
 }
 
@@ -10636,7 +10636,7 @@ ul.FeaturedVids li:first-child a:hover .YtThumb:before {
     padding: 0 10px
   }
 
-  body.ama-archive .PageHeader .sectionArrow {
+  body.ama-archive .PageHeader .section_arrow {
     padding-bottom: 100px
   }
 
@@ -10722,7 +10722,7 @@ body.EverDapp .content {
   background: #001333
 }
 
-body.EverDapp .sectionArrow:before {
+body.EverDapp .section_arrow:before {
   background: #043668
 }
 
@@ -12508,8 +12508,8 @@ body.EverOwn .MoreFeatures ul.MoreFeaturesCards {
   }
 }
 
-body.EverBridge.EverDapp .sectionArrow,
-body.EverOwn.EverDapp .sectionArrow {
+body.EverBridge.EverDapp .section_arrow,
+body.EverOwn.EverDapp .section_arrow {
   background: #001333
 }
 
@@ -12633,7 +12633,7 @@ body.Staking .HowItWorksImg {
   margin: 30px 0
 }
 
-.sectionArrow.VideoHowToBleed,
+.section_arrow.VideoHowToBleed,
 section.VideoHowto {
   background: #030d2b
 }
@@ -12653,7 +12653,7 @@ body.EverMigrate .VideoHowToTxt h3 {
   margin-bottom: 26px
 }
 
-body.Staking .sectionArrow.VideoHowToBleed {
+body.Staking .section_arrow.VideoHowToBleed {
   background: #030d2b
 }
 
