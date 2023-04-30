@@ -900,10 +900,10 @@ body.rise .our_nav {
   color: #fff
 }
 
-.dapp-menu-item span.RightArrow,
+.dapp-menu-item span.right_arrow,
 .our_nav li a,
 .our_nav li a:after,
-.our_menu_item span.RightArrow {
+.our_menu_item span.right_arrow {
   fill: #cbe1f4;
   color: #cbe1f4
 }
@@ -935,7 +935,7 @@ li.dapp_menu_item.active .arrow span {
 
 .our_nav li.dapp_menu_item:hover a,
 .our_nav li.dapp_menu_item:hover a span:after,
-.our_menu_item li.dapp_menu_item:hover span.RightArrow,
+.our_menu_item li.dapp_menu_item:hover span.right_arrow,
 li.dapp_menu_item.active a {
   fill: #fff;
   color: #fff
@@ -1216,8 +1216,8 @@ body>div>div {
 .DappHeaderInner,
 .nav_inner,
 .FeaturesGlobalInner,
-.FooterCopyright .global_inner,
-.FooterLinksInner,
+.footer_copyright .global_inner,
+.footer_links_inner,
 .FoundationSection .global_inner,
 .global_inner,
 .hero_content_inner,
@@ -1268,8 +1268,8 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .EverRiseTeamInner,
   .FaqInner,
   .FeaturesGlobalInner,
-  .FooterCopyright .global_inner,
-  .FooterLinksInner,
+  .footer_copyright .global_inner,
+  .footer_links_inner,
   .FoundationSection .global_inner,
   .FullEcosystemContent,
   .hero_content_inner,
@@ -1296,8 +1296,8 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .EverRiseTeamInner,
   .FaqInner,
   .FeaturesGlobalInner,
-  .FooterCopyright .global_inner,
-  .FooterLinksInner,
+  .footer_copyright .global_inner,
+  .footer_links_inner,
   .FoundationSection .global_inner,
   .hero_content_inner,
   .HowItWorksInner,
@@ -1400,7 +1400,7 @@ span.dropdown_trigger {
   margin-left: 0
 }
 
-.link_container .RightArrow {
+.link_container .right_arrow {
   display: none
 }
 
@@ -1890,7 +1890,7 @@ section.RedirectSection {
     font-weight: 500
   }
 
-  .our_menu_item .link_container .RightArrow {
+  .our_menu_item .link_container .right_arrow {
     width: 24px;
     margin-left: 22px
   }
@@ -3422,7 +3422,7 @@ section.subscribe_section {
   padding-bottom: 0
 }
 
-.FooterCopyright.global_outer {
+.footer_copyright.global_outer {
   height: 120px;
   font-weight: 100;
   color: #7b7e96;
@@ -3430,7 +3430,7 @@ section.subscribe_section {
   box-shadow: inset 0 1px 0 0 #00184675
 }
 
-.FooterLinksA span.logo {
+.footer_links_a span.logo {
   display: block;
   position: relative;
   width: 100%;
@@ -3442,11 +3442,11 @@ section.subscribe_section {
   margin-right: -10px
 }
 
-.FooterLinksInner>div:first-child {
+.footer_links_inner>div:first-child {
   width: 28%
 }
 
-.FooterLinksInner>div {
+.footer_links_inner>div {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -3454,21 +3454,21 @@ section.subscribe_section {
   align-items: center
 }
 
-.FooterLinksAInner {
+.footer_links_a_inner {
   width: 100%
 }
 
-.FooterLinksA .SocialIconList {
+.footer_links_a .social_icon_list {
   justify-content: start
 }
 
-.FooterLinksA .SocialIconList svg {
+.footer_links_a .social_icon_list svg {
   width: 27px;
   height: 27px;
   margin-right: 6px
 }
 
-.FooterLinksInner>div li {
+.footer_links_inner>div li {
   color: #e1e1e1;
   font-weight: 100;
   font-size: 16px;
@@ -3476,11 +3476,11 @@ section.subscribe_section {
   margin-bottom: 6px
 }
 
-.FooterLinksInner>div li a:hover {
+.footer_links_inner>div li a:hover {
   border-bottom: 1px solid #9f9f9f
 }
 
-.FooterLinksInner>div h2 {
+.footer_links_inner>div h2 {
   color: #e2e8f0;
   font-weight: 600;
   letter-spacing: .04em;
@@ -3488,35 +3488,35 @@ section.subscribe_section {
   margin-bottom: 20px
 }
 
-.FooterLinks {
+.footer_links {
   padding: 100px 0;
   border-top: 1px solid #142038
 }
 
-.FooterLinksInner {
+.footer_links_inner {
   display: flex
 }
 
-.FooterCopyrightInner {
+.footer_copyright_inner {
   justify-content: space-between
 }
 
-.LegalLinks,
-.LegalLinks ul {
+.legal_links,
+.legal_links ul {
   display: flex
 }
 
-.LegalLinks ul li {
+.legal_links ul li {
   margin-right: 12px;
   color: #7b7e96
 }
 
-.LegalLinks li:not(:last-child):after {
-  content: "â€¢";
+.legal_links li:not(:last-child):after {
+  content: "•";
   margin-left: 12px
 }
 
-.FooterLinksInner .FooterLinksA h2 {
+.footer_links_inner .footer_links_a h2 {
   color: #e9e9e9;
   margin-top: 21px;
   font-weight: 100;
@@ -3524,7 +3524,7 @@ section.subscribe_section {
   margin-bottom: -4px
 }
 
-a.FooterCommunityLink {
+a.footer_community_link {
   border-radius: 90px;
   color: #fff;
   background: linear-gradient(90deg, #fb8b47, #ce2041);
@@ -3545,180 +3545,180 @@ a.FooterCommunityLink {
   margin-top: 30px
 }
 
-.FooterCopyright a:hover {
+.footer_copyright a:hover {
   text-decoration: underline
 }
 
 @media only screen and (max-width:1400px) and (min-width:0px) {
-  .FooterLinks {
+  .footer_links {
     padding: 75px
   }
 
-  .FooterLogo {
+  .footer_logo {
     min-width: 260px;
     display: flex;
     justify-content: center;
     align-items: center
   }
 
-  .FooterLinksInner {
+  .footer_links_inner {
     flex-wrap: wrap
   }
 
-  .FooterLinksInner>div.FooterLinksA {
+  .footer_links_inner>div.footer_links_a {
     width: 100%
   }
 
-  .FooterLinksA>div {
+  .footer_links_a>div {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center
   }
 
-  .FooterCommunitySocial {
+  .footer_community_social {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center
   }
 
-  .FooterLinksA {
+  .footer_links_a {
     margin-bottom: 83px;
     border-bottom: 3px solid #000a19;
     padding-bottom: 60px;
     box-shadow: inset 0 -1px 0 0 #021238
   }
 
-  .FooterLinksInner>div {
+  .footer_links_inner>div {
     width: 33.333%
   }
 
-  .FooterLinks {
+  .footer_links {
     padding: 80px 0 90px
   }
 }
 
 @media only screen and (max-width:900px) and (min-width:0px) {
-  .FooterCopyright a span {
+  .footer_copyright a span {
     display: none
   }
 }
 
 @media only screen and (max-width:880px) and (min-width:0px) {
 
-  .FooterLinksB,
-  .FooterLinksC {
+  .footer_links_b,
+  .footer_links_c {
     max-width: 250px
   }
 
-  .FooterLinksD {
+  .footer_links_d {
     flex: 1
   }
 
-  .FooterLinksInner>div.FooterLinksB,
-  .FooterLinksInner>div.FooterLinksC {
+  .footer_links_inner>div.footer_links_b,
+  .footer_links_inner>div.footer_links_c {
     width: 50%;
     min-width: 50%
   }
 
-  .FooterLinksD {
+  .footer_links_d {
     margin-top: 5em
   }
 
-  .FooterLinksD>div {
+  .footer_links_d>div {
     text-align: left;
     width: 90%
   }
 
-  .FooterLinksD>div li {
+  .footer_links_d>div li {
     width: 32%
   }
 
-  .FooterLinksInner {
+  .footer_links_inner {
     max-width: 530px
   }
 
-  .FooterLinksA>div {
+  .footer_links_a>div {
     justify-content: space-between;
     width: 78vw
   }
 }
 
 @media only screen and (max-width:780px) and (min-width:0px) {
-  .FooterCopyrightInner {
+  .footer_copyright_inner {
     justify-content: center;
     flex-direction: column;
     text-align: center
   }
 
-  .LegalLinks {
+  .legal_links {
     justify-content: center;
     margin-bottom: 30px
   }
 
-  .FooterCopyright.global_outer {
+  .footer_copyright.global_outer {
     height: 160px
   }
 }
 
 @media only screen and (max-width:750px) and (min-width:0px) {
-  .FooterLinksInner>div li {
+  .footer_links_inner>div li {
     width: 100%
   }
 
-  .FooterLinksA>div {
+  .footer_links_a>div {
     flex-direction: column
   }
 
-  .FooterLinksA h3 {
+  .footer_links_a h3 {
     margin-top: 57px;
     margin-bottom: 6px
   }
 
-  .FooterLinksInner {
+  .footer_links_inner {
     margin: 0 18px;
     width: 100%
   }
 
-  .FooterLinksInner>div li {
+  .footer_links_inner>div li {
     margin-bottom: 11px
   }
 }
 
 @media only screen and (max-width:480px) and (min-width:0px) {
-  .FooterLinksInner>div {
+  .footer_links_inner>div {
     width: 100%
   }
 
-  .FooterLinksD>div,
-  .FooterLinksInner>div.FooterLinksB,
-  .FooterLinksInner>div.FooterLinksC,
-  .FooterLinksInner>div.FooterLinksD {
+  .footer_links_d>div,
+  .footer_links_inner>div.footer_links_b,
+  .footer_links_inner>div.footer_links_c,
+  .footer_links_inner>div.footer_links_d {
     min-width: 100%;
     text-align: center;
     margin: 0 0 40px
   }
 
-  .FooterLinksA {
+  .footer_links_a {
     margin-bottom: 0;
     border-width: 0;
     box-shadow: inset 0 -1px 0 0 rgb(1 16 50/0)
   }
 
-  .FooterLinks {
+  .footer_links {
     padding: 80px 0 22px
   }
 
-  .FooterLinksInner>div.FooterLinksD {
+  .footer_links_inner>div.footer_links_d {
     margin-bottom: 0
   }
 
-  div.SocialIconList>a:not(:last-child) {
+  div.social_icon_list>a:not(:last-child) {
     margin-right: .6rem
   }
 
-  .FooterLinksA>div {
+  .footer_links_a>div {
     width: 90vw
   }
 }
@@ -9348,7 +9348,7 @@ body.community .BottomArticles h2 {
   text-align: center
 }
 
-.ImgHeaderHero .SocialIconList svg {
+.ImgHeaderHero .social_icon_list svg {
   width: 100%;
   height: auto;
   max-width: 32px
@@ -9363,7 +9363,7 @@ p.ImgHeaderHeroTxt a {
   font-weight: 400
 }
 
-.ImgHeaderHero .SocialIconList a:not(:last-child) {
+.ImgHeaderHero .social_icon_list a:not(:last-child) {
   margin-right: 1.4em
 }
 
@@ -9529,11 +9529,11 @@ ul.FeaturedVids .YtThumb {
 }
 
 @media only screen and (max-width:380px) {
-  .ImgHeaderHero .SocialIconList svg {
+  .ImgHeaderHero .social_icon_list svg {
     max-width: 25px
   }
 
-  .ImgHeaderHero .SocialIconList a:not(:last-child) {
+  .ImgHeaderHero .social_icon_list a:not(:last-child) {
     margin-right: 1.1em
   }
 }
@@ -13408,7 +13408,7 @@ body.legal-page .content {
   align-items: center
 }
 
-body.legal-page .FooterCopyright {
+body.legal-page .footer_copyright {
   height: 80px;
   font-size: 14px;
   border-top-width: 0
@@ -13561,7 +13561,7 @@ body.legal-page table tr td:first-child {
     align-items: center
   }
 
-  .LegalLinks {
+  .legal_links {
     margin-bottom: 8px
   }
 
@@ -13626,7 +13626,7 @@ body.legal-page table tr td:first-child {
     font-size: 13px
   }
 
-  .FooterCopyrightInner.global_inner {
+  .footer_copyright_inner.global_inner {
     padding: 3px
   }
 }
@@ -13873,4 +13873,13 @@ body.stats-page .stats-container {
 
 body.stats-page .content {
   background: #001235
+}
+
+.social_icon_list a {
+  color: rgba(226, 232, 240, 1) !important;
+  margin-right: .75rem;
+}
+
+.social_icon_list a:hover {
+  color: rgba(160, 174, 192, 1) !important;
 }
