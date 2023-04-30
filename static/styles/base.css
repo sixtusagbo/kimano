@@ -1218,7 +1218,7 @@ body>div>div {
 .FeaturesGlobalInner,
 .footer_copyright .global_inner,
 .footer_links_inner,
-.FoundationSection .global_inner,
+.foundation_section .global_inner,
 .global_inner,
 .hero_content_inner,
 .HowItWorksInner,
@@ -1243,7 +1243,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
 .DappHeaderInner,
 .FaqInner,
 .FeaturesGlobalInner,
-.FoundationSection .global_inner,
+.foundation_section .global_inner,
 .full_ecosystem_content,
 .hero_content_inner,
 .HowItWorksInner,
@@ -1270,7 +1270,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .FeaturesGlobalInner,
   .footer_copyright .global_inner,
   .footer_links_inner,
-  .FoundationSection .global_inner,
+  .foundation_section .global_inner,
   .full_ecosystem_content,
   .hero_content_inner,
   .HowItWorksInner,
@@ -1298,7 +1298,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .FeaturesGlobalInner,
   .footer_copyright .global_inner,
   .footer_links_inner,
-  .FoundationSection .global_inner,
+  .foundation_section .global_inner,
   .hero_content_inner,
   .HowItWorksInner,
   .max-w-screen-xl,
@@ -1631,7 +1631,7 @@ a.revoke_mm:before {
   transform: scale(.85)
 }
 
-.RiseFeaturesSection .FoundationCard img {
+.RiseFeaturesSection .foundation_card img {
   opacity: .9
 }
 
@@ -4830,7 +4830,7 @@ li.press_logo {
 
   .ecosystem_section_top_content p,
   .EverRiseSectionRight p,
-  .FoundationCard p {
+  .foundation_card p {
     margin-bottom: 15px;
     text-shadow: 2px 2px #000e25;
     font-weight: 100;
@@ -4968,7 +4968,7 @@ li.press_logo {
   }
 }
 
-.FoundationSection {
+.foundation_section {
   color: #b9c2d2;
   overflow: hidden;
   position: relative
@@ -4978,12 +4978,12 @@ li.press_logo {
   border-top: 1px solid #001b51
 }
 
-.FoundationSection:after {
+.foundation_section:after {
   content: "";
   position: absolute;
   height: 103%;
   width: 100vw;
-  background: url(https://www.everrise.com/assets/images/bg/EverRiseMetaVerse2.png) bottom/cover no-repeat rgb(0 20 59/0);
+  background: url(../images/our_meta_verse2.png) bottom/cover no-repeat rgb(0 20 59/0);
   background-repeat: no-repeat;
   pointer-events: none;
   opacity: .15;
@@ -4992,16 +4992,16 @@ li.press_logo {
   background-attachment: fixed
 }
 
-.FoundationSection .global_inner {
+.foundation_section .global_inner {
   flex-direction: column;
   align-items: center
 }
 
-.FoundationCardWrap {
+.foundation_card_wrap {
   display: flex
 }
 
-.FoundationCard {
+.foundation_card {
   padding: 40px 40px 30px;
   overflow: hidden;
   text-align: center;
@@ -5015,11 +5015,11 @@ li.press_logo {
   width: 33.333%
 }
 
-.FoundationCard:last-child {
+.foundation_card:last-child {
   margin-right: 0
 }
 
-.FoundationSection h2 {
+.foundation_section h2 {
   font-size: 3em;
   font-weight: 700;
   letter-spacing: .04em;
@@ -5033,12 +5033,12 @@ li.press_logo {
   z-index: 2
 }
 
-body.home .FoundationSection h2 {
+body.home .foundation_section h2 {
   font-size: 3em;
   text-align: center
 }
 
-.FoundationCard h3 {
+.foundation_card h3 {
   font-size: 1.5em;
   margin-bottom: 1em;
   font-weight: 600;
@@ -5046,7 +5046,7 @@ body.home .FoundationSection h2 {
   color: #d8dde2
 }
 
-.FoundationSection .global_inner>p:last-child {
+.foundation_section .global_inner>p:last-child {
   margin: 3em 0 0;
   font-size: 1.4em;
   text-shadow: 1px 1px 0 #000;
@@ -5055,14 +5055,14 @@ body.home .FoundationSection h2 {
   text-align: center
 }
 
-.FoundationSection .global_inner>p:first-of-type {
+.foundation_section .global_inner>p:first-of-type {
   font-size: 1.3em;
   margin-bottom: 100px;
   max-width: 1040px;
   text-align: center
 }
 
-.FoundationSection {
+.foundation_section {
   padding: 8.3em 0 12em;
   background: linear-gradient(0deg, #00437b, #051a49 50%, #031237)
 }
@@ -5075,7 +5075,7 @@ body.home .FoundationSection h2 {
   color: #fff
 }
 
-.FoundationCard p {
+.foundation_card p {
   color: #e5e6e9;
   font-weight: 300;
   line-height: 1.5em;
@@ -5083,94 +5083,94 @@ body.home .FoundationSection h2 {
 }
 
 @media only screen and (max-width:1350px) and (min-width:0px) {
-  .FoundationSection .global_inner {
+  .foundation_section .global_inner {
     max-width: 1450px;
     padding: 0 25px;
     width: 100%
   }
 
-  .FoundationCardWrap .FoundationCard {
+  .foundation_card_wrap .foundation_card {
     padding: 38px 20px 59px;
     margin-right: 2.3em
   }
 }
 
 @media only screen and (max-width:1250px) and (min-width:0px) {
-  .home .FoundationCardWrap {
+  .home .foundation_card_wrap {
     flex-wrap: wrap
   }
 
-  .home .FoundationCardWrap .FoundationCard {
+  .home .foundation_card_wrap .foundation_card {
     width: calc(50% - .5em);
     margin-right: 1em
   }
 
-  .home .FoundationCardWrap .FoundationCard:first-child {
+  .home .foundation_card_wrap .foundation_card:first-child {
     width: 100%;
     margin-bottom: 1em;
     margin-right: 0
   }
 
-  .home .FoundationCardWrap .FoundationCard:last-child {
+  .home .foundation_card_wrap .foundation_card:last-child {
     margin-right: 0
   }
 
-  .FoundationSection {
+  .foundation_section {
     padding: 4.5em 0 7em
   }
 
-  .FoundationSection h2 {
+  .foundation_section h2 {
     margin: 0 0 1.1em
   }
 }
 
 @media only screen and (max-width:700px) and (min-width:0px) {
 
-  .home .FoundationCardWrap .FoundationCard,
-  .home .FoundationCardWrap .FoundationCard:first-child {
+  .home .foundation_card_wrap .foundation_card,
+  .home .foundation_card_wrap .foundation_card:first-child {
     width: 100%;
     margin-right: 0;
     margin-bottom: 2em
   }
 
-  .FoundationSection .global_inner>p:last-child {
+  .foundation_section .global_inner>p:last-child {
     margin: 1em 0 0
   }
 
-  .FoundationSection {
+  .foundation_section {
     padding: 4.5em 0 7em
   }
 }
 
 @media only screen and (max-width:600px) and (min-width:0px) {
-  .FoundationSection .global_inner {
+  .foundation_section .global_inner {
     max-width: 1450px;
     padding: 0 15px;
     width: 100%
   }
 
-  .FoundationSection h2 {
+  .foundation_section h2 {
     font-size: 8.8vw
   }
 
-  .FoundationSection .global_inner>p:last-child {
+  .foundation_section .global_inner>p:last-child {
     font-size: 5vw
   }
 
-  .FoundationCard h3 {
+  .foundation_card h3 {
     font-size: 2em
   }
 
-  .FoundationSection .global_inner>p:first-of-type {
+  .foundation_section .global_inner>p:first-of-type {
     font-size: 1.2em;
     margin-bottom: 60px
   }
 
-  .FoundationSection h2 {
+  .foundation_section h2 {
     margin: 0 0 .5em
   }
 
-  body.home .FoundationSection h2 {
+  body.home .foundation_section h2 {
     font-size: 2em;
     text-align: center
   }
@@ -7294,7 +7294,7 @@ section.RiseV1Section h2 {
   align-items: center
 }
 
-.GetRiseSection li.FoundationCard h3 {
+.GetRiseSection li.foundation_card h3 {
   font-weight: 700;
   color: #fff;
   margin-top: 25px
@@ -7312,7 +7312,7 @@ section.RiseV1Section h2 {
   -webkit-text-fill-color: transparent
 }
 
-.GetRiseSection .FoundationCard {
+.GetRiseSection .foundation_card {
   width: 33.333%;
   box-shadow: inset 0 0 1px 1px #001e5a;
   background: linear-gradient(216deg, #001130, #001a47)
@@ -7371,7 +7371,7 @@ section.RiseV1Section h3:first-of-type {
   display: none
 }
 
-.RiseFeaturesSection .FoundationCard {
+.RiseFeaturesSection .foundation_card {
   width: 33.333%;
   padding: 50px 40px;
   box-shadow: inset 0 0 1px 1px #001e5a;
@@ -7383,7 +7383,7 @@ section.RiseV1Section h3:first-of-type {
   border-radius: 20px
 }
 
-.RiseFeaturesSection li.FoundationCard h3 {
+.RiseFeaturesSection li.foundation_card h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7395,7 +7395,7 @@ section.RiseV1Section h3:first-of-type {
   color: #adbecc
 }
 
-.RiseFeaturesSection li.FoundationCard h3:after {
+.RiseFeaturesSection li.foundation_card h3:after {
   content: "";
   width: 60%;
   min-width: 150px;
@@ -7455,7 +7455,7 @@ section.RiseV1Section h3:first-of-type {
     padding: 15px 35px 0
   }
 
-  .GetRiseSection .FoundationCard {
+  .GetRiseSection .foundation_card {
     padding: 38px 30px 60px;
     margin-right: 1.3em
   }
@@ -7466,13 +7466,13 @@ section.RiseV1Section h3:first-of-type {
     font-size: 5vw
   }
 
-  .FoundationCardWrap {
+  .foundation_card_wrap {
     flex-wrap: wrap
   }
 
-  .GetRiseSection .FoundationCard:first-child,
-  .GetRiseSection .FoundationCard:nth-child(2),
-  .GetRiseSection .FoundationCard:nth-child(3) {
+  .GetRiseSection .foundation_card:first-child,
+  .GetRiseSection .foundation_card:nth-child(2),
+  .GetRiseSection .foundation_card:nth-child(3) {
     width: 100%;
     max-width: 100%;
     margin-bottom: 40px;
@@ -7488,12 +7488,12 @@ section.RiseV1Section h3:first-of-type {
     margin-top: -54px
   }
 
-  .GetRiseSection .FoundationCard {
+  .GetRiseSection .foundation_card {
     padding-top: 72px;
     padding-bottom: 70px
   }
 
-  .RiseFeaturesSection li.FoundationCard h3 {
+  .RiseFeaturesSection li.foundation_card h3 {
     text-align: center
   }
 }
@@ -7510,11 +7510,11 @@ section.RiseV1Section h3:first-of-type {
 }
 
 @media only screen and (max-width:690px) and (min-width:0px) {
-  .FoundationCardWrap {
+  .foundation_card_wrap {
     flex-wrap: wrap
   }
 
-  .GetRiseSection .FoundationCard {
+  .GetRiseSection .foundation_card {
     width: 100%;
     max-width: 100%;
     margin-bottom: 22px;
@@ -7657,7 +7657,7 @@ section.RiseV1Section h3:first-of-type {
   overflow: hidden
 }
 
-.RiseV2Section .FoundationCard {
+.RiseV2Section .foundation_card {
   position: relative;
   padding: 50px 30px 78px;
   text-align: center;
@@ -7690,7 +7690,7 @@ section.RiseV1Section h3:first-of-type {
   margin: initial
 }
 
-.RiseV2Section ul.FoundationCardWrap {
+.RiseV2Section ul.foundation_card_wrap {
   margin: 80px 0;
   justify-content: center
 }
@@ -7707,8 +7707,8 @@ section.RiseV1Section h3:first-of-type {
   font-weight: 500
 }
 
-.RiseV2Section .FoundationCard h2,
-.RiseV2Section .FoundationCard h3 {
+.RiseV2Section .foundation_card h2,
+.RiseV2Section .foundation_card h3 {
   font-size: 1.8em;
   margin-bottom: 1em;
   color: #d1d9e1;
@@ -7788,7 +7788,7 @@ a.CardHeroBtn {
 }
 
 @media only screen and (max-width:1300px) and (min-width:0px) {
-  .RiseV2Section .FoundationCard {
+  .RiseV2Section .foundation_card {
     margin-right: 1em
   }
 }
@@ -7799,27 +7799,27 @@ a.CardHeroBtn {
     width: calc(100vw - 10px)
   }
 
-  .RiseV2Section ul.FoundationCardWrap {
+  .RiseV2Section ul.foundation_card_wrap {
     flex-wrap: wrap;
     margin: 20px 0
   }
 
-  .RiseV2Section ul.FoundationCardWrap li {
+  .RiseV2Section ul.foundation_card_wrap li {
     width: calc(50% - 2em);
     max-width: 520px
   }
 
-  .RiseV2Section ul.FoundationCardWrap li:nth-child(-n+2) {
+  .RiseV2Section ul.foundation_card_wrap li:nth-child(-n+2) {
     margin-bottom: 2em
   }
 
-  .RiseV2Section .FoundationCard:first-child,
-  .RiseV2Section .FoundationCard:nth-child(3) {
+  .RiseV2Section .foundation_card:first-child,
+  .RiseV2Section .foundation_card:nth-child(3) {
     margin-right: 2em
   }
 
-  .RiseV2Section .FoundationCard:nth-child(2),
-  .RiseV2Section .FoundationCard:nth-child(4) {
+  .RiseV2Section .foundation_card:nth-child(2),
+  .RiseV2Section .foundation_card:nth-child(4) {
     margin-right: 0
   }
 
@@ -7835,16 +7835,16 @@ a.CardHeroBtn {
 }
 
 @media only screen and (max-width:900px) and (min-width:0px) {
-  .RiseV2Section ul.FoundationCardWrap li {
+  .RiseV2Section ul.foundation_card_wrap li {
     width: calc(50% - 1em)
   }
 
-  .RiseV2Section ul.FoundationCardWrap li:nth-child(-n+2) {
+  .RiseV2Section ul.foundation_card_wrap li:nth-child(-n+2) {
     margin-bottom: 1em
   }
 
-  .RiseV2Section .FoundationCard:first-child,
-  .RiseV2Section .FoundationCard:nth-child(3) {
+  .RiseV2Section .foundation_card:first-child,
+  .RiseV2Section .foundation_card:nth-child(3) {
     margin-right: 1em
   }
 
@@ -7864,7 +7864,7 @@ a.CardHeroBtn {
 }
 
 @media only screen and (max-width:620px) and (min-width:0px) {
-  .RiseV2Section ul.FoundationCardWrap li {
+  .RiseV2Section ul.foundation_card_wrap li {
     width: calc(100% - 0em);
     margin-bottom: 1.5em;
     margin-right: 0
@@ -7875,7 +7875,7 @@ a.CardHeroBtn {
     width: calc(100vw - 1.5em)
   }
 
-  .RiseV2Section .FoundationCard {
+  .RiseV2Section .foundation_card {
     padding: 50px 30px 60px
   }
 }
@@ -7896,7 +7896,7 @@ a.CardHeroBtn {
 }
 
 @media only screen and (max-width:410px) and (min-width:0px) {
-  .RiseV2Section ul.FoundationCardWrap li {
+  .RiseV2Section ul.foundation_card_wrap li {
     margin-bottom: 1em
   }
 
