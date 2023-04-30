@@ -1470,7 +1470,7 @@ span.dropdown_trigger {
   position: absolute
 }
 
-.GlobalOuter,
+.global_outer,
 .PressSection,
 .PressSection>div,
 .ViewAllBlogs {
@@ -3021,23 +3021,23 @@ body.SiteFaq .HeaderTxt h1 {
 }
 
 @media only screen and (max-width:550px) {
-  .SubscribeContent h2 {
+  .subscribe_content h2 {
     font-size: 35px
   }
 
-  .SubscribeContent p {
+  .subscribe_content p {
     font-size: 18px
   }
 }
 
-.EverSub form * {
+.our_sub form * {
   font-family: Montserrat, sans-serif !important
 }
 
-.SubEmail,
-.SubForm input,
-.SubMit,
-.SubName {
+.sub_email,
+.sub_form input,
+.submit,
+.sub_name {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3046,14 +3046,14 @@ body.SiteFaq .HeaderTxt h1 {
   text-indent: 20px
 }
 
-.SubInputs {
+.sub_inputs {
   display: flex;
   flex-wrap: wrap
 }
 
-.SubForm,
-.SubForm button,
-.SubForm input {
+.sub_form,
+.sub_form button,
+.sub_form input {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -3062,20 +3062,20 @@ body.SiteFaq .HeaderTxt h1 {
   align-items: center
 }
 
-.SubForm input:focus,
-.SubForm select:focus,
-.SubForm textarea:focus {
+.sub_form input:focus,
+.sub_form select:focus,
+.sub_form textarea:focus {
   outline: none
 }
 
-.SubForm input {
+.sub_form input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   margin-top: auto
 }
 
-.SubName {
+.sub_name {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-top-left-radius: 90px;
@@ -3084,12 +3084,12 @@ body.SiteFaq .HeaderTxt h1 {
   width: 38%
 }
 
-.SubMit {
+.submit {
   width: 250px;
   box-shadow: -50px 0 0 0 #fff
 }
 
-.SubMit button {
+.submit button {
   border-radius: 90px;
   color: #fff;
   background: linear-gradient(90deg, #fb8b47, #ce2041);
@@ -3107,16 +3107,16 @@ body.SiteFaq .HeaderTxt h1 {
   outline: none
 }
 
-.SubscribeContent>p {
+.subscribe_content>p {
   max-width: 740px
 }
 
-.SubInputs {
+.sub_inputs {
   width: calc(100% - 250px);
   box-shadow: 50px 0 0 0 #fff
 }
 
-.SubInputs input {
+.sub_inputs input {
   font-size: 18px;
   font-weight: 400;
   text-align: left;
@@ -3124,7 +3124,7 @@ body.SiteFaq .HeaderTxt h1 {
   text-indent: 40px
 }
 
-.SubDivider:after {
+.sub_divider:after {
   content: "";
   width: 1px;
   height: 80%;
@@ -3132,7 +3132,7 @@ body.SiteFaq .HeaderTxt h1 {
   height: 37px
 }
 
-.SubDivider {
+.sub_divider {
   width: 1px;
   background: #fff;
   display: flex;
@@ -3140,31 +3140,31 @@ body.SiteFaq .HeaderTxt h1 {
   align-items: center
 }
 
-.SubInputs input::-moz-placeholder {
+.sub_inputs input::-moz-placeholder {
   color: #a5afbd;
   font-size: 18px;
   font-weight: 400;
   opacity: 1
 }
 
-.SubInputs input:-ms-input-placeholder {
+.sub_inputs input:-ms-input-placeholder {
   opacity: 1
 }
 
-.SubInputs input::placeholder {
+.sub_inputs input::placeholder {
   color: #a5afbd;
   font-size: 18px;
   font-weight: 400;
   opacity: 1
 }
 
-.SubInputs input:-ms-input-placeholder {
+.sub_inputs input:-ms-input-placeholder {
   color: #a5afbd;
   font-size: 18px;
   font-weight: 400
 }
 
-.SubInputs input::-ms-input-placeholder {
+.sub_inputs input::-ms-input-placeholder {
   color: #a5afbd;
   font-size: 18px;
   font-weight: 400
@@ -3208,7 +3208,7 @@ body.SiteFaq .HeaderTxt h1 {
   border-bottom-color: #d0331f
 }
 
-.SubEmail {
+.sub_email {
   width: calc(62% - 1px);
   flex-direction: column;
   align-items: flex-start;
@@ -3236,7 +3236,7 @@ body.SiteFaq .HeaderTxt h1 {
   max-width: 750px
 }
 
-.SubscribeGlobalInner .EverSub {
+.subscribe_global_inner .our_sub {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3245,8 +3245,8 @@ body.SiteFaq .HeaderTxt h1 {
   flex-direction: column
 }
 
-.SubscribeContent>div:empty,
-.SubscribeGlobalInner .EverSub:empty {
+.subscribe_content>div:empty,
+.subscribe_global_inner .our_sub:empty {
   display: none !important
 }
 
@@ -3300,7 +3300,7 @@ body.SiteFaq .HeaderTxt h1 {
   font-weight: 100
 }
 
-.SubscribeContent {
+.subscribe_content {
   text-align: center;
   width: 100%;
   display: flex;
@@ -3311,14 +3311,14 @@ body.SiteFaq .HeaderTxt h1 {
   padding: 61px 10px
 }
 
-.SubscribeContent h2 {
+.subscribe_content h2 {
   color: #fff;
   font-weight: 800;
   letter-spacing: .04em;
   font-size: 41px
 }
 
-.SubscribeContent p {
+.subscribe_content p {
   color: #fff;
   margin: 30px 0;
   max-width: 710px;
@@ -3346,68 +3346,68 @@ input::placeholder {
   font-weight: 100
 }
 
-.SubscribeSection,
-footer.EverFooter {
+.subscribe_section,
+footer.footer {
   background: #030c25
 }
 
-footer.EverFooter {
+footer.footer {
   position: relative;
   z-index: 0
 }
 
-section.SubscribeSection {
+section.subscribe_section {
   position: relative;
   overflow: hidden
 }
 
-.SubscribeSection {
+.subscribe_section {
   background: #0b1f50
 }
 
 @media only screen and (max-width:750px) and (min-width:0px) {
-  .SubInputs {
+  .sub_inputs {
     z-index: 1
   }
 
-  .SubForm,
-  .SubInputs {
+  .sub_form,
+  .sub_inputs {
     flex-direction: column
   }
 
-  .SubInputs {
+  .sub_inputs {
     width: 100%
   }
 
-  .SubDivider {
+  .sub_divider {
     display: none
   }
 
-  .SubMit,
+  .submit,
   .SubscribeForm>button,
   .SubscribeForm input {
     width: 100%;
     margin: 0 0 1em
   }
 
-  .SubInputs,
-  .SubMit {
+  .sub_inputs,
+  .submit {
     box-shadow: none
   }
 
-  .SubInputs input {
+  .sub_inputs input {
     border-radius: 90px
   }
 
-  .SubEmail,
-  .SubName {
+  .sub_email,
+  .sub_name {
     width: 100%;
     margin-bottom: 20px
   }
 }
 
 @media only screen and (max-width:450px) and (min-width:0px) {
-  .SubscribeGlobalInner .EverSub {
+  .subscribe_global_inner .our_sub {
     margin: 20px
   }
 }
@@ -3422,7 +3422,7 @@ section.SubscribeSection {
   padding-bottom: 0
 }
 
-.FooterCopyright.GlobalOuter {
+.FooterCopyright.global_outer {
   height: 120px;
   font-weight: 100;
   color: #7b7e96;
@@ -3657,7 +3657,7 @@ a.FooterCommunityLink {
     margin-bottom: 30px
   }
 
-  .FooterCopyright.GlobalOuter {
+  .FooterCopyright.global_outer {
     height: 160px
   }
 }
@@ -4974,7 +4974,7 @@ li.press-logo {
   position: relative
 }
 
-.Foundation.GlobalOuter {
+.Foundation.global_outer {
   border-top: 1px solid #001b51
 }
 
@@ -8473,7 +8473,7 @@ body.rise .CommunityFaqSectionLeft h2 {
   text-align: center
 }
 
-section.MigrationBanner.GlobalOuter {
+section.MigrationBanner.global_outer {
   background: #020c29
 }
 
@@ -12060,7 +12060,7 @@ body.EverMigrate.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after 
   background: linear-gradient(90deg, #fb8b47, #ce2041)
 }
 
-.GlobalOuter.ContentImgSection {
+.global_outer.ContentImgSection {
   min-height: 750px;
   position: relative;
   overflow: hidden
@@ -12171,7 +12171,7 @@ a.ContactNow {
     align-items: center
   }
 
-  .GlobalOuter.ContentImgSection {
+  .global_outer.ContentImgSection {
     min-height: auto
   }
 
@@ -13522,7 +13522,7 @@ body.legal-page .FooterCopyright {
   max-height: 100%
 }
 
-body.legal-page footer.EverFooter {
+body.legal-page footer.footer {
   background: #001846
 }
 

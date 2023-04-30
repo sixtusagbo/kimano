@@ -136,6 +136,8 @@ https://www.contributor-covenant.org/translations.
 - Other cases:
   - before: `ERIconEverRevoke` after: `icon_revoke`
   - before: `PArrow` after: `p_arrow`
+  - before: `SubMit` after: `submit`
+    - *Reason: Because submit makes a full semantic word.*
 
 ### **Note:** Top level class `__next` was changed to `wrapper`
 And in the css too, I *find me with `git blame`* changed from div#__next it to div#wrapper
