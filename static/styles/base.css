@@ -1084,13 +1084,13 @@ a.BlueHeroBtn span {
   color: #3fb2ff
 }
 
-.OrangeTxtLeftGrad {
+.orange_txt_left_grad {
   font-size: 42px !important;
   letter-spacing: .05em
 }
 
-.OrangeTxtLeftGrad,
-.OrangeTxtLeftGrad span {
+.orange_txt_left_grad,
+.orange_txt_left_grad span {
   background: linear-gradient(270deg, #fb8b47, #ce2041);
   border-image-slice: 1;
   background-clip: text;
@@ -1146,7 +1146,7 @@ a.BlueHeroBtn span {
   transform: scaleX(1)
 }
 
-.BlueBox {
+.blue_box {
   border: 1px solid #000e2a;
   box-shadow: inset 0 0 1px 1px #001e5a;
   background: linear-gradient(216deg, #001130, #001a47);
@@ -1244,7 +1244,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
 .FaqInner,
 .FeaturesGlobalInner,
 .FoundationSection .global_inner,
-.FullEcosystemContent,
+.full_ecosystem_content,
 .hero_content_inner,
 .HowItWorksInner,
 .max-w-screen-xl,
@@ -1271,7 +1271,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .footer_copyright .global_inner,
   .footer_links_inner,
   .FoundationSection .global_inner,
-  .FullEcosystemContent,
+  .full_ecosystem_content,
   .hero_content_inner,
   .HowItWorksInner,
   .max-w-screen-xl,
@@ -1423,7 +1423,7 @@ span.dropdown_trigger {
   flex: 1
 }
 
-.EverRiseSectionBtns a {
+.section_btns a {
   font-weight: 500
 }
 
@@ -4015,7 +4015,7 @@ h1.OrangeTxtRightGrad {
   font-weight: 900
 }
 
-.SmallLink {
+.small_link {
   color: #11409e;
   text-decoration: none !important;
   font-size: 14px;
@@ -4629,11 +4629,11 @@ li.press_logo {
   -webkit-text-fill-color: transparent
 }
 
-.EverRiseSectionBtns {
+.section_btns {
   display: flex
 }
 
-.EverRiseSectionBtns a {
+.section_btns a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4717,7 +4717,7 @@ li.press_logo {
     opacity: .3
   }
 
-  .EcosystemSectionTop:after {
+  .ecosystem_section_top:after {
     opacity: .6
   }
 
@@ -4725,7 +4725,7 @@ li.press_logo {
     position: relative
   }
 
-  .EverRiseSectionBtns a,
+  .section_btns a,
   .EverRiseSectionRight p {
     font-size: 1.2em
   }
@@ -4742,7 +4742,7 @@ li.press_logo {
 }
 
 @media only screen and (max-width:850px) and (min-width:0px) {
-  .EverRiseSectionBtns {
+  .section_btns {
     flex-wrap: wrap
   }
 
@@ -4761,7 +4761,7 @@ li.press_logo {
     position: relative
   }
 
-  .EverRiseSectionBtns a {
+  .section_btns a {
     padding: 20px
   }
 
@@ -4780,17 +4780,17 @@ li.press_logo {
     font-size: 1.6em
   }
 
-  section.EcosystemSectionTop .EcosystemSectionTopContent h2 {
+  section.ecosystem_section_top .ecosystem_section_top_content h2 {
     font-size: 2.8em
   }
 
-  section.EcosystemSectionTop .EcosystemSectionTopContent h3 {
+  section.ecosystem_section_top .ecosystem_section_top_content h3 {
     font-size: 25px
   }
 }
 
 @media only screen and (max-width:600px) and (min-width:0px) {
-  .EverRiseSectionBtns a {
+  .section_btns a {
     width: 100%;
     margin-right: 0
   }
@@ -4803,24 +4803,24 @@ li.press_logo {
 }
 
 @media only screen and (max-width:350px) and (min-width:0px) {
-  .EverRiseSectionBtns a:nth-child(2) {
+  .section_btns a:nth-child(2) {
     margin-left: 0
   }
 
-  .EverRiseSectionBtns a:first-child {
+  .section_btns a:first-child {
     margin-right: 0
   }
 
-  .EverRiseSectionBtns a:last-child {
+  .section_btns a:last-child {
     margin-top: 0
   }
 
-  .EverRiseSectionBtns a:first-child {
+  .section_btns a:first-child {
     margin-top: 10px
   }
 
-  .EverRiseSectionBtns a,
-  .EverRiseSectionBtns a:nth-child(2) {
+  .section_btns a,
+  .section_btns a:nth-child(2) {
     width: 100%;
     margin: 0 0 20px
   }
@@ -4828,7 +4828,7 @@ li.press_logo {
 
 @media only screen and (max-width:550px) and (min-width:0px) {
 
-  .EcosystemSectionTopContent p,
+  .ecosystem_section_top_content p,
   .EverRiseSectionRight p,
   .FoundationCard p {
     margin-bottom: 15px;
@@ -4840,14 +4840,14 @@ li.press_logo {
 
 @media only screen and (max-width:400px) and (min-width:0px) {
 
-  .EcosystemSectionTopInner,
+  .ecosystem_section_top_inner,
   .global_inner.EverRiseGlobalInner {
     padding: 0 20px
   }
 }
 
 @media only screen and (max-width:1920px) and (min-width:0px) {
-  body.home .EcosystemSectionTop:after {
+  body.home .ecosystem_section_top:after {
     height: 103%;
     background-size: contain;
     margin-top: 2%;
@@ -4872,15 +4872,15 @@ li.press_logo {
 }
 
 @media only screen and (max-width:1315px) and (min-width:0px) {
-  .EcosystemSectionTopContent {
+  .ecosystem_section_top_content {
     min-width: 100%
   }
 
-  .EcosystemSectionTopContent h2 {
+  .ecosystem_section_top_content h2 {
     font-size: 3.2em
   }
 
-  .EcosystemSectionTopContent p {
+  .ecosystem_section_top_content p {
     font-size: 1.2em
   }
 }
@@ -4929,22 +4929,22 @@ li.press_logo {
 }
 
 @media only screen and (max-width:600px) and (min-width:0px) {
-  body.home .EcosystemSectionTop:after {
+  body.home .ecosystem_section_top:after {
     margin-top: 32%;
     background-size: 173vw
   }
 }
 
 @media only screen and (max-width:550px) and (min-width:0px) {
-  body.home .EcosystemSectionTopContent {
+  body.home .ecosystem_section_top_content {
     min-height: 657px;
     margin-top: -10px;
     margin-bottom: 0;
     min-width: 100%
   }
 
-  .EcosystemSectionLeft .EcoLearnBtn,
-  .EcosystemSectionRight .EcoLearnBtn {
+  .EcosystemSectionLeft .eco_learn_btn,
+  .EcosystemSectionRight .eco_learn_btn {
     width: 100%
   }
 
@@ -4956,13 +4956,13 @@ li.press_logo {
     padding-top: 54px
   }
 
-  body.home .EcosystemSectionTopContent {
+  body.home .ecosystem_section_top_content {
     padding: 70px 0
   }
 }
 
 @media only screen and (max-width:450px) and (min-width:0px) {
-  body.home .EcosystemSectionTopContent h2 {
+  body.home .ecosystem_section_top_content h2 {
     font-size: 10vw;
     line-height: 1.1em
   }
@@ -5192,7 +5192,7 @@ body.home .FoundationSection h2 {
   }
 }
 
-.EcosystemSectionTop {
+.ecosystem_section_top {
   background-color: #030d2b;
   overflow: hidden;
   position: relative;
@@ -5200,11 +5200,11 @@ body.home .FoundationSection h2 {
   align-content: center
 }
 
-.EcosystemSectionTop * {
+.ecosystem_section_top * {
   z-index: 2
 }
 
-.EcosystemSectionTopContent {
+.ecosystem_section_top_content {
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -5212,13 +5212,13 @@ body.home .FoundationSection h2 {
   padding: 0 22px
 }
 
-.EcosystemSectionTopContent h2 {
+.ecosystem_section_top_content h2 {
   font-size: 4em;
   font-weight: 700;
   margin-top: 100px
 }
 
-.EcosystemSectionTopContent h3 {
+.ecosystem_section_top_content h3 {
   margin: 20px 0 15px;
   color: #00aeff;
   text-transform: uppercase;
@@ -5226,7 +5226,7 @@ body.home .FoundationSection h2 {
   font-weight: 600
 }
 
-.EcosystemSectionTopContent p {
+.ecosystem_section_top_content p {
   color: #d3d9e3;
   font-size: 1.2em;
   margin-bottom: 40px;
@@ -5236,7 +5236,7 @@ body.home .FoundationSection h2 {
 }
 
 .CompactEcosystemContent li:before,
-.FullEcosystemContent li:before {
+.full_ecosystem_content li:before {
   content: "dApp";
   position: relative;
   z-index: 1;
@@ -5255,7 +5255,7 @@ body.home .FoundationSection h2 {
 }
 
 .CompactEcosystemContent ul li img,
-.FullEcosystemContent ul li img {
+.full_ecosystem_content ul li img {
   max-width: 100px;
   width: 100%;
   opacity: .9;
@@ -5263,7 +5263,7 @@ body.home .FoundationSection h2 {
 }
 
 .CompactEcosystemContent ul li h3,
-.FullEcosystemContent ul li h3 {
+.full_ecosystem_content ul li h3 {
   transition: all .5s ease-out;
   font-size: 1.5em;
   color: #b9c2d2;
@@ -5277,7 +5277,7 @@ body.home .FoundationSection h2 {
 }
 
 .CompactEcosystemContent ul li h4,
-.FullEcosystemContent ul li h4 {
+.full_ecosystem_content ul li h4 {
   transition: all .5s ease-out;
   font-size: 1.3em;
   color: #b9c2d2;
@@ -5287,7 +5287,7 @@ body.home .FoundationSection h2 {
 }
 
 .CompactEcosystemContent ul li p,
-.FullEcosystemContent ul li p {
+.full_ecosystem_content ul li p {
   text-align: center;
   color: #b9c2d2;
   letter-spacing: .03em;
@@ -5298,28 +5298,28 @@ body.home .FoundationSection h2 {
   margin: .5em .5em 1em
 }
 
-section.FullEcosystemSection {
+section.full_ecosystem_section {
   background-color: #030d2b
 }
 
-.FullEcosystemSectionInner {
+.full_ecosystem_section_inner {
   width: 100%;
   max-width: 100%
 }
 
-.FullEcosystemContent ul li,
-.FullEcosystemContent ul li:nth-child(-n+2) {
+.full_ecosystem_content ul li,
+.full_ecosystem_content ul li:nth-child(-n+2) {
   width: calc(33.333% - 20px)
 }
 
-.FullEcosystemContent ul {
+.full_ecosystem_content ul {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
   padding: 10px 10px 60px
 }
 
-.FullEcosystemContent li {
+.full_ecosystem_content li {
   width: calc(25% - 20px);
   display: flex;
   flex-direction: column;
@@ -5329,7 +5329,7 @@ section.FullEcosystemSection {
   padding: 30px
 }
 
-.FullEcosystemContent li .EcoLearnBtn {
+.full_ecosystem_content li .eco_learn_btn {
   border: 2px solid #00143a;
   height: 60px;
   display: flex;
@@ -5345,13 +5345,13 @@ section.FullEcosystemSection {
   width: 100%
 }
 
-.FullEcosystemContent li .EcoLearnBtn:hover {
+.full_ecosystem_content li .eco_learn_btn:hover {
   color: #fff;
   background: linear-gradient(90deg, #fb8b47, #ce2041);
   box-shadow: inset 0 0 1px 1px #f78247
 }
 
-.FullEcosystemContent li a {
+.full_ecosystem_content li a {
   width: 100%;
   max-width: 500px;
   display: flex;
@@ -5360,25 +5360,25 @@ section.FullEcosystemSection {
 }
 
 @media only screen and (max-width:1500px) and (min-width:0px) {
-  .EcosystemSectionTopContent h2 {
+  .ecosystem_section_top_content h2 {
     font-size: 3.5em
   }
 
-  .FullEcosystemContent ul li,
-  .FullEcosystemContent ul li:first-child,
-  .FullEcosystemContent ul li:nth-child(2) {
+  .full_ecosystem_content ul li,
+  .full_ecosystem_content ul li:first-child,
+  .full_ecosystem_content ul li:nth-child(2) {
     width: calc(50% - 20px)
   }
 
-  .FullEcosystemContent ul li:nth-child(9) {
+  .full_ecosystem_content ul li:nth-child(9) {
     width: calc(100% - 20px)
   }
 }
 
 @media only screen and (max-width:680px) and (min-width:0px) {
 
-  .FullEcosystemContent ul li,
-  .FullEcosystemContent ul li:nth-child(-n+2) {
+  .full_ecosystem_content ul li,
+  .full_ecosystem_content ul li:nth-child(-n+2) {
     width: calc(100% - 20px)
   }
 }
@@ -5622,7 +5622,7 @@ section.CompactEcosystemSection {
   }
 
   .CompactEcosystemContent ul li h3,
-  .FullEcosystemContent ul li h3 {
+  .full_ecosystem_content ul li h3 {
     font-size: 1.4em
   }
 
@@ -5682,7 +5682,7 @@ section.CompactEcosystemSection {
   }
 
   .CompactEcosystemContent ul li p,
-  .FullEcosystemContent ul li p {
+  .full_ecosystem_content ul li p {
     margin: 0
   }
 
