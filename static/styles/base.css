@@ -833,7 +833,7 @@ p.ContractID {
 }
 
 @media only screen and (max-width:500px) and (min-width:0px) {
-  .EverNavInner {
+  .nav_inner {
     width: 100% !important;
     margin: 0 !important
   }
@@ -863,24 +863,24 @@ noLineHeight {
   line-height: .2em !important
 }
 
-.PrimaryLinks::-webkit-scrollbar {
+.primary_links::-webkit-scrollbar {
   background-color: #000d23;
   width: 10px
 }
 
-.PrimaryLinks::-webkit-scrollbar-thumb {
+.primary_links::-webkit-scrollbar-thumb {
   background: #031b44;
   border: 1px solid #031e4d
 }
 
-.EverNav,
-nav ul li.ParentMenuItem>ul {
+.nav,
+nav ul li.parent_menu_item>ul {
   background-color: #001846
 }
 
-body.EverDapp .EverNav,
-body.home .EverNav,
-body.rise .EverNav {
+body.EverDapp .nav,
+body.home .nav,
+body.rise .nav {
   background: transparent;
   background-color: transparent;
   margin-bottom: -122px;
@@ -895,14 +895,14 @@ body.rise .EverNav {
   fill: url(#RiseGradient)
 }
 
-.PrimaryLinks a:hover {
+.primary_links a:hover {
   color: #fff
 }
 
 .dapp-menu-item span.RightArrow,
-.EverNav li a,
-.EverNav li a:after,
-.rise-menu-item span.RightArrow {
+.nav li a,
+.nav li a:after,
+.our_menu_item span.RightArrow {
   fill: #cbe1f4;
   color: #cbe1f4
 }
@@ -924,18 +924,18 @@ body.home .EverContent {
   background: #001236
 }
 
-.Dapp-menu-item .arrow span {
+.dapp_menu_item .arrow span {
   background: #cbe1f4
 }
 
-li.Dapp-menu-item.active .arrow span {
+li.dapp_menu_item.active .arrow span {
   background: #fff
 }
 
-.EverNav li.Dapp-menu-item:hover a,
-.EverNav li.Dapp-menu-item:hover a span:after,
-.rise-menu-item li.Dapp-menu-item:hover span.RightArrow,
-li.Dapp-menu-item.active a {
+.nav li.dapp_menu_item:hover a,
+.nav li.dapp_menu_item:hover a span:after,
+.our_menu_item li.dapp_menu_item:hover span.RightArrow,
+li.dapp_menu_item.active a {
   fill: #fff;
   color: #fff
 }
@@ -1063,7 +1063,7 @@ a.BlueHeroBtn span {
   box-shadow: inset 0 0 1px 1px #f78247
 }
 
-.MenuRight a:after {
+.menu_right a:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -1134,7 +1134,7 @@ a.BlueHeroBtn span {
   width: fit-content
 }
 
-.MenuRight a:hover:after {
+.menu_right a:hover:after {
   transform-origin: left;
   transform: scaleX(1)
 }
@@ -1147,7 +1147,7 @@ a.BlueHeroBtn span {
 }
 
 .PArrow:after,
-.rise-menu-item .MenuName:after {
+.our_menu_item .menu_name:after {
   content: "";
   display: block;
   position: relative;
@@ -1160,7 +1160,7 @@ a.BlueHeroBtn span {
   margin-left: 15px
 }
 
-.rise-menu-item .MenuName:after {
+.our_menu_item .menu_name:after {
   width: 12px;
   height: 12px;
   border-top-width: 2px;
@@ -1191,12 +1191,12 @@ body>div>div {
   z-index: 0
 }
 
-.EverNav {
+.nav {
   z-index: 8
 }
 
 @media only screen and (max-width:1100px) and (min-width:0px) {
-  .PrimaryLinks>ul>li:last-child {
+  .primary_links>ul>li:last-child {
     margin-right: 0
   }
 }
@@ -1207,7 +1207,7 @@ body>div>div {
 .ContentImgGlobalInner,
 .CSDapp .DappFaqGlobalInner,
 .DappHeaderInner,
-.EverNavInner,
+.nav_inner,
 .FeaturesGlobalInner,
 .FooterCopyright .GlobalInner,
 .FooterLinksInner,
@@ -1314,16 +1314,16 @@ body:not(.rise) .CompactEcosystemSectionInner {
   width: 50%
 }
 
-.EverNav,
-.EverNavInner,
-.EverNav nav,
-.PrimaryLinks>ul:first-child {
+.nav,
+.nav_inner,
+.nav nav,
+.primary_links>ul:first-child {
   display: flex;
   width: 100%;
   flex-wrap: nowrap
 }
 
-.EverLogo {
+.logo_container {
   max-width: 206px;
   min-width: 106px;
   min-height: 122px;
@@ -1332,16 +1332,16 @@ body:not(.rise) .CompactEcosystemSectionInner {
   align-items: center
 }
 
-ul li.ParentMenuItem ul.ChildMenu {
+ul li.parent_menu_item ul.child_menu {
   display: none
 }
 
-li.ParentMenuItem.HoverMeActive:hover ul.ChildMenu {
+li.parent_menu_item.HoverMeActive:hover ul.child_menu {
   display: block
 }
 
-.ParentMenuItem .ChildMenu,
-li.ParentMenuItem.HoverMeActive:hover ul.ChildMenu {
+.parent_menu_item .child_menu,
+li.parent_menu_item.HoverMeActive:hover ul.child_menu {
   flex-direction: column;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -1352,12 +1352,12 @@ li.ParentMenuItem.HoverMeActive:hover ul.ChildMenu {
   width: inherit
 }
 
-.ParentMenuItem.active .ChildMenu {
+.parent_menu_item.active .child_menu {
   display: flex
 }
 
-.EverNav nav a,
-span.MenuName {
+.nav nav a,
+span.menu_name {
   min-height: 30px;
   text-transform: uppercase;
   font-size: .92em;
@@ -1367,16 +1367,16 @@ span.MenuName {
   align-items: center
 }
 
-span.ListMenuContainer {
+span.list_menu_container {
   display: block
 }
 
-.ListMenuContainer {
+.list_menu_container {
   overflow: hidden;
   position: relative
 }
 
-span.DropdownTrigger {
+span.dropdown_trigger {
   width: 100%;
   height: 100%;
   display: block;
@@ -1384,16 +1384,16 @@ span.DropdownTrigger {
   z-index: 1
 }
 
-.DropdownTrigger {
+.dropdown_trigger {
   margin-left: 0;
   cursor: pointer
 }
 
-.Dapp-menu-item span.DropdownTrigger {
+.dapp_menu_item span.dropdown_trigger {
   margin-left: 0
 }
 
-.LinkContainer .RightArrow {
+.link_container .RightArrow {
   display: none
 }
 
@@ -1513,13 +1513,13 @@ span.DropdownTrigger {
 .ERIconEverWallet,
 .ERIconStaking,
 .LastSpriteItem,
-li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li a:before {
+li.parent_menu_item.dapp_menu_item ul.child_menu li a:before {
   max-width: 100%;
   background-size: 100%;
   background-image: url(https://www.everrise.com/assets/images/icon/RiseEcosystemIconsNW.png)
 }
 
-.ERIconEverRevoke:before {
+.icon_revoke:before {
   max-width: 100%;
   background-size: 100%;
   background-image: url(https://www.everrise.com/assets/images/icon/EverRevokeIcon.png) !important
@@ -1530,7 +1530,7 @@ img.ERIconEverRise {
   background-size: contain
 }
 
-li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li a:before {
+li.parent_menu_item.dapp_menu_item ul.child_menu li a:before {
   content: "";
   height: 45px;
   width: 45px;
@@ -1543,46 +1543,46 @@ a.EverBridgeeMM:before {
 }
 
 .ERIconEverLock,
-a.EverLockMM:before {
+a.lock_mm:before {
   background-position: 0 14.4%
 }
 
 .ERIconEverOwn,
-a.EverOwnMM:before {
+a.own_mm:before {
   background-position: 0 28.58%
 }
 
 .ERIconEverSale,
-a.EverSaleMM:before {
+a.sale_mm:before {
   background-position: 0 42.8%
 }
 
 .ERIconEverSwap,
-a.EverSwapMM:before {
+a.swap_mm:before {
   background-position: 0 57.25%
 }
 
 .ERIconEverWallet,
-a.EverWalletMM:before {
+a.wallet_mm:before {
   background-position: 0 71.54%
 }
 
 .ERIconStaking,
-a.StakingMM:before {
+a.staking_mm:before {
   background-position: 0 85.78%
 }
 
 .ERIconEverMigrate,
-a.EverMigrateMM:before {
+a.migrate_mm:before {
   background-position: 0 100%
 }
 
-.ERIconEverRevoke,
-a.EverRevokeMM:before {
+.icon_revoke,
+a.revoke_mm:before {
   background-repeat: no-repeat
 }
 
-.EverLogo>li {
+.logo_container>li {
   top: -1px;
   position: relative
 }
@@ -1748,7 +1748,7 @@ section.RedirectSection {
 }
 
 @media only screen and (max-width:99999px) and (min-width:961px) {
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu {
+  li.parent_menu_item.dapp_menu_item ul.child_menu {
     flex-direction: row;
     flex-wrap: wrap;
     background: #000f2a;
@@ -1763,7 +1763,7 @@ section.RedirectSection {
     box-shadow: inset 0 0 1px 1px #00173f, 0 3px 0 0 #000f2a
   }
 
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li {
+  li.parent_menu_item.dapp_menu_item ul.child_menu li {
     width: 25%;
     width: calc(33% - 6px);
     border: 1px solid #000e2a;
@@ -1778,7 +1778,7 @@ section.RedirectSection {
     z-index: 3
   }
 
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu:after {
+  li.parent_menu_item.dapp_menu_item ul.child_menu:after {
     content: "";
     position: absolute;
     z-index: 1;
@@ -1792,11 +1792,11 @@ section.RedirectSection {
     pointer-events: none
   }
 
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li:hover {
+  li.parent_menu_item.dapp_menu_item ul.child_menu li:hover {
     border-color: #000c74
   }
 
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li a {
+  li.parent_menu_item.dapp_menu_item ul.child_menu li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1805,7 +1805,7 @@ section.RedirectSection {
     height: 100px
   }
 
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li a span:after {
+  li.parent_menu_item.dapp_menu_item ul.child_menu li a span:after {
     display: block;
     width: 100%;
     font-size: 12px;
@@ -1817,57 +1817,57 @@ section.RedirectSection {
     line-height: 1.2em
   }
 
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li a span {
+  li.parent_menu_item.dapp_menu_item ul.child_menu li a span {
     position: relative;
     top: -2px
   }
 
-  .EverOwnMM span:after {
+  .own_mm span:after {
     content: "Secure your smart contract"
   }
 
-  .EverBridgeMM span:after {
+  .bridge_mm span:after {
     content: "Transfer cross-chain at block speed"
   }
 
-  .EverMigrateMM span:after {
+  .migrate_mm span:after {
     content: "Migrate your contract & community"
   }
 
-  .EverLockMM span:after {
+  .lock_mm span:after {
     content: "Lock liquidity under community voting"
   }
 
-  .EverSaleMM span:after {
+  .sale_mm span:after {
     content: "Secure your project's presale"
   }
 
-  .StakingMM span:after {
+  .staking_mm span:after {
     content: "Earn RISE rewards"
   }
 
-  .EverSwapMM span:after {
+  .swap_mm span:after {
     content: "Your All-In-One Multi-Chain Swap"
   }
 
-  .EverWalletMM span:after {
+  .wallet_mm span:after {
     content: "Secure your tokens on the Blockchain"
   }
 
-  .EverRevokeMM span:after {
+  .revoke_mm span:after {
     content: "Revoke token & NFT approvals"
   }
 
-  .EverNav li.Dapp-menu-item:hover .arrow span,
-  li.Dapp-menu-item.active:hover .arrow span {
+  .nav li.dapp_menu_item:hover .arrow span,
+  li.dapp_menu_item.active:hover .arrow span {
     background: #fff
   }
 
-  li.ParentMenuItem a {
+  li.parent_menu_item a {
     font-size: 17px
   }
 
-  li.rise-menu-item a {
+  li.our_menu_item a {
     height: 36px;
     display: flex;
     justify-content: center;
@@ -1883,22 +1883,22 @@ section.RedirectSection {
     font-weight: 500
   }
 
-  .rise-menu-item .LinkContainer .RightArrow {
+  .our_menu_item .link_container .RightArrow {
     width: 24px;
     margin-left: 22px
   }
 
-  .EverNav,
-  .EverNavInner,
-  .EverNav nav {
+  .nav,
+  .nav_inner,
+  .nav nav {
     justify-content: center
   }
 
-  .PrimaryLinks>ul:first-child {
+  .primary_links>ul:first-child {
     justify-content: flex-end
   }
 
-  .PrimaryLinks>ul>li {
+  .primary_links>ul>li {
     margin-right: 25px;
     display: flex;
     justify-content: center;
@@ -1906,32 +1906,32 @@ section.RedirectSection {
     font-size: 17px
   }
 
-  .PrimaryLinks>ul>.rise-menu-item {
+  .primary_links>ul>.our_menu_item {
     margin-right: 30px
   }
 
   #hamburger,
-  .rise-menu-item span.DropdownTrigger {
+  .our_menu_item span.dropdown_trigger {
     display: none
   }
 
-  .EverNav nav {
+  .nav nav {
     width: 100%
   }
 
-  .EverNav nav,
-  .EverNav nav ul {
+  .nav nav,
+  .nav nav ul {
     display: flex;
     justify-content: space-between
   }
 
-  .PrimaryLinks {
+  .primary_links {
     display: flex;
     width: 100%;
     min-width: 768px
   }
 
-  .PrimaryLinks>ul:first-child {
+  .primary_links>ul:first-child {
     flex: 1
   }
 }
@@ -1988,32 +1988,32 @@ section.RedirectSection {
 }
 
 @media only screen and (max-width:1250px) and (min-width:0px) {
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li a:before {
+  li.parent_menu_item.dapp_menu_item ul.child_menu li a:before {
     height: 35px;
     width: 35px
   }
 
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li a span {
+  li.parent_menu_item.dapp_menu_item ul.child_menu li a span {
     font-size: 19px
   }
 }
 
 @media only screen and (max-width:1150px) and (min-width:0px) {
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li a span:after {
+  li.parent_menu_item.dapp_menu_item ul.child_menu li a span:after {
     display: none
   }
 
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li a span {
+  li.parent_menu_item.dapp_menu_item ul.child_menu li a span {
     text-align: center
   }
 
-  li.ParentMenuItem.Dapp-menu-item ul.ChildMenu li a {
+  li.parent_menu_item.dapp_menu_item ul.child_menu li a {
     flex-wrap: nowrap
   }
 }
 
 @media only screen and (min-width:961px) and (max-width:99999px) {
-  .rise-menu-item a:hover {
+  .our_menu_item a:hover {
     color: #fff;
     background: linear-gradient(90deg, #fb8b47, #ce2041);
     box-shadow: inset 0 0 1px 1px #f78247;
@@ -2027,8 +2027,8 @@ section.RedirectSection {
 
 @media only screen and (max-width:960px) and (min-width:0px) {
 
-  ul.MenuHero,
-  ul.MenuRight {
+  ul.menu_hero,
+  ul.menu_right {
     display: block !important;
     position: relative;
     height: auto;
@@ -2037,26 +2037,26 @@ section.RedirectSection {
     min-height: min-content
   }
 
-  html.riseMobileMenu ul.MenuRight {
+  html.riseMobileMenu ul.menu_right {
     margin-bottom: 120px
   }
 
-  html.riseMobileMenu .PrimaryLinks {
+  html.riseMobileMenu .primary_links {
     padding-bottom: 80px
   }
 
-  li.ParentMenuItem.rise-menu-item span.arrow,
-  li.ParentMenuItem.rise-menu-item span.DropdownTrigger,
-  li.ParentMenuItem.rise-menu-item span.MenuName:after {
+  li.parent_menu_item.our_menu_item span.arrow,
+  li.parent_menu_item.our_menu_item span.dropdown_trigger,
+  li.parent_menu_item.our_menu_item span.menu_name:after {
     display: none
   }
 
-  span.PrimaryLinks a,
-  span.PrimaryLinks span {
+  span.primary_links a,
+  span.primary_links span {
     font-size: 18px !important
   }
 
-  .ParentMenuItem.active .ChildMenu {
+  .parent_menu_item.active .child_menu {
     position: relative !important;
     height: auto;
     min-height: -webkit-min-content;
@@ -2064,26 +2064,26 @@ section.RedirectSection {
     min-height: min-content
   }
 
-  span.PrimaryLinks li a {
+  span.primary_links li a {
     min-height: 50px;
     border-bottom: 1px solid #0f1e36;
     margin-bottom: 10px;
     padding-bottom: 10px
   }
 
-  li.ParentMenuItem.active {
+  li.parent_menu_item.active {
     margin-bottom: 20px
   }
 
-  .EverNav nav a {
+  .nav nav a {
     justify-content: flex-start
   }
 
-  li.ParentMenuItem .arrow {
+  li.parent_menu_item .arrow {
     margin-left: auto
   }
 
-  html.riseMobileMenu .PrimaryLinks {
+  html.riseMobileMenu .primary_links {
     margin-left: -60px;
     margin-right: -60px;
     width: 100vw
@@ -2093,12 +2093,12 @@ section.RedirectSection {
     font-size: 2em
   }
 
-  .EverNavInner,
+  .nav_inner,
   .HeroContentInner {
     margin: 0 10px
   }
 
-  .EverNavInner,
+  .nav_inner,
   .EverRiseGlobalInner.GlobalInner,
   .GlobalInner,
   .HeroContentInner,
@@ -2106,7 +2106,7 @@ section.RedirectSection {
     padding: 0 20px
   }
 
-  .PrimaryLinks {
+  .primary_links {
     background: #00112c;
     border: 1px solid #031c45ad
   }
@@ -2116,11 +2116,11 @@ section.RedirectSection {
     overflow: hidden
   }
 
-  .PrimaryLinks {
+  .primary_links {
     display: none
   }
 
-  html.riseMobileMenu .PrimaryLinks {
+  html.riseMobileMenu .primary_links {
     display: flex;
     flex-direction: column
   }
@@ -2204,7 +2204,7 @@ section.RedirectSection {
     left: 50%
   }
 
-  html.riseMobileMenu .EverNav {
+  html.riseMobileMenu .nav {
     width: 100vw;
     height: calc(100vh - 52px);
     position: absolute;
@@ -2212,13 +2212,13 @@ section.RedirectSection {
     margin-top: 79px
   }
 
-  .EverNav nav {
+  .nav nav {
     width: 100%;
     display: flex;
     flex-direction: column
   }
 
-  .PrimaryLinks {
+  .primary_links {
     align-self: center;
     text-align: center
   }
@@ -2227,50 +2227,50 @@ section.RedirectSection {
     margin-right: 0
   }
 
-  .PrimaryLinks>ul:first-child {
+  .primary_links>ul:first-child {
     flex-direction: column
   }
 
-  ul li.ParentMenuItem ul.ChildMenu {
+  ul li.parent_menu_item ul.child_menu {
     position: relative
   }
 
-  span.DropdownTrigger {
+  span.dropdown_trigger {
     margin-left: 40%
   }
 
-  .rise-menu-item span.DropdownTrigger {
+  .our_menu_item span.dropdown_trigger {
     display: block
   }
 
-  .rise-menu-item span.MenuName:after {
+  .our_menu_item span.menu_name:after {
     content: "";
     margin-left: 20px;
     font-size: 21px
   }
 
-  .PrimaryLinks {
+  .primary_links {
     width: 100%;
     height: 100%;
     padding: 30px
   }
 
-  .EverLogo {
+  .logo_container {
     min-height: 86px
   }
 
-  .PrimaryLinks {
+  .primary_links {
     overflow-y: auto
   }
 
-  .EverNavInner,
+  .nav_inner,
   .GlobalInner,
   .HeroContentInner,
   .PressGlobalInner {
     padding: 0 20px
   }
 
-  .EverNavInner {
+  .nav_inner {
     padding: 0
   }
 
@@ -2284,7 +2284,7 @@ section.RedirectSection {
     justify-content: center
   }
 
-  .EverLogo {
+  .logo_container {
     padding-left: 40px
   }
 }
@@ -2296,7 +2296,7 @@ section.RedirectSection {
     margin-top: 20px
   }
 
-  .EverNavInner,
+  .nav_inner,
   .EverRiseGlobalInner.GlobalInner,
   .GlobalInner,
   .HeroContentInner,
@@ -2346,11 +2346,11 @@ section.RedirectSection {
   transform: rotate(-45deg)
 }
 
-.ParentMenuItem.active .arrow span:first-of-type {
+.parent_menu_item.active .arrow span:first-of-type {
   transform: rotate(-45deg)
 }
 
-.ParentMenuItem.active .arrow span:last-of-type {
+.parent_menu_item.active .arrow span:last-of-type {
   transform: rotate(45deg)
 }
 
@@ -2567,7 +2567,7 @@ section.RedirectSection {
 }
 
 .fadeInUp,
-li.ParentMenuItem.active ul.ChildMenu {
+li.parent_menu_item.active ul.child_menu {
   -webkit-animation: fadeInUp .5s ease backwards;
   animation: fadeInUp .5s ease backwards
 }
@@ -2596,14 +2596,14 @@ li.ParentMenuItem.active ul.ChildMenu {
   }
 }
 
-svg.EverRise-Logo text {
+svg.logo_image {
   text-transform: capitalize;
   opacity: 0
 }
 
 #adobe-dc-view,
-.EverLogo *,
-.logo svg {
+.logo_container *,
+.logo_container svg {
   width: 100%
 }
 
@@ -2612,7 +2612,7 @@ svg.EverRise-Logo text {
     display: none
   }
 
-  span.MenuName {
+  span.menu_name {
     font-size: .9em
   }
 }
@@ -2622,7 +2622,7 @@ svg.EverRise-Logo text {
     display: none
   }
 
-  span.MenuName {
+  span.menu_name {
     font-size: .9em
   }
 }
@@ -2775,11 +2775,11 @@ span.FaqDappTitle {
   padding-bottom: 12px
 }
 
-.FaqBlocks ul li:first-child .Logo path.EverRiseTxt {
+.FaqBlocks ul li:first-child .logo path.EverRiseTxt {
   fill: #012447
 }
 
-.FaqBlocks ul li:first-child .Logo {
+.FaqBlocks ul li:first-child .logo {
   max-width: 430px
 }
 
@@ -3423,7 +3423,7 @@ section.SubscribeSection {
   box-shadow: inset 0 1px 0 0 #00184675
 }
 
-.FooterLinksA span.Logo {
+.FooterLinksA span.logo {
   display: block;
   position: relative;
   width: 100%;
@@ -4254,9 +4254,9 @@ section.HomeHero .GlobalInner {
     left: 0
   }
 
-  body.EverDapp .EverNav,
-  body.home .EverNav,
-  body.rise .EverNav {
+  body.EverDapp .nav,
+  body.home .nav,
+  body.rise .nav {
     margin-bottom: -86px
   }
 
@@ -4306,7 +4306,7 @@ section.HomeHero .GlobalInner {
   }
 
   .PArrow:after,
-  .rise-menu-item .MenuName:after {
+  .our_menu_item .menu_name:after {
     transform: rotate(135deg) scale(.7);
     margin-left: 6px
   }

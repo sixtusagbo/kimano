@@ -132,3 +132,5 @@ https://www.contributor-covenant.org/translations.
   - Example: before: `LogoContainer`  after: `logo_container`
 - Replace rise with `our` and replace hypen `-` with underscore `_`
   - Example: before: `rise-menu-item` after: `our_menu_item`
+- Other cases:
+  - before: `ERIconEverRevoke` after: `icon_revoke`
