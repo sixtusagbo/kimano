@@ -326,7 +326,7 @@ video {
   position: static
 }
 
-.mx-auto {
+.mx_auto {
   margin-left: auto;
   margin-right: auto
 }
@@ -336,7 +336,7 @@ video {
   margin-bottom: 2rem
 }
 
-.mx-3 {
+.mx_3 {
   margin-left: .75rem;
   margin-right: .75rem
 }
@@ -410,7 +410,7 @@ video {
   width: 1.5rem
 }
 
-.max-w-screen-xl {
+.max_w_screen_xl {
   max-width: 1280px
 }
 
@@ -441,7 +441,7 @@ video {
   list-style-position: outside
 }
 
-.grid-cols-1 {
+.grid_cols_1 {
   grid-template-columns: repeat(1, minmax(0, 1fr))
 }
 
@@ -457,15 +457,15 @@ video {
   justify-content: space-between
 }
 
-.justify-center {
+.justify_center {
   justify-content: center
 }
 
-.gap-y-6 {
+.gap_y_6 {
   row-gap: 1.5rem
 }
 
-.gap-x-3 {
+.gap_x_3 {
   -moz-column-gap: .75rem;
   column-gap: .75rem
 }
@@ -515,7 +515,7 @@ video {
   padding: 1.5rem
 }
 
-.py-16 {
+.py_16 {
   padding-top: 4rem;
   padding-bottom: 4rem
 }
@@ -540,7 +540,7 @@ video {
   padding-right: 2rem
 }
 
-.px-3 {
+.px_3 {
   padding-left: .75rem;
   padding-right: .75rem
 }
@@ -549,7 +549,7 @@ video {
   padding-left: 1rem
 }
 
-.pt-8 {
+.pt_8 {
   padding-top: 2rem
 }
 
@@ -1222,7 +1222,7 @@ body>div>div {
 .global_inner,
 .hero_content_inner,
 .HowItWorksInner,
-.max-w-screen-xl,
+.max_w_screen_xl,
 .press_global_inner,
 .RiseV1Section .global_inner,
 .RiseV2Section .global_inner,
@@ -1247,7 +1247,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
 .full_ecosystem_content,
 .hero_content_inner,
 .HowItWorksInner,
-.max-w-screen-xl,
+.max_w_screen_xl,
 .MoreFeaturesInner,
 .press_global_inner,
 .RiseV1Section .global_inner,
@@ -1274,7 +1274,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .full_ecosystem_content,
   .hero_content_inner,
   .HowItWorksInner,
-  .max-w-screen-xl,
+  .max_w_screen_xl,
   .press_global_inner,
   .RiseV1Section .global_inner,
   .RiseV2Section .global_inner,
@@ -1301,7 +1301,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .foundation_section .global_inner,
   .hero_content_inner,
   .HowItWorksInner,
-  .max-w-screen-xl,
+  .max_w_screen_xl,
   .press_global_inner,
   .RiseV1Section .global_inner,
   .RiseV2Section .global_inner,
@@ -1432,7 +1432,7 @@ span.dropdown_trigger {
   font-weight: bolder
 }
 
-.CommunityFaqSectionLeft .hero_content_btns {
+.community_faq_section_left .hero_content_btns {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -2306,7 +2306,7 @@ section.RedirectSection {
 }
 
 @media only screen and (max-width:550px) and (min-width:0px) {
-  .CommunityFaqSectionLeft .hero_content_btns {
+  .community_faq_section_left .hero_content_btns {
     padding: 0 20px
   }
 
@@ -6049,7 +6049,7 @@ body.blog_archive .blog_tags:before {
   min-width: fit-content
 }
 
-body.blog_archive .sidebar-primary {
+body.blog_archive .sidebar_primary {
   background-color: #fff;
   border-top: 1px solid #f0f0f0
 }
@@ -6198,7 +6198,7 @@ body.blog_archive .post_meta {
   padding-bottom: 130px
 }
 
-body.blog_archive .gap-x-3 {
+body.blog_archive .gap_x_3 {
   -moz-column-gap: 2rem;
   column-gap: 2rem
 }
@@ -6250,11 +6250,11 @@ ul.blog_tags_inner {
   content: "s"
 }
 
-.PagLinks {
+.pag_links {
   padding-bottom: 50px
 }
 
-.PagLinks a {
+.pag_links a {
   background: #1f3d78;
   display: flex;
   justify-content: center;
@@ -6265,11 +6265,11 @@ ul.blog_tags_inner {
   color: #fff
 }
 
-body.blog_archive .sidebar-primary {
+body.blog_archive .sidebar_primary {
   padding-top: 70px
 }
 
-.SBPrimaryContainer {
+.sb_primary_container {
   padding-bottom: 80px
 }
 
@@ -6278,7 +6278,7 @@ body.blog_archive .sidebar-primary {
 }
 
 .bottom_articles .blog_card header,
-.SBPrimaryContainer .blog_card header {
+.sb_primary_container .blog_card header {
   margin-top: 0
 }
 
@@ -6287,20 +6287,20 @@ body.blog_archive .sidebar-primary {
     margin-right: 25px
   }
 
-  .SBPrimaryContainer {
+  .sb_primary_container {
     width: 100%
   }
 
-  body.blog_archive .StickySidebar {
+  body.blog_archive .sticky_sidebar {
     width: 100%;
     padding: 0 15px
   }
 
-  .blog_archive .StickySidebar {
+  .blog_archive .sticky_sidebar {
     padding-right: 0
   }
 
-  body.blog_archive .CommunityFaqSectionLeft {
+  body.blog_archive .community_faq_section_left {
     position: relative;
     top: 0;
     border-radius: 22px;
@@ -6343,7 +6343,7 @@ body.blog_archive .sidebar-primary {
     padding: 50px 20px
   }
 
-  body.blog_archive .sidebar-primary {
+  body.blog_archive .sidebar_primary {
     padding-top: 50px
   }
 }
@@ -8127,11 +8127,11 @@ a.CardHeroBtn {
   padding: 0
 }
 
-.CommunityFaqSectionLeft {
+.community_faq_section_left {
   background: #0b1f50
 }
 
-.CommunityFaqSectionLeft p {
+.community_faq_section_left p {
   max-width: 667px
 }
 
@@ -8144,14 +8144,14 @@ body.rise .CommunityFaqGlobalInner div#community {
   width: 43%
 }
 
-.CommunityFaqSectionLeft h2 {
+.community_faq_section_left h2 {
   color: #fff;
   font-weight: 700;
   font-size: 3em;
   letter-spacing: .04em
 }
 
-.CommunityFaqSectionLeft p {
+.community_faq_section_left p {
   padding: 20px 40px;
   max-width: 508px;
   text-align: center;
@@ -8161,7 +8161,7 @@ body.rise .CommunityFaqGlobalInner div#community {
   margin: 12px 0
 }
 
-.CommunityFaqSectionLeft {
+.community_faq_section_left {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8191,7 +8191,7 @@ body.rise .CommunityFaqGlobalInner div#community {
   border-bottom: 1px solid #04205a
 }
 
-body.rise .CommunityFaqSectionLeft {
+body.rise .community_faq_section_left {
   border-top-right-radius: 370px;
   border-bottom-right-radius: 370px;
   box-shadow: -220px 0 0 0 #0b1f50, -420px 0 0 0 #0b1f50, -620px 0 0 0 #0b1f50, -820px 0 0 0 #0b1f50, -1020px 0 0 0 #0b1f50, -1220px 0 0 0 #0b1f50, -1420px 0 0 0 #0b1f50, -1620px 0 0 0 #0b1f50, -1820px 0 0 0 #0b1f50, -2020px 0 0 0 #0b1f50, -2220px 0 0 0 #0b1f50, -2420px 0 0 0 #0b1f50, -2620px 0 0 0 #0b1f50, -2820px 0 0 0 #0b1f50, -3020px 0 0 0 #0b1f50, -3220px 0 0 0 #0b1f50, -3420px 0 0 0 #0b1f50, -3220px 0 0 0 #0b1f50, -3420px 0 0 0 #0b1f50, -3620px 0 0 0 #0b1f50, -3820px 0 0 0 #0b1f50, -4020px 0 0 0 #0b1f50, -4220px 0 0 0 #0b1f50, -4420px 0 0 0 #0b1f50, -4620px 0 0 0 #0b1f50, -4820px 0 0 0 #0b1f50, -5020px 0 0 0 #0b1f50, -5220px 0 0 0 #0b1f50, -5420px 0 0 0 #0b1f50, -5620px 0 0 0 #0b1f50, -5820px 0 0 0 #0b1f50, -6020px 0 0 0 #0b1f50;
@@ -8374,7 +8374,7 @@ body.rise .CommunityFaqSectionRight {
 }
 
 @media only screen and (max-width:1460px) and (min-width:0px) {
-  body.rise .CommunityFaqSectionLeft {
+  body.rise .community_faq_section_left {
     width: 45%
   }
 
@@ -8385,7 +8385,7 @@ body.rise .CommunityFaqSectionRight {
 }
 
 @media only screen and (max-width:1400px) and (min-width:0px) {
-  .rise .CommunityFaqSectionLeft {
+  .rise .community_faq_section_left {
     padding-right: 50px;
     border-top-right-radius: 300px;
     border-bottom-right-radius: 300px
@@ -8406,13 +8406,13 @@ body.rise .CommunityFaqSectionRight {
     width: 100%
   }
 
-  body.rise .CommunityFaqSection .CommunityFaqSectionLeft,
+  body.rise .CommunityFaqSection .community_faq_section_left,
   body.rise .CommunityFaqSection .CommunityFaqSectionRight {
     width: 100%;
     box-shadow: 0 0 0 0 transparent
   }
 
-  body.rise .CommunityFaqSectionLeft {
+  body.rise .community_faq_section_left {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     padding: 60px 0;
@@ -8432,12 +8432,12 @@ body.rise .CommunityFaqSectionRight {
     margin-right: 10px
   }
 
-  body.rise .CommunityFaqSectionLeft .hero_content_btns {
+  body.rise .community_faq_section_left .hero_content_btns {
     width: 100%;
     max-width: 330px
   }
 
-  body.rise .CommunityFaqSectionLeft .hero_content_btns a:first-child {
+  body.rise .community_faq_section_left .hero_content_btns a:first-child {
     margin: initial;
     width: 100%
   }
@@ -8454,17 +8454,17 @@ body.rise .CommunityFaqSectionRight {
 }
 
 @media only screen and (max-width:500px) and (min-width:0px) {
-  .CommunityFaqSectionLeft h2 {
+  .community_faq_section_left h2 {
     font-size: 9.3vw
   }
 
-  body.rise .CommunityFaqSectionLeft {
+  body.rise .community_faq_section_left {
     margin: 0 0 55px;
     border-radius: 15px
   }
 }
 
-body.rise .CommunityFaqSectionLeft h2 {
+body.rise .community_faq_section_left h2 {
   text-align: center
 }
 
@@ -10095,7 +10095,7 @@ li.social_card:nth-child(3) .social_card_text {
   }
 }
 
-.StickySidebar .CommunityFaqSectionLeft {
+.sticky_sidebar .community_faq_section_left {
   position: sticky;
   top: 15px
 }
@@ -10158,12 +10158,12 @@ body.ama-archive .post_meta img {
   width: 100%
 }
 
-.StickySidebar {
+.sticky_sidebar {
   width: 35%;
   padding-left: 30px
 }
 
-.blog_archive .StickySidebar {
+.blog_archive .sticky_sidebar {
   width: 33%;
   padding-left: 30px
 }
@@ -10212,7 +10212,7 @@ ul.ama .yt_thumb:after {
   font-size: 11px
 }
 
-.StickySidebar h2 {
+.sticky_sidebar h2 {
   margin-bottom: 20px;
   font-size: 19px
 }
@@ -10224,7 +10224,7 @@ ul.ama li {
   padding-bottom: 30px
 }
 
-.StickySidebar .blog_card header {
+.sticky_sidebar .blog_card header {
   margin: 0
 }
 
@@ -10345,38 +10345,38 @@ body.ama-archive .blog_card_tag {
   font-size: 11px
 }
 
-.StickySidebar .CommunityFaqSectionLeft {
+.sticky_sidebar .community_faq_section_left {
   width: 100%;
   margin-bottom: 50px;
   padding: 50px 30px;
   border-radius: 10px
 }
 
-.StickySidebar .CommunityFaqSectionLeft h2 {
+.sticky_sidebar .community_faq_section_left h2 {
   font-size: 1.9em;
   text-align: center
 }
 
-.StickySidebar .CommunityFaqSectionLeft p {
+.sticky_sidebar .community_faq_section_left p {
   padding: 0 10px 10px;
   font-size: 16px;
   margin-top: 0
 }
 
-.StickySidebar .CommunityFaqSectionLeft .hero_content_btns {
+.sticky_sidebar .community_faq_section_left .hero_content_btns {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center
 }
 
-.StickySidebar .CommunityFaqSectionLeft .hero_content_btns a {
+.sticky_sidebar .community_faq_section_left .hero_content_btns a {
   height: 50px;
   font-size: 19px;
   min-width: 180px
 }
 
-.StickySidebar .blog_card_content_wrap h3 {
+.sticky_sidebar .blog_card_content_wrap h3 {
   font-size: 18px;
   text-transform: none;
   font-weight: 600;
@@ -10463,7 +10463,7 @@ body.ama-archive .blog_card_tag {
   width: 100%
 }
 
-body.blog_archive .CommunityFaqSectionLeft {
+body.blog_archive .community_faq_section_left {
   position: sticky;
   top: 20px;
   width: 100%;
@@ -10585,13 +10585,13 @@ ul.feature_vids li:first-child a:hover .yt_thumb:before {
     width: 100%
   }
 
-  body.ama-archive .StickySidebar {
+  body.ama-archive .sticky_sidebar {
     width: 100%;
     margin-top: 60px;
     padding-left: 0
   }
 
-  .StickySidebar .CommunityFaqSectionLeft {
+  .sticky_sidebar .community_faq_section_left {
     top: 0;
     margin-bottom: 0;
     position: relative
@@ -10708,7 +10708,7 @@ section.DappFaqSection section.DappFaqSection .global_inner {
   padding: 0
 }
 
-section.DappFaqSection .CommunityFaqSectionLeft {
+section.DappFaqSection .community_faq_section_left {
   width: 38%;
   margin-right: 5%
 }
@@ -12221,7 +12221,7 @@ a.ContactNow {
     margin-bottom: 40px !important
   }
 
-  body.EverDapp .DappFaqGlobalInner .CommunityFaqSectionLeft {
+  body.EverDapp .DappFaqGlobalInner .community_faq_section_left {
     padding-bottom: 0;
     border-bottom-width: 0
   }
@@ -12236,11 +12236,11 @@ a.ContactNow {
 }
 
 .DappFaqSection,
-.DappFaqSection .CommunityFaqSectionLeft {
+.DappFaqSection .community_faq_section_left {
   background: #030d2b
 }
 
-.DappFaqGlobalInner .CommunityFaqSectionLeft p {
+.DappFaqGlobalInner .community_faq_section_left p {
   max-width: 530px
 }
 
@@ -12278,12 +12278,12 @@ body.EverBridge .ContentImgSection:last-child .ContentImgSectionImg {
     flex-direction: column
   }
 
-  .DappFaqGlobalInner .CommunityFaqSectionLeft,
+  .DappFaqGlobalInner .community_faq_section_left,
   .DappFaqGlobalInner .CommunityFaqSectionRight {
     width: 100%
   }
 
-  .DappFaqGlobalInner .CommunityFaqSectionLeft p {
+  .DappFaqGlobalInner .community_faq_section_left p {
     max-width: 865px
   }
 
@@ -12291,14 +12291,14 @@ body.EverBridge .ContentImgSection:last-child .ContentImgSectionImg {
     margin-top: 10px
   }
 
-  body.EverDapp .CommunityFaqSectionLeft {
+  body.EverDapp .community_faq_section_left {
     margin-bottom: 60px;
     border-bottom: 1px solid #13243b6e;
     border-radius: 0;
     padding-bottom: 80px
   }
 
-  section.DappFaqSection .CommunityFaqSectionLeft {
+  section.DappFaqSection .community_faq_section_left {
     width: 100%
   }
 }
@@ -12312,7 +12312,7 @@ body.EverBridge .ContentImgSection:last-child .ContentImgSectionImg {
     margin-bottom: 20px
   }
 
-  .CommunityFaqSectionLeft p {
+  .community_faq_section_left p {
     padding: 20px 15px
   }
 
@@ -12715,14 +12715,14 @@ body.CSDapp.EverDapp .DappHeaderH2 img {
   max-width: 80px
 }
 
-body.CSDapp.EverDapp .CommunityFaqSectionLeft p {
+body.CSDapp.EverDapp .community_faq_section_left p {
   text-align: left;
   font-size: 18px;
   padding: 10px 10px 10px 0;
   margin: 0
 }
 
-body.CSDapp.EverDapp section.DappFaqSection .CommunityFaqSectionLeft {
+body.CSDapp.EverDapp section.DappFaqSection .community_faq_section_left {
   align-items: flex-start;
   justify-content: flex-start
 }
@@ -12769,11 +12769,11 @@ body.EverMigrate .InvestorServices>div {
   color: #4392ca
 }
 
-body.EverSwap .DappFaqGlobalInner .CommunityFaqSectionLeft p {
+body.EverSwap .DappFaqGlobalInner .community_faq_section_left p {
   max-width: 700px
 }
 
-.EverDapp .CommunityFaqSectionLeft h3 {
+.EverDapp .community_faq_section_left h3 {
   color: #fff;
   font-size: 23px;
   font-weight: 800;
