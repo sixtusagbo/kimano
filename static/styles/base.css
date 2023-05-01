@@ -1257,14 +1257,14 @@ body:not(.rise) .CompactEcosystemSectionInner {
 
 @media only screen and (max-width:1921px) and (min-width:1301px) {
 
-  .AboutSectionInner,
+  .about_section_inner,
   .ama-inner,
   .BlogHeader .global_inner,
   .blog_widget_section .blog_widget_global_inner,
   .ContentImgGlobalInner,
   .CSDapp .DappFaqGlobalInner,
   .DappHeaderInner,
-  .EverRisePressInner,
+  .ever_rise_press_inner,
   .EverRiseTeamInner,
   .faq_inner,
   .FeaturesGlobalInner,
@@ -1285,14 +1285,14 @@ body:not(.rise) .CompactEcosystemSectionInner {
 
 @media only screen and (max-width:1300px) and (min-width:0px) {
 
-  .AboutSectionInner,
+  .about_section_inner,
   .ama-inner,
   .BlogHeader .global_inner,
   .blog_widget_section .blog_widget_global_inner,
   .ContentImgGlobalInner,
   .CSDapp .DappFaqGlobalInner,
   .DappHeaderInner,
-  .EverRisePressInner,
+  .ever_rise_press_inner,
   .EverRiseTeamInner,
   .faq_inner,
   .FeaturesGlobalInner,
@@ -12791,23 +12791,23 @@ body.EverBridge .ContentImgSectionTxt .hero_content_btns a {
   line-height: 1em
 }
 
-section.AboutSection {
+section.about_section {
   padding-top: 100px;
   padding-bottom: 10px
 }
 
-section.AboutSection,
+section.about_section,
 section.EverRiseTeamSection {
   background: #030d2b;
   color: #fff
 }
 
-.AboutSectionHeader,
-.AboutSectionInner {
+.about_section_header,
+.about_section_inner {
   flex-direction: column
 }
 
-.AboutSectionHeader {
+.about_section_header {
   background: #001846;
   display: flex;
   justify-content: center;
@@ -12840,7 +12840,7 @@ body.about h1 {
   width: fit-content
 }
 
-.AboutSectionInner h2 {
+.about_section_inner h2 {
   font-size: 1.8em;
   font-weight: 100
 }
@@ -13034,7 +13034,7 @@ section.EverRiseTeamSection {
     margin: 10px
   }
 
-  section.AboutSection {
+  section.about_section {
     padding-top: 65px
   }
 }
@@ -13055,7 +13055,7 @@ section.EverRiseTeamSection {
     margin-right: 0
   }
 
-  section.AboutSection {
+  section.about_section {
     padding-top: 40px;
     padding-bottom: 10px
   }
@@ -13075,12 +13075,12 @@ section.EverRiseTeamSection {
     padding-bottom: 15px
   }
 
-  .AboutSectionHeader h2 {
+  .about_section_header h2 {
     font-size: 1.5em;
     font-weight: 100
   }
 
-  .AboutSectionHeader {
+  .about_section_header {
     padding: 20px 35px
   }
 
@@ -13114,7 +13114,7 @@ section.EverRiseTeamSection {
     font-size: 2.4em
   }
 
-  .AboutSectionHeader h2 {
+  .about_section_header h2 {
     font-size: 1.3em
   }
 
@@ -13123,46 +13123,46 @@ section.EverRiseTeamSection {
   }
 }
 
-section.EverRisePressSection {
+section.ever_rise_press_section {
   background: #030d2b
 }
 
-ul.PressList {
+ul.press_list {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 90px
 }
 
-ul.PressList li {
+ul.press_list li {
   padding: 0 5px 50px
 }
 
-.AboutSectionHeader {
+.about_section_header {
   margin: 0 15px
 }
 
-.PressLogo,
-.PressText {
+.press_logo,
+.press_text {
   width: 100%
 }
 
-.PressLogo {
+.press_logo {
   margin-bottom: 15px;
   border-bottom: 1px solid #001d56;
   padding-bottom: 10px;
   box-shadow: inset 0 -2px 0 0 #030d2b
 }
 
-.PressLogo>div {
+.press_logo>div {
   max-width: 224px
 }
 
-.PressLogo>div img {
+.press_logo>div img {
   max-height: 61px
 }
 
-.PressButton a:after {
+.press_button a:after {
   content: "";
   background-image: url(https://www.everrise.com/assets/images/icon/External-Link-Popup-icon.png);
   display: block;
@@ -13172,7 +13172,7 @@ ul.PressList li {
   margin-left: 8px
 }
 
-ul.PressList li {
+ul.press_list li {
   width: calc(33.333% - 30px);
   display: flex;
   flex-direction: column;
@@ -13187,25 +13187,25 @@ ul.PressList li {
   padding: 50px 35px
 }
 
-p.PressItemPublishDate {
+p.press_item_publish_date {
   font-weight: 100;
   font-size: 14px;
   color: #cbcbcb
 }
 
-.PressText h2,
-.PressText h3 {
+.press_text h2,
+.press_text h3 {
   margin: 11px 0;
   color: #bdbdbd;
   font-size: 18px
 }
 
-.PressButton {
+.press_button {
   width: 100%;
   margin-top: auto
 }
 
-.PressButton a {
+.press_button a {
   border: 2px solid #00143a;
   height: 60px;
   display: flex;
@@ -13220,13 +13220,13 @@ p.PressItemPublishDate {
   background-color: #001a4a
 }
 
-.PressButton a:hover {
+.press_button a:hover {
   background: linear-gradient(90deg, #fb8b47, #ce2041);
   box-shadow: inset 0 0 1px 1px #f78247;
   border-color: #001635
 }
 
-.PressLogo img {
+.press_logo img {
   max-width: 190px !important
 }
 
@@ -13246,36 +13246,36 @@ body.press h1 {
 }
 
 @media only screen and (max-width:1200px) and (min-width:0px) {
-  section.EverRisePressSection .PressList li {
+  section.ever_rise_press_section .press_list li {
     width: calc(50% - 20px);
     margin: 10px
   }
 
-  .AboutSectionHeader {
+  .about_section_header {
     margin: 0 10px
   }
 }
 
 @media only screen and (max-width:768px) and (min-width:0px) {
 
-  .AboutSectionInner,
-  .EverRisePressInner {
+  .about_section_inner,
+  .ever_rise_press_inner {
     padding: 0
   }
 }
 
 @media only screen and (max-width:680px) and (min-width:0px) {
-  section.EverRisePressSection .PressList li {
+  section.ever_rise_press_section .press_list li {
     width: calc(100% - 20px);
     margin: 10px
   }
 
-  section.AboutSection {
+  section.about_section {
     padding-top: 20px;
     padding-bottom: 10px
   }
 
-  body.press section.AboutSection h1 {
+  body.press section.about_section h1 {
     font-size: 2em
   }
 }
