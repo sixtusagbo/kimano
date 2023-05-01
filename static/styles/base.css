@@ -13280,23 +13280,23 @@ body.press h1 {
   }
 }
 
-body.legal-page {
+body.legal_pages {
   position: absolute;
   width: 100%;
   max-height: 100vh;
   overflow: hidden
 }
 
-body.legal-page .content>section:last-child {
+body.legal_pages .content>section:last-child {
   padding-bottom: 0
 }
 
-body.legal-page .content,
-body.legal-page div.wrapper {
+body.legal_pages .content,
+body.legal_pages div.wrapper {
   min-height: auto
 }
 
-body.legal-page .topbar {
+body.legal_pages .topbar {
   display: none
 }
 
@@ -13394,7 +13394,7 @@ body.legal-page .topbar {
   padding-bottom: 0
 }
 
-body.legal-page .content {
+body.legal_pages .content {
   height: calc(100vh - 202px);
   min-height: calc(100vh - 202px);
   max-height: calc(100vh - 202px);
@@ -13403,7 +13403,7 @@ body.legal-page .content {
   align-items: center
 }
 
-body.legal-page .footer_copyright {
+body.legal_pages .footer_copyright {
   height: 80px;
   font-size: 14px;
   border-top-width: 0
@@ -13517,7 +13517,7 @@ body.legal-page .footer_copyright {
   max-height: 100%
 }
 
-body.legal-page footer.footer {
+body.legal_pages footer.footer {
   background: #001846
 }
 
@@ -13526,7 +13526,7 @@ body.legal-page footer.footer {
   text-decoration: underline
 }
 
-body.legal-page table tr td:first-child {
+body.legal_pages table tr td:first-child {
   font-weight: 700;
   color: #6d6868;
   padding-right: 10px
@@ -13547,7 +13547,7 @@ body.legal-page table tr td:first-child {
 }
 
 @media only screen and (max-width:960px) and (min-width:0px) {
-  body.legal-page .content {
+  body.legal_pages .content {
     height: calc(100vh - 167px);
     min-height: calc(100vh - 167px);
     max-height: calc(100vh - 167px);
