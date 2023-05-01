@@ -138,8 +138,12 @@ https://www.contributor-covenant.org/translations.
   - before: `PArrow` after: `p_arrow`
   - before: `SubMit` after: `submit`
     - *Reason: Because submit makes a full semantic word.*
+  - before: `SBPrimaryContainer` after: `sb_primary_container`
 
 ### **Note:** Top level id `__next` was changed to class `wrapper`
 And in the css too, I *find me with `git blame`* changed from div#__next it to div#wrapper
 - In cases of where there are double underscores, remove one
   - Example: before `Collapsible__contentOuter` after: `collapsible_content_outer`  
+
+### The same
+  - before: `md:w-2/3` after: `md:w-2/3`
