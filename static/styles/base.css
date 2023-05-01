@@ -362,7 +362,7 @@ video {
   margin-top: 2.5rem
 }
 
-.mt-3 {
+.mt_3 {
   margin-top: .75rem
 }
 
@@ -2893,7 +2893,7 @@ body.site_faq .header_txt h1 {
   background: #f6f6f6
 }
 
-.AppWrap *,
+.app_wrap *,
 .blog_tags *,
 .blog_widget_section *,
 .FaqBlocks * {
@@ -2901,7 +2901,7 @@ body.site_faq .header_txt h1 {
   scrollbar-color: grey transparent
 }
 
-.AppWrap ::-webkit-scrollbar,
+.app_wrap ::-webkit-scrollbar,
 .blog_tags ::-webkit-scrollbar,
 .blog_widget_section ::-webkit-scrollbar,
 .FaqBlocks ::-webkit-scrollbar {
@@ -2910,14 +2910,14 @@ body.site_faq .header_txt h1 {
   overflow: hidden
 }
 
-.AppWrap ::-webkit-scrollbar-track,
+.app_wrap ::-webkit-scrollbar-track,
 .blog_tags ::-webkit-scrollbar-track,
 .blog_widget_section ::-webkit-scrollbar-track,
 .FaqBlocks ::-webkit-scrollbar-track {
   background: transparent
 }
 
-.AppWrap ::-webkit-scrollbar-thumb,
+.app_wrap ::-webkit-scrollbar-thumb,
 .blog_tags ::-webkit-scrollbar-thumb,
 .blog_widget_section ::-webkit-scrollbar-thumb,
 .FaqBlocks ::-webkit-scrollbar-thumb {
@@ -13300,17 +13300,17 @@ body.legal-page .topbar {
   display: none
 }
 
-.AppWrap {
+.app_wrap {
   padding: 20px 0
 }
 
-.AppWrap a,
-.AppWrap li,
-.AppWrap p {
+.app_wrap a,
+.app_wrap li,
+.app_wrap p {
   word-wrap: break-word !important
 }
 
-.AppWrap h1 {
+.app_wrap h1 {
   font-weight: 800;
   font-size: 26px;
   color: #666;
@@ -13323,20 +13323,20 @@ body.legal-page .topbar {
   -webkit-text-fill-color: transparent
 }
 
-.AppWrap h2,
-.AppWrap h3,
-.AppWrap h4 {
+.app_wrap h2,
+.app_wrap h3,
+.app_wrap h4 {
   font-weight: 600;
   color: #4d4d4d;
   margin-bottom: 11px;
   font-size: 17px
 }
 
-.LegalContent {
+.legal_content {
   padding-bottom: 50px
 }
 
-.LegalContent h2 {
+.legal_content h2 {
   font-size: 22px;
   border-bottom: 1px solid #ececec;
   margin-bottom: 20px;
@@ -13344,7 +13344,7 @@ body.legal-page .topbar {
   margin-top: 30px
 }
 
-.LegalContent h2:first-of-type {
+.legal_content h2:first-of-type {
   margin-top: 10px
 }
 
@@ -13386,9 +13386,9 @@ body.legal-page .topbar {
   font-weight: 700 !important
 }
 
-.AppWrap h2.active,
-.AppWrap h3.active,
-.AppWrap h4.active {
+.app_wrap h2.active,
+.app_wrap h3.active,
+.app_wrap h4.active {
   background: grey;
   color: #fff;
   padding-bottom: 0
@@ -13414,23 +13414,23 @@ body.legal-page .footer_copyright {
   position: relative
 }
 
-.LegalContentInner header p {
+.legal_content_inner header p {
   font-weight: 100;
   font-size: 13px
 }
 
-.LegalContentInner header p span {
+.legal_content_inner header p span {
   font-weight: 600;
   font-size: 16px;
   color: gray;
   padding-left: 4px
 }
 
-.LegalContent {
+.legal_content {
   width: calc(100% - 400px)
 }
 
-.LegalContentInner {
+.legal_content_inner {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
@@ -13438,12 +13438,12 @@ body.legal-page .footer_copyright {
   justify-content: center
 }
 
-.LegalContent {
+.legal_content {
   font-size: 15px;
   font-weight: 100
 }
 
-.LegalContentInner header {
+.legal_content_inner header {
   width: 100%;
   display: flex;
   z-index: 1;
@@ -13456,7 +13456,7 @@ body.legal-page .footer_copyright {
   max-height: 70px
 }
 
-.LegalContentInner {
+.legal_content_inner {
   background: #fff;
   box-shadow: 3px 12px 26px 3px rgb(0 23 101/10%);
   padding: 0;
@@ -13464,7 +13464,7 @@ body.legal-page .footer_copyright {
 }
 
 .js-toc,
-.LegalContent {
+.legal_content {
   overflow-y: auto;
   max-height: calc(100vh - 320px);
   height: 100%
@@ -13474,12 +13474,12 @@ body.legal-page .footer_copyright {
   padding: 20px 50px 50px
 }
 
-.LegalContent {
+.legal_content {
   border: 50px solid #fff;
   padding-right: 15px
 }
 
-.LegalContent ul li:before {
+.legal_content ul li:before {
   content: "â€¢";
   font-size: 35px;
   line-height: 0;
@@ -13488,17 +13488,17 @@ body.legal-page .footer_copyright {
   margin-right: 9px
 }
 
-.LegalContent ul li {
+.legal_content ul li {
   margin-bottom: 15px
 }
 
-.LegalContent table {
+.legal_content table {
   width: 100%;
   margin-bottom: 30px;
   margin-top: 20px
 }
 
-.LegalContent tbody {
+.legal_content tbody {
   border: 1px solid #e6e6e6;
   width: 100%;
   display: flex;
@@ -13521,7 +13521,7 @@ body.legal-page footer.footer {
   background: #001846
 }
 
-.LegalContent a {
+.legal_content a {
   color: #2c7fd4;
   text-decoration: underline
 }
@@ -13537,7 +13537,7 @@ body.legal-page table tr td:first-child {
     width: 250px
   }
 
-  .LegalContent {
+  .legal_content {
     width: calc(100% - 250px)
   }
 
@@ -13560,12 +13560,12 @@ body.legal-page table tr td:first-child {
     margin-bottom: 8px
   }
 
-  .AppWrapInner {
+  .app_wrap_inner {
     padding: 0 10px
   }
 
   .js-toc,
-  .LegalContent {
+  .legal_content {
     max-height: calc(100vh - 284px)
   }
 }
@@ -13575,45 +13575,45 @@ body.legal-page table tr td:first-child {
     display: none
   }
 
-  .LegalContent {
+  .legal_content {
     width: 100%
   }
 
   .js-toc,
-  .LegalContent {
+  .legal_content {
     max-height: calc(100vh - 250px)
   }
 
-  .LegalContentInner header {
+  .legal_content_inner header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 0 20px
   }
 
-  .AppWrap h1 {
+  .app_wrap h1 {
     font-size: 24px
   }
 
-  .LegalContentInner header p span {
+  .legal_content_inner header p span {
     font-size: 14px
   }
 
-  .LegalContentInner header p {
+  .legal_content_inner header p {
     font-weight: 100;
     font-size: 12px
   }
 }
 
 @media only screen and (max-width:550px) and (min-width:0px) {
-  .LegalContent {
+  .legal_content {
     width: 100%;
     padding: 0;
     border-width: 18px;
     max-width: 97vw
   }
 
-  .AppWrapInner {
+  .app_wrap_inner {
     padding: 5px
   }
 
@@ -13627,13 +13627,13 @@ body.legal-page table tr td:first-child {
 }
 
 @media only screen and (max-width:340px) and (min-width:0px) {
-  .AppWrap h1 {
+  .app_wrap h1 {
     font-size: 7vw
   }
 }
 
 @media only screen and (max-height:800px) and (min-height:0px) {
-  .LegalContent {
+  .legal_content {
     border-width: 15px
   }
 }
