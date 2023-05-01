@@ -132,7 +132,6 @@ https://www.contributor-covenant.org/translations.
   - Example: before: `LogoContainer`  after: `logo_container`
 - Replace rise with `our` and replace hypen `-` with underscore `_`
   - Example: before: `rise-menu-item` after: `our_menu_item`
-<<<<<<< Updated upstream
 - Replace `rise` with `our`.
 - Other cases:
   - before: `ERIconEverRevoke` after: `icon_revoke`
@@ -140,9 +139,7 @@ https://www.contributor-covenant.org/translations.
   - before: `SubMit` after: `submit`
     - *Reason: Because submit makes a full semantic word.*
 
-### **Note:** Top level class `__next` was changed to `wrapper`
+### **Note:** Top level id `__next` was changed to class `wrapper`
 And in the css too, I *find me with `git blame`* changed from div#__next it to div#wrapper
-=======
 - In cases of where there are double underscores, remove one
   - Example: before `Collapsible__contentOuter` after: `collapsible_content_outer`  
->>>>>>> Stashed changes
