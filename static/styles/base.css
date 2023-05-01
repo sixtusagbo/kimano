@@ -1226,7 +1226,7 @@ body>div>div {
 .press_global_inner,
 .RiseV1Section .global_inner,
 .RiseV2Section .global_inner,
-body.community .CommunityInner,
+body.community .community_inner,
 body:not(.rise) .CompactEcosystemSectionInner {
   width: 100%;
   max-width: 1920px;
@@ -1278,7 +1278,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .press_global_inner,
   .RiseV1Section .global_inner,
   .RiseV2Section .global_inner,
-  body.community .CommunityInner {
+  body.community .community_inner {
     max-width: 90vw
   }
 }
@@ -1305,7 +1305,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .press_global_inner,
   .RiseV1Section .global_inner,
   .RiseV2Section .global_inner,
-  body.community .CommunityInner {
+  body.community .community_inner {
     max-width: 100%
   }
 }
@@ -5714,7 +5714,7 @@ section.CompactEcosystemSection {
   overflow: hidden
 }
 
-body.blog-archive .img_header_hero_right h1,
+body.blog_archive .img_header_hero_right h1,
 body.site_faq .img_header_hero_right h1 {
   font-weight: 800;
   font-size: 50px;
@@ -6010,7 +6010,7 @@ body.blog-post .BlogHeader header {
   max-width: 650px
 }
 
-body.blog-archive .PostMeta {
+body.blog_archive .PostMeta {
   max-width: 100%
 }
 
@@ -6041,7 +6041,7 @@ body.blog-archive .PostMeta {
   border-color: gray
 }
 
-body.blog-archive .BlogTags:before {
+body.blog_archive .BlogTags:before {
   content: "Filter Posts:";
   margin-right: 20px;
   min-width: -webkit-fit-content;
@@ -6049,27 +6049,27 @@ body.blog-archive .BlogTags:before {
   min-width: fit-content
 }
 
-body.blog-archive .sidebar-primary {
+body.blog_archive .sidebar-primary {
   background-color: #fff;
   border-top: 1px solid #f0f0f0
 }
 
-body.blog-archive-pag .BlogTags {
+body.blog_archive-pag .BlogTags {
   display: none
 }
 
-body.blog-archive .BlogHeader {
+body.blog_archive .BlogHeader {
   padding: 80px 40px;
   position: relative;
   overflow: hidden
 }
 
-body.blog-archive .PostMeta img,
-body.blog-archive ul.BlogTagsInner li:first-child {
+body.blog_archive .PostMeta img,
+body.blog_archive ul.BlogTagsInner li:first-child {
   display: none
 }
 
-body.blog-archive-tags .BlogHeader header h1:before {
+body.blog_archive-tags .BlogHeader header h1:before {
   content: "Filter posts by:";
   position: absolute;
   font-family: Roboto;
@@ -6082,7 +6082,7 @@ body.blog-archive-tags .BlogHeader header h1:before {
   margin-left: -46px
 }
 
-body.blog-archive.blog-archive-tags ul.BlogTagsInner li:first-child {
+body.blog_archive.blog_archive-tags ul.BlogTagsInner li:first-child {
   display: flex
 }
 
@@ -6125,7 +6125,7 @@ ul.BlogTagsInner li:nth-child(2) a {
   margin-left: 0
 }
 
-body.blog-archive .BlogHeader header {
+body.blog_archive .BlogHeader header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6137,7 +6137,7 @@ body.blog-archive .BlogHeader header {
   padding: 20px
 }
 
-body.blog-archive .HeaderTxt {
+body.blog_archive .HeaderTxt {
   flex: 1;
   min-width: 100%;
   display: flex;
@@ -6145,7 +6145,7 @@ body.blog-archive .HeaderTxt {
   align-items: center
 }
 
-body.blog-archive .blog_card_content_wrap {
+body.blog_archive .blog_card_content_wrap {
   background-color: #fff
 }
 
@@ -6163,7 +6163,7 @@ body.blog-archive .blog_card_content_wrap {
   font-family: Roboto, sans-serif
 }
 
-body.blog-archive .BlogHeader header h1 {
+body.blog_archive .BlogHeader header h1 {
   order: 1;
   text-align: center;
   margin-top: 0;
@@ -6178,14 +6178,14 @@ body.blog-archive .BlogHeader header h1 {
 }
 
 .PageHeader .PostMeta p,
-body.blog-archive .PostMeta p {
+body.blog_archive .PostMeta p {
   margin: auto;
   font-size: 20px;
   text-align: center
 }
 
 .page-header .PostMeta,
-body.blog-archive .PostMeta {
+body.blog_archive .PostMeta {
   padding-top: 0
 }
 
@@ -6198,7 +6198,7 @@ body.blog-archive .PostMeta {
   padding-bottom: 130px
 }
 
-body.blog-archive .gap-x-3 {
+body.blog_archive .gap-x-3 {
   -moz-column-gap: 2rem;
   column-gap: 2rem
 }
@@ -6265,7 +6265,7 @@ ul.BlogTagsInner {
   color: #fff
 }
 
-body.blog-archive .sidebar-primary {
+body.blog_archive .sidebar-primary {
   padding-top: 70px
 }
 
@@ -6291,16 +6291,16 @@ body.blog-archive .sidebar-primary {
     width: 100%
   }
 
-  body.blog-archive .StickySidebar {
+  body.blog_archive .StickySidebar {
     width: 100%;
     padding: 0 15px
   }
 
-  .blog-archive .StickySidebar {
+  .blog_archive .StickySidebar {
     padding-right: 0
   }
 
-  body.blog-archive .CommunityFaqSectionLeft {
+  body.blog_archive .CommunityFaqSectionLeft {
     position: relative;
     top: 0;
     border-radius: 22px;
@@ -6309,11 +6309,11 @@ body.blog-archive .sidebar-primary {
 }
 
 @media only screen and (max-width:768px) {
-  body.blog-archive .BlogHeader header h1 {
+  body.blog_archive .BlogHeader header h1 {
     font-size: 2.3em
   }
 
-  body.blog-archive .PostMeta p {
+  body.blog_archive .PostMeta p {
     font-size: 16px
   }
 
@@ -6322,7 +6322,7 @@ body.blog-archive .sidebar-primary {
     align-items: flex-start
   }
 
-  body.blog-archive .BlogTags:before {
+  body.blog_archive .BlogTags:before {
     margin-bottom: 10px;
     margin-left: 5px
   }
@@ -6339,11 +6339,11 @@ body.blog-archive .sidebar-primary {
     padding-left: 10px
   }
 
-  body.blog-archive .BlogHeader {
+  body.blog_archive .BlogHeader {
     padding: 50px 20px
   }
 
-  body.blog-archive .sidebar-primary {
+  body.blog_archive .sidebar-primary {
     padding-top: 50px
   }
 }
@@ -6354,12 +6354,12 @@ body.blog-archive .sidebar-primary {
   }
 }
 
-body.blog-archive .ArchiveHeader {
+body.blog_archive .archive_header {
   display: block !important
 }
 
-body.blog-archive .PostHeader,
-body.blog-post .ArchiveHeader {
+body.blog_archive .PostHeader,
+body.blog-post .archive_header {
   display: none !important
 }
 
@@ -6371,7 +6371,7 @@ body.body.blog-post .PostHeader {
   display: none
 }
 
-body.blog-archive .img_header {
+body.blog_archive .img_header {
   margin-bottom: 0
 }
 
@@ -9343,7 +9343,7 @@ body.community .bottom_articles h2 {
   text-align: center
 }
 
-.ImgHeaderHero .social_icon_list svg {
+.img_header_hero .social_icon_list svg {
   width: 100%;
   height: auto;
   max-width: 32px
@@ -9358,7 +9358,7 @@ p.img_header_hero_txt a {
   font-weight: 400
 }
 
-.ImgHeaderHero .social_icon_list a:not(:last-child) {
+.img_header_hero .social_icon_list a:not(:last-child) {
   margin-right: 1.4em
 }
 
@@ -9524,11 +9524,11 @@ ul.feature_vids .yt_thumb {
 }
 
 @media only screen and (max-width:380px) {
-  .ImgHeaderHero .social_icon_list svg {
+  .img_header_hero .social_icon_list svg {
     max-width: 25px
   }
 
-  .ImgHeaderHero .social_icon_list a:not(:last-child) {
+  .img_header_hero .social_icon_list a:not(:last-child) {
     margin-right: 1.1em
   }
 }
@@ -10163,7 +10163,7 @@ body.ama-archive .PostMeta img {
   padding-left: 30px
 }
 
-.blog-archive .StickySidebar {
+.blog_archive .StickySidebar {
   width: 33%;
   padding-left: 30px
 }
@@ -10463,7 +10463,7 @@ body.ama-archive .blog_card_tag {
   width: 100%
 }
 
-body.blog-archive .CommunityFaqSectionLeft {
+body.blog_archive .CommunityFaqSectionLeft {
   position: sticky;
   top: 20px;
   width: 100%;
