@@ -2777,11 +2777,11 @@ span.faq_dapp_title {
   padding-bottom: 12px
 }
 
-.FaqBlocks ul li:first-child .logo path.EverRiseTxt {
+.faq_block ul li:first-child .logo path.EverRiseTxt {
   fill: #012447
 }
 
-.FaqBlocks ul li:first-child .logo {
+.faq_block ul li:first-child .logo {
   max-width: 430px
 }
 
@@ -2896,7 +2896,7 @@ body.site_faq .header_txt h1 {
 .app_wrap *,
 .blog_tags *,
 .blog_widget_section *,
-.FaqBlocks * {
+.faq_block * {
   scrollbar-width: auto;
   scrollbar-color: grey transparent
 }
@@ -2904,7 +2904,7 @@ body.site_faq .header_txt h1 {
 .app_wrap ::-webkit-scrollbar,
 .blog_tags ::-webkit-scrollbar,
 .blog_widget_section ::-webkit-scrollbar,
-.FaqBlocks ::-webkit-scrollbar {
+.faq_block ::-webkit-scrollbar {
   width: 10px;
   border-radius: 10px;
   overflow: hidden
@@ -2913,14 +2913,14 @@ body.site_faq .header_txt h1 {
 .app_wrap ::-webkit-scrollbar-track,
 .blog_tags ::-webkit-scrollbar-track,
 .blog_widget_section ::-webkit-scrollbar-track,
-.FaqBlocks ::-webkit-scrollbar-track {
+.faq_block ::-webkit-scrollbar-track {
   background: transparent
 }
 
 .app_wrap ::-webkit-scrollbar-thumb,
 .blog_tags ::-webkit-scrollbar-thumb,
 .blog_widget_section ::-webkit-scrollbar-thumb,
-.FaqBlocks ::-webkit-scrollbar-thumb {
+.faq_block ::-webkit-scrollbar-thumb {
   background-color: grey;
   border-radius: 10px;
   border: 2px solid transparent
