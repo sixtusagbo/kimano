@@ -1526,7 +1526,7 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a:before {
 }
 
 img.icon_rise {
-  background-image: url(https://www.everrise.com/assets/images/icon/EverRiseIcon45.png);
+  background-image: url(../images/our_icon.png);
   background-size: contain
 }
 
@@ -5962,7 +5962,7 @@ body.blog-post .blog_card_content_wrap {
   height: 500%;
   display: block;
   position: absolute;
-  background-image: url(https://www.everrise.com/assets/images/bg/grid.png);
+  background-image: url(../images/grid.png);
   background-position: 0 71px;
   top: -100%;
   opacity: .06;
@@ -6390,7 +6390,7 @@ body.rise .content {
 .RiseHeader {
   height: 90vh;
   min-height: 1000px;
-  background: url(https://www.everrise.com/assets/images/bg/DeepMetaVerseBG.png) bottom/cover no-repeat rgb(0 20 59/0)
+  background: url(../images/deep_meta_verse_bg.png) bottom/cover no-repeat rgb(0 20 59/0)
 }
 
 .RiseHeader .DappHeaderContentContainer {
@@ -6797,8 +6797,8 @@ img.SwapShopIcon.uniswap-logo {
 p.ContractID:before {
   max-width: 100%;
   background-size: 100%;
-  background-image: url(https://www.everrise.com/assets/images/icon/CryptoServicesSprite.png);
-  background-image: url(https://i.postimg.cc/YpxW1957/Crypto-Services-Sprite2.png)
+  background-image: url(../images/crypto_services_sprite.png);
+  background-image: url(../images/crypto_services_sprite2.png)
 }
 
 .binance-logo,
@@ -6947,7 +6947,7 @@ body.rise .BuyRiseLink:hover {
 
 .ContractID:after {
   content: "";
-  background-image: url(https://www.everrise.com/assets/images/icon/CopyIcon.png);
+  background-image: url(../images/copy_icon.png);
   height: 18px;
   width: 18px;
   min-width: 16px;
@@ -7919,7 +7919,7 @@ a.CardHeroBtn {
 }
 
 .BuybackSection {
-  background: url(https://www.everrise.com/assets/images/bg/RiseMetaverseBG.png) 50%/cover no-repeat rgb(0 20 59/0);
+  background: url(../images/our_metaverse_bg.png) 50%/cover no-repeat rgb(0 20 59/0);
   padding: 130px 0;
   overflow: hidden;
   position: relative
@@ -7930,7 +7930,7 @@ a.CardHeroBtn {
   position: absolute;
   height: 105%;
   width: 100vw;
-  background: url(https://www.everrise.com/assets/images/hero/RiseCoinsLeftBG.png) 0 100%/contain no-repeat rgb(0 20 59/0);
+  background: url(../images/our_coins_left_bg.png) 0 100%/contain no-repeat rgb(0 20 59/0);
   background-repeat: no-repeat;
   pointer-events: none;
   margin-top: 2%;
@@ -8478,7 +8478,7 @@ section.MigrationBanner.global_outer {
 
 .MigraitonBanner {
   width: 100%;
-  background-image: url(https://www.everrise.com/assets/images/bg/DeepMetaVerseBGSmallLight.png);
+  background-image: url(../images/DeepMetaVerseBGSmallLight.png);
   border-radius: 22px;
   margin: 20px 0 120px;
   overflow: hidden;
@@ -10269,7 +10269,7 @@ ul.feature_vids h2 {
 a.YoutubeSubBtn:before {
   max-width: 100%;
   background-size: 100%;
-  background-image: url(https://www.everrise.com/assets/images/icon/youtube-icon-sprite.png)
+  background-image: url(../images/youtube-icon-sprite.png)
 }
 
 .youtube-icona,
@@ -10761,24 +10761,24 @@ body.EverDapp .section_arrow:before {
 }
 
 .EverOwnHeader:before {
-  background: url(https://www.everrise.com/assets/images/dapp/EverOwn/EverRise-EverOwn-HeroBG.png) 30%/cover no-repeat rgb(0 20 59/0);
+  background: url(../images/own_hero_bg.png) 30%/cover no-repeat rgb(0 20 59/0);
   opacity: .7
 }
 
 .EverBridgeHeader:before {
-  background: url(https://www.everrise.com/assets/images/dapp/EverBridge/EverRise-EverBridge-HeroBGHRc.png) 30%/cover no-repeat rgb(0 20 59/0)
+  background: url(../images/bridge_hero_bghrc.png) 30%/cover no-repeat rgb(0 20 59/0)
 }
 
 .EverMigrateHeader:before {
-  background: url(https://www.everrise.com/assets/images/dapp/EverMigrate/EverMigrate-Metaverse-bg.png) 30%/cover no-repeat rgb(0 20 59/0)
+  background: url(../images/migrate_metaverse_bg.png) 30%/cover no-repeat rgb(0 20 59/0)
 }
 
 .StakingHeader:before {
-  background: url(https://www.everrise.com/assets/images/dapp/Staking/NFT-Staking-Grow-Your-Crypto.png) 30%/cover no-repeat rgb(0 20 59/0)
+  background: url(../images/nft_staking_grow_your_crypto.png) 30%/cover no-repeat rgb(0 20 59/0)
 }
 
 .EverSwapHeader:before {
-  background: url(https://www.everrise.com/assets/images/bg/DeepMetaVerseBG.png) 30%/cover no-repeat rgb(0 20 59/0)
+  background: url(../images/deep_meta_verse_bg.png) 30%/cover no-repeat rgb(0 20 59/0)
 }
 
 @media only screen and (min-width:1922px) and (max-width:99999px) {
@@ -10786,7 +10786,7 @@ body.EverDapp .section_arrow:before {
   .EverLockHeader:before,
   .EverSaleHeader:before,
   .EverWalletHeader:before {
-    background: url(https://www.everrise.com/assets/images/bg/DeepMetaVerseBG.png) 30% top/cover no-repeat rgb(0 20 59/0)
+    background: url(../images/deep_meta_verse_bg.png) 30% top/cover no-repeat rgb(0 20 59/0)
   }
 }
 
@@ -10795,7 +10795,7 @@ body.EverDapp .section_arrow:before {
   .EverLockHeader:before,
   .EverSaleHeader:before,
   .EverWalletHeader:before {
-    background: url(https://www.everrise.com/assets/images/bg/DeepMetaVerseBG.png) 30% bottom/cover no-repeat rgb(0 20 59/0)
+    background: url(../images/deep_meta_verse_bg.png) 30% bottom/cover no-repeat rgb(0 20 59/0)
   }
 }
 
@@ -11789,7 +11789,7 @@ body.EverDapp .ProjectServices {
   position: absolute;
   height: 103%;
   width: 100vw;
-  background: url(https://www.everrise.com/assets/images/bg/EverRiseMetaVerse2.png) bottom/cover no-repeat rgb(0 20 59/0);
+  background: url(../images/our_meta_verse2.png) bottom/cover no-repeat rgb(0 20 59/0);
   background-repeat: no-repeat;
   pointer-events: none;
   opacity: .15;
@@ -11943,15 +11943,15 @@ body.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
 
 body.EverBridge.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after,
 body.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
-  background-image: url(https://www.everrise.com/assets/images/dapp/EverBridge/DigitalFunnel.png)
+  background-image: url(../images/digital_funnel.png)
 }
 
 body.EverOwn.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
-  background-image: url(https://www.everrise.com/assets/images/dapp/EverOwn/ConnectedGlobe.png)
+  background-image: url(../images/connected_globe.png)
 }
 
 body.EverMigrate.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
-  background-image: url(https://www.everrise.com/assets/images/dapp/EverMigrate/ZoomerBG.png)
+  background-image: url(../images/zoomer_bg.png)
 }
 
 @media only screen and (max-width:1850px) {
@@ -13162,7 +13162,7 @@ ul.press_list li {
 
 .press_button a:after {
   content: "";
-  background-image: url(https://www.everrise.com/assets/images/icon/External-Link-Popup-icon.png);
+  background-image: url(../images/External_Link_Popup_icon.png);
   display: block;
   width: 20px;
   height: 20px;
