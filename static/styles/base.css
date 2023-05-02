@@ -449,7 +449,7 @@ video {
   flex-direction: column
 }
 
-.flex-wrap {
+.flex_wrap {
   flex-wrap: wrap
 }
 
@@ -13638,49 +13638,49 @@ body.legal-page table tr td:first-child {
   }
 }
 
-.SitemapList {
+.sitemap_list {
   width: 100%;
   padding: 70px 0
 }
 
-.SitemapList h1,
-.SitemapList h2 {
+.sitemap_list h1,
+.sitemap_list h2 {
   font-weight: 800;
   font-size: 30px;
   margin: 10px
 }
 
-.SitemapList h1 {
+.sitemap_list h1 {
   font-size: 40px
 }
 
-.SitemapList h2,
-.SitemapList ul {
+.sitemap_list h2,
+.sitemap_list ul {
   width: 100%
 }
 
-.SitemapList,
-.SitemapList ul {
+.sitemap_list,
+.sitemap_list ul {
   display: flex;
   flex-wrap: wrap
 }
 
-.SitemapList ul:not(:last-child) {
+.sitemap_list ul:not(:last-child) {
   border-bottom: 1px solid #d6d6d6;
   margin-bottom: 50px;
   padding-bottom: 50px
 }
 
-.SitemapList ul:last-of-type {
+.sitemap_list ul:last-of-type {
   border-bottom-width: 0
 }
 
-.SitemapList ul li {
+.sitemap_list ul li {
   width: calc(25% - 20px);
   margin: 10px
 }
 
-.SitemapList ul li a {
+.sitemap_list ul li a {
   box-shadow: 3px 12px 26px 3px rgb(0 23 101/4%);
   padding: 30px;
   border: 1px solid #d6d6d6;
@@ -13694,15 +13694,15 @@ body.legal-page table tr td:first-child {
   height: 100%
 }
 
-.SitemapList ul li a:hover span {
+.sitemap_list ul li a:hover span {
   text-decoration: underline
 }
 
-.SitemapList ul li.BlogLink a {
+.sitemap_list ul li.BlogLink a {
   font-size: 1em
 }
 
-.SitemapList ul li a span {
+.sitemap_list ul li a span {
   font-weight: 100;
   font-size: 15px;
   margin-top: 10px;
@@ -13720,21 +13720,21 @@ section.SitemapSection {
 }
 
 @media only screen and (max-width:1300px) and (min-width:0px) {
-  .SitemapList ul li {
+  .sitemap_list ul li {
     width: calc(33.333% - 20px);
     margin: 10px
   }
 }
 
 @media only screen and (max-width:950px) and (min-width:0px) {
-  .SitemapList ul li {
+  .sitemap_list ul li {
     width: calc(50% - 20px);
     margin: 10px
   }
 }
 
 @media only screen and (max-width:550px) and (min-width:0px) {
-  .SitemapList ul li {
+  .sitemap_list ul li {
     width: calc(100% - 20px);
     margin: 10px
   }
