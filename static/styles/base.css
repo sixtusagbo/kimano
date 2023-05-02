@@ -2037,11 +2037,11 @@ section.RedirectSection {
     min-height: min-content
   }
 
-  html.riseMobileMenu ul.menu_right {
+  html.our_mobile_menu ul.menu_right {
     margin-bottom: 120px
   }
 
-  html.riseMobileMenu .primary_links {
+  html.our_mobile_menu .primary_links {
     padding-bottom: 80px
   }
 
@@ -2083,7 +2083,7 @@ section.RedirectSection {
     margin-left: auto
   }
 
-  html.riseMobileMenu .primary_links {
+  html.our_mobile_menu .primary_links {
     margin-left: -60px;
     margin-right: -60px;
     width: 100vw
@@ -2111,8 +2111,8 @@ section.RedirectSection {
     border: 1px solid #031c45ad
   }
 
-  html.riseMobileMenu,
-  html.riseMobileMenu body {
+  html.our_mobile_menu,
+  html.our_mobile_menu body {
     overflow: hidden
   }
 
@@ -2120,7 +2120,7 @@ section.RedirectSection {
     display: none
   }
 
-  html.riseMobileMenu .primary_links {
+  html.our_mobile_menu .primary_links {
     display: flex;
     flex-direction: column
   }
@@ -2184,27 +2184,27 @@ section.RedirectSection {
     top: 36px
   }
 
-  html.riseMobileMenu #hamburger span:first-child {
+  html.our_mobile_menu #hamburger span:first-child {
     top: 18px;
     width: 0;
     left: 50%
   }
 
-  html.riseMobileMenu #hamburger span:nth-child(2) {
+  html.our_mobile_menu #hamburger span:nth-child(2) {
     transform: rotate(45deg)
   }
 
-  html.riseMobileMenu #hamburger span:nth-child(3) {
+  html.our_mobile_menu #hamburger span:nth-child(3) {
     transform: rotate(-45deg)
   }
 
-  html.riseMobileMenu #hamburger span:nth-child(4) {
+  html.our_mobile_menu #hamburger span:nth-child(4) {
     top: 18px;
     width: 0;
     left: 50%
   }
 
-  html.riseMobileMenu .our_nav {
+  html.our_mobile_menu .our_nav {
     width: 100vw;
     height: calc(100vh - 52px);
     position: absolute;
