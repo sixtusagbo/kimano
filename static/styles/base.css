@@ -5860,7 +5860,7 @@ body.blog_post .blog_widget_global_inner {
   flex-direction: column
 }
 
-.RecentArticles {
+.recent_articles {
   display: flex
 }
 
@@ -5868,7 +5868,7 @@ body.blog_post .blog_widget_section .blog_card {
   margin-right: 2em
 }
 
-.RecentArticles p {
+.recent_articles p {
   display: none
 }
 
@@ -5876,11 +5876,11 @@ body.blog_post .blog_card_header p {
   display: block
 }
 
-.RecentArticles .blog_card_content_wrap header {
+.recent_articles .blog_card_content_wrap header {
   margin: 0
 }
 
-.RecentArticlesHeader {
+.recent_articles_header {
   width: 100%;
   display: flex;
   justify-content: space-between
@@ -5907,7 +5907,7 @@ body.blog_post .blog_widget_section .p_arrow.right {
   align-items: center
 }
 
-.RecentArticlesHeader {
+.recent_articles_header {
   margin: 30px 0
 }
 
@@ -6112,7 +6112,7 @@ ul.blog_tags_inner {
   overflow-x: auto
 }
 
-header.RecentArticlesHeader .p_arrow:after {
+header.recent_articles_header .p_arrow:after {
   width: 8px;
   height: 8px;
   border-top: 1px solid;
