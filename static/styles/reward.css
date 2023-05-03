@@ -1,0 +1,493 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #020d2f;
+}
+
+.b {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-image: url(../images/deep_meta_verse_bg.png);
+    background-size: cover;
+
+}
+
+.bag {
+    margin: 0;
+    padding: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.bg {
+    margin: 20px auto;
+    padding: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+
+.first {
+    padding-bottom: 150px;
+}
+
+.first h1 {
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    font-weight: 800;
+}
+
+.first h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    padding: 30px;
+    padding-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first p {
+    color: rgba(246, 241, 241, 0.945);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 7px 30px;
+    line-height: 1.5em;
+}
+
+.get {
+    padding: 7px;
+    margin: 15px 30px;
+    border: 4px solid rgb(195, 80, 30);
+    background-color: none;
+    width: 190px;
+    text-align: center;
+    color: rgb(193, 65, 19);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.bridge {
+    padding: 7px;
+    margin: 15px 1px;
+    border: 4px solid;
+    border-color: rgb(38, 13, 141) rgb(68, 68, 197) rgb(37, 21, 216) rgb(75, 77, 202);
+    background-color: none;
+    width: 190px;
+    text-align: center;
+    color: rgba(59, 59, 213, 0.828);
+    position: absolute;
+    left: 249px;
+    top: 473px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.stake {
+    border: 3px solid white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 409px;
+    margin-left: 30px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.connect {
+    background-color: #001846;
+    border: 2px solid #022360;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    width: 462px;
+}
+
+.connect h3 {
+    color: rgb(183, 65, 14);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.bnb {
+    background-color: #001846;
+    border-radius: 15px 15px;
+    border: 1px solid rgb(24, 24, 88);
+    width: 456px;
+    margin-left: 16px;
+    margin-top: 10px;
+    border: 2px solid #022360;
+}
+
+.paras {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(246, 241, 241, 0.945);
+    margin-left: 253px;
+    padding: 20px;
+}
+
+.butt {
+    background-color: rgba(14, 20, 53, 0.932);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 20px;
+    border: 1px solid #022360;
+}
+
+.butt h5 {
+    color: rgb(68, 61, 74);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    padding: 0;
+}
+
+.butt button {
+    position: absolute;
+    top: 213px;
+    right: 137px;
+    border: 1px solid #043082;
+    border-radius: 10px;
+    background-color: #021d4e;
+    padding: 3px;
+    width: 94px;
+    color: rgba(246, 241, 241, 0.945);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons {
+    background-color: #001846;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons button {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 13px;
+    color: rgb(125, 117, 132);
+    background-color: #001846;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 2px 4px #06245d;
+}
+
+.con h4 {
+    color: rgb(222, 168, 138);
+    padding: 8px;
+    text-align: center;
+    margin: 10px 20px;
+    background-color: rgb(200, 65, 15);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.con h6 {
+    color: rgb(53, 53, 207);
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h1 h3 {
+    font-weight: 300;
+}
+
+.h1 h2 {
+    font-weight: 600;
+}
+
+.firstmiddle {
+    background-color: #001846;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+    border-radius: 10px;
+    border: 2px solid #022360;
+}
+
+.firstmiddle h3 {
+    color: rgba(246, 241, 241, 0.945);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.firstmiddle h2 {
+    color: rgb(221, 71, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.middle-div {
+    background-color: #062153;
+    color: white;
+    padding: 2px;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+.middle-div p {
+    padding: 2px;
+}
+
+.avail {
+    margin: 10px;
+    border-bottom: 0.5px solid rgb(162, 155, 155);
+    padding: 10px;
+    color: rgb(158, 140, 140);
+}
+
+.ever {
+    text-align: left;
+    background-color: #001846;
+    border: 0;
+    color: rgb(133, 121, 121);
+    margin-left: 1px;
+    line-height: 0.1em;
+}
+
+.every {
+    background-color: #001846;
+    border: 0;
+    color: rgb(133, 121, 121);
+    line-height: 0.1em;
+}
+
+.ever p,
+h6 {
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.every p,
+h6 {
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lastdiv {
+    border-radius: 8px;
+    border: 1px solid #022360;
+    margin-top: 15px;
+}
+
+.lastdiv h4 {
+    background-color: rgba(14, 20, 53, 0.932);
+    padding: 9px;
+    margin: 10px;
+    border-radius: 20px;
+    color: rgb(123, 123, 156);
+    font-size: 15px;
+}
+
+.lastdiv p {
+    color: rgb(123, 123, 156);
+}
+
+.firstsingle img {
+    width: 200px;
+    margin-top: 60px;
+
+}
+
+.firstsingle {
+    background-color: #001846;
+    border: 2px solid #022360;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+.inn {
+    grid-column: span 2;
+}
+
+.img {
+    text-align: center;
+}
+
+.firstsingle h4 {
+    color: rgb(184, 171, 171);
+    width: 610px;
+    padding: 40px;
+}
+
+.firstsinglediv {
+    width: 420px;
+    background-color: #062153;
+    margin-left: 30px;
+    padding: 7px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color: rgb(184, 171, 171);
+}
+
+.protocol {
+    text-align: center;
+    padding: 40px;
+    margin-top: 120px;
+}
+
+.protocol h3 {
+    color: rgb(204, 62, 34);
+    font-size: 50px;
+    font-weight: 800;
+
+
+}
+
+.protocol p {
+    color: rgb(184, 171, 171);
+    font-size: 21px;
+}
+
+.firstlarge {
+    background-color: #001846;
+    text-align: center;
+    margin: 40px;
+    padding: 70px;
+    border-radius: 10px;
+    border: 2px solid #022360;
+}
+
+.firstlarge img {
+    width: 200px;
+}
+
+.firstlarge div {
+    border-bottom: 3px solid orangered;
+    width: 220px;
+    margin-left: 350px;
+}
+
+.firstlarge h4 {
+    padding: 20px;
+    color: rgb(184, 171, 171);
+}
+
+.firstlarge p {
+    color: rgb(184, 171, 171);
+    padding: 20px;
+}
+
+.whitepaper {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.orange {
+    border: 3px solid rgb(196, 79, 37);
+    color: rgb(196, 79, 37);
+    width: max-content;
+    padding: 15px;
+    margin-left: 400px;
+}
+
+.white {
+    border: 3px solid white;
+    color: white;
+    width: max-content;
+    padding: 15px;
+    position: absolute;
+    right: 400px;
+    top: 4357px;
+}
+
+.lightbg {
+    background-image: url(../images/DeepMetaVerseBGSmallLight.png);
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 100px;
+    padding: 40px;
+}
+
+.still {
+    grid-column: span 2;
+}
+
+.migra {
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.migra h4 {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.total {
+    background-color: #030b22;
+    border: 2px solid #021d4e;
+    border-radius: 10px;
+}
+
+.total h2 {
+    color: rgb(196, 79, 37);
+    font-weight: 800;
+    padding: 1px;
+    font-size: 50px;
+}
+
+.total p {
+    color: rgb(196, 79, 37);
+}
+
+.still {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.still h3 {
+    color: rgb(12, 147, 215);
+    font-weight: 1000px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.still p {
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.migratenow {
+    border: 3px solid rgb(196, 79, 37);
+    color: rgb(196, 79, 37);
+    width: max-content;
+    padding: 12px;
+    margin-left: 400px;
+    position: absolute;
+    top: 4750px;
+    right: 449px;
+}
+
+.learn {
+    border: 3px solid white;
+    color: white;
+    width: max-content;
+    padding: 11.5px;
+    position: absolute;
+    right: 270px;
+    top: 4750px;
+}

@@ -19,4 +19,25 @@
       },
     });
   });
+
+  $("li .faq_block_accordion .collapsible #collapsible_trigger").each(function (
+    index,
+    element
+  ) {
+    // element == this
+    $(element).click(function (e) {
+      e.preventDefault();
+      if ($(this).hasClass("is_closed")) {
+        $(this).removeClass("is_closed");
+        $(this).addClass("is_open");
+        $(this).siblings("#collapsible_content").css("height", "auto");
+        $(this).attr("aria-expanded", true);
+      } else {
+        $(this).removeClass("is_open");
+        $(this).addClass("is_closed");
+        $(this).siblings("#collapsible_content").css("height", 0);
+        $(this).attr("aria-expanded", false);
+      }
+    });
+  });
 })(jQuery);
