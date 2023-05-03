@@ -1,23 +1,25 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: #020d2f;
 }
-.b{
+
+.b {
     margin: 0 auto;
     margin-bottom: 20px;
     padding: 20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    background-image: url(DeepMetaVerseBG.png);
+    background-image: url(../images/deep_meta_verse_bg.png);
     background-size: cover;
-    
+
 }
 
-.bag{
+.bag {
     margin: 0;
     padding: 20px auto;
     display: grid;
@@ -25,24 +27,27 @@ body{
     gap: 10px;
 }
 
-.bg{
+.bg {
     margin: 20px auto;
     padding: 20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    
+
 }
-.first{
+
+.first {
     padding-bottom: 150px;
 }
-.first h1{
+
+.first h1 {
     font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 30px;
     font-weight: 800;
 }
-.first h3{
+
+.first h3 {
     font-size: 30px;
     color: white;
     font-weight: 700;
@@ -50,14 +55,16 @@ body{
     padding-top: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.first p{
+
+.first p {
     color: rgba(246, 241, 241, 0.945);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     padding: 7px 30px;
     line-height: 1.5em;
 }
-.get{
+
+.get {
     padding: 7px;
     margin: 15px 30px;
     border: 4px solid rgb(195, 80, 30);
@@ -68,7 +75,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
 }
-.bridge{
+
+.bridge {
     padding: 7px;
     margin: 15px 1px;
     border: 4px solid;
@@ -83,7 +91,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
 }
-.stake{
+
+.stake {
     border: 3px solid white;
     color: white;
     padding: 10px;
@@ -95,7 +104,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
-.connect{
+
+.connect {
     background-color: #001846;
     border: 2px solid #022360;
     border-radius: 10px;
@@ -103,42 +113,48 @@ body{
     margin: 15px;
     width: 462px;
 }
-.connect h3{
+
+.connect h3 {
     color: rgb(183, 65, 14);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     margin-left: 20px;
 }
-.bnb{
-    background-color:  #001846;
-    border-radius: 15px 15px ;
+
+.bnb {
+    background-color: #001846;
+    border-radius: 15px 15px;
     border: 1px solid rgb(24, 24, 88);
     width: 456px;
     margin-left: 16px;
     margin-top: 10px;
     border: 2px solid #022360;
 }
-.paras{
+
+.paras {
     font-size: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgba(246, 241, 241, 0.945);
     margin-left: 253px;
     padding: 20px;
 }
-.butt{
+
+.butt {
     background-color: rgba(14, 20, 53, 0.932);
     border-radius: 10px;
     padding: 10px;
     margin: 5px 20px;
     border: 1px solid #022360;
 }
-.butt h5{
+
+.butt h5 {
     color: rgb(68, 61, 74);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 30px;
     padding: 0;
 }
-.butt button{
+
+.butt button {
     position: absolute;
     top: 213px;
     right: 137px;
@@ -150,23 +166,26 @@ body{
     color: rgba(246, 241, 241, 0.945);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .buttons {
     background-color: #001846;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.buttons button{
+
+.buttons button {
     padding: 10px;
     margin: 10px;
     margin-left: 30px;
     font-size: 13px;
     color: rgb(125, 117, 132);
-    background-color:  #001846;
+    background-color: #001846;
     border-radius: 10px;
     border: none;
     box-shadow: 3px 3px 2px 4px #06245d;
 }
-.con h4{
+
+.con h4 {
     color: rgb(222, 168, 138);
     padding: 8px;
     text-align: center;
@@ -176,54 +195,64 @@ body{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.con h6{
+
+.con h6 {
     color: rgb(53, 53, 207);
     text-align: center;
     padding: 10px;
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.h1 h3{
+
+.h1 h3 {
     font-weight: 300;
 }
-.h1 h2{
+
+.h1 h2 {
     font-weight: 600;
 }
-.firstmiddle{
-    background-color:  #001846;
+
+.firstmiddle {
+    background-color: #001846;
     padding: 30px;
     text-align: center;
     margin: 0;
     border-radius: 10px;
-    border: 2px solid  #022360;
+    border: 2px solid #022360;
 }
-.firstmiddle h3{
+
+.firstmiddle h3 {
     color: rgba(246, 241, 241, 0.945);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
 }
-.firstmiddle h2{
+
+.firstmiddle h2 {
     color: rgb(221, 71, 7);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
 }
-.middle-div{
+
+.middle-div {
     background-color: #062153;
     color: white;
     padding: 2px;
     margin: 20px;
     border-radius: 6px;
-} 
-.middle-div p{
+}
+
+.middle-div p {
     padding: 2px;
 }
-.avail{
+
+.avail {
     margin: 10px;
     border-bottom: 0.5px solid rgb(162, 155, 155);
     padding: 10px;
     color: rgb(158, 140, 140);
 }
-.ever{
+
+.ever {
     text-align: left;
     background-color: #001846;
     border: 0;
@@ -231,61 +260,75 @@ body{
     margin-left: 1px;
     line-height: 0.1em;
 }
-.every{
+
+.every {
     background-color: #001846;
     border: 0;
     color: rgb(133, 121, 121);
     line-height: 0.1em;
 }
-.ever p, h6{
+
+.ever p,
+h6 {
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.every p, h6{
+
+.every p,
+h6 {
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.lastdiv{
+
+.lastdiv {
     border-radius: 8px;
     border: 1px solid #022360;
     margin-top: 15px;
 }
-.lastdiv h4{
-    background-color:rgba(14, 20, 53, 0.932);
+
+.lastdiv h4 {
+    background-color: rgba(14, 20, 53, 0.932);
     padding: 9px;
     margin: 10px;
     border-radius: 20px;
     color: rgb(123, 123, 156);
     font-size: 15px;
 }
-.lastdiv p{
+
+.lastdiv p {
     color: rgb(123, 123, 156);
 }
-.firstsingle img{
+
+.firstsingle img {
     width: 200px;
     margin-top: 60px;
-   
+
 }
-.firstsingle{
-    background-color:  #001846;
+
+.firstsingle {
+    background-color: #001846;
     border: 2px solid #022360;
     border-radius: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 10px;
 }
-.inn{
+
+.inn {
     grid-column: span 2;
 }
-.img{
+
+.img {
     text-align: center;
 }
-.firstsingle h4{
+
+.firstsingle h4 {
     color: rgb(184, 171, 171);
     width: 610px;
     padding: 40px;
 }
-.firstsinglediv{
+
+.firstsinglediv {
     width: 420px;
     background-color: #062153;
     margin-left: 30px;
@@ -293,61 +336,71 @@ body{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
-    color:  rgb(184, 171, 171);
+    color: rgb(184, 171, 171);
 }
 
-.protocol{
+.protocol {
     text-align: center;
     padding: 40px;
     margin-top: 120px;
 }
-.protocol h3{
+
+.protocol h3 {
     color: rgb(204, 62, 34);
     font-size: 50px;
     font-weight: 800;
-    
+
 
 }
-.protocol p{
+
+.protocol p {
     color: rgb(184, 171, 171);
     font-size: 21px;
 }
-.firstlarge{
+
+.firstlarge {
     background-color: #001846;
     text-align: center;
     margin: 40px;
     padding: 70px;
     border-radius: 10px;
-    border: 2px solid  #022360;
+    border: 2px solid #022360;
 }
-.firstlarge img{
+
+.firstlarge img {
     width: 200px;
 }
-.firstlarge div{
+
+.firstlarge div {
     border-bottom: 3px solid orangered;
     width: 220px;
     margin-left: 350px;
 }
-.firstlarge h4{
+
+.firstlarge h4 {
     padding: 20px;
     color: rgb(184, 171, 171);
 }
-.firstlarge p{
+
+.firstlarge p {
     color: rgb(184, 171, 171);
     padding: 20px;
 }
-.whitepaper{
+
+.whitepaper {
     text-align: center;
     margin-top: 100px;
 }
-.orange{
+
+.orange {
     border: 3px solid rgb(196, 79, 37);
     color: rgb(196, 79, 37);
     width: max-content;
     padding: 15px;
     margin-left: 400px;
 }
-.white{
+
+.white {
     border: 3px solid white;
     color: white;
     width: max-content;
@@ -356,59 +409,69 @@ body{
     right: 400px;
     top: 4357px;
 }
-.lightbg{
-    /*background-image: url(DeepMetaVerseBG\ \(1\).png);*/
-    background-image: url(DeepMetaVerseBGSmallLight.png);
+
+.lightbg {
+    background-image: url(../images/DeepMetaVerseBGSmallLight.png);
     background-size: contain;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 100px;
     padding: 40px;
 }
-.still{
+
+.still {
     grid-column: span 2;
 }
-.migra{
+
+.migra {
     text-align: center;
     padding: 30px;
     margin-top: 30px;
 }
-.migra h4{
+
+.migra h4 {
     color: white;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.total{
- background-color: #030b22;
- border: 2px solid #021d4e;
- border-radius: 10px;
+
+.total {
+    background-color: #030b22;
+    border: 2px solid #021d4e;
+    border-radius: 10px;
 }
-.total h2{
+
+.total h2 {
     color: rgb(196, 79, 37);
     font-weight: 800;
     padding: 1px;
     font-size: 50px;
 }
-.total p{
+
+.total p {
     color: rgb(196, 79, 37);
 }
-.still{
+
+.still {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
-.still h3{
+
+.still h3 {
     color: rgb(12, 147, 215);
     font-weight: 1000px;
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.still p{
-   color: white;
-   font-size: 25px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.still p {
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.migratenow{
+
+.migratenow {
     border: 3px solid rgb(196, 79, 37);
     color: rgb(196, 79, 37);
     width: max-content;
@@ -418,7 +481,8 @@ body{
     top: 4750px;
     right: 449px;
 }
-.learn{
+
+.learn {
     border: 3px solid white;
     color: white;
     width: max-content;
