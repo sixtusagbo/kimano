@@ -3722,11 +3722,11 @@ body.Ever404 .blog_widget_section {
   padding-bottom: 65px
 }
 
-.Ever404Inner {
+.kimano_404_inner {
   width: 100%
 }
 
-.Ever404Content h1 {
+.kimano_404_content h1 {
   text-transform: uppercase;
   font-size: 5em;
   margin-bottom: 20px;
@@ -3734,7 +3734,7 @@ body.Ever404 .blog_widget_section {
   font-weight: 700
 }
 
-.Ever404Content p {
+.kimano_404_content p {
   font-size: 1em;
   margin-bottom: 20px;
   color: #fff;
@@ -3744,7 +3744,7 @@ body.Ever404 .blog_widget_section {
   padding: 20px
 }
 
-.Ever404Content {
+.kimano_404_content {
   background-color: #001132;
   display: flex;
   flex-direction: column;
@@ -3756,12 +3756,12 @@ body.Ever404 .blog_widget_section {
   min-height: calc(100vh - 166px)
 }
 
-.Ever404Content .Ever404Img {
+.kimano_404_content .kimano_404_img {
   max-width: 400px;
   padding: 20px
 }
 
-.Ever404Content .hero_content_btns {
+.kimano_404_content .hero_content_btns {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -3769,7 +3769,7 @@ body.Ever404 .blog_widget_section {
 }
 
 @media only screen and (max-width:450px) and (min-width:0px) {
-  .Ever404Content .hero_content_btns a {
+  .kimano_404_content .hero_content_btns a {
     width: 100%;
     margin: 13px
   }
