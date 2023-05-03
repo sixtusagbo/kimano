@@ -879,7 +879,7 @@ nav ul li.parent_menu_item>ul {
   background-color: #001846
 }
 
-body.EverDapp .our_nav,
+body.kimano_dapp .our_nav,
 body.home .our_nav,
 body.rise .our_nav {
   background: transparent;
@@ -1102,8 +1102,8 @@ a.BlueHeroBtn span {
   width: fit-content
 }
 
-.OrangeTxtRightGrad,
-.OrangeTxtRightGrad span {
+.orange_txt_right_grad,
+.orange_txt_right_grad span {
   background: linear-gradient(90deg, #fb8b47, #ce2041);
   border-image-slice: 1;
   background-clip: text;
@@ -1128,8 +1128,8 @@ a.BlueHeroBtn span {
   width: fit-content
 }
 
-.BlueTxtRightGrad,
-.BlueTxtRightGrad span {
+.blue_txt_right_grad,
+.blue_txt_right_grad span {
   background: linear-gradient(90deg, #01d5f5, #0083df);
   border-image-slice: 1;
   background-clip: text;
@@ -1210,10 +1210,10 @@ body>div>div {
 
 .blog_header .global_inner,
 .blog_widget_section .blog_widget_global_inner,
-.CommunityFaqGlobalInner,
+.community_faq_global_inner,
 .ContentImgGlobalInner,
-.CSDapp .DappFaqGlobalInner,
-.DappHeaderInner,
+.csd_app .dapp_faq_global_inner,
+.dapp_header_inner,
 .nav_inner,
 .FeaturesGlobalInner,
 .footer_copyright .global_inner,
@@ -1240,7 +1240,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
 .blog_widget_section .blog_widget_global_inner,
 .BuybackSectionInner,
 .ContentImgGlobalInner,
-.DappHeaderInner,
+.dapp_header_inner,
 .faq_inner,
 .FeaturesGlobalInner,
 .foundation_section .global_inner,
@@ -1262,8 +1262,8 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .blog_header .global_inner,
   .blog_widget_section .blog_widget_global_inner,
   .ContentImgGlobalInner,
-  .CSDapp .DappFaqGlobalInner,
-  .DappHeaderInner,
+  .csd_app .dapp_faq_global_inner,
+  .dapp_header_inner,
   .ever_rise_press_inner,
   .EverRiseTeamInner,
   .faq_inner,
@@ -1290,8 +1290,8 @@ body:not(.rise) .CompactEcosystemSectionInner {
   .blog_header .global_inner,
   .blog_widget_section .blog_widget_global_inner,
   .ContentImgGlobalInner,
-  .CSDapp .DappFaqGlobalInner,
-  .DappHeaderInner,
+  .csd_app .dapp_faq_global_inner,
+  .dapp_header_inner,
   .ever_rise_press_inner,
   .EverRiseTeamInner,
   .faq_inner,
@@ -1310,7 +1310,7 @@ body:not(.rise) .CompactEcosystemSectionInner {
   }
 }
 
-.CommunityFaqGlobalInner {
+.community_faq_global_inner {
   max-width: 100%
 }
 
@@ -1562,7 +1562,7 @@ a.swap_mm:before {
   background-position: 0 57.25%
 }
 
-.ERIconEverWallet,
+.ericon_kimano_wallet,
 a.wallet_mm:before {
   background-position: 0 71.54%
 }
@@ -1688,9 +1688,9 @@ body.rise .RiseFeaturesSection {
   box-shadow: inset 0 0 1px 1px #00285f
 }
 
-.CommunityFaqSectionRight h2,
-body.CSDapp.EverDapp .DappFaqGlobalInner .CommunityFaqSectionRight h2,
-body.CSDapp.EverDapp .DappHeaderH2 h2 {
+.community_faq_section_right h2,
+body.csd_app.kimano_dapp .dapp_faq_global_inner .community_faq_section_right h2,
+body.csd_app.kimano_dapp .dapp_header_h2 h2 {
   color: #dedede;
   font-weight: 800;
   width: -webkit-fit-content;
@@ -2493,7 +2493,7 @@ section.RedirectSection {
   }
 }
 
-.DappHeaderH1 img.DappIcon {
+.dapp_header_h1 img.dapp_icon {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   -webkit-animation: flip 2s ease 1;
@@ -3935,7 +3935,7 @@ section.LetUsInWrap {
   flex: 1
 }
 
-h1.OrangeTxtRightGrad {
+h1.orange_txt_right_grad {
   font-size: 60px;
   font-weight: 800;
   margin-top: 10px
@@ -4257,7 +4257,7 @@ section.home_hero .global_inner {
     left: 0
   }
 
-  body.EverDapp .our_nav,
+  body.kimano_dapp .our_nav,
   body.home .our_nav,
   body.rise .our_nav {
     margin-bottom: -86px
@@ -5630,7 +5630,7 @@ section.CompactEcosystemSection {
     padding: 0 20px
   }
 
-  .DappHeaderContentContainer .hero_content_btns a:not(last-child) {
+  .dapp_header_content_container .hero_content_btns a:not(last-child) {
     margin-bottom: 20px
   }
 }
@@ -5658,15 +5658,15 @@ section.CompactEcosystemSection {
     margin-top: 0
   }
 
-  .CommunityFaqSectionRight h2,
-  body.CSDapp.EverDapp .DappFaqGlobalInner .CommunityFaqSectionRight h2,
-  body.CSDapp.EverDapp .DappHeaderH2 h2 {
+  .community_faq_section_right h2,
+  body.csd_app.kimano_dapp .dapp_faq_global_inner .community_faq_section_right h2,
+  body.csd_app.kimano_dapp .dapp_header_h2 h2 {
     font-size: 35px
   }
 }
 
 @media only screen and (max-width:550px) and (min-width:0px) {
-  body.CSDapp.EverDapp .DappHeaderH1 h1:after {
+  body.csd_app.kimano_dapp .dapp_header_h1 h1:after {
     font-size: 3.5vw
   }
 }
@@ -5689,9 +5689,9 @@ section.CompactEcosystemSection {
 
 @media only screen and (max-width:420px) and (min-width:0px) {
 
-  .CommunityFaqSectionRight h2,
-  body.CSDapp.EverDapp .DappFaqGlobalInner .CommunityFaqSectionRight h2,
-  body.CSDapp.EverDapp .DappHeaderH2 h2 {
+  .community_faq_section_right h2,
+  body.csd_app.kimano_dapp .dapp_faq_global_inner .community_faq_section_right h2,
+  body.csd_app.kimano_dapp .dapp_header_h2 h2 {
     font-size: 30px
   }
 }
@@ -6393,7 +6393,7 @@ body.rise .content {
   background: url(https://www.everrise.com/assets/images/bg/DeepMetaVerseBG.png) bottom/cover no-repeat rgb(0 20 59/0)
 }
 
-.RiseHeader .DappHeaderContentContainer {
+.RiseHeader .dapp_header_content_container {
   width: 100%
 }
 
@@ -6405,7 +6405,7 @@ body.rise .content {
   color: #fff
 }
 
-.RiseHeader .DappHeaderContent {
+.RiseHeader .dapp_header_content {
   text-align: left;
   align-items: flex-start;
   margin-right: 3vw
@@ -6435,7 +6435,7 @@ body.rise .content {
   margin-top: .7em
 }
 
-.RiseHeader .DappHeaderTxt {
+.RiseHeader .dapp_header_txt {
   color: #e0e0e0;
   font-size: 1.3em
 }
@@ -6538,14 +6538,14 @@ body.rise .content {
     margin-right: 20px
   }
 
-  .RiseHeader .DappHeaderContent .hero_content_btns a {
+  .RiseHeader .dapp_header_content .hero_content_btns a {
     margin-bottom: 10px;
     padding: 15px
   }
 }
 
 @media only screen and (max-width:1310px) and (min-width:0px) {
-  .RiseHeader .DappHeaderContent {
+  .RiseHeader .dapp_header_content {
     text-align: left;
     align-items: flex-start;
     margin-right: 4vw
@@ -6562,13 +6562,13 @@ body.rise .content {
 }
 
 @media only screen and (max-width:1130px) and (min-width:0px) {
-  .RiseHeader .DappHeaderContent {
+  .RiseHeader .dapp_header_content {
     text-align: left;
     align-items: flex-start;
     margin-right: 4vw
   }
 
-  .RiseHeader .DappHeaderContent .hero_content_btns a {
+  .RiseHeader .dapp_header_content .hero_content_btns a {
     margin-bottom: 10px;
     padding: 15px
   }
@@ -6622,7 +6622,7 @@ body.rise .content {
     margin-bottom: 0
   }
 
-  .RiseHeader .DappHeaderContent {
+  .RiseHeader .dapp_header_content {
     margin-right: 0
   }
 }
@@ -8122,7 +8122,7 @@ a.CardHeroBtn {
   filter: saturate(180%) brightness(110%)
 }
 
-.FaqAccordion .CommunityFaqGlobalInner {
+.faq_accordion .community_faq_global_inner {
   flex-direction: column;
   padding: 0
 }
@@ -8135,12 +8135,12 @@ a.CardHeroBtn {
   max-width: 667px
 }
 
-.CommunityFaqSectionRight {
+.community_faq_section_right {
   width: 57%;
   background-color: #030d2b
 }
 
-body.rise .CommunityFaqGlobalInner div#community {
+body.rise .community_faq_global_inner div#community {
   width: 43%
 }
 
@@ -8169,16 +8169,16 @@ body.rise .CommunityFaqGlobalInner div#community {
   width: 43%
 }
 
-.CommunityFaqSectionRight {
+.community_faq_section_right {
   max-height: 570px
 }
 
-.FaqTitle {
+.faq_title {
   width: 100%;
   margin-top: -20px
 }
 
-.CommunityFaqSectionRight h2 span {
+.community_faq_section_right h2 span {
   background: linear-gradient(270deg, #fb8b47, #ce2041);
   border-image-slice: 1;
   -webkit-background-clip: text;
@@ -8186,7 +8186,7 @@ body.rise .CommunityFaqGlobalInner div#community {
   -webkit-text-fill-color: transparent
 }
 
-.CommunityFaqSectionRight .collapsible_content_inner {
+.community_faq_section_right .collapsible_content_inner {
   padding: 23px 20px 32px;
   border-bottom: 1px solid #04205a
 }
@@ -8199,33 +8199,33 @@ body.rise .community_faq_section_left {
   padding-right: 5%
 }
 
-body.rise .CommunityFaqSection {
+body.rise .community_faq_section {
   background: #030d2b;
   padding-bottom: 40px;
   padding-top: 40px
 }
 
-body.rise .FaqTitle {
+body.rise .faq_title {
   width: 100%;
   margin-top: 0
 }
 
-.CommunityFaqSectionRight .FaqAccordion {
+.community_faq_section_right .faq_accordion {
   border: 4px solid transparent;
   width: 100%;
   overflow-y: auto
 }
 
-body.rise .CommunityFaqGlobalInner {
+body.rise .community_faq_global_inner {
   display: flex
 }
 
-.FaqAccordion .accordion {
+.faq_accordion .accordion {
   min-height: 420px;
   margin-top: 10px
 }
 
-.CommunityFaqSectionRight .collapsible,
+.community_faq_section_right .collapsible,
 [data-accordion-component=AccordionItemButton] {
   display: flex;
   flex-direction: column;
@@ -8233,16 +8233,16 @@ body.rise .CommunityFaqGlobalInner {
   align-items: center
 }
 
-.CommunityFaqSectionRight .FaqAccordion .collapsible {
+.community_faq_section_right .faq_accordion .collapsible {
   margin-bottom: 12px;
   margin-right: 15px
 }
 
-body.rise .CommunityFaqSectionRight {
+body.rise .community_faq_section_right {
   margin-left: 15px
 }
 
-.CommunityFaqSectionRight .collapsible h3 {
+.community_faq_section_right .collapsible h3 {
   text-transform: capitalize;
   font-weight: 700;
   flex-grow: 1;
@@ -8256,7 +8256,7 @@ body.rise .CommunityFaqSectionRight {
   width: 100%
 }
 
-.CommunityFaqSectionRight .collapsible_trigger.is_closed:after {
+.community_faq_section_right .collapsible_trigger.is_closed:after {
   content: "+";
   font-size: 34px;
   line-height: 0;
@@ -8266,7 +8266,7 @@ body.rise .CommunityFaqSectionRight {
   margin: 0 30px 0 auto
 }
 
-.CommunityFaqSectionRight .collapsible_trigger.is_open:after {
+.community_faq_section_right .collapsible_trigger.is_open:after {
   content: "-";
   transform: scaleX(1.8);
   margin-left: auto;
@@ -8276,7 +8276,7 @@ body.rise .CommunityFaqSectionRight {
   top: -1px
 }
 
-.CommunityFaqSectionRight {
+.community_faq_section_right {
   color: #dfdfdf;
   display: flex;
   flex-direction: column;
@@ -8285,7 +8285,7 @@ body.rise .CommunityFaqSectionRight {
   align-items: center
 }
 
-body.rise .CommunityFaqSectionRight {
+body.rise .community_faq_section_right {
   width: 58%;
   margin-left: 5%;
   margin-bottom: 10px
@@ -8307,7 +8307,7 @@ body.rise .CommunityFaqSectionRight {
 }
 
 .accordion__panel,
-.CommunityFaqSectionRight .collapsible_content_outer {
+.community_faq_section_right .collapsible_content_outer {
   background: #dbdce0;
   color: #000;
   font-size: 15px;
@@ -8378,7 +8378,7 @@ body.rise .CommunityFaqSectionRight {
     width: 45%
   }
 
-  body.rise .CommunityFaqSectionRight {
+  body.rise .community_faq_section_right {
     width: 50%;
     margin-left: 5%
   }
@@ -8393,21 +8393,21 @@ body.rise .CommunityFaqSectionRight {
 }
 
 @media only screen and (max-width:1300px) and (min-width:0px) {
-  .DappHeaderCardContainer.BlendedAbsolute {
+  .dapp_header_card_container.blended_absolute {
     display: none
   }
 
-  body.rise .CommunityFaqSection {
+  body.rise .community_faq_section {
     padding-bottom: 80px
   }
 
-  body.rise .CommunityFaqGlobalInner {
+  body.rise .community_faq_global_inner {
     flex-wrap: wrap;
     width: 100%
   }
 
-  body.rise .CommunityFaqSection .community_faq_section_left,
-  body.rise .CommunityFaqSection .CommunityFaqSectionRight {
+  body.rise .community_faq_section .community_faq_section_left,
+  body.rise .community_faq_section .community_faq_section_right {
     width: 100%;
     box-shadow: 0 0 0 0 transparent
   }
@@ -8420,15 +8420,15 @@ body.rise .CommunityFaqSectionRight {
     border-radius: 20px
   }
 
-  body.rise .CommunityFaqSectionRight {
+  body.rise .community_faq_section_right {
     margin-left: 0
   }
 
-  body.rise .CommunityFaqSectionRight .FaqAccordion {
+  body.rise .community_faq_section_right .faq_accordion {
     width: 100%
   }
 
-  body.rise .CommunityFaqSectionRight .FaqAccordion .collapsible {
+  body.rise .community_faq_section_right .faq_accordion .collapsible {
     margin-right: 10px
   }
 
@@ -8442,13 +8442,13 @@ body.rise .CommunityFaqSectionRight {
     width: 100%
   }
 
-  body.rise .CommunityFaqSectionRight {
+  body.rise .community_faq_section_right {
     max-height: 770px
   }
 }
 
 @media only screen and (max-width:960px) and (min-width:0px) {
-  body.rise .CommunityFaqSectionRight .FaqAccordion .collapsible {
+  body.rise .community_faq_section_right .faq_accordion .collapsible {
     margin-right: 0
   }
 }
@@ -10699,25 +10699,25 @@ ul.feature_vids li:first-child a:hover .yt_thumb:before {
   color: #e6e6e6
 }
 
-.DappFaqGlobalInner {
+.dapp_faq_global_inner {
   display: flex
 }
 
-section.DappFaqSection section.DappFaqSection,
-section.DappFaqSection section.DappFaqSection .global_inner {
+section.dapp_faq_section section.dapp_faq_section,
+section.dapp_faq_section section.dapp_faq_section .global_inner {
   padding: 0
 }
 
-section.DappFaqSection .community_faq_section_left {
+section.dapp_faq_section .community_faq_section_left {
   width: 38%;
   margin-right: 5%
 }
 
-body.EverDapp .content {
+body.kimano_dapp .content {
   background: #001333
 }
 
-body.EverDapp .section_arrow:before {
+body.kimano_dapp .section_arrow:before {
   background: #043668
 }
 
@@ -10726,29 +10726,29 @@ body.EverDapp .section_arrow:before {
   height: 120px
 }
 
-.DappHeader {
+.dapp_header {
   min-height: 800px;
   background: #041d3f;
   align-items: center;
   flex-direction: column
 }
 
-.DappHeader,
-.DappHeaderInner {
+.dapp_header,
+.dapp_header_inner {
   display: flex;
   justify-content: center
 }
 
-.DappHeaderInner {
+.dapp_header_inner {
   z-index: 2;
   margin-top: 5%
 }
 
-.DappHeader {
+.dapp_header {
   min-height: 950px
 }
 
-.DappHeader:before {
+.dapp_header:before {
   content: "";
   position: absolute;
   height: 100%;
@@ -10785,7 +10785,7 @@ body.EverDapp .section_arrow:before {
 
   .EverLockHeader:before,
   .EverSaleHeader:before,
-  .EverWalletHeader:before {
+  .kimano_wallet_header:before {
     background: url(https://www.everrise.com/assets/images/bg/DeepMetaVerseBG.png) 30% top/cover no-repeat rgb(0 20 59/0)
   }
 }
@@ -10794,22 +10794,22 @@ body.EverDapp .section_arrow:before {
 
   .EverLockHeader:before,
   .EverSaleHeader:before,
-  .EverWalletHeader:before {
+  .kimano_wallet_header:before {
     background: url(https://www.everrise.com/assets/images/bg/DeepMetaVerseBG.png) 30% bottom/cover no-repeat rgb(0 20 59/0)
   }
 }
 
-.DappHeaderCardContainer,
-.DappHeaderContentContainer {
+.dapp_header_card_container,
+.dapp_header_content_container {
   display: flex;
   justify-content: center
 }
 
-.DappHeaderContentContainer {
+.dapp_header_content_container {
   width: 55%
 }
 
-.DappHeaderCardContainer {
+.dapp_header_card_container {
   width: 45%
 }
 
@@ -10868,19 +10868,19 @@ body.EverDapp .section_arrow:before {
   background: linear-gradient(90deg, #fb8b47, #ce2041)
 }
 
-.DappHeader {
+.dapp_header {
   position: relative;
   min-height: 777px;
   height: 100vh;
   max-height: 900px
 }
 
-.DappHeaderH1 img {
+.dapp_header_h1 img {
   max-width: 112px;
   margin-right: 2em
 }
 
-.DappHeaderH1 h1 {
+.dapp_header_h1 h1 {
   color: #eee;
   text-transform: uppercase;
   font-size: 60px;
@@ -10888,7 +10888,7 @@ body.EverDapp .section_arrow:before {
   letter-spacing: .05em
 }
 
-.DappHeaderContent {
+.dapp_header_content {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -10896,30 +10896,30 @@ body.EverDapp .section_arrow:before {
   margin-right: 3vw
 }
 
-.DappHeaderTxt {
+.dapp_header_txt {
   color: #e0e0e0;
   font-size: 1.3em;
   margin: 30px 0
 }
 
-.DappHeaderTxt p {
+.dapp_header_txt p {
   text-shadow: 2px 1px 2px #000;
   max-width: 830px;
   font-weight: 500
 }
 
-.DappHeaderH1 {
+.dapp_header_h1 {
   display: flex;
   align-items: center
 }
 
-.DappHeaderContent .hero_content_btns a {
+.dapp_header_content .hero_content_btns a {
   font-size: 1em;
   padding: 0 25px;
   line-height: 1.1em
 }
 
-.DappHeaderH2 {
+.dapp_header_h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10927,7 +10927,7 @@ body.EverDapp .section_arrow:before {
   transform: scale(.9)
 }
 
-.DappHeaderH2 img {
+.dapp_header_h2 img {
   max-width: 104px;
   margin-right: 19px
 }
@@ -10945,17 +10945,17 @@ body.EverDapp .section_arrow:before {
 }
 
 @media only screen and (max-width:1560px) and (min-width:0px) {
-  .DappHeaderH1 h1 {
+  .dapp_header_h1 h1 {
     font-size: 50px
   }
 
-  .DappHeaderH1 img {
+  .dapp_header_h1 img {
     margin-right: 1.3em
   }
 }
 
 @media only screen and (max-width:1300px) and (min-width:0px) {
-  .DappHeaderInner {
+  .dapp_header_inner {
     flex-wrap: wrap;
     flex-direction: column
   }
@@ -10964,13 +10964,13 @@ body.EverDapp .section_arrow:before {
     left: 0
   }
 
-  .DappHeaderCardContainer,
-  .DappHeaderContentContainer {
+  .dapp_header_card_container,
+  .dapp_header_content_container {
     width: 100%;
     justify-content: center
   }
 
-  .DappHeaderCardContainer {
+  .dapp_header_card_container {
     background: #001a3e;
     width: 100vw;
     margin-left: -60px;
@@ -10980,7 +10980,7 @@ body.EverDapp .section_arrow:before {
     border: 1px solid #041a35
   }
 
-  .DappHeaderContent {
+  .dapp_header_content {
     margin-top: -5%;
     max-width: 810px
   }
@@ -11023,42 +11023,42 @@ body.EverDapp .section_arrow:before {
     margin: 26px 0 0
   }
 
-  .DappHeaderContent {
+  .dapp_header_content {
     text-align: center;
     align-items: center;
     margin-right: 0
   }
 
-  .DappHeaderContent,
-  section.DappHeader .hero_content_btns {
+  .dapp_header_content,
+  section.dapp_header .hero_content_btns {
     justify-content: center
   }
 }
 
 @media only screen and (max-width:1050px) {
-  .DappHeaderH1 h1 {
+  .dapp_header_h1 h1 {
     font-size: 6vw
   }
 
-  .DappHeaderH1 img {
+  .dapp_header_h1 img {
     margin-right: 2.5vw;
     width: 15vw
   }
 }
 
 @media only screen and (max-width:960px) and (min-width:0px) {
-  .DappHeaderCardContainer {
+  .dapp_header_card_container {
     margin-left: -20px
   }
 }
 
 @media only screen and (max-width:850px) and (min-width:0px) {
-  body.EverDapp .content .global_inner {
+  body.kimano_dapp .content .global_inner {
     padding-left: 40px;
     padding-right: 40px
   }
 
-  .DappHeaderCardContainer {
+  .dapp_header_card_container {
     margin-left: -40px;
     top: 23vw;
     margin-bottom: -550px
@@ -11096,7 +11096,7 @@ body.EverDapp .section_arrow:before {
     max-width: 570px
   }
 
-  .DappHeaderTxt {
+  .dapp_header_txt {
     color: #e0e0e0;
     font-size: 1.2em;
     margin: 30px 0
@@ -11123,53 +11123,53 @@ body.EverDapp .section_arrow:before {
     padding: 60px 0 140px
   }
 
-  .DappHeaderContent .hero_content_btns a {
+  .dapp_header_content .hero_content_btns a {
     padding: 0 10px
   }
 
-  .DappHeaderTxt p {
+  .dapp_header_txt p {
     text-align: left
   }
 
-  .DappHeader .hero_content_btns {
+  .dapp_header .hero_content_btns {
     flex-direction: column
   }
 
-  body.EverDapp .hero_content_btns a {
+  body.kimano_dapp .hero_content_btns a {
     width: 100%;
     min-width: 100%
   }
 
-  .DappHeaderTxt p {
+  .dapp_header_txt p {
     padding: 0 20px;
     font-size: 17px;
     font-weight: 100
   }
 
-  .RiseHeader .DappHeaderTxt p {
+  .RiseHeader .dapp_header_txt p {
     padding: 0;
     font-size: 17px;
     font-weight: 100
   }
 
-  .DappHeaderInner {
+  .dapp_header_inner {
     width: 100%
   }
 
-  .DappHeader:before {
+  .dapp_header:before {
     opacity: .8
   }
 
-  .DappHeaderH1 h1 {
+  .dapp_header_h1 h1 {
     font-size: 6.5vw
   }
 
-  body.EverDapp .content .global_inner {
+  body.kimano_dapp .content .global_inner {
     padding-left: 20px;
     padding-right: 20px
   }
 
-  .DappHeaderCardContainer {
+  .dapp_header_card_container {
     margin-left: -20px
   }
 
@@ -11181,7 +11181,7 @@ body.EverDapp .section_arrow:before {
     width: 95%
   }
 
-  section.DappHeader .hero_content_btns {
+  section.dapp_header .hero_content_btns {
     max-width: 80vw;
     font-size: 3.5vw
   }
@@ -11204,39 +11204,39 @@ body.EverDapp .section_arrow:before {
     font-size: 4.4vw
   }
 
-  .DappHeaderInner {
+  .dapp_header_inner {
     width: 100%;
     padding: 0 60px
   }
 
-  body.EverDapp .content .global_inner {
+  body.kimano_dapp .content .global_inner {
     padding-left: 20px;
     padding-right: 20px
   }
 
-  .DappHeaderCardContainer {
+  .dapp_header_card_container {
     margin-left: -20px
   }
 }
 
 @media only screen and (max-width:350px) and (min-width:0px) {
-  .DappHeaderContent .hero_content_btns a {
+  .dapp_header_content .hero_content_btns a {
     font-size: 1.15em
   }
 
-  body.EverDapp .content .global_inner {
+  body.kimano_dapp .content .global_inner {
     padding-left: 10px;
     padding-right: 10px
   }
 
-  .DappHeaderCardContainer {
+  .dapp_header_card_container {
     margin-left: -10px;
     min-width: 100%
   }
 }
 
 @media only screen and (max-width:281px) and (min-width:0px) {
-  .DappHeaderCardContainer {
+  .dapp_header_card_container {
     margin-left: -5px;
     min-width: 100%
   }
@@ -11394,13 +11394,13 @@ body.EverBridge .HowItWorksImg>div {
 }
 
 @media only screen and (max-width:1500px) and (min-width:1301px) {
-  body.EverDapp .HowItWorksImg>div {
+  body.kimano_dapp .HowItWorksImg>div {
     margin-bottom: auto !important;
     position: sticky !important;
     top: 80px !important
   }
 
-  body.EverDapp .NCSHowItWorks .HowItWorksImg>div {
+  body.kimano_dapp .NCSHowItWorks .HowItWorksImg>div {
     margin-bottom: auto !important;
     position: relative !important;
     top: 80px !important
@@ -11432,7 +11432,7 @@ body.EverBridge .HowItWorksImg>div {
   }
 
   .ServicesContent,
-  body.EverDapp .FeaturesGlobalInner {
+  body.kimano_dapp .FeaturesGlobalInner {
     padding-top: 90px;
     padding-bottom: 90px
   }
@@ -11463,7 +11463,7 @@ body.EverBridge .HowItWorksImg>div {
 
   .ContentImgSectionTxt p,
   .HowItWorksContent p,
-  body.EverDapp .FeaturesGlobalInner li p {
+  body.kimano_dapp .FeaturesGlobalInner li p {
     font-size: 16px;
     line-height: 1.4em
   }
@@ -11491,14 +11491,14 @@ body.EverBridge .HowItWorksImg>div {
     padding: 60px 20px 80px
   }
 
-  body.EverDapp .content section.FeaturesSection .global_inner {
+  body.kimano_dapp .content section.FeaturesSection .global_inner {
     padding-left: 0;
     padding-right: 0
   }
 }
 
 @media only screen and (max-width:390px) {
-  body.EverDapp .FeaturesGlobalInner li h3 {
+  body.kimano_dapp .FeaturesGlobalInner li h3 {
     font-size: 8.5vw
   }
 }
@@ -11623,8 +11623,8 @@ body.EverBridge .HowItWorksImg>div {
   margin-top: 30px
 }
 
-body.EverDapp .InvestorServices,
-body.EverDapp .ProjectServices {
+body.kimano_dapp .InvestorServices,
+body.kimano_dapp .ProjectServices {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11862,21 +11862,21 @@ body.EverDapp .ProjectServices {
 }
 
 @media only screen and (max-width:1680px) {
-  body.EverDapp .FeaturesGlobalInner li {
+  body.kimano_dapp .FeaturesGlobalInner li {
     margin-bottom: 40px;
     max-width: 100%
   }
 
-  body.EverDapp .FeaturesGlobalInner li:nth-child(odd) {
+  body.kimano_dapp .FeaturesGlobalInner li:nth-child(odd) {
     width: calc(50% - 90px)
   }
 
-  body.EverDapp .FeaturesGlobalInner li:nth-child(2n) {
+  body.kimano_dapp .FeaturesGlobalInner li:nth-child(2n) {
     width: calc(50% - 90px);
     margin-right: 0
   }
 
-  body.EverDapp .FeaturesGlobalInner ul {
+  body.kimano_dapp .FeaturesGlobalInner ul {
     flex-wrap: wrap;
     width: 100%;
     display: flex;
@@ -11885,49 +11885,49 @@ body.EverDapp .ProjectServices {
 }
 
 @media only screen and (max-width:1000px) {
-  body.EverDapp .FeaturesGlobalInner li {
+  body.kimano_dapp .FeaturesGlobalInner li {
     width: 100% !important;
     max-width: 100%;
     margin-right: 0
   }
 
-  body.EverDapp .FeaturesGlobalInner li h3 {
+  body.kimano_dapp .FeaturesGlobalInner li h3 {
     font-size: 2em
   }
 
-  body.EverDapp .FeaturesGlobalInner li {
+  body.kimano_dapp .FeaturesGlobalInner li {
     width: 100%;
     margin-bottom: 30px
   }
 
-  body.EverDapp .FeaturesGlobalInner li p {
+  body.kimano_dapp .FeaturesGlobalInner li p {
     max-width: 500px
   }
 
-  body.EverDapp .FeaturesGlobalInner li:not(:last-child) {
+  body.kimano_dapp .FeaturesGlobalInner li:not(:last-child) {
     padding-bottom: 80px
   }
 }
 
 @media only screen and (max-width:900px) {
-  body.EverDapp .FeaturesGlobalInner h2 {
+  body.kimano_dapp .FeaturesGlobalInner h2 {
     max-width: 460px
   }
 }
 
 @media only screen and (max-width:550px) {
-  body.EverDapp .FeaturesGlobalInner h2 {
+  body.kimano_dapp .FeaturesGlobalInner h2 {
     font-size: 8.5vw;
     margin-bottom: 1em
   }
 
-  body.EverDapp .FeaturesGlobalInner {
+  body.kimano_dapp .FeaturesGlobalInner {
     margin: 0;
     width: 90%
   }
 }
 
-body.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
+body.kimano_dapp .RotateImgAndGrad .ContentImgSection:last-child:after {
   content: "";
   width: 100%;
   position: absolute;
@@ -11941,27 +11941,27 @@ body.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
   margin-left: -100px
 }
 
-body.EverBridge.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after,
-body.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
+body.EverBridge.kimano_dapp .RotateImgAndGrad .ContentImgSection:last-child:after,
+body.kimano_dapp .RotateImgAndGrad .ContentImgSection:last-child:after {
   background-image: url(https://www.everrise.com/assets/images/dapp/EverBridge/DigitalFunnel.png)
 }
 
-body.EverOwn.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
+body.EverOwn.kimano_dapp .RotateImgAndGrad .ContentImgSection:last-child:after {
   background-image: url(https://www.everrise.com/assets/images/dapp/EverOwn/ConnectedGlobe.png)
 }
 
-body.EverMigrate.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
+body.EverMigrate.kimano_dapp .RotateImgAndGrad .ContentImgSection:last-child:after {
   background-image: url(https://www.everrise.com/assets/images/dapp/EverMigrate/ZoomerBG.png)
 }
 
 @media only screen and (max-width:1850px) {
-  body.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
+  body.kimano_dapp .RotateImgAndGrad .ContentImgSection:last-child:after {
     margin-left: -350px
   }
 }
 
 @media only screen and (max-width:1400px) {
-  body.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
+  body.kimano_dapp .RotateImgAndGrad .ContentImgSection:last-child:after {
     margin-left: -550px;
     opacity: .7
   }
@@ -11970,7 +11970,7 @@ body.EverMigrate.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after 
     min-height: auto
   }
 
-  body.EverDapp .RotateImgAndGrad .ContentImgSection:last-child:after {
+  body.kimano_dapp .RotateImgAndGrad .ContentImgSection:last-child:after {
     background-size: cover;
     margin-left: 0;
     background-position: -600px;
@@ -12202,16 +12202,16 @@ a.ContactNow {
     padding-bottom: 50px
   }
 
-  body.EverDapp .FeaturesGlobalInner {
+  body.kimano_dapp .FeaturesGlobalInner {
     padding-bottom: 60px
   }
 
-  .CommunityFaqSectionRight .FaqAccordion .collapsible {
+  .community_faq_section_right .faq_accordion .collapsible {
     margin-left: 10px;
     margin-right: 10px
   }
 
-  body.CSDapp .CommunityFaqSectionRight .FaqAccordion .collapsible {
+  body.csd_app .community_faq_section_right .faq_accordion .collapsible {
     margin-left: 0;
     margin-right: 0;
     width: 100%
@@ -12221,26 +12221,26 @@ a.ContactNow {
     margin-bottom: 40px !important
   }
 
-  body.EverDapp .DappFaqGlobalInner .community_faq_section_left {
+  body.kimano_dapp .dapp_faq_global_inner .community_faq_section_left {
     padding-bottom: 0;
     border-bottom-width: 0
   }
 }
 
-.DappFaqGlobalInner .CommunityFaqSectionRight {
+.dapp_faq_global_inner .community_faq_section_right {
   max-height: 710px
 }
 
-.DappFaqGlobalInner .CommunityFaqSectionRight h2 {
+.dapp_faq_global_inner .community_faq_section_right h2 {
   padding: 51px 0 30px
 }
 
-.DappFaqSection,
-.DappFaqSection .community_faq_section_left {
+.dapp_faq_section,
+.dapp_faq_section .community_faq_section_left {
   background: #030d2b
 }
 
-.DappFaqGlobalInner .community_faq_section_left p {
+.dapp_faq_global_inner .community_faq_section_left p {
   max-width: 530px
 }
 
@@ -12257,33 +12257,33 @@ body.EverBridge .ContentImgSection:last-child .ContentImgSectionImg {
   margin-left: -90px
 }
 
-.DappFaqSection .DappHeaderH2 {
+.dapp_faq_section .dapp_header_h2 {
   margin-top: 80px
 }
 
-.DappFaqSection {
+.dapp_faq_section {
   padding: 80px 0
 }
 
 @media only screen and (max-width:1350px) {
-  .DappFaqSection {
+  .dapp_faq_section {
     padding: 10px 0 60px
   }
 
-  body.CSDapp .DappFaqSection {
+  body.csd_app .dapp_faq_section {
     padding: 60px 0
   }
 
-  .DappFaqGlobalInner {
+  .dapp_faq_global_inner {
     flex-direction: column
   }
 
-  .DappFaqGlobalInner .community_faq_section_left,
-  .DappFaqGlobalInner .CommunityFaqSectionRight {
+  .dapp_faq_global_inner .community_faq_section_left,
+  .dapp_faq_global_inner .community_faq_section_right {
     width: 100%
   }
 
-  .DappFaqGlobalInner .community_faq_section_left p {
+  .dapp_faq_global_inner .community_faq_section_left p {
     max-width: 865px
   }
 
@@ -12291,24 +12291,24 @@ body.EverBridge .ContentImgSection:last-child .ContentImgSectionImg {
     margin-top: 10px
   }
 
-  body.EverDapp .community_faq_section_left {
+  body.kimano_dapp .community_faq_section_left {
     margin-bottom: 60px;
     border-bottom: 1px solid #13243b6e;
     border-radius: 0;
     padding-bottom: 80px
   }
 
-  section.DappFaqSection .community_faq_section_left {
+  section.dapp_faq_section .community_faq_section_left {
     width: 100%
   }
 }
 
 @media only screen and (max-width:800px) {
-  .DappFaqSection .DappHeaderH2 {
+  .dapp_faq_section .dapp_header_h2 {
     flex-direction: column
   }
 
-  .DappHeaderH2 img {
+  .dapp_header_h2 img {
     margin-bottom: 20px
   }
 
@@ -12316,7 +12316,7 @@ body.EverBridge .ContentImgSection:last-child .ContentImgSectionImg {
     padding: 20px 15px
   }
 
-  .CommunityFaqSectionRight .FaqAccordion {
+  .community_faq_section_right .faq_accordion {
     width: 100%
   }
 
@@ -12324,15 +12324,15 @@ body.EverBridge .ContentImgSection:last-child .ContentImgSectionImg {
     padding-bottom: 80px
   }
 
-  .DappFaqSection .CommunityFaqSectionRight {
+  .dapp_faq_section .community_faq_section_right {
     padding-bottom: 10px
   }
 
-  .DappFaqGlobalInner .CommunityFaqSectionRight {
+  .dapp_faq_global_inner .community_faq_section_right {
     max-height: 850px
   }
 
-  .FaqAccordion .DappFaqSection {
+  .faq_accordion .dapp_faq_section {
     padding-top: 0;
     padding-bottom: 0
   }
@@ -12345,11 +12345,11 @@ body.EverBridge .ContentImgSection:last-child .ContentImgSectionImg {
 }
 
 @media only screen and (max-width:550px) {
-  .DappFaqGlobalInner .CommunityFaqSectionRight {
+  .dapp_faq_global_inner .community_faq_section_right {
     width: 100%
   }
 
-  .CommunityFaqSectionRight h2 {
+  .community_faq_section_right h2 {
     font-size: 8vw;
     padding-top: 13px
   }
@@ -12503,8 +12503,8 @@ body.EverOwn .MoreFeatures ul.MoreFeaturesCards {
   }
 }
 
-body.EverBridge.EverDapp .section_arrow,
-body.EverOwn.EverDapp .section_arrow {
+body.EverBridge.kimano_dapp .section_arrow,
+body.EverOwn.kimano_dapp .section_arrow {
   background: #001333
 }
 
@@ -12666,12 +12666,12 @@ body.EverMigrate .HowItWorksImg>div {
   left: 10%
 }
 
-body.CSDapp.EverDapp .DappHeaderCardContainer {
+body.csd_app.kimano_dapp .dapp_header_card_container {
   position: relative;
   z-index: -1
 }
 
-body.CSDapp.EverDapp .DappHeaderCardContainer>div {
+body.csd_app.kimano_dapp .dapp_header_card_container>div {
   width: 100vw;
   min-width: 500px;
   top: -4%;
@@ -12679,11 +12679,11 @@ body.CSDapp.EverDapp .DappHeaderCardContainer>div {
   opacity: .7
 }
 
-body.CSDapp.EverDapp .DappHeader {
+body.csd_app.kimano_dapp .dapp_header {
   overflow: hidden
 }
 
-body.CSDapp.EverDapp .DappHeaderH1 h1:after {
+body.csd_app.kimano_dapp .dapp_header_h1 h1:after {
   content: "Is Coming Soon";
   display: block;
   font-size: 20px;
@@ -12697,54 +12697,54 @@ body.CSDapp.EverDapp .DappHeaderH1 h1:after {
   margin-left: 4px
 }
 
-body.CSDapp.EverDapp .DappHeaderH1 h1 {
+body.csd_app.kimano_dapp .dapp_header_h1 h1 {
   position: relative;
   top: 8px;
   text-align: left
 }
 
-body.CSDapp.EverDapp .DappHeaderContent .hero_content_btns a:nth-child(2):after {
+body.csd_app.kimano_dapp .dapp_header_content .hero_content_btns a:nth-child(2):after {
   color: #fefefe
 }
 
-body.CSDapp .BlendedAbsolute>div {
+body.csd_app .blended_absolute>div {
   max-width: 704px !important
 }
 
-body.CSDapp.EverDapp .DappHeaderH2 img {
+body.csd_app.kimano_dapp .dapp_header_h2 img {
   max-width: 80px
 }
 
-body.CSDapp.EverDapp .community_faq_section_left p {
+body.csd_app.kimano_dapp .community_faq_section_left p {
   text-align: left;
   font-size: 18px;
   padding: 10px 10px 10px 0;
   margin: 0
 }
 
-body.CSDapp.EverDapp section.DappFaqSection .community_faq_section_left {
+body.csd_app.kimano_dapp section.dapp_faq_section .community_faq_section_left {
   align-items: flex-start;
   justify-content: flex-start
 }
 
-body.CSDapp.EverDapp .DappFaqSection .DappHeaderH2 {
+body.csd_app.kimano_dapp .dapp_faq_section .dapp_header_h2 {
   margin-top: 0;
   transform: scale(1);
   margin-bottom: -10px
 }
 
-body.CSDapp.EverDapp .FaqTitle {
+body.csd_app.kimano_dapp .faq_title {
   margin-top: 0
 }
 
 @media only screen and (max-width:1100px) {
-  body.EverDapp .hero_content_btns a {
+  body.kimano_dapp .hero_content_btns a {
     font-size: 20px
   }
 }
 
 @media only screen and (max-width:850px) {
-  body.CSDapp.EverDapp .DappHeaderH1 h1:after {
+  body.csd_app.kimano_dapp .dapp_header_h1 h1:after {
     margin-top: -10px
   }
 }
@@ -12765,15 +12765,15 @@ body.EverMigrate .InvestorServices>div {
   max-width: 220px !important
 }
 
-.CommunityFaqSectionRight .FaqAccordion .collapsible a {
+.community_faq_section_right .faq_accordion .collapsible a {
   color: #4392ca
 }
 
-body.EverSwap .DappFaqGlobalInner .community_faq_section_left p {
+body.EverSwap .dapp_faq_global_inner .community_faq_section_left p {
   max-width: 700px
 }
 
-.EverDapp .community_faq_section_left h3 {
+.kimano_dapp .community_faq_section_left h3 {
   color: #fff;
   font-size: 23px;
   font-weight: 800;
@@ -12781,7 +12781,7 @@ body.EverSwap .DappFaqGlobalInner .community_faq_section_left p {
   margin-bottom: 6px
 }
 
-body.EverOwn .DappHeaderContent a.white_hero_btn span {
+body.EverOwn .dapp_header_content a.white_hero_btn span {
   font-size: 18px
 }
 
