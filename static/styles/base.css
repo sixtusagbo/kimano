@@ -589,7 +589,7 @@ video {
   font-weight: 600
 }
 
-.font-extrabold {
+.font_extrabold {
   font-weight: 800
 }
 
@@ -673,7 +673,7 @@ h6 {
   line-height: 1.1em
 }
 
-div.wrapper {
+div#wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh
@@ -4051,7 +4051,7 @@ h1.OrangeTxtRightGrad {
 }
 
 .home_hero,
-div.wrapper {
+div#wrapper {
   z-index: 0;
   position: relative
 }
@@ -13290,7 +13290,7 @@ body.legal_page .content>section:last-child {
 }
 
 body.legal_page .content,
-body.legal_page div.wrapper {
+body.legal_page div#wrapper {
   min-height: auto
 }
 
