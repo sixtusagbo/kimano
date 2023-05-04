@@ -595,18 +595,18 @@ svg {
   height: 45vh
 }
 
-.EverAppInner {
+.app_inner {
   display: flex;
   height: calc(var(--vh, 1vh) * 100)
 }
 
-.PrimaryContainer {
+.primary_container {
   width: 100%;
   z-index: 0;
   background: var(--bgColor6)
 }
 
-body.light_mode .PrimaryContainer {
+body.light_mode .primary_container {
   background: var(--bgWhite5)
 }
 
@@ -628,31 +628,31 @@ body.light_mode main.EverContent {
   box-shadow: var(--scrollbarW)
 }
 
-.EverHeader {
+.header {
   z-index: 10;
   position: relative
 }
 
-.EverHeader:after {
+.header:after {
   height: 85px
 }
 
-.EverHeader {
+.header {
   background: var(--bgHeader);
   box-shadow: var(--darkShadow)
 }
 
-body.light_mode .EverHeader {
+body.light_mode .header {
   background: var(--bgWhite1);
   box-shadow: var(--darkShadowW)
 }
 
-.EverHeader:after {
+.header:after {
   border: 1px solid var(--borderColor4)
 }
 
-header.GlobalHeader:after,
-header.GlobalHeader:before {
+header.global_header:after,
+header.global_header:before {
   content: "";
   width: 300px;
   display: block;
@@ -663,22 +663,22 @@ header.GlobalHeader:before {
   pointer-events: none
 }
 
-body.light_mode header.GlobalHeader:after,
-body.light_mode header.GlobalHeader:before {
+body.light_mode header.global_header:after,
+body.light_mode header.global_header:before {
   background: var(--bgWhite1)
 }
 
-header.GlobalHeader,
-header.GlobalHeader:after,
-header.GlobalHeader:before {
+header.global_header,
+header.global_header:after,
+header.global_header:before {
   height: 85px
 }
 
-header.GlobalHeader:after {
+header.global_header:after {
   right: 0
 }
 
-header.GlobalHeader * {
+header.global_header * {
   z-index: 1
 }
 
@@ -690,11 +690,11 @@ body.light_mode .EverNav {
   background: #f5f7fd
 }
 
-header.GlobalHeader:before {
+header.global_header:before {
   background: var(--headerGradLeft)
 }
 
-header.GlobalHeader:after {
+header.global_header:after {
   background: var(--headerGradRight)
 }
 
@@ -702,14 +702,14 @@ svg.Copy_Icon {
   cursor: pointer
 }
 
-.GlobalHeaderInner {
+.global_header_inner {
   height: 100%;
   padding: 0 30px;
   display: flex;
   justify-content: space-between
 }
 
-.HeaderContent {
+.header_content {
   margin-top: 2px
 }
 
@@ -797,7 +797,7 @@ body.light_mode .ComponentBG {
   margin-right: 25px
 }
 
-.ToggleDropdownBtn {
+.toggle_dropdown_btn {
   min-width: 41px;
   font-size: 18px;
   border-radius: 13px;
@@ -817,13 +817,13 @@ body.light_mode .ComponentBG {
   top: 1px
 }
 
-body.light_mode button.ToggleDropdownBtn {
+body.light_mode button.toggle_dropdown_btn {
   border: 1px solid var(--borderWhite3);
   background: #fff;
   background: var(--bgHorzGradW)
 }
 
-.ToggleDropdown {
+.toggle_dropdown {
   position: absolute;
   background: var(--bgColor2);
   border-radius: 12px;
@@ -836,44 +836,44 @@ body.light_mode button.ToggleDropdownBtn {
   border: 1px solid var(--borderColor2)
 }
 
-body.light_mode .ToggleDropdown {
+body.light_mode .toggle_dropdown {
   background: var(--bgWhite1);
   box-shadow: var(--darkShadowW);
   border: 1px solid var(--borderWhite2)
 }
 
-.GlobalHeader .ToggleDropdown {
+.global_header .toggle_dropdown {
   right: 16px
 }
 
-.ToggleDropdown li {
+.toggle_dropdown li {
   margin: 8px 0;
   cursor: pointer
 }
 
-.ToggleDropdown li * {
+.toggle_dropdown li * {
   font-size: 15px;
   font-weight: 500
 }
 
-body.light_mode .ToggleDropdown li * {
+body.light_mode .toggle_dropdown li * {
   color: var(--fontWhite4)
 }
 
-.ToggleDropdown li>* {
+.toggle_dropdown li>* {
   opacity: .83;
   padding: 3px 0
 }
 
-body.light_mode .ToggleDropdown li>* {
+body.light_mode .toggle_dropdown li>* {
   opacity: .7
 }
 
-.Dropdown-dark-mode-toggle span.toggle-control {
+.dropdown_dark_mode_toggle span.toggle_control {
   width: 100%
 }
 
-.Dropdown-dark-mode-toggle label {
+.dropdown_dark_mode_toggle label {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -881,25 +881,25 @@ body.light_mode .ToggleDropdown li>* {
   cursor: pointer
 }
 
-.Dropdown-dark-mode-toggle input#dmcheck {
+.dropdown_dark_mode_toggle input#dmcheck {
   display: none
 }
 
-.Dropdown-dark-mode-toggle input {
+.dropdown_dark_mode_toggle input {
   -webkit-appearance: none;
   appearance: none;
   cursor: pointer
 }
 
-.Dropdown-dark-mode-toggle label:before {
+.dropdown_dark_mode_toggle label:before {
   content: "Light Mode"
 }
 
-body.light_mode .Dropdown-dark-mode-toggle label:before {
+body.light_mode .dropdown_dark_mode_toggle label:before {
   content: "Dark Mode"
 }
 
-.Dropdown-dark-mode-toggle label:after {
+.dropdown_dark_mode_toggle label:after {
   content: "";
   background: url(/icons/Sun_Icon.svg) no-repeat;
   height: 18px;
@@ -908,7 +908,7 @@ body.light_mode .Dropdown-dark-mode-toggle label:before {
   opacity: .8
 }
 
-body.light_mode .Dropdown-dark-mode-toggle label:after {
+body.light_mode .dropdown_dark_mode_toggle label:after {
   content: "";
   background: url(/icons/Moon_Icon.svg) no-repeat;
   height: 18px;
@@ -916,11 +916,11 @@ body.light_mode .Dropdown-dark-mode-toggle label:after {
   display: block
 }
 
-.Dropdown-dark-mode-toggle:hover label:after {
+.dropdown_dark_mode_toggle:hover label:after {
   opacity: 1
 }
 
-.ToggleDropdown ul,
+.toggle_dropdown ul,
 ul.MainMenu,
 ul.SubNav {
   list-style-type: none;
@@ -928,57 +928,57 @@ ul.SubNav {
   padding: 0
 }
 
-.ToggleDropdown li svg {
+.toggle_dropdown li svg {
   max-width: 18px;
   max-height: 16px
 }
 
-.ToggleDropdown svg.BellOutlineIcon,
-.ToggleDropdown svg.Bell_Icon,
-.ToggleDropdown svg.EverRise_Icon path,
-.ToggleDropdown svg.RegisterIcon,
-.ToggleDropdown svg.UserIcon,
-.ToggleDropdown svg.Wallet_Lock,
-.ToggleDropdown svg.Wallet_Unlock {
+.toggle_dropdown svg.BellOutlineIcon,
+.toggle_dropdown svg.Bell_Icon,
+.toggle_dropdown svg.our_icon path,
+.toggle_dropdown svg.RegisterIcon,
+.toggle_dropdown svg.UserIcon,
+.toggle_dropdown svg.Wallet_Lock,
+.toggle_dropdown svg.Wallet_Unlock {
   fill: var(--svgColor1)
 }
 
-.ToggleDropdown li span {
+.toggle_dropdown li span {
   display: flex;
   align-items: center
 }
 
-.ToggleDropdown li>:hover * {
+.toggle_dropdown li>:hover * {
   opacity: 1;
   color: var(--fontWhite)
 }
 
-body.light_mode .ToggleDropdown li>:hover * {
+body.light_mode .toggle_dropdown li>:hover * {
   opacity: 1;
   color: var(--fontWhite3)
 }
 
-.ToggleDropdown li>:hover svg.BellOutlineIcon,
-.ToggleDropdown li>:hover svg.Bell_Icon,
-.ToggleDropdown li>:hover svg.EverRise_Icon path,
-.ToggleDropdown li>:hover svg.RegisterIcon,
-.ToggleDropdown li>:hover svg.UserIcon,
-.ToggleDropdown li>:hover svg.Wallet_Lock,
-.ToggleDropdown li>:hover svg.Wallet_Unlock {
+.toggle_dropdown li>:hover svg.BellOutlineIcon,
+.toggle_dropdown li>:hover svg.Bell_Icon,
+.toggle_dropdown li>:hover svg.our_icon path,
+.toggle_dropdown li>:hover svg.RegisterIcon,
+.toggle_dropdown li>:hover svg.UserIcon,
+.toggle_dropdown li>:hover svg.Wallet_Lock,
+.toggle_dropdown li>:hover svg.Wallet_Unlock {
   fill: var(--fontWhite)
 }
 
-body.light_mode .ToggleDropdown svg.BellOutlineIcon,
-body.light_mode .ToggleDropdown svg.Bell_Icon,
-body.light_mode .ToggleDropdown svg.EverRise_Icon path,
-body.light_mode .ToggleDropdown svg.RegisterIcon,
-body.light_mode .ToggleDropdown svg.UserIcon,
-body.light_mode .ToggleDropdown svg.Wallet_Lock,
-body.light_mode .ToggleDropdown svg.Wallet_Unlock {
+body.light_mode .toggle_dropdown svg.BellOutlineIcon,
+body.light_mode .toggle_dropdown svg.Bell_Icon,
+body.light_mode .toggle_dropdown svg.our_icon path,
+body.light_mode .toggle_dropdown svg.RegisterIcon,
+body.light_mode .toggle_dropdown svg.UserIcon,
+body.light_mode .toggle_dropdown svg.Wallet_Lock,
+body.light_mode .toggle_dropdown svg.Wallet_Unlock {
   fill: var(--svgColorW5)
 }
 
-.SelectOptionPopupInner .ToggleDropdown.active {
+.SelectOptionPopupInner .toggle_dropdown.active {
   -webkit-transform: translate(-184px, 5px);
   transform: translate(-184px, 5px)
 }
@@ -989,20 +989,20 @@ body.light_mode .ToggleDropdown svg.Wallet_Unlock {
   right: 0
 }
 
-.PopupRelativeParent .ToggleDropdown {
+.PopupRelativeParent .toggle_dropdown {
   left: -50px;
   top: 12px
 }
 
-.EverHeader .ToggleDropdown {
+.header .toggle_dropdown {
   right: 16px
 }
 
-.ToggleDropdown li>:hover {
+.toggle_dropdown li>:hover {
   color: var(--fontWhite)
 }
 
-body.light_mode .ToggleDropdown li>:hover {
+body.light_mode .toggle_dropdown li>:hover {
   opacity: 1
 }
 
@@ -1032,7 +1032,7 @@ body.light_mode .ToggleDropdown li>:hover {
   margin: 30px 5px
 }
 
-.HeaderTxt h1 {
+.header_txt h1 {
   text-transform: uppercase;
   font-size: 23px;
   font-weight: 600;
@@ -1063,7 +1063,7 @@ p:not(main.EverContent p) {
   margin-block-end: 0
 }
 
-.EverHeader:after {
+.header:after {
   content: "";
   width: 100%;
   display: block;
@@ -1072,7 +1072,7 @@ p:not(main.EverContent p) {
   pointer-events: none
 }
 
-body.light_mode .EverHeader:after {
+body.light_mode .header:after {
   border: 1px solid #fff
 }
 
@@ -1132,7 +1132,7 @@ body.light_mode .PoweredByInner svg path {
 }
 
 .LegalLinks ul li:first-child:after {
-  content: "â€¢";
+  content: "•";
   margin: 0 7px;
   color: var(--fontColor6)
 }
@@ -1183,8 +1183,8 @@ ul.MainMenu a {
   width: 100%
 }
 
-.HeaderAccount,
-.HeaderContent,
+.header_account,
+.header_content,
 ul.MainMenu a {
   display: flex;
   align-items: center
@@ -1233,7 +1233,7 @@ p.WalletLoginLegalTxt {
   outline: none
 }
 
-.dark-mode-toggle .toggle-control {
+.dark-mode-toggle .toggle_control {
   position: relative;
   padding: 0 4px;
   display: flex;
@@ -1348,13 +1348,13 @@ svg.MoonIcon {
   pointer-events: none
 }
 
-.EverBreadcrumbs li::marker {
+.breadcrumbs li::marker {
   content: "";
   display: none;
   opacity: 0
 }
 
-.GlobalBread {
+.global_bread {
   display: flex;
   align-items: center;
   color: var(--fontColor2);
@@ -1365,7 +1365,7 @@ a.HomeBreadIcon svg {
   width: 100%
 }
 
-.GlobalBread path.EverRiseIconPath {
+.global_bread path.EverRiseIconPath {
   fill: var(--svgColor6)
 }
 
@@ -1374,7 +1374,7 @@ a.HomeBreadIcon {
   display: none
 }
 
-.EverBreadcrumbs li:not(:first-child):before {
+.breadcrumbs li:not(:first-child):before {
   content: "";
   position: relative;
   left: 0;
@@ -1390,17 +1390,17 @@ a.HomeBreadIcon {
   color: #5d6993
 }
 
-body .EverBreadcrumbs li * {
+body .breadcrumbs li * {
   color: var(--fontColor5);
   font-weight: light;
   font-size: 14.2px
 }
 
-.EverBreadcrumbs li.ActivePage * {
+.breadcrumbs li.ActivePage * {
   color: var(--fontColor2)
 }
 
-.EverBreadcrumbs ol {
+.breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
@@ -1408,7 +1408,7 @@ body .EverBreadcrumbs li * {
   padding: 0
 }
 
-.EverBreadcrumbs li {
+.breadcrumbs li {
   display: flex;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -3063,19 +3063,19 @@ body.light_mode .HomeDappHeader {
   border-bottom: 1px solid #c0d1f9
 }
 
-.EverBreadcrumbs li {
+.breadcrumbs li {
   display: none
 }
 
-.EverBreadcrumbs li:nth-last-child(-n+2) {
+.breadcrumbs li:nth-last-child(-n+2) {
   display: flex
 }
 
-.EverBreadcrumbs li:nth-last-child(-n+2):before {
+.breadcrumbs li:nth-last-child(-n+2):before {
   display: none
 }
 
-.EverBreadcrumbs li:last-child:before {
+.breadcrumbs li:last-child:before {
   display: block
 }
 
@@ -3083,19 +3083,20 @@ body.light_mode .SidebarItem {
   color: #000
 }
 
-body .HeaderWalletLogin button * {
+body .header_wallet_login button * {
   color: var(--fontWhite) !important
 }
 
-.ToggleDropdownBtnWrap.active {
+.toggle_dropdown_btn_wrap,
+.toggle_dropdown_btn_wrap * {
   cursor: pointer
 }
 
-.ToggleDropdownBtnWrap.active .ToggleDropdownBtn {
+.toggle_dropdown_btn_wrap.active .toggle_dropdown_btn {
   pointer-events: none
 }
 
-.ToggleDropdown li>* {
+.toggle_dropdown li>* {
   display: flex;
   justify-content: space-between
 }
@@ -3235,11 +3236,11 @@ body.light_mode .SelectOptionPopupContent .DappFormAmountInput {
   margin-top: 5px
 }
 
-.EverAppInner .popupInlineWarning * {
+.app_inner .popupInlineWarning * {
   color: var(--fontWhite)
 }
 
-body.light_mode .EverAppInner .popupInlineWarning {
+body.light_mode .app_inner .popupInlineWarning {
   color: var(--fontWhite4) !important
 }
 
@@ -3397,7 +3398,7 @@ body.light_mode .popupInlineWarning {
 
 body.light_mode .DappFormTokenBalance>span,
 body.light_mode .FormAdvancedOptions *,
-body.light_mode .HeaderWalletLogin,
+body.light_mode .header_wallet_login,
 body.light_mode .StakingLockerAddressContent>span,
 body.light_mode .table-head .column,
 body.light_mode .table-head .column * {
@@ -3444,11 +3445,11 @@ body.light_mode .ComponentHeaderBG:after {
     padding: 0
   }
 
-  .GlobalHeaderInner {
+  .global_header_inner {
     padding: 0 20px
   }
 
-  .HeaderWalletLogin {
+  .header_wallet_login {
     display: flex;
     flex-direction: column;
     align-items: flex-end
@@ -3458,7 +3459,7 @@ body.light_mode .ComponentHeaderBG:after {
     display: none
   }
 
-  body .EverBreadcrumbs li * {
+  body .breadcrumbs li * {
     font-size: 13px
   }
 
@@ -3571,25 +3572,25 @@ body.light_mode .ComponentHeaderBG:after {
     display: none
   }
 
-  .EverHeader:after {
+  .header:after {
     height: 65px
   }
 
-  header.GlobalHeader:before {
+  header.global_header:before {
     width: 40vw
   }
 
-  header.GlobalHeader:after {
+  header.global_header:after {
     display: none
   }
 
-  header.GlobalHeader,
-  header.GlobalHeader:after,
-  header.GlobalHeader:before {
+  header.global_header,
+  header.global_header:after,
+  header.global_header:before {
     height: 64px
   }
 
-  .GlobalHeaderInner {
+  .global_header_inner {
     padding: 0 12px
   }
 
@@ -3603,7 +3604,7 @@ body.light_mode .ComponentHeaderBG:after {
     padding: 0 9px 0 13px
   }
 
-  .HeaderTxt h1 {
+  .header_txt h1 {
     font-size: 20px;
     margin-bottom: 3px
   }
@@ -3612,7 +3613,7 @@ body.light_mode .ComponentHeaderBG:after {
     grid-template-columns: repeat(1, 1fr)
   }
 
-  .HeaderWalletLogin button>span>span:last-child {
+  .header_wallet_login button>span>span:last-child {
     display: none
   }
 
@@ -3663,7 +3664,7 @@ body.light_mode .ComponentHeaderBG:after {
     bottom: -30px
   }
 
-  .EverBreadcrumbs {
+  .breadcrumbs {
     display: none
   }
 
@@ -3957,7 +3958,7 @@ body.light_mode .ComponentHeaderBG:after {
     height: 24px
   }
 
-  .HeaderTxt h1 {
+  .header_txt h1 {
     display: none
   }
 
@@ -4166,11 +4167,11 @@ body.light_mode .ComponentHeaderBG:after {
 }
 
 @media (max-width:410px) {
-  .GlobalHeaderInner {
+  .global_header_inner {
     padding: 0 15px !important
   }
 
-  .DappIcon {
+  .dapp_icon {
     width: 55px;
     min-width: 55px;
     height: 55px;
@@ -4191,7 +4192,7 @@ body.light_mode .ComponentHeaderBG:after {
     font-size: 11px
   }
 
-  .GlobalHeaderInner {
+  .global_header_inner {
     padding: 0 24px
   }
 
@@ -4337,8 +4338,8 @@ body.embedded.light_mode * {
   scrollbar-width: none
 }
 
-body.custom .EverApp,
-body.embedded .EverApp {
+body.custom .app,
+body.embedded .app {
   border-radius: 35px;
   overflow: hidden;
   margin: -5px;
@@ -4351,8 +4352,8 @@ body.embedded main.EverContent {
   border-right: none
 }
 
-body.custom .PrimaryContainer,
-body.embedded .PrimaryContainer {
+body.custom .primary_container,
+body.embedded .primary_container {
   margin-top: 0;
   background: transparent !important
 }
@@ -4374,13 +4375,13 @@ body.embedded .ComponentBG {
   width: 100%
 }
 
-body.custom .EverApp:not(.EverStake.EverApp) .EverStakeNav,
-body.embedded .EverApp:not(.EverStake.EverApp) .EverStakeNav {
+body.custom .app:not(.EverStake.app) .EverStakeNav,
+body.embedded .app:not(.EverStake.app) .EverStakeNav {
   margin-bottom: 10px !important
 }
 
-body.custom .HeaderTxt h1,
-body.embedded .HeaderTxt h1 {
+body.custom .header_txt h1,
+body.embedded .header_txt h1 {
   display: inline
 }
 
@@ -4416,8 +4417,8 @@ body.embedded .WalletConnectButtonWrap button {
 
 @media (max-width:360px) {
 
-  body.custom .HeaderTxt h1,
-  body.embedded .HeaderTxt h1 {
+  body.custom .header_txt h1,
+  body.embedded .header_txt h1 {
     display: none
   }
 }
@@ -4436,31 +4437,31 @@ body.embedded .ComponentBG.SmallNav {
   border-radius: 22px
 }
 
-body.embedded .EverHeader {
+body.embedded .header {
   margin: 20px 20px 0;
   border-radius: 20px;
   border: none;
   box-shadow: var(--bgComponent)
 }
 
-body.embedded.light_mode .EverHeader {
+body.embedded.light_mode .header {
   box-shadow: var(--bgComponentW)
 }
 
-body.embedded .EverHeader:after {
+body.embedded .header:after {
   border-radius: 20px
 }
 
-body.embedded header.GlobalHeader,
-body.embedded header.GlobalHeader:after,
-body.embedded header.GlobalHeader:before {
+body.embedded header.global_header,
+body.embedded header.global_header:after,
+body.embedded header.global_header:before {
   border-radius: 20px;
   background: var(--bgColor1)
 }
 
-body.embedded.light_mode header.GlobalHeader,
-body.embedded.light_mode header.GlobalHeader:after,
-body.embedded.light_mode header.GlobalHeader:before {
+body.embedded.light_mode header.global_header,
+body.embedded.light_mode header.global_header:after,
+body.embedded.light_mode header.global_header:before {
   background: var(--bgWhite1)
 }
 
@@ -4477,7 +4478,7 @@ body.embedded.light_mode .InvertFormButtonInner {
   box-shadow: 0 -3px 0 0 #fff, inset 0 3px 5px 0 #e9e9e9, 0 3px 0 0 #fdfefe, inset 0 -3px 5px 0 #ececec
 }
 
-.notitle .EverHeader {
+.notitle .header {
   display: none
 }
 
@@ -4485,7 +4486,7 @@ body.embedded.light_mode .InvertFormButtonInner {
   padding-top: 4px
 }
 
-body.custom .EverHeader {
+body.custom .header {
   display: none
 }
 
@@ -4495,7 +4496,7 @@ body.custom .SmallNav {
   display: flex
 }
 
-body.custom.embedded .EverHeader {
+body.custom.embedded .header {
   display: block;
   margin: 20px 20px 0;
   border-radius: 20px;
@@ -4503,7 +4504,7 @@ body.custom.embedded .EverHeader {
   box-shadow: var(--bgComponent)
 }
 
-body.custom.embedded.light_mode .EverHeader {
+body.custom.embedded.light_mode .header {
   box-shadow: var(--bgComponentW)
 }
 
@@ -4817,7 +4818,7 @@ body.light_mode .InvisibleButton {
   color: var(--fontWhite3)
 }
 
-.HeaderWalletLogin>button,
+.header_wallet_login>button,
 .StakingSummaryWalletConnectBtn button {
   background: var(--warmGradient);
   height: 38px;
@@ -4829,33 +4830,34 @@ body.light_mode .InvisibleButton {
   line-height: 1em
 }
 
-body.light_mode .HeaderWalletLogin>button,
+body.light_mode .header_wallet_login>button,
 body.light_mode .StakingSummaryWalletConnectBtn button {
-  background: var(--warmGradientW)
+  background: var(--warmGradientW);
+  cursor: pointer
 }
 
-.HeaderWalletLogin>button:hover,
+.header_wallet_login>button:hover,
 .StakingSummaryWalletConnectBtn button:hover {
   box-shadow: var(--warmButtonLight)
 }
 
-body.light_mode .HeaderWalletLogin>button:hover,
+body.light_mode .header_wallet_login>button:hover,
 body.light_mode .StakingSummaryWalletConnectBtn button:hover {
   background: var(--hoverWarmGradientW);
   box-shadow: var(--warmButtonLightW)
 }
 
-.HeaderWalletLogin .WarmButton {
+.header_wallet_login .WarmButton {
   width: 100%;
   height: 47px
 }
 
-.HeaderWalletLogin .ColdButton {
+.header_wallet_login .ColdButton {
   width: 100%;
   height: 50px
 }
 
-.HeaderWalletLogin .HeaderAccountInfo>button {
+.header_wallet_login .HeaderAccountInfo>button {
   color: var(--coldButtonFont) !important;
   margin-right: 5px
 }
@@ -4932,18 +4934,18 @@ body.light_mode .WalletConnectButtonWrap button:hover {
   border-radius: 10px
 }
 
-.ToggleDropdown.NftStakeItemButton {
+.toggle_dropdown.NftStakeItemButton {
   position: absolute;
   left: 80px;
   top: 50px
 }
 
-button.ToggleDropdownBtn svg {
+button.toggle_dropdown_btn svg {
   fill: var(--svgColor1);
   max-width: 4px
 }
 
-body.light_mode button.ToggleDropdownBtn svg {
+body.light_mode button.toggle_dropdown_btn svg {
   fill: var(--fontWhite1)
 }
 
@@ -5208,7 +5210,7 @@ body.light_mode .RoundButton button:active {
   height: 50px
 }
 
-.DistributeButton svg.EverRise_Icon path {
+.DistributeButton svg.our_icon path {
   fill: url(#EverRiseIconGrad)
 }
 
@@ -5216,11 +5218,11 @@ body.light_mode .RoundButton button:active {
   pointer-events: none
 }
 
-.RoundButton button[disabled] svg.EverRise_Icon path {
+.RoundButton button[disabled] svg.our_icon path {
   fill: var(--bgColor3)
 }
 
-body.light_mode .RoundButton button[disabled] svg.EverRise_Icon path {
+body.light_mode .RoundButton button[disabled] svg.our_icon path {
   fill: var(--bgWhite4)
 }
 
@@ -5565,18 +5567,18 @@ ul.MainMenu svg.EverBridge_Icon {
   left: -2px
 }
 
-.HeaderContent .DappIcon svg.EverBridge_Icon {
+.header_content .dapp_icon svg.EverBridge_Icon {
   position: relative;
   left: -4px;
   margin-top: 3px
 }
 
-.HeaderContent .DappIcon svg.EverRise_Icon {
+.header_content .dapp_icon svg.our_icon {
   top: 0;
   left: 1px
 }
 
-li.active-dapp svg.EverRise_Icon {
+li.active-dapp svg.our_icon {
   top: 1px
 }
 
@@ -5666,7 +5668,7 @@ li.active-dapp span.MainMenuTxt.PArrow:after {
   fill: var(--fontWhite4)
 }
 
-.EverHeader .EverRiseIconPath,
+.header .EverRiseIconPath,
 .active-dapp .EverRiseIconPath {
   fill: url(#EverRiseIconGrad)
 }
@@ -5867,7 +5869,7 @@ body.light_mode .EverRiseIcon {
   fill: var(--fontWhite1)
 }
 
-.DappIcon {
+.dapp_icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5877,38 +5879,38 @@ body.light_mode .EverRiseIcon {
   height: 50px
 }
 
-.DappIcon svg {
+.dapp_icon svg {
   max-width: 50px;
   position: relative
 }
 
-.HeaderContent .DappIcon svg.EverRiseIcon {
+.header_content .dapp_icon svg.EverRiseIcon {
   top: 0;
   max-width: 47px
 }
 
-.HeaderContent .DappIcon svg.EverOwnIcon {
+.header_content .dapp_icon svg.EverOwnIcon {
   max-width: 53px
 }
 
-.HeaderContent .DappIcon svg.EverBridgeIcon {
+.header_content .dapp_icon svg.EverBridgeIcon {
   max-width: 49px;
   top: -1px;
   left: -3px
 }
 
-.HeaderContent .DappIcon svg.EverSwapIcon {
+.header_content .dapp_icon svg.EverSwapIcon {
   max-width: 47px;
   top: 0
 }
 
-.HeaderContent .DappIcon svg.EverStakeIcon {
+.header_content .dapp_icon svg.EverStakeIcon {
   max-width: 40px;
   top: -1px;
   left: -3px
 }
 
-.HeaderContent .DappIcon svg.EverMigrateIcon {
+.header_content .dapp_icon svg.EverMigrateIcon {
   max-width: 47px;
   top: 0
 }
@@ -5926,11 +5928,11 @@ body.light_mode .EverRiseIcon {
     height: 40px
   }
 
-  .DappIcon {
+  .dapp_icon {
     margin-right: 14px
   }
 
-  .DappIcon svg {
+  .dapp_icon svg {
     max-width: 40px
   }
 }
@@ -6892,13 +6894,13 @@ body.light_mode .AppGridMainFullScreen {
 }
 
 .AppGridItem,
-.HeaderTxt {
+.header_txt {
   display: flex;
   flex-direction: column;
   justify-content: center
 }
 
-.HeaderTxt h1 {
+.header_txt h1 {
   padding-top: 3px
 }
 
@@ -6923,32 +6925,32 @@ body.light_mode .AppGridMainFullScreen {
   font-size: 14px
 }
 
-.ToggleDropdown.Global {
+.toggle_dropdown.Global {
   right: 32px
 }
 
-.ToggleDropdownBtn.Home {
+.toggle_dropdown_btn.home {
   border-radius: 32px
 }
 
-.ToggleDropdownBtn.Home svg {
+.toggle_dropdown_btn.home svg {
   max-width: 22px
 }
 
-.ToggleDropdownBtn.Home svg.EverRise_Icon path {
+.toggle_dropdown_btn.home svg.our_icon path {
   fill: var(--svgColor1)
 }
 
-body.light_mode .ToggleDropdownBtn.Home svg.EverRise_Icon path {
+body.light_mode .toggle_dropdown_btn.home svg.our_icon path {
   fill: var(--fontWhite4)
 }
 
-.ToggleDropdownBtn.NineDots svg {
+.toggle_dropdown_btn.nine_dots svg {
   max-width: 20px;
   fill: var(--svgColor1)
 }
 
-body.light_mode .ToggleDropdownBtn.NineDots svg {
+body.light_mode .toggle_dropdown_btn.nine_dots svg {
   fill: var(--fontWhite3)
 }
 
@@ -7971,7 +7973,7 @@ body.light_mode .TransactionTable td {
   }
 }
 
-.EverApp.EverOwn.Home .EverContentInner {
+.app.EverOwn.home .EverContentInner {
   padding-left: 0;
   padding-right: 0;
   width: 100%;
@@ -7982,7 +7984,7 @@ body.light_mode .TransactionTable td {
   align-items: center
 }
 
-.EverApp.EverOwn.Locker .EverContentInner {
+.app.EverOwn.Locker .EverContentInner {
   padding-top: 45px;
   padding-left: 0;
   padding-right: 0;
@@ -7991,11 +7993,11 @@ body.light_mode .TransactionTable td {
   width: calc(100% - 40px)
 }
 
-.EverOwn.Home.EverApp .EverContentInner>div {
+.EverOwn.home.app .EverContentInner>div {
   width: calc(100% - 40px)
 }
 
-.EverOwn.Home.EverApp .EverContentInner>div:not(.FadeWrapMobile) {
+.EverOwn.home.app .EverContentInner>div:not(.FadeWrapMobile) {
   padding: 0 4px !important
 }
 
@@ -10093,7 +10095,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     box-shadow: inset 212px 0 8px -202px #e6ebf1
   }
 
-  .EverApp.EverOwn.Home .EverContentInner {
+  .app.EverOwn.home .EverContentInner {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
@@ -10105,7 +10107,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     grid-gap: 15px
   }
 
-  .EverOwn.Home.EverApp .EverOwnRecentActivityWrap .ComponentBottomGap {
+  .EverOwn.home.app .EverOwnRecentActivityWrap .ComponentBottomGap {
     margin-bottom: 15px
   }
 
@@ -10370,7 +10372,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     align-items: center
   }
 
-  .EverOwn.Home.EverApp .EverOwnRecentActivityWrap .ComponentBottomGap {
+  .EverOwn.home.app .EverOwnRecentActivityWrap .ComponentBottomGap {
     margin-bottom: 15px
   }
 
@@ -10378,7 +10380,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     grid-gap: 15px
   }
 
-  .EverOwn.Home.EverApp .EverContentInner>div {
+  .EverOwn.home.app .EverContentInner>div {
     width: calc(100% - 20px)
   }
 
@@ -10386,7 +10388,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     padding: 5px 15px 15px
   }
 
-  .EverApp.EverOwn.Home .EverContentInner {
+  .app.EverOwn.home .EverContentInner {
     padding-top: 16px
   }
 }
@@ -10411,7 +10413,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     font-size: 15px !important
   }
 
-  .EverOwn.Home.EverApp .EverOwnRecentActivityWrap .ComponentBottomGap {
+  .EverOwn.home.app .EverOwnRecentActivityWrap .ComponentBottomGap {
     padding: 12px 50px
   }
 
@@ -10441,7 +10443,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     grid-gap: 0
   }
 
-  .EverOwn.Home.EverApp .ComponentBottomGap {
+  .EverOwn.home.app .ComponentBottomGap {
     margin-bottom: 15px
   }
 }
@@ -10572,7 +10574,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     padding: 20px 15px
   }
 
-  .EverOwn.Home.EverApp .EverOwnRecentActivityWrap .ComponentBottomGap {
+  .EverOwn.home.app .EverOwnRecentActivityWrap .ComponentBottomGap {
     padding: 12px 25px
   }
 }
@@ -10721,7 +10723,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     text-indent: 0
   }
 
-  .EverApp.EverOwn.Locker .EverContentInner {
+  .app.EverOwn.Locker .EverContentInner {
     width: calc(100% - 20px)
   }
 
@@ -10791,7 +10793,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     width: 35px !important
   }
 
-  .EverOwn.Home.EverApp .EverOwnRecentActivityWrap .ComponentBottomGap {
+  .EverOwn.home.app .EverOwnRecentActivityWrap .ComponentBottomGap {
     padding: 12px 22px
   }
 
@@ -10862,7 +10864,7 @@ body.light_mode .EverOwnRenounceContractHeader {
 }
 
 @media (max-width:450px) {
-  .EverApp.EverOwn.Locker .EverContentInner {
+  .app.EverOwn.Locker .EverContentInner {
     padding-top: 0;
     margin-top: 14px
   }
@@ -10944,7 +10946,7 @@ body.light_mode .EverOwnRenounceContractHeader {
 
 @media (max-width:400px) {
 
-  .EverApp.EverOwn.Locker .EverContentInner,
+  .app.EverOwn.Locker .EverContentInner,
   .EverOwnInner {
     width: calc(100% - 20px)
   }
@@ -10997,18 +10999,18 @@ body.light_mode .EverOwnRenounceContractHeader {
   }
 }
 
-.EverSwap.EverApp .EverStakeNav.SmallNav li:first-child a,
-.EverSwapNative.EverApp .EverStakeNav.SmallNav li:nth-child(2) a,
-.EverSwapOnramp.EverApp .EverStakeNav.SmallNav li:nth-child(3) a {
+.EverSwap.app .EverStakeNav.SmallNav li:first-child a,
+.EverSwapNative.app .EverStakeNav.SmallNav li:nth-child(2) a,
+.EverSwapOnramp.app .EverStakeNav.SmallNav li:nth-child(3) a {
   background: var(--warmGradient);
   color: #fff !important;
   border-radius: 35px;
   padding: 10px 30px
 }
 
-body.light_mode .EverSwap.EverApp .EverStakeNav.SmallNav li:first-child a,
-body.light_mode .EverSwapNative.EverApp .EverStakeNav.SmallNav li:nth-child(2) a,
-body.light_mode .EverSwapOnramp.EverApp .EverStakeNav.SmallNav li:nth-child(3) a {
+body.light_mode .EverSwap.app .EverStakeNav.SmallNav li:first-child a,
+body.light_mode .EverSwapNative.app .EverStakeNav.SmallNav li:nth-child(2) a,
+body.light_mode .EverSwapOnramp.app .EverStakeNav.SmallNav li:nth-child(3) a {
   background: var(--warmGradientW);
   color: var(--fontWhite) !important
 }
@@ -11143,9 +11145,9 @@ body.light_mode .EverSwapSummary span {
     padding: 35px 35px 15px
   }
 
-  .EverSwap.EverApp .EverStakeNav.SmallNav li:first-child a,
-  .EverSwapNative.EverApp .EverStakeNav.SmallNav li:nth-child(2) a,
-  .EverSwapOnramp.EverApp .EverStakeNav.SmallNav li:nth-child(3) a {
+  .EverSwap.app .EverStakeNav.SmallNav li:first-child a,
+  .EverSwapNative.app .EverStakeNav.SmallNav li:nth-child(2) a,
+  .EverSwapOnramp.app .EverStakeNav.SmallNav li:nth-child(3) a {
     padding: 10px 20px
   }
 }
@@ -11179,7 +11181,7 @@ body.light_mode .EverSwapSummary span {
 }
 
 @media (max-width:400px) {
-  .EverApp:not(.EverStake.EverApp) .EverStakeNav.SmallNav {
+  .app:not(.EverStake.app) .EverStakeNav.SmallNav {
     margin-bottom: 10px !important
   }
 
@@ -11363,7 +11365,7 @@ span.USDTPriceEqv>span:last-child {
   }
 }
 
-.EverApp:not(.EverStake.EverApp) .EverStakeNav {
+.app:not(.EverStake.app) .EverStakeNav {
   margin-bottom: 15px !important
 }
 
@@ -11441,10 +11443,10 @@ body.light_mode .EverStakeNav a {
   box-shadow: none
 }
 
-.EverStake.EverApp .EverStakeNav li:first-child a,
-.EverStakeClaim.EverApp .EverStakeNav li:nth-child(4) a,
-.EverStakeDisplay.EverApp .EverStakeNav li:nth-child(3) a,
-.EverStakeManager.EverApp .EverStakeNav li:nth-child(2) a {
+.EverStake.app .EverStakeNav li:first-child a,
+.EverStakeClaim.app .EverStakeNav li:nth-child(4) a,
+.EverStakeDisplay.app .EverStakeNav li:nth-child(3) a,
+.EverStakeManager.app .EverStakeNav li:nth-child(2) a {
   background: var(--warmGradient);
   color: var(--warmButtonFont);
   border-radius: 35px;
@@ -11452,10 +11454,10 @@ body.light_mode .EverStakeNav a {
   box-shadow: none
 }
 
-body.light_mode .EverStake.EverApp .EverStakeNav li:first-child a,
-body.light_mode .EverStakeClaim.EverApp .EverStakeNav li:nth-child(4) a,
-body.light_mode .EverStakeDisplay.EverApp .EverStakeNav li:nth-child(3) a,
-body.light_mode .EverStakeManager.EverApp .EverStakeNav li:nth-child(2) a {
+body.light_mode .EverStake.app .EverStakeNav li:first-child a,
+body.light_mode .EverStakeClaim.app .EverStakeNav li:nth-child(4) a,
+body.light_mode .EverStakeDisplay.app .EverStakeNav li:nth-child(3) a,
+body.light_mode .EverStakeManager.app .EverStakeNav li:nth-child(2) a {
   background: var(--warmGradientW);
   color: var(--warmButtonFont);
   border-radius: 35px;
@@ -11470,11 +11472,11 @@ body.light_mode .EverStakeManager.EverApp .EverStakeNav li:nth-child(2) a {
   height: 246px
 }
 
-.EverStakeFeaturedStats svg.EverRise_Icon path {
+.EverStakeFeaturedStats svg.our_icon path {
   fill: url(#EverRiseIconGrad)
 }
 
-.EverStakeFeaturedStats svg.EverRise_Icon {
+.EverStakeFeaturedStats svg.our_icon {
   width: 21px
 }
 
@@ -12067,7 +12069,7 @@ body.light_mode .StakeItemLockStatus svg {
   border-radius: 15px
 }
 
-ul.EverStakeUserNftList .ToggleDropdown {
+ul.EverStakeUserNftList .toggle_dropdown {
   margin-top: 8px;
   -webkit-transform: translate(-20px, 5px);
   transform: translate(-20px, 5px)
@@ -12145,7 +12147,7 @@ body.light_mode .NFTDisplay:after {
   padding-left: 20px
 }
 
-.ToggleDropdownBtn.StakeSummaryButton {
+.toggle_dropdown_btn.StakeSummaryButton {
   margin-left: 4px
 }
 
@@ -12805,7 +12807,7 @@ body.light_mode .StakeActionListItemValue input {
   border: 1px solid var(--borderWhite3) !important
 }
 
-.StakeActionItemDropdown .ToggleDropdownBtn {
+.StakeActionItemDropdown .toggle_dropdown_btn {
   background: transparent;
   box-shadow: none
 }
@@ -12954,7 +12956,7 @@ body button.chakra-button.StakingActionCancelBtn {
   margin-left: 0 !important
 }
 
-.StakeSummary .ToggleDropdownBtnWrap {
+.StakeSummary .toggle_dropdown_btn_wrap {
   position: relative
 }
 
@@ -13147,7 +13149,7 @@ body.light_mode .Attributes {
   padding: 0
 }
 
-.EverStakeSingleNftProfile .EverBreadcrumbs li:last-child {
+.EverStakeSingleNftProfile .breadcrumbs li:last-child {
   text-transform: uppercase
 }
 
@@ -13909,10 +13911,10 @@ svg#LoaderAnimation {
 
 @media (max-width:480px) {
 
-  .EverStake.EverApp .EverStakeNav li:first-child a,
-  .EverStakeClaim.EverApp .EverStakeNav li:nth-child(4) a,
-  .EverStakeDisplay.EverApp .EverStakeNav li:nth-child(3) a,
-  .EverStakeManager.EverApp .EverStakeNav li:nth-child(2) a {
+  .EverStake.app .EverStakeNav li:first-child a,
+  .EverStakeClaim.app .EverStakeNav li:nth-child(4) a,
+  .EverStakeDisplay.app .EverStakeNav li:nth-child(3) a,
+  .EverStakeManager.app .EverStakeNav li:nth-child(2) a {
     padding: 8px 14px
   }
 
@@ -13964,7 +13966,7 @@ svg#LoaderAnimation {
     grid-template-columns: 100%
   }
 
-  ul.EverStakeUserNftList .ToggleDropdown {
+  ul.EverStakeUserNftList .toggle_dropdown {
     -webkit-transform: translate(1px, 5px);
     transform: translate(1px, 5px)
   }
@@ -14032,10 +14034,10 @@ svg#LoaderAnimation {
     max-width: 85%
   }
 
-  .EverStake.EverApp .EverStakeNav li:first-child a,
-  .EverStakeClaim.EverApp .EverStakeNav li:nth-child(4) a,
-  .EverStakeDisplay.EverApp .EverStakeNav li:nth-child(3) a,
-  .EverStakeManager.EverApp .EverStakeNav li:nth-child(2) a {
+  .EverStake.app .EverStakeNav li:first-child a,
+  .EverStakeClaim.app .EverStakeNav li:nth-child(4) a,
+  .EverStakeDisplay.app .EverStakeNav li:nth-child(3) a,
+  .EverStakeManager.app .EverStakeNav li:nth-child(2) a {
     padding: 7px 10px
   }
 
@@ -14508,7 +14510,7 @@ body.light_mode ul.MainMenu li:first-child {
   box-shadow: inset 0 -1px 0 0 #dddfe0, inset 0 1px 0 0 #fff
 }
 
-body.light_mode .HeaderContent svg.EverRise_Icon {
+body.light_mode .header_content svg.our_icon {
   position: relative;
   top: -1px !important;
   left: 0 !important
@@ -15306,7 +15308,7 @@ a.ContractExplorerLink svg.NewWindowIcon {
   padding-top: 0 !important
 }
 
-.ExtendStakeToItem button.ToggleDropdownBtn {
+.ExtendStakeToItem button.toggle_dropdown_btn {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;

@@ -1,0 +1,33 @@
+body,
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0px;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  font-feature-settings: "kern";
+  line-height: 1.5;
+}
+
+*,
+::before,
+::after {
+  border-width: 0px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-color: #e2e8f0;
+  overflow-wrap: break-word;
+}

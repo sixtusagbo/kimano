@@ -139,6 +139,7 @@ https://www.contributor-covenant.org/translations.
   - before: `SubMit` after: `submit`
     - *Reason: Because submit makes a full semantic word.*
   - before: `SBPrimaryContainer` after: `sb_primary_container`
+  - before: `EverRevoke` after: `revoke`
 
 ### **Note:** Top level id `__next` was changed to id `wrapper`
 And in the css too, We changed from div#__next it to div#wrapper
