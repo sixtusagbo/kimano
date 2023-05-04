@@ -610,7 +610,7 @@ body.light_mode .primary_container {
   background: var(--bgWhite5)
 }
 
-main.EverContent {
+main.content {
   top: 0;
   height: calc(100vh - 90px);
   overflow: hidden;
@@ -623,7 +623,7 @@ main.EverContent {
   position: relative
 }
 
-body.light_mode main.EverContent {
+body.light_mode main.content {
   border-right: 2px solid var(--borderWhite2);
   box-shadow: var(--scrollbarW)
 }
@@ -1057,7 +1057,7 @@ body.light_mode .toggle_dropdown li>:hover {
   text-align: right
 }
 
-p:not(main.EverContent p) {
+p:not(main.content p) {
   -webkit-margin-before: 0;
   margin-block-start: 0;
   -webkit-margin-after: 0;
@@ -1090,7 +1090,7 @@ body.light_mode .header:after {
   max-width: 1400px
 }
 
-.FooterCopyrightInner {
+.footer_copyright_inner {
   padding: 30px 2px;
   display: flex;
   justify-content: center
@@ -1127,51 +1127,51 @@ body.light_mode .PoweredByInner svg path {
   font-weight: 500
 }
 
-.LegalLinks ul {
+.legal_links ul {
   display: flex;
   list-style-type: none
 }
 
-.LegalLinks ul li:first-child:after {
+.legal_links ul li:first-child:after {
   content: "•";
   margin: 0 7px;
   color: var(--fontColor6)
 }
 
-.LegalLinks ul li *,
-.LegalLinks ul li a,
-.LegalLinks ul li a span {
+.legal_links ul li *,
+.legal_links ul li a,
+.legal_links ul li a span {
   color: var(--fontColor6)
 }
 
-body.light_mode .LegalLinks ul li *,
-body.light_mode .LegalLinks ul li a,
-body.light_mode .LegalLinks ul li a span,
-body.light_mode .LegalLinks ul li:first-child:after {
+body.light_mode .legal_links ul li *,
+body.light_mode .legal_links ul li a,
+body.light_mode .legal_links ul li a span,
+body.light_mode .legal_links ul li:first-child:after {
   color: var(--darkGrey)
 }
 
-body .LegalLinks ul li>:hover,
-body .LegalLinks ul li>:hover * {
+body .legal_links ul li>:hover,
+body .legal_links ul li>:hover * {
   color: var(--fontColor2)
 }
 
-body.light_mode .LegalLinks ul li>:hover,
-body.light_mode .LegalLinks ul li>:hover * {
+body.light_mode .legal_links ul li>:hover,
+body.light_mode .legal_links ul li>:hover * {
   color: var(--fontWhite3)
 }
 
-.LegalLinks ul li {
+.legal_links ul li {
   font-size: 13px;
   display: flex
 }
 
-.LegalLinks ul li>* {
+.legal_links ul li>* {
   cursor: pointer;
   font-weight: 500
 }
 
-.EverFooter {
+.footer {
   margin-top: auto
 }
 
@@ -3555,7 +3555,7 @@ body.light_mode .ComponentHeaderBG:after {
 }
 
 @media (max-width:767px) {
-  main.EverContent {
+  main.content {
     height: 100vh;
     height: calc(100vh - 68px);
     height: calc(var(--vh, 1vh) * 100 - 65px);
@@ -3827,21 +3827,21 @@ body.light_mode .ComponentHeaderBG:after {
     justify-content: center
   }
 
-  .FooterCopyrightInner {
+  .footer_copyright_inner {
     flex-direction: column;
     align-items: center
   }
 
-  .FooterCopyrightInner,
+  .footer_copyright_inner,
   .PoweredByInner {
     justify-content: center
   }
 
-  .LegalLinks ul {
+  .legal_links ul {
     margin-bottom: 10px
   }
 
-  .FooterCopyrightInner {
+  .footer_copyright_inner {
     padding-bottom: 15px
   }
 }
@@ -4348,8 +4348,8 @@ body.embedded .app {
   max-height: calc(100vh - 8px)
 }
 
-body.custom main.EverContent,
-body.embedded main.EverContent {
+body.custom main.content,
+body.embedded main.content {
   box-shadow: none;
   border-right: none
 }
@@ -4367,8 +4367,8 @@ body.embedded .content_inner {
   padding-bottom: 12px
 }
 
-body.custom .EverFooter,
-body.embedded .EverFooter {
+body.custom .footer,
+body.embedded .footer {
   display: none
 }
 
