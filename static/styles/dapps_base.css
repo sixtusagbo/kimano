@@ -1014,6 +1014,7 @@ body.light_mode .toggle_dropdown li>:hover {
 .OrangeTxtRightGrad span {
   background: linear-gradient(90deg, #fb8b47, #ce2041);
   border-image-slice: 1;
+  background-clip: text;
   -webkit-background-clip: text;
   text-shadow: 0 0 #00000000;
   -webkit-text-fill-color: transparent;
@@ -1889,6 +1890,7 @@ p.DappFormTokenBalance {
   color: var(--fontColor2);
   display: flex;
   align-items: center;
+  columns: 6;
   -webkit-columns: 6;
   column-count: 6
 }
@@ -4617,6 +4619,7 @@ select {
 [type=reset],
 [type=submit],
 button {
+  appearance: button;
   -webkit-appearance: button
 }
 
@@ -4668,6 +4671,7 @@ textarea {
 }
 
 [type=search] {
+  appearance: textfield;
   -webkit-appearance: textfield;
   outline-offset: -2px
 }
@@ -5584,6 +5588,7 @@ li.active-dapp svg.our_icon {
 
 li.active-dapp span.MainMenuTxt.PArrow {
   background: linear-gradient(90deg, #fb8b47, #ce2041);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600
@@ -6855,11 +6860,11 @@ body.light_mode span.left.ChainBubble:after {
   display: none
 }
 
-.AppGridMain {
+.app_grid_main {
   width: 250px
 }
 
-.AppGridMain,
+.app_grid_main,
 .AppGridMainFullScreen {
   display: flex;
   flex-direction: row;
@@ -6884,7 +6889,7 @@ body.light_mode .AppGridMainFullScreen {
   background-color: hsla(0, 0%, 100%, .9) !important
 }
 
-.AppGridItem {
+.app_grid_item {
   width: 80px;
   height: 80px;
   align-items: center;
@@ -6893,7 +6898,7 @@ body.light_mode .AppGridMainFullScreen {
   opacity: 1
 }
 
-.AppGridItem,
+.app_grid_item,
 .header_txt {
   display: flex;
   flex-direction: column;
@@ -6904,24 +6909,24 @@ body.light_mode .AppGridMainFullScreen {
   padding-top: 3px
 }
 
-.AppGridItemIcon {
+.app_grid_item_icon {
   margin-bottom: .5em;
   width: 40px;
   height: 40px
 }
 
-.AppGridMainFullScreen .AppGridItemIcon {
+.AppGridMainFullScreen .app_grid_item_icon {
   margin-bottom: .5em;
   width: 60px;
   height: 60px
 }
 
-.AppGridItemText {
+.app_grid_item_text {
   font-size: 13px;
   white-space: nowrap
 }
 
-.AppGridMainFullScreen .AppGridItemText {
+.AppGridMainFullScreen .app_grid_item_text {
   font-size: 14px
 }
 
@@ -7688,7 +7693,7 @@ body.light_mode .TransactionTable td {
   }
 
   .TokenPair h3 {
-    ont-size: 2.258vw
+    font-size: 2.258vw
   }
 
   .TokenPair h3:before {
