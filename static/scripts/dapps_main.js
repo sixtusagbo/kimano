@@ -15,9 +15,10 @@
     $(".toggle_dropdown.home").hide();
     $(".toggle_dropdown.nine_dots").slideToggle();
   });
-
+  
   $(".header_wallet_login button").click(function (e) { 
     e.preventDefault();
+    $("button.toggle_dropdown_btn").css("position", "static");
     $(".connect_wallet_modal_popup").fadeIn();
   });
 

@@ -907,7 +907,7 @@ body.light_mode .dropdown_dark_mode_toggle label:before {
 
 .dropdown_dark_mode_toggle label:after {
   content: "";
-  background: url(/icons/Sun_Icon.svg) no-repeat;
+  background: url(../icons/Sun_Icon.svg) no-repeat;
   height: 18px;
   width: 18px;
   display: block;
@@ -916,7 +916,7 @@ body.light_mode .dropdown_dark_mode_toggle label:before {
 
 body.light_mode .dropdown_dark_mode_toggle label:after {
   content: "";
-  background: url(/icons/Moon_Icon.svg) no-repeat;
+  background: url(../icons/Moon_Icon.svg) no-repeat;
   height: 18px;
   width: 18px;
   display: block
@@ -1631,7 +1631,7 @@ p.DevLoginSummary {
 }
 
 .DevLoginInputWrap:before {
-  background: url(/icons/User_Icon.svg) no-repeat;
+  background: url(../icons/User_Icon.svg) no-repeat;
   content: "";
   height: 20px;
   width: 40px;
@@ -1646,15 +1646,15 @@ p.DevLoginSummary {
 }
 
 .DevLoginInputWrap.IsPass:before {
-  background: url(/icons/Key_Icon.svg) no-repeat
+  background: url(../icons/Key_Icon.svg) no-repeat
 }
 
 body.light_mode .DevLoginInputWrap:before {
-  background: url(/icons/User_IconDark.svg) no-repeat
+  background: url(../icons/User_IconDark.svg) no-repeat
 }
 
 body.light_mode .DevLoginInputWrap.IsPass:before {
-  background: url(/icons/Key_IconDark.svg) no-repeat
+  background: url(../icons/Key_IconDark.svg) no-repeat
 }
 
 body.light_mode .dark-mode-toggle input[type=checkbox].dmcheck {
@@ -3121,7 +3121,7 @@ body .header_wallet_login button * {
 
 .TransferInfo:after {
   content: "";
-  background: url(/icons/ToFrom_Icon.svg) no-repeat;
+  background: url(../icons/ToFrom_Icon.svg) no-repeat;
   width: 18px;
   height: 27px;
   display: block;
@@ -5461,31 +5461,31 @@ body.light_mode .IndentedBtnWrap>div {
 }
 
 .Binance_Icon_AsBG {
-  background: url(/icons/Binance_Icon.svg) no-repeat;
+  background: url(../icons/Binance_Icon.svg) no-repeat;
   height: 20px;
   width: 20px
 }
 
 .Ethereum_Icon_AsBG {
-  background: url(/icons/Ethereum_Icon.svg) no-repeat;
+  background: url(../icons/Ethereum_Icon.svg) no-repeat;
   height: 21px;
   width: 13px
 }
 
 .Polygon_Icon_AsBG {
-  background: url(/icons/Polygon_Icon.svg) no-repeat;
+  background: url(../icons/Polygon_Icon.svg) no-repeat;
   height: 19px;
   width: 18px
 }
 
 .Avalanche_Icon_AsBG {
-  background: url(/icons/Avalanche_Icon.svg) no-repeat;
+  background: url(../icons/Avalanche_Icon.svg) no-repeat;
   height: 20px;
   width: 17px
 }
 
 .Fantom_Icon_AsBG {
-  background: url(/icons/Fantom_Icon.svg) no-repeat;
+  background: url(../icons/Fantom_Icon.svg) no-repeat;
   height: 20px;
   width: 24px
 }
@@ -5612,27 +5612,27 @@ li.active-dapp span.MainMenuTxt.PArrow:after {
 }
 
 .EverOwnOBG {
-  background: url(/icons/EverOwn.svg) no-repeat
+  background: url(../images/own_icon.png) no-repeat
 }
 
 .EverBridgeOBG {
-  background: url(/icons/EverBridge.svg) no-repeat
+  background: url(../images/bridge_icon.png) no-repeat
 }
 
 .EverSwapOBG {
-  background: url(/icons/EverSwap.svg) no-repeat
+  background: url(../images/swap_icon.png) no-repeat
 }
 
 .EverStakeOBG {
-  background: url(/icons/EverStake.svg) no-repeat
+  background: url(../icons/Stake_Icon.svg) no-repeat
 }
 
 .EverMigrateOBG {
-  background: url(/icons/EverMigrate.svg) no-repeat
+  background: url(../images/migrate_icon.png) no-repeat
 }
 
 .EverSomethingOBG {
-  background: url(/icons/EverSomething.svg) no-repeat
+  background: url(../icons/OurSomething.svg) no-repeat
 }
 
 .EverOwnOGIcon .IconBG {
@@ -6096,35 +6096,35 @@ body.light_mode .CopyButton button {
 }
 
 .BlockExplorer_Icon_AsBG {
-  background: url(/icons/BlockExplorer_Icon.svg) no-repeat;
+  background: url(../icons/BlockExplorer_Icon.svg) no-repeat;
   height: 20px;
   width: 20px
 }
 
 body.light_mode .BlockExplorer_Icon_AsBG {
-  background: url(/icons/BlockExplorer_IconDark.svg) no-repeat
+  background: url(../icons/BlockExplorer_IconDark.svg) no-repeat
 }
 
 .Pending_Icon_AsBG {
-  background: url(/icons/Pending_Icon.svg) no-repeat;
+  background: url(../icons/Pending_Icon.svg) no-repeat;
   height: 20px;
   width: 20px
 }
 
 .Locked_Icon_AsBG {
-  background: url(/icons/Locked_Icon.svg) no-repeat;
+  background: url(../icons/Locked_Icon.svg) no-repeat;
   height: 20px;
   width: 20px
 }
 
 .Unlocked_Icon_AsBG {
-  background: url(/icons/Unlocked_Icon.svg) no-repeat;
+  background: url(../icons/Unlocked_Icon.svg) no-repeat;
   height: 20px;
   width: 20px
 }
 
 .ThreeVerticalCircles_Icon_AsBG {
-  background: url(/icons/ThreeVerticalCircles_Icon.svg) no-repeat;
+  background: url(../icons/ThreeVerticalCircles_Icon.svg) no-repeat;
   height: 26px;
   width: 6px
 }
@@ -15882,4 +15882,8 @@ ul {
   text-transform: uppercase;
   font-size: .75rem;
   line-height: 1rem
+}
+
+body .header_wallet_login button {
+  cursor: pointer;
 }
