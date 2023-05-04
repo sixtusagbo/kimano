@@ -4,6 +4,12 @@ body {
   scrollbar-width: none
 }
 
+body {
+  height: calc(var(--vh, 1vh) * 100);
+  -ms-overflow-style: none;
+  scrollbar-width: none
+}
+
 body,
 body * {
   font-family: Montserrat, sans-serif
@@ -978,7 +984,7 @@ body.light_mode .toggle_dropdown svg.Wallet_Unlock {
   fill: var(--svgColorW5)
 }
 
-.SelectOptionPopupInner .toggle_dropdown.active {
+.select_option_popup_inner .toggle_dropdown.active {
   -webkit-transform: translate(-184px, 5px);
   transform: translate(-184px, 5px)
 }
@@ -1192,7 +1198,7 @@ ul.MainMenu a {
 }
 
 .AccountModal,
-.ConnectWalletModalPopup {
+.connect_wallet_modal_popup {
   position: absolute !important;
   left: 0;
   top: 0;
@@ -1605,7 +1611,7 @@ p.DevLoginSummary {
   justify-content: center
 }
 
-.DevLoginWrap .SelectOptionPopupInner {
+.DevLoginWrap .select_option_popup_inner {
   height: 520px
 }
 
@@ -1905,7 +1911,7 @@ p.dapp_form_toen_balance {
   justify-content: center
 }
 
-.SelectOptionPopupWrap {
+.select_option_popup_wrap {
   position: fixed;
   scroll-behavior: auto;
   background: rgba(0, 5, 17, .77);
@@ -1920,13 +1926,13 @@ p.dapp_form_toen_balance {
   backdrop-filter: blur(5px)
 }
 
-.SelectOptionPopupHeader h2 {
+.select_option_popup_header h2 {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600
 }
 
-.SelectOptionPopupHeader {
+.select_option_popup_header {
   display: flex;
   justify-content: space-between;
   padding: 25px 25px 22px;
@@ -1936,12 +1942,12 @@ p.dapp_form_toen_balance {
   border: 1px solid var(--borderColor4)
 }
 
-body.light_mode .SelectOptionPopupHeader {
+body.light_mode .select_option_popup_header {
   background: var(--bgWhite3);
   border: 1px solid var(--borderWhite1)
 }
 
-.SelectOptionPopupContent>div {
+.select_option_popup_content>div {
   padding: 16px 40px;
   color: var(--fontColor2);
   background: var(--bgColor2);
@@ -1952,7 +1958,7 @@ body.light_mode .SelectOptionPopupHeader {
   border-bottom: 1px solid var(--borderColor4)
 }
 
-body.light_mode .SelectOptionPopupContent>div {
+body.light_mode .select_option_popup_content>div {
   background: var(--bgWhite1);
   color: var(--fontWhite4);
   box-shadow: var(--hollowBorderW)
@@ -1962,7 +1968,7 @@ body.light_mode .SelectOptionPopupContent>div {
   height: 90px
 }
 
-.SelectOptionPopupContent>div.ColumnContent {
+.select_option_popup_content>div.ColumnContent {
   flex-direction: column;
   padding: 35px
 }
@@ -1985,7 +1991,7 @@ body.light_mode .SelectOptionPopupContent>div {
   height: 40px
 }
 
-.SelectOptionPopupInner {
+.select_option_popup_inner {
   padding: 0;
   background: var(--bgColor3);
   background: var(--bgGradient);
@@ -2008,13 +2014,13 @@ body.light_mode .SelectOptionPopupContent>div {
   z-index: 1
 }
 
-body.light_mode .SelectOptionPopupInner {
+body.light_mode .select_option_popup_inner {
   background: var(--bgWhite1);
   border: 1px solid var(--borderWhite3);
   box-shadow: var(--softShadowW)
 }
 
-.SelectOptionPopupInner.TokenSelect {
+.select_option_popup_inner.TokenSelect {
   max-height: 65vh
 }
 
@@ -2025,7 +2031,7 @@ body.light_mode .SelectOptionPopupInner {
   z-index: 0
 }
 
-.PopupWrapFull .SelectOptionPopupInner {
+.PopupWrapFull .select_option_popup_inner {
   max-width: 650px;
   height: 660px
 }
@@ -2058,7 +2064,7 @@ body.light_mode .SelectOptionPopupListItem:hover {
 
 .EverStakeFeaturedStats .SelectOptionPopupListItem,
 .SelectChainItem,
-span.ExitIcon {
+span.exit_icon {
   cursor: pointer;
   z-index: 100;
   align-items: center
@@ -2076,28 +2082,28 @@ span.ExitIcon {
   align-items: center
 }
 
-.SelectOptionPopupContent .SelectedToken span,
-.SelectOptionPopupContent .SelectedToken>div {
+.select_option_popup_content .SelectedToken span,
+.select_option_popup_content .SelectedToken>div {
   opacity: .4
 }
 
-.SelectOptionPopupContent .SelectTokenItem span {
+.select_option_popup_content .SelectTokenItem span {
   color: var(--fontColor2)
 }
 
-body.light_mode .SelectOptionPopupContent .SelectTokenItem span {
+body.light_mode .select_option_popup_content .SelectTokenItem span {
   color: var(--fontWhite4)
 }
 
-.SelectOptionPopupContent .SelectTokenItem svg {
+.select_option_popup_content .SelectTokenItem svg {
   fill: var(--svgColor2)
 }
 
-body.light_mode .SelectOptionPopupContent .SelectTokenItem svg {
+body.light_mode .select_option_popup_content .SelectTokenItem svg {
   fill: var(--svgWhite3)
 }
 
-.SelectOptionPopupContent {
+.select_option_popup_content {
   padding-right: 0;
   margin-right: 0;
   margin-top: 0;
@@ -2107,11 +2113,11 @@ body.light_mode .SelectOptionPopupContent .SelectTokenItem svg {
   flex: 1 1
 }
 
-.SelectOptionPopupContent>div:last-child {
+.select_option_popup_content>div:last-child {
   border-bottom-width: 0
 }
 
-.SelectOptionPopupInner * {
+.select_option_popup_inner * {
   color: var(--fontColor1);
   font-size: 14px
 }
@@ -2136,8 +2142,8 @@ chakra-accordion.css-1ki54i {
 }
 
 .ComponentHeader,
-.SelectOptionPopupHeader h2,
-span.ExitIcon {
+.select_option_popup_header h2,
+span.exit_icon {
   font-size: 17px;
   width: -webkit-fit-content !important;
   width: -moz-fit-content !important;
@@ -2345,13 +2351,13 @@ select.tokenSelect option {
   height: 32px
 }
 
-.SelectOptionPopupContent .dapp_form_amount_input .percentage_amount_numbers:before {
+.select_option_popup_content .dapp_form_amount_input .percentage_amount_numbers:before {
   width: 33px;
   height: 33px;
   margin: 0 10px
 }
 
-.SelectOptionPopupContent .dapp_form_amount_input_inner {
+.select_option_popup_content .dapp_form_amount_input_inner {
   height: 100%
 }
 
@@ -3187,9 +3193,9 @@ ul.InfoBoxWrap {
   margin-top: 20px
 }
 
-.SelectOptionPopupContent input,
-.SelectOptionPopupContent input:active,
-.SelectOptionPopupContent input:focus {
+.select_option_popup_content input,
+.select_option_popup_content input:active,
+.select_option_popup_content input:focus {
   background: var(--bgColor3);
   border-radius: 8px;
   box-shadow: var(--hollowBox);
@@ -3197,22 +3203,22 @@ ul.InfoBoxWrap {
   margin: 10px 0
 }
 
-body.light_mode .SelectOptionPopupContent input,
-body.light_mode .SelectOptionPopupContent input:active,
-body.light_mode .SelectOptionPopupContent input:focus {
+body.light_mode .select_option_popup_content input,
+body.light_mode .select_option_popup_content input:active,
+body.light_mode .select_option_popup_content input:focus {
   box-shadow: var(--hollowBoxW);
   background: var(--bgWhite4);
   border: none;
   color: var(--fontWhite4)
 }
 
-.SelectOptionPopupContent.MediumInput,
-.SelectOptionPopupContent.MediumInput:active,
-.SelectOptionPopupContent.MediumInput:focus {
+.select_option_popup_content.MediumInput,
+.select_option_popup_content.MediumInput:active,
+.select_option_popup_content.MediumInput:focus {
   height: 38px
 }
 
-.SelectOptionPopupContent .SmallInput {
+.select_option_popup_content .SmallInput {
   height: 35px
 }
 
@@ -3223,18 +3229,18 @@ body.light_mode .SelectOptionPopupContent input:focus {
   text-align: center
 }
 
-.SelectOptionPopupContent .dapp_form_amount_input {
+.SelectOptionPopupContent .DappFormAmountInput {
   background: var(--bgColor4);
   border-radius: 10px;
   max-height: 100%;
   height: 100%
 }
 
-body.light_mode .SelectOptionPopupContent .dapp_form_amount_input {
+body.light_mode .SelectOptionPopupContent .DappFormAmountInput {
   background: transparent
 }
 
-.SelectOptionPopupContent .dapp_form_amount_input_wrapper {
+.SelectOptionPopupContent .DappFormAmountInputWrapper {
   margin-top: 5px
 }
 
@@ -3264,7 +3270,7 @@ body.light_mode .popupInlineWarning {
   border: 1px solid var(--warningBorderW)
 }
 
-.SelectOptionPopupContent .dapp_form_amount_input input#tokenCount {
+.SelectOptionPopupContent .DappFormAmountInput input#tokenCount {
   background: transparent
 }
 
@@ -3973,7 +3979,7 @@ body.light_mode .ComponentHeaderBG:after {
     box-shadow: none
   }
 
-  .SelectOptionPopupContent>div.ColumnContent {
+  .select_option_popup_content>div.ColumnContent {
     flex-direction: column;
     padding: 25px
   }
@@ -4162,7 +4168,7 @@ body.light_mode .ComponentHeaderBG:after {
 }
 
 @media (max-width:430px) {
-  .SelectOptionPopupContent>div.ColumnContent {
+  .select_option_popup_content>div.ColumnContent {
     flex-direction: column;
     padding: 20px
   }
@@ -4387,25 +4393,25 @@ body.embedded .header_txt h1 {
   display: inline
 }
 
-body.custom .SelectOptionPopupWrap,
-body.embedded .SelectOptionPopupWrap {
+body.custom .select_option_popup_wrap,
+body.embedded .select_option_popup_wrap {
   background: none;
   -webkit-backdrop-filter: none;
   backdrop-filter: none
 }
 
-body.custom .SelectOptionPopupInner,
-body.embedded .SelectOptionPopupInner {
+body.custom .select_option_popup_inner,
+body.embedded .select_option_popup_inner {
   box-shadow: 0 4px 15px 6px #0000007c
 }
 
-body.custom.light_mode .SelectOptionPopupInner,
-body.embedded.light_mode .SelectOptionPopupInner {
+body.custom.light_mode .select_option_popup_inner,
+body.embedded.light_mode .select_option_popup_inner {
   box-shadow: 0 6px 20px 6px #7777776f
 }
 
-body.custom .WalletConnectButtonWrap button,
-body.embedded .WalletConnectButtonWrap button {
+body.custom .wallet_connect_button_wrap button,
+body.embedded .wallet_connect_button_wrap button {
   height: 55px
 }
 
@@ -4895,14 +4901,14 @@ body.light_mode .HeaderAccountInfo button {
   z-index: 2 !important
 }
 
-.WalletConnectButtonWrap {
+.wallet_connect_button_wrap {
   height: 100%;
   width: calc(100% - 30px);
   display: flex;
   flex-direction: column
 }
 
-.WalletConnectButtonWrap button {
+.wallet_connect_button_wrap button {
   display: flex;
   align-items: center;
   background: var(--bgColor0);
@@ -4915,24 +4921,24 @@ body.light_mode .HeaderAccountInfo button {
   border: 1px solid var(--borderColor1)
 }
 
-body.light_mode .WalletConnectButtonWrap button {
+body.light_mode .wallet_connect_button_wrap button {
   background: var(--bgWhite3);
   border-color: var(--borderWhite2);
   color: var(--fontWhite4);
   font-weight: 500
 }
 
-.WalletConnectButtonWrap button:hover {
+.wallet_connect_button_wrap button:hover {
   background: var(--svgColor6);
   border: 1px solid var(--borderColor1)
 }
 
-body.light_mode .WalletConnectButtonWrap button:hover {
+body.light_mode .wallet_connect_button_wrap button:hover {
   background: var(--bgWhite1);
   border: 1px solid var(--borderWhite2)
 }
 
-.WalletConnectButtonWrap button svg {
+.wallet_connect_button_wrap button svg {
   max-width: 35px;
   margin-right: 14px;
   border-radius: 10px
@@ -6136,22 +6142,22 @@ body.light_mode svg.HexagonIcon {
   fill: url(#DiamondGrad)
 }
 
-.SelectOptionPopupContent .DiamondGradient {
+.select_option_popup_content .DiamondGradient {
   fill: var(--svgColor2)
 }
 
-body.light_mode .SelectOptionPopupContent .DiamondGradient {
+body.light_mode .select_option_popup_content .DiamondGradient {
   fill: var(--svgColorW2)
 }
 
-span.ExitIcon svg {
+span.exit_icon svg {
   width: 20px;
   fill: var(--svgColor1);
   right: 4px;
   position: relative
 }
 
-body.light_mode span.ExitIcon svg path {
+body.light_mode span.exit_icon svg path {
   fill: var(--svgColorW5)
 }
 
@@ -9494,17 +9500,17 @@ span.EverOwnRecentActivityProjectIcon {
 }
 
 .RenounceTermsContentWrap ::-webkit-scrollbar,
-.SelectOptionPopupWrap ::-webkit-scrollbar {
+.select_option_popup_wrap ::-webkit-scrollbar {
   width: 10px
 }
 
 .RenounceTermsContentWrap ::-webkit-scrollbar-track,
-.SelectOptionPopupWrap ::-webkit-scrollbar-track {
+.select_option_popup_wrap ::-webkit-scrollbar-track {
   background: transparent !important
 }
 
 .RenounceTermsContentWrap ::-webkit-scrollbar-thumb,
-.SelectOptionPopupWrap ::-webkit-scrollbar-thumb {
+.select_option_popup_wrap ::-webkit-scrollbar-thumb {
   background-color: #020e2b;
   border-radius: 90px;
   border: 1px solid #021846
@@ -12345,7 +12351,7 @@ span.UserStakeStatIcon>svg:first-child:not(:only-child) {
   z-index: 1
 }
 
-.SelectOptionPopupContent span.UserStakeStatIcon>svg:first-child:not(:only-child) {
+.select_option_popup_content span.UserStakeStatIcon>svg:first-child:not(:only-child) {
   position: absolute;
   fill: gray;
   width: 12px;
@@ -12361,7 +12367,7 @@ span.UserStakeStatValue {
   padding-right: 15px
 }
 
-.SelectOptionPopupContent .UserStakeStatIconWrap,
+.select_option_popup_content .UserStakeStatIconWrap,
 .UserStakeStatIconWrap {
   display: flex;
   justify-content: center;
@@ -12369,7 +12375,7 @@ span.UserStakeStatValue {
   position: relative
 }
 
-.SelectOptionPopupContent .UserStakeStatIconWrap {
+.select_option_popup_content .UserStakeStatIconWrap {
   margin-left: 16px;
   min-width: 50px;
   padding-bottom: 0
@@ -13174,7 +13180,7 @@ ul.EverStakeUserNftList li>* {
   display: flex
 }
 
-ul.EverStakeUserNftList .SelectOptionPopupInner {
+ul.EverStakeUserNftList .select_option_popup_inner {
   max-width: 480px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
