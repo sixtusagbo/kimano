@@ -148,3 +148,6 @@ And in the css too, We changed from div#__next it to div#wrapper
 
 ### The same
   - before: `md:w-2/3` after: `md:w-2/3`
+
+### Dapps
+- before: `css-1lc114p` after: `our_checkbox`

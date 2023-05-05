@@ -244,7 +244,7 @@ body.light_mode .EverTable th {
   color: var(--fontColor4)
 }
 
-.ColumnContent {
+.column_content {
   width: 100%
 }
 
@@ -386,12 +386,12 @@ body.light_mode .PopupListScrollWrap {
   font-weight: 700
 }
 
-.MintNftTitle {
+.mint_nft_title {
   display: flex;
   justify-content: stretch
 }
 
-.MintNftTitle p {
+.mint_nft_title p {
   font-weight: 700
 }
 
@@ -400,18 +400,18 @@ body.light_mode .PopupListScrollWrap {
   margin-left: 20px
 }
 
-.MintButtonWrap button {
+.mint_button_wrap button {
   min-width: 130px;
   margin-left: 70px
 }
 
-.ClaimNftStats.TwoDataItems {
+.claim_nft_stats.two_data_items {
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
   gap: 15px
 }
 
-.ClaimNftStats.TwoDataItems,
+.claim_nft_stats.two_data_items,
 .MintNFT {
   display: grid;
   justify-content: space-evenly;
@@ -437,7 +437,7 @@ body.light_mode .PopupListScrollWrap {
   width: 100%
 }
 
-.MintNFT.TwoDataItems {
+.MintNFT.two_data_items {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-evenly;
@@ -451,11 +451,11 @@ body.light_mode .MintNFT>div {
   background: var(--bgWhite3)
 }
 
-.ClaimNftStatsWrap.TwoDataItems {
+.ClaimNftStatsWrap.two_data_items {
   padding-top: 20px
 }
 
-.ClaimNftStats {
+.claim_nft_stats {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-evenly;
@@ -468,7 +468,7 @@ body.light_mode .MintNFT>div {
   margin-left: 35px
 }
 
-.ClaimNftStats>div {
+.claim_nft_stats>div {
   box-shadow: var(--hollowBox);
   border-radius: 14px;
   padding: 10px 20px;
@@ -477,14 +477,14 @@ body.light_mode .MintNFT>div {
   width: 100%
 }
 
-body.light_mode .ClaimNftStats>div {
+body.light_mode .claim_nft_stats>div {
   box-shadow: var(--hollowBoxW);
   background: var(--bgWhite3)
 }
 
 @media (max-width:1300px) {
 
-  .ClaimNftStats,
+  .claim_nft_stats,
   .MintNFT {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -523,27 +523,27 @@ body.light_mode .ClaimNftStats>div {
 @media (max-width:650px) {
 
   .ClaimNftStatsWrap,
-  .ClaimNftStatsWrap.TwoDataItems {
+  .ClaimNftStatsWrap.two_data_items {
     flex-direction: column
   }
 
-  .ClaimNftStats,
-  .ClaimNftStats.TwoDataItems {
+  .claim_nft_stats,
+  .claim_nft_stats.two_data_items {
     grid-template-columns: 1fr
   }
 
-  .ClaimNftStats.TwoDataItems>div,
-  .ClaimNftStats>div {
+  .claim_nft_stats.two_data_items>div,
+  .claim_nft_stats>div {
     text-align: center;
     width: 100%
   }
 
   .MintNFT,
-  .MintNFT.TwoDataItems {
+  .MintNFT.two_data_items {
     grid-template-columns: 1fr
   }
 
-  .MintNFT.TwoDataItems>div,
+  .MintNFT.two_data_items>div,
   .MintNFT>div {
     text-align: center;
     width: 100%
@@ -590,7 +590,7 @@ input:focus {
   font-weight: 700
 }
 
-.MetamaskIcon svg {
+.metamask_icon svg {
   fill: var(--svgColorW1);
   width: 16px;
   margin-left: 10px
@@ -1613,7 +1613,7 @@ p.DevLoginSummary {
   border-top-left-radius: 0
 }
 
-.DevLoginWrap .ColumnContent {
+.DevLoginWrap .column_content {
   height: 100%;
   justify-content: center
 }
@@ -1975,7 +1975,7 @@ body.light_mode .select_option_popup_content>div {
   height: 90px
 }
 
-.select_option_popup_content>div.ColumnContent {
+.select_option_popup_content>div.column_content {
   flex-direction: column;
   padding: 35px
 }
@@ -2038,12 +2038,12 @@ body.light_mode .select_option_popup_inner {
   z-index: 0
 }
 
-.PopupWrapFull .select_option_popup_inner {
+.popup_wrap_full .select_option_popup_inner {
   max-width: 650px;
   height: 660px
 }
 
-.PopupWrapFull ul {
+.popup_wrap_full ul {
   padding-left: 20px;
   margin: 10px
 }
@@ -3827,7 +3827,7 @@ body.light_mode .ComponentHeaderBG:after {
     width: 100%
   }
 
-  .ClaimNftStats {
+  .claim_nft_stats {
     padding-bottom: 30px
   }
 
@@ -3986,7 +3986,7 @@ body.light_mode .ComponentHeaderBG:after {
     box-shadow: none
   }
 
-  .select_option_popup_content>div.ColumnContent {
+  .select_option_popup_content>div.column_content {
     flex-direction: column;
     padding: 25px
   }
@@ -4175,7 +4175,7 @@ body.light_mode .ComponentHeaderBG:after {
 }
 
 @media (max-width:430px) {
-  .select_option_popup_content>div.ColumnContent {
+  .select_option_popup_content>div.column_content {
     flex-direction: column;
     padding: 20px
   }
@@ -4282,7 +4282,6 @@ body.light_mode .ComponentHeaderBG:after {
 
   .invert_form_button button span.p_arrow.right {
     top: -4px
-    
   }
 
   .invert_form_button_inner {
@@ -4439,7 +4438,7 @@ body.embedded .wallet_connect_button_wrap button {
   }
 }
 
-body.custom .stake_nav_wrap_inner .WarmButton {
+body.custom .stake_nav_wrap_inner .warm_button {
   margin-top: 30px;
   margin-bottom: 30px
 }
@@ -4726,7 +4725,7 @@ body.light_mode .NeoButton {
   color: var(--fontWhite3)
 }
 
-.WarmButton {
+.warm_button {
   background: var(--warmGradient);
   border: 1px solid var(--warmButtonBorder);
   border-radius: 35px;
@@ -4739,28 +4738,28 @@ body.light_mode .NeoButton {
   box-shadow: var(--buttonShadow)
 }
 
-body.light_mode .WarmButton {
+body.light_mode .warm_button {
   background: var(--warmGradientW);
   color: var(--warmButtonFontW);
   border: 1px solid var(--warmButtonBorderW);
   box-shadow: none
 }
 
-.WarmButton:hover {
+.warm_button:hover {
   background: var(--hoverWarmGradient);
   color: var(--hoverWarmButtonFont)
 }
 
-body.light_mode .WarmButton:hover {
+body.light_mode .warm_button:hover {
   background: var(--hoverWarmGradientW);
   color: var(--hoverWarmButtonFontW)
 }
 
-.WarmButton button {
+.warm_button button {
   color: var(--warmButtonFont)
 }
 
-.ColdButton {
+.cold_button {
   background: var(--coldGradient);
   box-shadow: var(--buttonShadow);
   border: 1px solid var(--coldButtonBorder);
@@ -4771,33 +4770,33 @@ body.light_mode .WarmButton:hover {
   color: var(--coldButtonFont)
 }
 
-body.light_mode .ColdButton {
+body.light_mode .cold_button {
   background: var(--coldGradientW);
   border: 1px solid var(--borderWhite2);
   color: var(--coldButtonFontW);
   box-shadow: none
 }
 
-.ColdButton button {
+.cold_button button {
   color: var(--coldButtonFont)
 }
 
-.ColdButton:hover[disabled],
-.ColdButton[disabled] {
+.cold_button:hover[disabled],
+.cold_button[disabled] {
   background: none;
   color: var(--fontColor5)
 }
 
-body.light_mode .ColdButton button {
+body.light_mode .cold_button button {
   color: var(--coldButtonFontW)
 }
 
-.ColdButton:hover {
+.cold_button:hover {
   background: var(--hoverColdGradient);
   color: var(--hoverColdButtonFont)
 }
 
-body.light_mode .ColdButton:hover {
+body.light_mode .cold_button:hover {
   background: var(--hoverColdGradientW);
   color: var(--hoverColdButtonFontW)
 }
@@ -4865,12 +4864,12 @@ body.light_mode .StakingSummaryWalletConnectBtn button:hover {
   box-shadow: var(--warmButtonLightW)
 }
 
-.header_wallet_login .WarmButton {
+.header_wallet_login .warm_button {
   width: 100%;
   height: 47px
 }
 
-.header_wallet_login .ColdButton {
+.header_wallet_login .cold_button {
   width: 100%;
   height: 50px
 }
@@ -6580,7 +6579,7 @@ body.light_mode .HomeLogo svg path {
   margin-right: 20px
 }
 
-.marginTop20 {
+.margin_top_20 {
   margin-top: 20px
 }
 
@@ -6622,7 +6621,7 @@ body.light_mode .HomeLogo svg path {
 }
 
 .Attributes h3,
-.ClaimNftStats h3,
+.claim_nft_stats h3,
 .TitleText {
   font-size: 13px;
   color: var(--fontColor3);
@@ -6632,7 +6631,7 @@ body.light_mode .HomeLogo svg path {
 }
 
 body.light_mode .Attributes h3,
-body.light_mode .ClaimNftStats h3,
+body.light_mode .claim_nft_stats h3,
 body.light_mode .TitleText {
   color: var(--fontWhite4)
 }
@@ -7126,7 +7125,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   padding: 20px
 }
 
-.stake_nav_wrap_inner .WarmButton {
+.stake_nav_wrap_inner .warm_button {
   margin-top: 0;
   margin-bottom: 0
 }
@@ -7184,7 +7183,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
     min-height: 55px
   }
 
-  .ColdButton.EverRevokeButton {
+  .cold_button.EverRevokeButton {
     padding: 8px 15px
   }
 
@@ -7227,7 +7226,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
 }
 
 @media (max-width:480px) {
-  .ColdButton.EverRevokeButton {
+  .cold_button.EverRevokeButton {
     padding: 8px 10px
   }
 
@@ -7275,7 +7274,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
 }
 
 @media (max-width:375px) {
-  .ColdButton.EverRevokeButton {
+  .cold_button.EverRevokeButton {
     padding: 8px 10px
   }
 
@@ -11465,7 +11464,7 @@ body.light_mode .stake_nav a {
 .EverStake.app .stake_nav li:first-child a,
 .EverStakeClaim.app .stake_nav li:nth-child(4) a,
 .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
-.EverStakeManager.app .stake_nav li:nth-child(2) a {
+.stake_manager.app .stake_nav li:nth-child(2) a {
   background: var(--warmGradient);
   color: var(--warmButtonFont);
   border-radius: 35px;
@@ -11476,7 +11475,7 @@ body.light_mode .stake_nav a {
 body.light_mode .EverStake.app .stake_nav li:first-child a,
 body.light_mode .EverStakeClaim.app .stake_nav li:nth-child(4) a,
 body.light_mode .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
-body.light_mode .EverStakeManager.app .stake_nav li:nth-child(2) a {
+body.light_mode .stake_manager.app .stake_nav li:nth-child(2) a {
   background: var(--warmGradientW);
   color: var(--warmButtonFont);
   border-radius: 35px;
@@ -13933,7 +13932,7 @@ svg#LoaderAnimation {
   .EverStake.app .stake_nav li:first-child a,
   .EverStakeClaim.app .stake_nav li:nth-child(4) a,
   .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
-  .EverStakeManager.app .stake_nav li:nth-child(2) a {
+  .stake_manager.app .stake_nav li:nth-child(2) a {
     padding: 8px 14px
   }
 
@@ -14056,7 +14055,7 @@ svg#LoaderAnimation {
   .EverStake.app .stake_nav li:first-child a,
   .EverStakeClaim.app .stake_nav li:nth-child(4) a,
   .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
-  .EverStakeManager.app .stake_nav li:nth-child(2) a {
+  .stake_manager.app .stake_nav li:nth-child(2) a {
     padding: 7px 10px
   }
 
@@ -15836,19 +15835,19 @@ ul {
   }
 }
 
-.expired-notice {
+.expired_notice {
   text-align: center;
   border-radius: .25rem;
   margin: .1rem
 }
 
-.expired-notice>span {
+.expired_notice>span {
   font-size: 1.5rem;
   font-weight: 700;
   color: #0aa629
 }
 
-.expired-notice>p {
+.expired_notice>p {
   font-size: 1.5rem
 }
 
@@ -15901,4 +15900,13 @@ body .header_wallet_login button {
   z-index: 0;
   --number-input-stepper-width: 24px;
   --number-input-input-padding: calc(var(24px) + 0.5rem);
+}
+
+.our_checkbox {
+  cursor: pointer;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  height: 15px;
+  width: 15px;
 }

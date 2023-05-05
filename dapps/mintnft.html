@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mint NFT</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600">
+
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./static/styles/base.css">
+  <link rel="stylesheet" href="./static/styles/main.css">
+</head>
+
+<body class="light_mode">
+  <div class="stake_manager app">
+    <div class="app_inner">
+      <div class="primary_container" style="width: 100%;">
+        <div class="header">
+          <div>
+            <div></div>
+          </div>
+
+          <header class="global_header">
+            <div class="global_header_inner">
+              <div class="header_content">
+                <div class="dapp_icon">
+                  <span>
+                    <!-- Revoke Icon -->
+                  </span>
+                </div>
+                <div class="header_txt">
+                  <h1>Mint NFT</h1>
+                  <div class="breadcrumbs">
+                    <div class="global_bread">Ecosystem</div>
+                  </div>
+                </div>
+              </div>
+              <div class="header_account">
+                <div class="header_account_btns">
+                  <div class="header_wallet_login">
+                    <button>
+                      <span>
+                        <span>Connect</span>&nbsp;<span>Wallet</span>
+                      </span>
+                    </button>
+                    <div class="connect_wallet_modal_popup select_option_popup_wrap">
+                      <div class="select_option_popup_inner">
+                        <div class="select_option_popup_header">
+                          <h2>Select Wallet Provider</h2>
+                          <span class="exit_icon">
+                            <svg viewBox="0 0 319.97467 319.92474" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M27.02,7.29a32.05938,32.05938,0,0,1,31.59,8.09q52.74,52.635,105.4,105.36Q216.495,68.345,268.9,15.87a31.98542,31.98542,0,0,1,51.92,35.99c-2.29,5.03-6.27,8.95-10.17,12.76q-50.685,50.685-101.36,101.37,52.845,53.025,105.83,105.92c11.95,11.87,11.67,33.14-.54,44.73-11.58,12.13-32.79,12.4-44.62.5q-53.07-52.845-105.95-105.87Q110.985,264.175,58.04,317.16c-11.02,10.94-30.15,11.76-42.05,1.77C4.53,310.07.66,293.08,7.16,280.14c2.29-5.05,6.32-8.94,10.23-12.75Q68.06,216.69,118.76,166,66.095,113.275,13.38,60.6A31.96328,31.96328,0,0,1,27.02,7.29Z"
+                                transform="translate(-3.99307 -5.99904)"></path>
+                            </svg></span>
+                        </div>
+                        <div class="select_option_popup_content">
+                          <div class="wallet_connect_button_wrap">
+                            <button>
+                              <svg width="50" height="50" viewBox="0 0 212 189">
+                                <g fill="none" fill-rule="evenodd">
+                                  <path fill="#CDBDB2"
+                                    d="M60.75 173.25l27.563 7.313V171l2.25-2.25h15.75v19.125H89.438l-20.813-9z"></path>
+                                  <path fill="#CDBDB2"
+                                    d="M150.75 173.25l-27 7.313V171l-2.25-2.25h-15.75v19.125h16.875l20.812-9z"></path>
+                                  <path fill="#393939"
+                                    d="M90.563 152.438L88.313 171l2.812-2.25h29.25l3.375 2.25-2.25-18.562-4.5-2.813-22.5.563z">
+                                  </path>
+                                  <path fill="#F89C35"
+                                    d="M75.375 27l13.5 31.5 6.188 91.688H117l6.75-91.688L136.125 27z"></path>
+                                  <path fill="#F89D35"
+                                    d="M16.313 96.188L.563 141.75l39.375-2.25H65.25v-19.687l-1.125-40.5-5.625 4.5z">
+                                  </path>
+                                  <path fill="#D87C30" d="M46.125 101.25l46.125 1.125L87.188 126l-21.938-5.625z"></path>
+                                  <path fill="#EA8D3A" d="M46.125 101.813l19.125 18v18z"></path>
+                                  <path fill="#F89D35" d="M65.25 120.375L87.75 126l7.313 24.188L90 153l-24.75-14.625z">
+                                  </path>
+                                  <path fill="#EB8F35" d="M65.25 138.375l-4.5 34.875 29.813-20.812z"></path>
+                                  <path fill="#EA8E3A" d="M92.25 102.375l2.813 47.813-8.438-24.469z"></path>
+                                  <path fill="#D87C30" d="M39.375 138.938l25.875-.563-4.5 34.875z"></path>
+                                  <path fill="#EB8F35" d="M12.938 188.438L60.75 173.25l-21.375-34.312L.563 141.75z">
+                                  </path>
+                                  <path fill="#E8821E" d="M88.875 58.5L64.688 78.75l-18.563 22.5 46.125 1.688z"></path>
+                                  <path fill="#DFCEC3"
+                                    d="M60.75 173.25l29.813-20.812-2.25 18v10.125l-20.25-3.938zM150.75 173.25l-29.25-20.812 2.25 18v10.125l20.25-3.938z">
+                                  </path>
+                                  <path fill="#393939" d="M79.875 112.5l6.188 12.938-21.938-5.625z"></path>
+                                  <path fill="#E88F35" d="M12.375.563l76.5 57.937L75.938 27z"></path>
+                                  <path fill="#8E5A30"
+                                    d="M12.375.563L2.25 31.5l5.625 33.75-3.937 2.25 5.625 5.063-4.5 3.937 6.187 5.625L7.313 85.5l9 11.25L58.5 83.813c20.625-16.5 30.75-24.938 30.375-25.313S63 38.813 12.375.563z">
+                                  </path>
+                                  <path fill="#F89D35"
+                                    d="M195.187 96.188l15.75 45.562-39.375-2.25H146.25v-19.687l1.125-40.5 5.625 4.5z">
+                                  </path>
+                                  <path fill="#D87C30" d="M165.375 101.25l-46.125 1.125L124.312 126l21.938-5.625z">
+                                  </path>
+                                  <path fill="#EA8D3A" d="M165.375 101.813l-19.125 18v18z"></path>
+                                  <path fill="#F89D35"
+                                    d="M146.25 120.375L123.75 126l-7.313 24.188L121.5 153l24.75-14.625z"></path>
+                                  <path fill="#EB8F35" d="M146.25 138.375l4.5 34.875L121.5 153z"></path>
+                                  <path fill="#EA8E3A" d="M119.25 102.375l-2.813 47.813 8.438-24.469z"></path>
+                                  <path fill="#D87C30" d="M172.125 138.938l-25.875-.563 4.5 34.875z"></path>
+                                  <path fill="#EB8F35" d="M198.562 188.438L150.75 173.25l21.375-34.312 38.812 2.812z">
+                                  </path>
+                                  <path fill="#E8821E" d="M122.625 58.5l24.187 20.25 18.563 22.5-46.125 1.688z"></path>
+                                  <path fill="#393939" d="M131.625 112.5l-6.188 12.938 21.938-5.625z"></path>
+                                  <path fill="#E88F35" d="M199.125.563l-76.5 57.937L135.562 27z"></path>
+                                  <path fill="#8E5A30"
+                                    d="M199.125.563L209.25 31.5l-5.625 33.75 3.937 2.25-5.625 5.063 4.5 3.937-6.187 5.625 3.937 3.375-9 11.25L153 83.813c-20.625-16.5-30.75-24.938-30.375-25.313S148.5 38.813 199.125.563z">
+                                  </path>
+                                </g>
+                              </svg> Metamask
+                            </button>
+                            <button>
+                              <svg width="50" height="50" viewBox="0 0 300 185">
+                                <path
+                                  d="M61.439 36.256c48.91-47.888 128.212-47.888 177.123 0l5.886 5.764a6.041 6.041 0 010 8.67l-20.136 19.716a3.179 3.179 0 01-4.428 0l-8.101-7.931c-34.122-33.408-89.444-33.408-123.566 0l-8.675 8.494a3.179 3.179 0 01-4.428 0L54.978 51.253a6.041 6.041 0 010-8.67l6.46-6.327zM280.206 77.03l17.922 17.547a6.041 6.041 0 010 8.67l-80.81 79.122c-2.446 2.394-6.41 2.394-8.856 0l-57.354-56.155a1.59 1.59 0 00-2.214 0L91.54 182.37c-2.446 2.394-6.411 2.394-8.857 0L1.872 103.247a6.041 6.041 0 010-8.671l17.922-17.547c2.445-2.394 6.41-2.394 8.856 0l57.355 56.155a1.59 1.59 0 002.214 0L145.57 77.03c2.446-2.394 6.41-2.395 8.856 0l57.355 56.155a1.59 1.59 0 002.214 0L271.35 77.03c2.446-2.394 6.41-2.394 8.856 0z"
+                                  fill="#3B99FC" fill-rule="nonzero"></path>
+                              </svg>WalletConnect
+                            </button>
+                            <button>
+                              <svg width="50" height="50" viewBox="0 0 96 96">
+                                <g clip-path="url(#clip0)">
+                                  <path
+                                    d="M48.0048 96.0097C74.5172 96.0097 96.0097 74.5172 96.0097 48.0048C96.0097 21.4925 74.5172 0 48.0048 0C21.4925 0 0 21.4925 0 48.0048C0 74.5172 21.4925 96.0097 48.0048 96.0097Z"
+                                    fill="#2076d2"></path>
+                                  <path
+                                    d="M48.0048 22.8922L49.3179 21.1833C48.9399 20.8928 48.4766 20.7354 48 20.7354C47.5233 20.7354 47.06 20.8928 46.682 21.1833L48.0048 22.8922ZM70.5783 29.5252H72.7313C72.7352 29.2396 72.6824 28.9561 72.576 28.6909C72.4696 28.4258 72.3118 28.1844 72.1116 27.9806C71.9114 27.7769 71.6729 27.6148 71.4097 27.5037C71.1465 27.3926 70.8639 27.3348 70.5783 27.3335V29.5252ZM48.0048 75.6377L46.8076 77.4335C47.1604 77.6697 47.5754 77.7958 48 77.7958C48.4245 77.7958 48.8395 77.6697 49.1924 77.4335L48.0048 75.6377ZM25.4506 29.5252V27.3625C25.165 27.3638 24.8824 27.4216 24.6192 27.5327C24.356 27.6437 24.1175 27.8058 23.9173 28.0096C23.7171 28.2134 23.5593 28.4548 23.4529 28.7199C23.3465 28.985 23.2937 29.2686 23.2976 29.5542L25.4506 29.5252ZM46.6917 24.5915C56.4626 32.1611 67.6528 31.6783 70.5879 31.6783V27.3625C67.5466 27.3625 57.8047 27.7487 49.3468 21.1833L46.6917 24.5915ZM68.4348 29.4866C68.2707 39.4892 67.8459 46.5471 67.0349 51.7704C66.2238 56.9938 65.1039 60.0448 63.6266 62.2268C62.1494 64.4089 60.257 65.8282 57.486 67.4792C54.715 69.1302 51.1716 70.9646 46.8076 73.8515L49.2406 77.4335C53.373 74.6818 56.8102 72.9246 59.7357 71.1771C62.6835 69.5717 65.2416 67.3367 67.228 64.6309C69.159 61.7344 70.4817 57.8724 71.3314 52.427C72.181 46.9815 72.6155 39.6534 72.7796 29.5542L68.4348 29.4866ZM49.2406 73.8515C44.9055 70.955 41.3718 69.1592 38.6201 67.4888C35.8684 65.8185 33.976 64.4861 32.4892 62.2268C31.0023 59.9676 29.7954 56.9648 28.9651 51.7704C28.1347 46.576 27.7678 39.4892 27.6037 29.4866L23.2976 29.5542C23.4617 39.6534 23.9058 47.0009 24.7458 52.427C25.5858 57.8531 26.8699 61.7151 28.8395 64.6309C30.8164 67.3382 33.3686 69.5739 36.3125 71.1771C39.2091 72.9246 42.6752 74.6818 46.8076 77.4335L49.2406 73.8515ZM25.4506 31.6783C28.3471 31.6783 39.547 32.1611 49.3179 24.5915L46.682 21.1833C38.2049 27.7487 28.463 27.3625 25.441 27.3625L25.4506 31.6783Z"
+                                    fill="white"></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0">
+                                    <rect width="96" height="96" fill="white"></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>Trust Wallet
+                            </button>
+                            <button>
+                              <svg viewBox="0 0 32 32" width="50" height="50">
+                                <path
+                                  d="M24 0H8C3.58172 0 0 3.58172 0 8V24C0 28.4183 3.58172 32 8 32H24C28.4183 32 32 28.4183 32 24V8C32 3.58172 28.4183 0 24 0Z"
+                                  fill="#1E2026"></path>
+                                <path
+                                  d="M16.2857 4L9.97035 7.6761L12.2922 9.03415L16.2857 6.7161L20.2792 9.03415L22.6011 7.6761L16.2857 4Z"
+                                  fill="#F0B90B"></path>
+                                <path
+                                  d="M20.2792 10.9541L22.6011 12.3122V15.0283L18.6075 17.3463V21.9824L16.2857 23.3405L13.9639 21.9824V17.3463L9.97035 15.0283V12.3122L12.2922 10.9541L16.2857 13.2722L20.2792 10.9541Z"
+                                  fill="#F0B90B"></path>
+                                <path d="M22.6011 16.9483V19.6644L20.2792 21.0224V18.3063L22.6011 16.9483Z"
+                                  fill="#F0B90B"></path>
+                                <path
+                                  d="M20.2561 22.9424L24.2496 20.6244V15.9883L26.5714 14.6302V21.9824L20.2561 25.6585V22.9424Z"
+                                  fill="#F0B90B"></path>
+                                <path
+                                  d="M24.2496 11.3522L21.9278 9.99414L24.2496 8.63609L26.5714 9.99414V12.7102L24.2496 14.0683V11.3522Z"
+                                  fill="#F0B90B"></path>
+                                <path
+                                  d="M13.9639 26.642V23.9259L16.2857 25.2839L18.6075 23.9259V26.642L16.2857 28L13.9639 26.642Z"
+                                  fill="#F0B90B"></path>
+                                <path d="M12.2922 21.0224L9.97035 19.6644V16.9483L12.2922 18.3063V21.0224Z"
+                                  fill="#F0B90B"></path>
+                                <path
+                                  d="M16.2857 11.3522L13.9639 9.99414L16.2857 8.63609L18.6075 9.99414L16.2857 11.3522Z"
+                                  fill="#F0B90B"></path>
+                                <path
+                                  d="M10.6437 9.99414L8.32183 11.3522V14.0683L6 12.7102V9.99414L8.32183 8.63609L10.6437 9.99414Z"
+                                  fill="#F0B90B"></path>
+                                <path d="M6 14.6302L8.32183 15.9883V20.6244L12.3154 22.9424V25.6585L6 21.9824V14.6302Z"
+                                  fill="#F0B90B"></path>
+                              </svg>Binance Wallet
+                            </button>
+                            <button>
+                              <svg viewBox="0 0 1024 1024">
+                                <rect width="1024" height="1024" fill="#0052FF"></rect>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M152 512C152 710.823 313.177 872 512 872C710.823 872 872 710.823 872 512C872 313.177 710.823 152 512 152C313.177 152 152 313.177 152 512ZM420 396C406.745 396 396 406.745 396 420V604C396 617.255 406.745 628 420 628H604C617.255 628 628 617.255 628 604V420C628 406.745 617.255 396 604 396H420Z"
+                                  fill="white"></path>
+                              </svg>Coinbase Wallet
+                            </button>
+                            <button>
+                              <svg viewBox="0 0 100 100">
+                                <circle class="Unstoppable-3" cx="50" cy="50" r="50"></circle>
+                                <g>
+                                  <polygon class="Unstoppable-2"
+                                    points="81.79 22.16 81.79 44.02 18.21 69.85 81.79 22.16"></polygon>
+                                  <path class="Unstoppable-1"
+                                    d="M69.87,21.21V58.92c0,10.97-8.9,19.87-19.87,19.87s-19.87-8.9-19.87-19.87v-15.89l11.92-6.56v22.45c-.44,3.84,2.32,7.31,6.16,7.75,3.84,.44,7.31-2.32,7.75-6.16,.06-.53,.06-1.06,0-1.58V28.82l13.91-7.61Z">
+                                  </path>
+                                </g>
+                              </svg>Unstoppable Domains
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="toggle_dropdown_btn_wrap noembed">
+                  <button class="toggle_dropdown_btn nine_dots">
+                    <!-- Do not remove -->
+                    <svg x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 222.38 221.59">
+                      <defs></defs>
+                      <circle cx="27.26" cy="27.26" r="27.26"></circle>
+                      <circle cx="27.26" cy="109.06" r="27.26"></circle>
+                      <circle cx="110.27" cy="194.33" r="27.26"></circle>
+                      <circle cx="110.27" cy="27.26" r="27.26"></circle>
+                      <circle cx="27.26" cy="194.33" r="27.26"></circle>
+                      <circle cx="195.12" cy="194.33" r="27.26"></circle>
+                      <circle cx="195.12" cy="27.26" r="27.26"></circle>
+                      <circle cx="110.27" cy="109.06" r="29.37"></circle>
+                      <circle cx="195.12" cy="109.06" r="27.26"></circle>
+                    </svg>
+                  </button>
+                </div>
+                <div class="toggle_dropdown_btn_wrap noembed">
+                  <button class="toggle_dropdown_btn home">
+                    <!-- Our logo svg, class:our_icon -->
+                    K
+                  </button>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <!-- Dropdowns -->
+          <div class="toggle_dropdown active nine_dots">
+            <div class="app_grid_main">
+              <a class="app_grid_item" href="/">
+                <div class="app_grid_item_icon">
+
+                </div>
+                <div class="app_grid_item_text">NFT Staking</div>
+              </a>
+              <a class="app_grid_item" href="revoke.html">
+                <div class="app_grid_item_icon">
+
+                </div>
+                <div class="app_grid_item_text">Revoke</div>
+              </a>
+              <a class="app_grid_item" href="swap.html">
+                <div class="app_grid_item_icon">
+
+                </div>
+                <div class="app_grid_item_text">Swap</div>
+              </a>
+              <a class="app_grid_item" href="bridge.html">
+                <div class="app_grid_item_icon">
+
+                </div>
+                <div class="app_grid_item_text">Bridge</div>
+              </a>
+              <a class="app_grid_item" href="mintnft.html">
+                <div class="app_grid_item_icon">
+
+                </div>
+                <div class="app_grid_item_text">RiserBotz NFTs</div>
+              </a>
+            </div>
+          </div>
+          <div class="toggle_dropdown active home">
+            <ul>
+              <li>
+                <a target="_blank" href="https://kimano.xyz">
+                  <span>About</span>
+                  <span>
+                    <!-- Logo Svg, class:our_icon -->
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <span class="metamask_icon">Add Tokens</span>
+                  <span class="metamask_icon">
+                    <img width="16" height="16" src="./static/icons/metamask-fox-2.svg">
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://kimano.xyz/faq.html">
+                  <span>Docs</span>
+                  <span>
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <g fill="currentColor" stroke="currentColor" stroke-linecap="square" stroke-width="2">
+                        <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
+                        <line fill="none" x1="11.959" x2="11.959" y1="11" y2="17"></line>
+                        <circle cx="11.959" cy="7" r="1" stroke="none"></circle>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://kimano.xyz/community.html">
+                  <span>Community</span>
+                  <span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                      </path>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <div class="dropdown_dark_mode_toggle">
+                  <span class="toggle_control">
+                    <input class="dmcheck" type="checkbox" id="dmcheck">
+                    <label for="dmcheck"></label>
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <main class="content">
+          <div class="content_inner">
+            <div class="component_bg margin_top_20">
+              <div class="expired_notice"><span>Mint is Live!!!</span></div>
+            </div>
+            <br>
+            <!-- When user is not connected -->
+            <p style="display: none;">NFT Mint is not supported on this chain. Please switch to Ethereum Network</p>
+
+            <!-- When user is connected -->
+            <div class="component_bg margin_top_20">
+              <div class="mint_nft_title">
+                <p>Mint RiserBotz NFT</p>
+              </div>
+              <div>
+                <div class="claim_nft_stats two_data_items">
+                  <div>
+                    <h3>Total NFTs</h3>
+                    <p>10000</p>
+                  </div>
+                  <div>
+                    <h3>Remaining NFTs</h3>
+                    <p>0</p>
+                  </div>
+                </div>
+                <div style="padding: 7px;">
+                  <p>Mint Price: 0.03 ETH</p>
+                  <p>Max NFTs per txn: 5</p>
+                </div>
+                <div style="padding: 7px;">
+                  <p>No. of NFTs:<span style="margin: 5px;"></span>
+                    <button class="warm_button" type="button">-</button>
+                    <text style="padding: 2px; font-weight: bold; margin: 5px;">1</text>
+                    <button class="warm_button" type="button">+</button>
+                  </p>
+                </div>
+                <div style="padding: 7px;">
+                  <p>Total Price: 0.03 ETH</p>
+                </div>
+                <div>
+                  <input class="our_checkbox" type="checkbox" name="" id="agree">
+                  <label for="agree">
+                    I agree to <a href="#" class="hover" id="nft_terms_trigger">Terms
+                      &amp;<span>&nbsp;Conditions</span></a>
+                  </label>
+
+                  <!-- NFT Terms -->
+                  <div class="select_option_popup_wrap popup_wrap_full nft_terms_modal">
+                    <div class="select_option_popup_inner">
+                      <div class="select_option_popup_header">
+                        <h2>Terms &amp; Conditions</h2>
+                        <span class="exit_icon">
+                          <svg class="exit_icon" viewBox="0 0 319.97467 319.92474" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M27.02,7.29a32.05938,32.05938,0,0,1,31.59,8.09q52.74,52.635,105.4,105.36Q216.495,68.345,268.9,15.87a31.98542,31.98542,0,0,1,51.92,35.99c-2.29,5.03-6.27,8.95-10.17,12.76q-50.685,50.685-101.36,101.37,52.845,53.025,105.83,105.92c11.95,11.87,11.67,33.14-.54,44.73-11.58,12.13-32.79,12.4-44.62.5q-53.07-52.845-105.95-105.87Q110.985,264.175,58.04,317.16c-11.02,10.94-30.15,11.76-42.05,1.77C4.53,310.07.66,293.08,7.16,280.14c2.29-5.05,6.32-8.94,10.23-12.75Q68.06,216.69,118.76,166,66.095,113.275,13.38,60.6A31.96328,31.96328,0,0,1,27.02,7.29Z"
+                              transform="translate(-3.99307 -5.99904)"></path>
+                          </svg>
+                        </span>
+                      </div>
+                      <div class="select_option_popup_content">
+                        <div class="column_content">
+                          <strong>TERMS &amp; CONDITIONS</strong><br>
+                          <p>Hi! Thank you for adopting (ok, "minting") RiserBotz! RiserBotz is a collection of
+                            non-fungible tokens ("NFTs") which exist on the Ethereum network. Each NFT is represented
+                            visually by artwork, which is assigned randomly at mint. The artwork depicts tiny little
+                            robots, which may or may not be sentient. You will own the NFT and enjoy a license to use
+                            the underlying artwork. See below for more details.<br><br>Each RiserBotz NFT will also
+                            grant you free access to trading on an NFT marketplace, to be released by EverRise Inc.
+                            ("EverRise") in the year 2023 (the "Marketplace"). That's what we call utility (the
+                            "Utility")! EverRise intends to charge trading fees on the Marketplace. But not for smarties
+                            like you who have adopted RiserBotz! Free trading for owners of RiserBotz NFTs lasts forever
+                            (or as long as permitted by law). As long as there is an EverRise Marketplace, RiserBotz
+                            owners will trade there for free.</p><br>
+                          <p>In minting Riserbotz, you acknowledge that this website is an interface allowing
+                            participants to purchase digital collectibles. Users are entirely responsible for the safety
+                            and management of their digital assets, and validating all transactions and contracts
+                            generated by this website before approval. Blockchain technology is decentralized, so there
+                            is no ability to undo, reverse, or restore any transactions. Make sure you really want to
+                            purchase RiserBotz before pressing any buttons!</p><br>
+                          <p>This website and its connected services are provided “as is” and “as available” without
+                            warranty of any kind. By using this website you are accepting sole responsibility for any
+                            and all transactions involving EverRise digital collectibles.</p>
+                          <br><strong>OWNERSHIP</strong><br>
+                          <p>You own the NFT, which means you own the unique digital asset/token which points to the
+                            hosted artwork (the "Art") on the Interplanetary File System ("IPFS"). Ownership of the NFT
+                            is mediated entirely by the Smart Contract and the Ethereum Network. At no point may
+                            EverRise seize, freeze, or otherwise modify the ownership of any of these NFTs. You will own
+                            RiserBotz. NOTE: A lot of mints tell you that you also own the underlying artwork of the
+                            NFT, but then grant you a license to use the Art. To be honest that doesn't make any sense.
+                            If you owned the Art, there would be no need for a license.<br><br>So, when you mint
+                            RiserBotz, you fully own the NFT, and EverRise then grants you a license to use the Art
+                            corresponding to that NFT for the following purposes:</p><br>
+                          <li><strong>Personal Use: </strong>Subject to your continued compliance with these Terms,
+                            EverRise grants you a worldwide, license to use, copy, and display the Art, along with any
+                            extensions that you choose to create or use, solely for the following purposes: (i) for your
+                            own personal, non-commercial use; (ii) as part of a marketplace that permits the purchase
+                            and sale of your NFT, provided that the marketplace cryptographically verifies each owner’s
+                            rights to display the Art for their RiserBotz to ensure that only the actual owner can
+                            display the Art; or (iii) as part of a third party website or application that permits the
+                            inclusion, involvement, or participation of your RiserBotz, provided that the
+                            website/application cryptographically verifies each RiserBotz owner’s rights to display the
+                            Art for their RiserBotz to ensure that only the actual owner can display the Art, and
+                            provided that the Art is no longer visible once the owner of the RiserBotz leaves the
+                            website/application.</li><br>
+                          <li><strong>Commercial Use: </strong>Subject to your continued compliance with these Terms,
+                            EverRise grants you an unlimited, worldwide license (the "License") to use, copy, and
+                            display the purchased Art for the purpose of creating derivative works based upon the Art
+                            (“Commercial Use”). Examples of such Commercial Use would be the use of the Art to produce
+                            and sell merchandise displaying copies of the Art. Nothing in this Section will be deemed to
+                            restrict you from (i) owning or operating a marketplace that permits the use and sale of
+                            RiserBotz generally, provided that the marketplace cryptographically verifies each RiserBotz
+                            owner’s rights to display the Art for their RiserBotz to ensure that only the actual owner
+                            can display the Art; (ii) owning or operating a third party website or application that
+                            permits the inclusion, involvement, or participation of RiserBotz generally, provided that
+                            the third party website or application cryptographically verifies each RiserBotz owner’s
+                            rights to display the Art for their RiserBotz to ensure that only the actual owner can
+                            display the Art, and provided that the Art is no longer visible once the owner of the
+                            Purchased RiserBotz leaves the website/application; or (iii) earning revenue from any of the
+                            foregoing.</li><br>
+                          <li><strong>Revocation of License: </strong>EverRise reserves the right to revoke your license
+                            if you use the Art for any purpose, or modify the Art in any way, which could incur
+                            reputational damage for EverRise, its employees, agents, consultants, heirs, or assigns. In
+                            other words, you can pretty much do whatever you want with the NFTs and Art, as long as it
+                            isn't gross, offensive, exploitative, or just plain ridiculous. EverRise reserves the right,
+                            in its sole discretion, to determine what purposes and modifications constitute reputational
+                            damage.</li><br><strong>ASSIGNABILITY</strong><br>
+                          <p>The License, Utility, and all other rights enjoyed by the owner of the NFTs pass with the
+                            NFT. If you transfer or sell the NFT to another party's digital wallet, only the owner of
+                            the receiving digital wallet will enjoy the License and the Utility.</p>
+                          <br><strong>SEVERABILITY</strong><br>
+                          <p>If any part, term or provision of these terms is held to be illegal, in conflict with any
+                            law or otherwise invalid, the remaining portion or portions shall be considered severable
+                            and not be affected by such determination, and the rights and obligations of the parties
+                            shall be construed and enforced as if the Agreement did not contain the particular part,
+                            term or provisions held to be illegal or invalid.<br></p><br>
+                          <p>Welcome to the RiserBotz family!</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mint_button_wrap" style="margin-top: .8em;">
+                  <button disabled="" class="cold_button">Mint NFT </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer">
+              <footer class="global_footer">
+                <div class="global_footer_inner">
+                  <section class="footer_copyright">
+                    <div class="footer_copyright_inner">
+                      <div class="legal_links">
+                        <ul>
+                          <li>
+                            <div>Terms<span>&nbsp;of Use</span></div>
+                          </li>
+                          <li>
+                            <div>Privacy<span>&nbsp;Policy</span></div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kimano.xyz/static/scripts/jquery.min.js"></script>
+  <script src="./static/scripts/main.js"></script>
+</body>
+
+</html>
