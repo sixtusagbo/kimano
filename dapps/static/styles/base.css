@@ -5620,15 +5620,15 @@ li.active-dapp span.MainMenuTxt.p_arrow:after {
 }
 
 .EverOwnOBG {
-  background: url(../images/own_icon.png) no-repeat
+  background: url(https://kimano.xyz/static/images/own_icon.png) no-repeat
 }
 
 .EverBridgeOBG {
-  background: url(../images/bridge_icon.png) no-repeat
+  background: url(https://kimano.xyz/static/images/bridge_icon.png) no-repeat
 }
 
 .EverSwapOBG {
-  background: url(../images/swap_icon.png) no-repeat
+  background: url(https://kimano.xyz/static/images/swap_icon.png) no-repeat
 }
 
 .EverStakeOBG {
@@ -5636,7 +5636,7 @@ li.active-dapp span.MainMenuTxt.p_arrow:after {
 }
 
 .EverMigrateOBG {
-  background: url(../images/migrate_icon.png) no-repeat
+  background: url(https://kimano.xyz/static/images/migrate_icon.png) no-repeat
 }
 
 .EverSomethingOBG {
