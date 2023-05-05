@@ -759,7 +759,7 @@ body.light_mode .HeaderAccountInfo {
   box-shadow: var(--hollowLineW)
 }
 
-.ComponentBG {
+.component_bg {
   background-color: var(--bgColor1);
   padding: 25px 35px;
   border-radius: 16px;
@@ -767,7 +767,7 @@ body.light_mode .HeaderAccountInfo {
   position: relative
 }
 
-body.light_mode .ComponentBG {
+body.light_mode .component_bg {
   background-color: var(--bgWhite1);
   box-shadow: var(--bgComponentW)
 }
@@ -1076,7 +1076,7 @@ body.light_mode .header:after {
   border: 1px solid #fff
 }
 
-.EverContentInner {
+.content_inner {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -1085,7 +1085,7 @@ body.light_mode .header:after {
   padding: 40px 25px 25px
 }
 
-.HomePage .EverContentInner {
+.HomePage .content_inner {
   max-width: 1400px
 }
 
@@ -1668,10 +1668,10 @@ body.light_mode .DevLoginWrap input.chakra-input:focus {
   background: #eaeff5
 }
 
-.DappFormAmountInput *,
-.DappFormAmountInput :active,
-.DappFormAmountInput :focus,
-.DappFormAmountInput :hover,
+.dapp_form_amount_input *,
+.dapp_form_amount_input :active,
+.dapp_form_amount_input :focus,
+.dapp_form_amount_input :hover,
 .FormAdvancedOptions button,
 .FormAdvancedOptions button *,
 .FormAdvancedOptions button:active,
@@ -1729,41 +1729,41 @@ body.light_mode .DevLoginWrap input.chakra-input:focus {
   margin: 25px 0
 }
 
-.DappFormAmountInputBG {
+.dapp_form_amount_input_bg {
   height: 75px;
   border-radius: 12px;
   box-shadow: var(--hollowBox);
   background: var(--bgColor3)
 }
 
-body.light_mode .DappFormAmountInputBG {
+body.light_mode .dapp_form_amount_input_bg {
   box-shadow: var(--hollowBoxW);
   background: var(--bgWhite3)
 }
 
-.DappFormAmountInputBG .chakra-slider__track {
+.dapp_form_amount_input_bg .chakra-slider__track {
   background: transparent
 }
 
-.DappFormAmountInputBG .chakra-slider {
+.dapp_form_amount_input_bg .chakra-slider {
   padding: 0 !important
 }
 
-body .DappFormAmountInputBG .chakra-slider__filled-track {
+body .dapp_form_amount_input_bg .chakra-slider__filled-track {
   background: var(--sliderGrad);
   border-radius: 4px;
   margin-left: 1px
 }
 
-body.light_mode .DappFormAmountInputBG .chakra-slider__filled-track {
+body.light_mode .dapp_form_amount_input_bg .chakra-slider__filled-track {
   background: var(--sliderGradW)
 }
 
-body .DappFormAmountInput input#tokenCount {
+body .dapp_form_amount_input input#tokenCount {
   padding-bottom: 2px !important
 }
 
-body .DappFormAmountInputBG .chakra-slider__thumb {
+body .dapp_form_amount_input_bg .chakra-slider__thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1777,18 +1777,18 @@ body .DappFormAmountInputBG .chakra-slider__thumb {
   border-radius: 8px
 }
 
-body.light_mode .DappFormAmountInputBG .chakra-slider__thumb {
+body.light_mode .dapp_form_amount_input_bg .chakra-slider__thumb {
   background: var(--bgHorzGradW);
   box-shadow: var(--smallShadowW);
   border: 1px solid var(--borderWhite1)
 }
 
-body .DappFormAmountInputBG .chakra-slider__thumb:active {
+body .dapp_form_amount_input_bg .chakra-slider__thumb:active {
   -webkit-transform: translateY(-50%) scale(1.5);
   transform: translateY(-50%) scale(1.5)
 }
 
-.DappFormAmountInputBG {
+.dapp_form_amount_input_bg {
   border: 1px solid transparent
 }
 
@@ -1810,12 +1810,12 @@ body.light_mode button.PArrow.down {
   color: rgba(111, 135, 190, .83)
 }
 
-.DappFormAmountInput {
+.dapp_form_amount_input {
   display: block;
   margin-bottom: -18px !important
 }
 
-.WalletBalanceInForm>label {
+.wallet_balance_in_form>label {
   display: none
 }
 
@@ -1852,7 +1852,7 @@ span.chakra-checkbox__control svg {
   font-size: 15px
 }
 
-.DappFormTokenBalance {
+.dapp_form_toen_balance {
   text-align: right;
   margin-right: 3px;
   margin-left: 5px;
@@ -1865,7 +1865,7 @@ body.light_mode {
   color: var(--balanceFontW)
 }
 
-.DappFormTokenBalanceColumnLeft {
+.dapp_form_token_balance_column_left {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1881,7 +1881,7 @@ body.light_mode {
   width: 60%
 }
 
-p.DappFormTokenBalance {
+p.dapp_form_toen_balance {
   text-align: right;
   font-size: 15px;
   margin-right: 3px;
@@ -2114,7 +2114,7 @@ body.light_mode .SelectOptionPopupContent .SelectTokenItem svg {
   font-size: 14px
 }
 
-.DappFormAmountInputInner {
+.dapp_form_amount_input_inner {
   display: flex;
   justify-content: space-between;
   align-items: center
@@ -2129,7 +2129,7 @@ chakra-accordion.css-1ki54i {
   display: none
 }
 
-.DappFormAmountInput input {
+.dapp_form_amount_input input {
   height: 55px
 }
 
@@ -2169,7 +2169,7 @@ span.ExitIcon {
   display: grid
 }
 
-.EverGridWithSidebar .ComponentBG {
+.EverGridWithSidebar .component_bg {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content
@@ -2179,7 +2179,7 @@ span.ExitIcon {
   position: relative
 }
 
-.helper-active .DappFormAmountInputBG {
+.helper-active .dapp_form_amount_input_bg {
   border: 1px solid #9f3737
 }
 
@@ -2228,7 +2228,7 @@ span.chakra-alert__icon svg {
 
 .EverBridgeWrapInner,
 .EverMigrateInner,
-.EverSwapForm,
+.swap_form,
 .NativeCoinSwapInner {
   max-width: 650px;
   width: 100%
@@ -2237,7 +2237,7 @@ span.chakra-alert__icon svg {
 .EverBridgeWrap,
 .EverBridgeWrapInner,
 .EverMigrateContainer,
-.EverSwapFormWrap {
+.swap_form_wrap {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -2246,12 +2246,12 @@ span.chakra-alert__icon svg {
 
 .EverBridgeWrap form,
 .EverBridgeWrap form *,
-.EverSwapForm form>* {
+.swap_form form>* {
   width: 100%
 }
 
 .EverBridgeWrap form,
-.EverSwapForm form {
+.swap_form form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2304,13 +2304,13 @@ select.tokenSelect[data-value="0xc2132D05D31c914a87C6611C10748AEb04B58e8F"] {
   background-image: url(https://data.everrise.com/icons/polygon/0xc2132d05d31c914a87c6611c10748aeb04b58e8f.png)
 }
 
-.AVAX.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-.BNB.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-.ETH.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-.EverRise.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-.FTM.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-.MATIC.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-.RISE.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
+.AVAX.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+.BNB.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+.ETH.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+.EverRise.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+.FTM.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+.MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+.RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .SelectChainBtn:before,
 .SelectChainItem:before,
 .SelectTokenItem:before {
@@ -2324,7 +2324,7 @@ select.tokenSelect[data-value="0xc2132D05D31c914a87C6611C10748AEb04B58e8F"] {
   background-repeat: no-repeat
 }
 
-.PercentageAmountNumbers:before {
+.percentage_amount_numbers:before {
   margin: 0 15px
 }
 
@@ -2343,52 +2343,52 @@ select.tokenSelect option {
   height: 32px
 }
 
-.SelectOptionPopupContent .DappFormAmountInput .PercentageAmountNumbers:before {
+.SelectOptionPopupContent .dapp_form_amount_input .percentage_amount_numbers:before {
   width: 33px;
   height: 33px;
   margin: 0 10px
 }
 
-.SelectOptionPopupContent .DappFormAmountInputInner {
+.SelectOptionPopupContent .dapp_form_amount_input_inner {
   height: 100%
 }
 
-body .DappFormAmountInput input#tokenCount {
+body .dapp_form_amount_input input#tokenCount {
   color: var(--fontColor1);
   height: 72px;
   font-weight: 700;
   letter-spacing: .04em
 }
 
-body.light_mode .DappFormAmountInput input#tokenCount {
+body.light_mode .dapp_form_amount_input input#tokenCount {
   color: var(--fontWhite4)
 }
 
-.SelectionHeaderItems {
+.selection_header_items {
   display: flex;
   justify-content: space-between;
   position: relative;
   font-size: 15px
 }
 
-.DappFormAmountInputWrapper {
+.dapp_form_amount_input_wrapper {
   margin-top: 0
 }
 
-.PercentageAmountNumbers {
+.percentage_amount_numbers {
   display: flex;
   justify-content: center;
   align-items: center
 }
 
-.PercentageAmountNumbers img {
+.percentage_amount_numbers img {
   border-radius: 32px
 }
 
-.PercentageAmountNumbers input,
-.PercentageAmountNumbers input:active,
-.PercentageAmountNumbers input:focus,
-.PercentageAmountNumbers input:hover,
+.percentage_amount_numbers input,
+.percentage_amount_numbers input:active,
+.percentage_amount_numbers input:focus,
+.percentage_amount_numbers input:hover,
 input#outputCount {
   color: var(--fontColor2);
   height: 32px;
@@ -2428,7 +2428,7 @@ body .WrapInput input#outputCount {
   top: 3px
 }
 
-.FormBottomHalf .EverMigrate .PercentageAmountNumbers:before {
+.FormBottomHalf .EverMigrate .percentage_amount_numbers:before {
   position: relative;
   top: 3px
 }
@@ -2448,7 +2448,7 @@ body .WrapInput input#outputCount {
   left: 1px
 }
 
-.PercentageAmountNumbers .chakra-numberinput {
+.percentage_amount_numbers .chakra-numberinput {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -2471,26 +2471,26 @@ body.light_mode .SwapPriceImpact span:last-child:empty:after {
   color: var(--fontWhite3)
 }
 
-.DappFormTokenBalance span:first-of-type {
+.dapp_form_toen_balance span:first-of-type {
   margin-right: 1px
 }
 
-.DappFormTokenBalance span:last-of-type {
+.dapp_form_toen_balance span:last-of-type {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content
 }
 
-.FormBottomHalf .DappFormAmountInputInner>div {
+.FormBottomHalf .dapp_form_amount_input_inner>div {
   position: relative;
   top: 0 !important
 }
 
-.DappFormAmountInputInner {
+.dapp_form_amount_input_inner {
   height: 73px
 }
 
-.FormBottomHalf .PercentageAmountNumbers .chakra-numberinput {
+.FormBottomHalf .percentage_amount_numbers .chakra-numberinput {
   position: relative;
   top: 1px
 }
@@ -2502,7 +2502,7 @@ body.light_mode .SwapPriceImpact span:last-child:empty:after {
 }
 
 .FormBottomHalf,
-.FormTopHalf {
+.form_top_half {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2516,7 +2516,7 @@ body.light_mode .SwapPriceImpact span:last-child:empty:after {
   padding: 35px 50px
 }
 
-.FormTabs.ComponentBG {
+.FormTabs.component_bg {
   padding: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -2567,7 +2567,7 @@ body.light_mode .FormTabs {
 .EverBridgeWrap .FormTab:not(.inactive):first-child,
 .EverMigrateContainer .FormTab.active,
 .EverMigrateContainer .FormTab:not(.inactive):first-child,
-.EverSwapFormWrap .FormTab:first-child,
+.swap_form_wrap .FormTab:first-child,
 .NativeCoinSwapContainer .FormTab:last-child {
   background: var(--bgColor1);
   border-top-left-radius: 25px;
@@ -2583,7 +2583,7 @@ body.light_mode .EverBridgeWrap .FormTab.active:first-child,
 body.light_mode .EverBridgeWrap .FormTab:not(.inactive):first-child,
 body.light_mode .EverMigrateContainer .FormTab.active,
 body.light_mode .EverMigrateContainer .FormTab:not(.inactive):first-child,
-body.light_mode .EverSwapFormWrap .FormTab:first-child,
+body.light_mode .swap_form_wrap .FormTab:first-child,
 body.light_mode .NativeCoinSwapContainer .FormTab:last-child {
   background: var(--bgWhite1);
   box-shadow: var(--formTabLeftW)
@@ -2614,7 +2614,7 @@ body.light_mode .EverBridgeWrap .FormTab.active:last-child {
   flex-direction: column
 }
 
-body .DappFormAmountInput .Ticker {
+body .dapp_form_amount_input .Ticker {
   border: 1.5px solid var(--tickerBorder) !important;
   margin-right: 16px !important;
   padding: 4px 10px !important;
@@ -2633,7 +2633,7 @@ body .DappFormAmountInput .Ticker {
   font-weight: 700
 }
 
-body.light_mode .DappFormAmountInput .Ticker {
+body.light_mode .dapp_form_amount_input .Ticker {
   border: 1.5px solid var(--tickerBorderW) !important;
   background: var(--tickerBgW)
 }
@@ -2647,7 +2647,7 @@ body.light_mode .DappFormAmountInput .Ticker {
 }
 
 .FormBottomHalf,
-.FormTopHalf {
+.form_top_half {
   padding: 0
 }
 
@@ -3179,7 +3179,7 @@ ul.InfoBoxWrap {
   color: transparent
 }
 
-.ComponentBG.TableHeading {
+.component_bg.TableHeading {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   margin-top: 20px
@@ -3221,18 +3221,18 @@ body.light_mode .SelectOptionPopupContent input:focus {
   text-align: center
 }
 
-.SelectOptionPopupContent .DappFormAmountInput {
+.SelectOptionPopupContent .dapp_form_amount_input {
   background: var(--bgColor4);
   border-radius: 10px;
   max-height: 100%;
   height: 100%
 }
 
-body.light_mode .SelectOptionPopupContent .DappFormAmountInput {
+body.light_mode .SelectOptionPopupContent .dapp_form_amount_input {
   background: transparent
 }
 
-.SelectOptionPopupContent .DappFormAmountInputWrapper {
+.SelectOptionPopupContent .dapp_form_amount_input_wrapper {
   margin-top: 5px
 }
 
@@ -3262,16 +3262,16 @@ body.light_mode .popupInlineWarning {
   border: 1px solid var(--warningBorderW)
 }
 
-.SelectOptionPopupContent .DappFormAmountInput input#tokenCount {
+.SelectOptionPopupContent .dapp_form_amount_input input#tokenCount {
   background: transparent
 }
 
-.WalletBalanceInForm {
+.wallet_balance_in_form {
   display: block;
   margin-bottom: 8px
 }
 
-.SelectionHeaderItems {
+.selection_header_items {
   margin-left: auto
 }
 
@@ -3396,7 +3396,7 @@ body.light_mode .popupInlineWarning {
   margin-right: 25px
 }
 
-body.light_mode .DappFormTokenBalance>span,
+body.light_mode .dapp_form_toen_balance>span,
 body.light_mode .FormAdvancedOptions *,
 body.light_mode .header_wallet_login,
 body.light_mode .StakingLockerAddressContent>span,
@@ -3406,7 +3406,7 @@ body.light_mode .table-head .column * {
 }
 
 body.light_mode .StakingLockerAddressContent>span,
-body.light_mode p.DappFormTokenBalance>span {
+body.light_mode p.dapp_form_toen_balance>span {
   color: var(--fontWhite3) !important
 }
 
@@ -3538,13 +3538,13 @@ body.light_mode .ComponentHeaderBG:after {
     color: var(--fontWhite) !important
   }
 
-  .DappFormAmountInputBG,
-  .DappFormAmountInputInner,
-  .FormBottomHalf .DappFormAmountInputInner {
+  .dapp_form_amount_input_bg,
+  .dapp_form_amount_input_inner,
+  .FormBottomHalf .dapp_form_amount_input_inner {
     height: 65px
   }
 
-  body .DappFormAmountInput .Ticker {
+  body .dapp_form_amount_input .Ticker {
     font-size: 13px;
     max-width: 118px;
     height: 38px;
@@ -3562,7 +3562,7 @@ body.light_mode .ComponentHeaderBG:after {
     box-shadow: inset -13px 0 0 0 transparent
   }
 
-  .EverContentInner,
+  .content_inner,
   .EverOwnInner {
     width: calc(100% - 40px)
   }
@@ -3617,12 +3617,12 @@ body.light_mode .ComponentHeaderBG:after {
     display: none
   }
 
-  .EverContentInner,
+  .content_inner,
   li.HomeDapp {
     padding: 20px 0 16px
   }
 
-  li.HomeDapp.ComponentBG {
+  li.HomeDapp.component_bg {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -3687,23 +3687,23 @@ body.light_mode .ComponentHeaderBG:after {
   .EverBridgeWrap .FormTab:not(.inactive):first-child,
   .EverMigrateContainer .FormTab.active,
   .EverMigrateContainer .FormTab:not(.inactive):first-child,
-  .EverSwapFormWrap .FormTab:first-child,
+  .swap_form_wrap .FormTab:first-child,
   .NativeCoinSwapContainer .FormTab:last-child {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 60px
   }
 
-  .FormTabs.ComponentBG {
+  .FormTabs.component_bg {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px
   }
 
-  .DappFormAmountInputInner {
+  .dapp_form_amount_input_inner {
     height: 65px
   }
 
-  .EverSwapSelectOne,
+  .swap_select_one,
   .SwapToWrap {
     width: 100%
   }
@@ -3725,19 +3725,19 @@ body.light_mode .ComponentHeaderBG:after {
     font-size: 20px
   }
 
-  .AVAX.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .BNB.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .ETH.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .EverRise.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .FTM.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .MATIC.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .RISE.DappFormAmountInputWrapper .PercentageAmountNumbers:before {
+  .AVAX.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .BNB.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .ETH.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .EverRise.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .FTM.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before {
     height: 35px;
     width: 35px;
     margin: 0 10px
   }
 
-  .DappFormAmountInput .chakra-select__wrapper,
+  .dapp_form_amount_input .chakra-select__wrapper,
   .Ticker {
     max-width: 125px;
     height: 38px
@@ -3747,7 +3747,7 @@ body.light_mode .ComponentHeaderBG:after {
     font-size: 12px
   }
 
-  .EverSwapSelectOne .ETH.DappFormAmountInputWrapper .PercentageAmountNumbers:before {
+  .swap_select_one .ETH.dapp_form_amount_input_wrapper .percentage_amount_numbers:before {
     margin-top: -7px
   }
 
@@ -3771,7 +3771,7 @@ body.light_mode .ComponentHeaderBG:after {
   .FormAdvancedOptions button:hover,
   .FormTab,
   .FormTab a,
-  p.DappFormTokenBalance span {
+  p.dapp_form_toen_balance span {
     font-size: 13px;
     letter-spacing: .025em
   }
@@ -3781,7 +3781,7 @@ body.light_mode .ComponentHeaderBG:after {
     margin-bottom: 13px
   }
 
-  p.DappFormTokenBalance,
+  p.dapp_form_toen_balance,
   span.RouterName {
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -3793,9 +3793,9 @@ body.light_mode .ComponentHeaderBG:after {
     align-items: center
   }
 
-  .SelectionHeaderItems,
-  p.DappFormTokenBalance,
-  p.DappFormTokenBalance span,
+  .selection_header_items,
+  p.dapp_form_toen_balance,
+  p.dapp_form_toen_balance span,
   select.tokenSelect {
     font-size: 14px;
     font-weight: 600
@@ -3909,10 +3909,10 @@ body.light_mode .ComponentHeaderBG:after {
     border: 1px solid #dadada
   }
 
-  .PercentageAmountNumbers input,
-  .PercentageAmountNumbers input:active,
-  .PercentageAmountNumbers input:focus,
-  .PercentageAmountNumbers input:hover,
+  .percentage_amount_numbers input,
+  .percentage_amount_numbers input:active,
+  .percentage_amount_numbers input:focus,
+  .percentage_amount_numbers input:hover,
   input#outputCount {
     font-size: 16px
   }
@@ -3939,10 +3939,10 @@ body.light_mode .ComponentHeaderBG:after {
     font-size: 17px
   }
 
-  .PercentageAmountNumbers input,
-  .PercentageAmountNumbers input:active,
-  .PercentageAmountNumbers input:focus,
-  .PercentageAmountNumbers input:hover,
+  .percentage_amount_numbers input,
+  .percentage_amount_numbers input:active,
+  .percentage_amount_numbers input:focus,
+  .percentage_amount_numbers input:hover,
   input#outputCount {
     height: 28px
   }
@@ -3950,10 +3950,10 @@ body.light_mode .ComponentHeaderBG:after {
 
 @media (max-width:480px) {
 
-  .PercentageAmountNumbers input,
-  .PercentageAmountNumbers input:active,
-  .PercentageAmountNumbers input:focus,
-  .PercentageAmountNumbers input:hover,
+  .percentage_amount_numbers input,
+  .percentage_amount_numbers input:active,
+  .percentage_amount_numbers input:focus,
+  .percentage_amount_numbers input:hover,
   input#outputCount {
     height: 24px
   }
@@ -3962,7 +3962,7 @@ body.light_mode .ComponentHeaderBG:after {
     display: none
   }
 
-  .EverContentInner {
+  .content_inner {
     width: calc(100% - 25px)
   }
 
@@ -3980,7 +3980,7 @@ body.light_mode .ComponentHeaderBG:after {
   .EverBridgeWrap .FormTab:not(.inactive):first-child,
   .EverMigrateContainer .FormTab.active,
   .EverMigrateContainer .FormTab:not(.inactive):first-child,
-  .EverSwapFormWrap .FormTab:first-child,
+  .swap_form_wrap .FormTab:first-child,
   .NativeCoinSwapContainer .FormTab:last-child {
     height: 55px
   }
@@ -3991,7 +3991,7 @@ body.light_mode .ComponentHeaderBG:after {
     padding: 15px
   }
 
-  .FormTopHalf .PercentageAmountNumbers:before {
+  .form_top_half .percentage_amount_numbers:before {
     position: relative;
     top: -2px
   }
@@ -4002,11 +4002,11 @@ body.light_mode .ComponentHeaderBG:after {
     width: calc(100% - 5px) !important
   }
 
-  .FormBottomHalf .SelectionHeaderItems {
+  .FormBottomHalf .selection_header_items {
     padding-bottom: 0
   }
 
-  .ComponentBG {
+  .component_bg {
     min-width: 0;
     min-width: auto
   }
@@ -4019,12 +4019,12 @@ body.light_mode .ComponentHeaderBG:after {
     width: 82vw !important
   }
 
-  .DappFormTokenBalanceColumnLeft {
+  .dapp_form_token_balance_column_left {
     width: 100%;
     margin-top: -2px
   }
 
-  .WalletBalanceInForm {
+  .wallet_balance_in_form {
     margin-bottom: 5px
   }
 
@@ -4032,7 +4032,7 @@ body.light_mode .ComponentHeaderBG:after {
     width: 100%
   }
 
-  p.DappFormTokenBalance>span:first-of-type,
+  p.dapp_form_toen_balance>span:first-of-type,
   span.PriceImpact>span:first-of-type {
     display: none
   }
@@ -4041,7 +4041,7 @@ body.light_mode .ComponentHeaderBG:after {
     margin-left: -24px !important
   }
 
-  .DappFormAmountInput .USDTPriceEqv:active,
+  .dapp_form_amount_input .USDTPriceEqv:active,
   .USDTPriceEqv {
     letter-spacing: .06em;
     top: 3px !important
@@ -4051,7 +4051,7 @@ body.light_mode .ComponentHeaderBG:after {
     line-height: 2em
   }
 
-  body .DappFormAmountInput .Ticker {
+  body .dapp_form_amount_input .Ticker {
     margin-right: 10px !important;
     height: 35px;
     min-width: 108px;
@@ -4062,34 +4062,34 @@ body.light_mode .ComponentHeaderBG:after {
     font-size: 12px
   }
 
-  .SelectionHeaderItems,
-  p.DappFormTokenBalance,
-  p.DappFormTokenBalance span,
+  .selection_header_items,
+  p.dapp_form_toen_balance,
+  p.dapp_form_toen_balance span,
   select.tokenSelect {
     font-size: 13px
   }
 
-  .RISE.DappFormAmountInputWrapper .PercentageAmountNumbers:before {
+  .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before {
     margin-top: -6px;
     margin-top: -3px
   }
 
-  .PercentageAmountNumbers input,
-  .PercentageAmountNumbers input:active,
-  .PercentageAmountNumbers input:focus,
-  .PercentageAmountNumbers input:hover,
-  body .DappFormAmountInput input#tokenCount,
+  .percentage_amount_numbers input,
+  .percentage_amount_numbers input:active,
+  .percentage_amount_numbers input:focus,
+  .percentage_amount_numbers input:hover,
+  body .dapp_form_amount_input input#tokenCount,
   input#outputCount {
     font-size: 14px !important
   }
 
-  .AVAX.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .BNB.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .ETH.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .EverRise.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .FTM.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .MATIC.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .RISE.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
+  .AVAX.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .BNB.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .ETH.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .EverRise.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .FTM.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
   .SelectChainBtn:before,
   .SelectChainItem:before,
   .SelectTokenItem:before {
@@ -4098,7 +4098,7 @@ body.light_mode .ComponentHeaderBG:after {
     min-width: 30px
   }
 
-  .DappFormAmountInput .chakra-select__wrapper,
+  .dapp_form_amount_input .chakra-select__wrapper,
   .Ticker {
     max-width: 120px
   }
@@ -4108,21 +4108,21 @@ body.light_mode .ComponentHeaderBG:after {
     display: none
   }
 
-  .DappFormAmountInput .USDTPriceEqv:active,
+  .dapp_form_amount_input .USDTPriceEqv:active,
   .USDTPriceEqv {
     font-size: 11px
   }
 
-  .DappFormAmountInputBG,
-  .FormBottomHalf .DappFormAmountInputInner {
+  .dapp_form_amount_input_bg,
+  .FormBottomHalf .dapp_form_amount_input_inner {
     height: 59px
   }
 
-  .DappFormAmountInputInner {
+  .dapp_form_amount_input_inner {
     height: 58px
   }
 
-  .DappFormAmountInput .chakra-select__wrapper {
+  .dapp_form_amount_input .chakra-select__wrapper {
     margin-right: 9px !important;
     padding: 0 0 0 3px !important
   }
@@ -4140,7 +4140,7 @@ body.light_mode .ComponentHeaderBG:after {
     grid-template-columns: 100%
   }
 
-  .ComponentBG.TableHeading {
+  .component_bg.TableHeading {
     padding: 25px 20px
   }
 
@@ -4184,7 +4184,7 @@ body.light_mode .ComponentHeaderBG:after {
 }
 
 @media (max-width:400px) {
-  .EverContentInner {
+  .content_inner {
     width: calc(100% - 20px)
   }
 
@@ -4204,13 +4204,13 @@ body.light_mode .ComponentHeaderBG:after {
     width: 50px
   }
 
-  .DappFormAmountInputBG,
-  .FormBottomHalf .DappFormAmountInputInner,
+  .dapp_form_amount_input_bg,
+  .FormBottomHalf .dapp_form_amount_input_inner,
   .OBGIcon {
     height: 50px
   }
 
-  body .DappFormAmountInput .Ticker {
+  body .dapp_form_amount_input .Ticker {
     margin-right: 6px !important;
     height: 35px;
     min-width: 100px;
@@ -4233,13 +4233,13 @@ body.light_mode .ComponentHeaderBG:after {
     margin-left: 5px
   }
 
-  .AVAX.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .BNB.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .ETH.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .EverRise.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .FTM.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .MATIC.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-  .RISE.DappFormAmountInputWrapper .PercentageAmountNumbers:before {
+  .AVAX.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .BNB.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .ETH.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .EverRise.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .FTM.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+  .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before {
     height: 31px;
     width: 31px
   }
@@ -4255,11 +4255,11 @@ body.light_mode .ComponentHeaderBG:after {
   .FormAdvancedOptions button:hover,
   .FormTab,
   .FormTab a,
-  p.DappFormTokenBalance span {
+  p.dapp_form_toen_balance span {
     font-size: 12px
   }
 
-  .DappFormTokenBalanceColumnLeft {
+  .dapp_form_token_balance_column_left {
     width: 100%;
     margin-top: 0;
     height: 18px
@@ -4312,7 +4312,7 @@ body.light_mode .ComponentHeaderBG:after {
   .EverBridgeWrap .FormTab:not(.inactive):first-child,
   .EverMigrateContainer .FormTab.active,
   .EverMigrateContainer .FormTab:not(.inactive):first-child,
-  .EverSwapFormWrap .FormTab:first-child,
+  .swap_form_wrap .FormTab:first-child,
   .FormTab,
   .NativeCoinSwapContainer .FormTab:last-child {
     height: 50px
@@ -4358,8 +4358,8 @@ body.embedded .primary_container {
   background: transparent !important
 }
 
-body.custom .EverContentInner,
-body.embedded .EverContentInner {
+body.custom .content_inner,
+body.embedded .content_inner {
   margin: 0;
   padding-top: 13px;
   padding-bottom: 12px
@@ -4370,13 +4370,13 @@ body.embedded .EverFooter {
   display: none
 }
 
-body.custom .ComponentBG,
-body.embedded .ComponentBG {
+body.custom .component_bg,
+body.embedded .component_bg {
   width: 100%
 }
 
-body.custom .app:not(.EverStake.app) .EverStakeNav,
-body.embedded .app:not(.EverStake.app) .EverStakeNav {
+body.custom .app:not(.EverStake.app) .stake_nav,
+body.embedded .app:not(.EverStake.app) .stake_nav {
   margin-bottom: 10px !important
 }
 
@@ -4409,8 +4409,8 @@ body.embedded .WalletConnectButtonWrap button {
 
 @media (max-width:480px) {
 
-  body.custom .EverContentInner,
-  body.embedded .EverContentInner {
+  body.custom .content_inner,
+  body.embedded .content_inner {
     width: calc(100% - 40px)
   }
 }
@@ -4423,16 +4423,16 @@ body.embedded .WalletConnectButtonWrap button {
   }
 }
 
-body.custom .EverStakeNavWrapInner .WarmButton {
+body.custom .stake_nav_wrap_inner .WarmButton {
   margin-top: 30px;
   margin-bottom: 30px
 }
 
-body.embedded .SmallNav .HeaderAccountInfo {
+body.embedded .small_nav .HeaderAccountInfo {
   display: none
 }
 
-body.embedded .ComponentBG.SmallNav {
+body.embedded .component_bg.small_nav {
   width: 100%;
   border-radius: 22px
 }
@@ -4465,7 +4465,7 @@ body.embedded.light_mode header.global_header:before {
   background: var(--bgWhite1)
 }
 
-body.embedded.light_mode .ComponentBG {
+body.embedded.light_mode .component_bg {
   background: #f6fafe;
   box-shadow: -1px -1px 0 1px #fff, 0 -6px 10px 0 #efefef, 0 6px 15px 0 #e2e2e2, 3px 12px 26px 3px #eee
 }
@@ -4482,7 +4482,7 @@ body.embedded.light_mode .InvertFormButtonInner {
   display: none
 }
 
-.notitle .EverContentInner {
+.notitle .content_inner {
   padding-top: 4px
 }
 
@@ -4490,9 +4490,9 @@ body.custom .header {
   display: none
 }
 
-body.custom .EverStakeNav.SmallNav .HeaderAccountBtns,
-body.custom .EverStakeNav.SmallNav .HeaderAccountInfo,
-body.custom .SmallNav {
+body.custom .stake_nav.small_nav .header_account_btns,
+body.custom .stake_nav.small_nav .HeaderAccountInfo,
+body.custom .small_nav {
   display: flex
 }
 
@@ -4508,9 +4508,9 @@ body.custom.embedded.light_mode .header {
   box-shadow: var(--bgComponentW)
 }
 
-body.custom.embedded .EverStakeNav.SmallNav,
-body.custom.embedded .EverStakeNav.SmallNav .HeaderAccountBtns,
-body.custom.embedded .EverStakeNav.SmallNav .HeaderAccountInfo {
+body.custom.embedded .stake_nav.small_nav,
+body.custom.embedded .stake_nav.small_nav .header_account_btns,
+body.custom.embedded .stake_nav.small_nav .HeaderAccountInfo {
   display: none
 }
 
@@ -4887,7 +4887,7 @@ body.light_mode .HeaderAccountInfo button {
   margin-top: -3px !important
 }
 
-.HeaderAccountBtns {
+.header_account_btns {
   z-index: 2 !important
 }
 
@@ -5296,10 +5296,10 @@ body.light_mode .IndentedBtnWrap>div {
 
   .EverStakeAmountButtons .chakra-button__group button,
   .EverStakeAmountButtons .chakra-button__group button:hover[disabled],
-  .PercentageAmountNumbers input,
-  .PercentageAmountNumbers input:active,
-  .PercentageAmountNumbers input:focus,
-  .PercentageAmountNumbers input:hover,
+  .percentage_amount_numbers input,
+  .percentage_amount_numbers input:active,
+  .percentage_amount_numbers input:focus,
+  .percentage_amount_numbers input:hover,
   input#outputCount {
     font-size: 20px
   }
@@ -5361,20 +5361,20 @@ body.light_mode .IndentedBtnWrap>div {
     position: relative
   }
 
-  .PercentageAmountNumbers input,
-  .PercentageAmountNumbers input:active,
-  .PercentageAmountNumbers input:focus,
-  .PercentageAmountNumbers input:hover,
+  .percentage_amount_numbers input,
+  .percentage_amount_numbers input:active,
+  .percentage_amount_numbers input:focus,
+  .percentage_amount_numbers input:hover,
   input#outputCount {
     padding-top: 0 !important
   }
 
   .EverStakeAmountButtons .chakra-button__group button,
   .EverStakeAmountButtons .chakra-button__group button:hover[disabled],
-  .PercentageAmountNumbers input,
-  .PercentageAmountNumbers input:active,
-  .PercentageAmountNumbers input:focus,
-  .PercentageAmountNumbers input:hover,
+  .percentage_amount_numbers input,
+  .percentage_amount_numbers input:active,
+  .percentage_amount_numbers input:focus,
+  .percentage_amount_numbers input:hover,
   input#outputCount {
     font-size: 16px
   }
@@ -5513,8 +5513,8 @@ body.light_mode .IndentedBtnWrap>div {
   width: fit-content
 }
 
-.EverRise.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
-.RISE.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
+.EverRise.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
+.RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .RISE.SelectChainBtn:before,
 .RISE.SelectChainItem:before,
 .RISE.SelectTokenItem:before,
@@ -5522,7 +5522,7 @@ body.light_mode .IndentedBtnWrap>div {
   background-image: url(https://data.everrise.com/icons/smartchain/0xc17c30e98541188614df99239cabd40280810ca3.png)
 }
 
-.BNB.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
+.BNB.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .BNB.SelectChainBtn:before,
 .BNB.SelectChainItem:before,
 .BNB.SelectTokenItem:before,
@@ -5530,7 +5530,7 @@ body.light_mode .IndentedBtnWrap>div {
   background-image: url(https://data.everrise.com/icons/smartchain/gas.png)
 }
 
-.ETH.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
+.ETH.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .ETH.SelectChainBtn:before,
 .ETH.SelectChainItem:before,
 .ETH.SelectTokenItem:before,
@@ -5538,7 +5538,7 @@ body.light_mode .IndentedBtnWrap>div {
   background-image: url(https://data.everrise.com/icons/ethereum/gas.png)
 }
 
-.MATIC.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
+.MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .MATIC.SelectChainBtn:before,
 .MATIC.SelectChainItem:before,
 .MATIC.SelectTokenItem:before,
@@ -5546,7 +5546,7 @@ body.light_mode .IndentedBtnWrap>div {
   background-image: url(https://data.everrise.com/icons/polygon/gas.png)
 }
 
-.FTM.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
+.FTM.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .FTM.SelectChainBtn:before,
 .FTM.SelectChainItem:before,
 .FTM.SelectTokenItem:before,
@@ -5554,7 +5554,7 @@ body.light_mode .IndentedBtnWrap>div {
   background-image: url(https://data.everrise.com/icons/fantom/gas.png)
 }
 
-.AVAX.DappFormAmountInputWrapper .PercentageAmountNumbers:before,
+.AVAX.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .AVAX.SelectChainBtn:before,
 .AVAX.SelectChainItem:before,
 .AVAX.SelectTokenItem:before,
@@ -5917,13 +5917,13 @@ body.light_mode .EverRiseIcon {
 
 @media (max-width:768px) {
 
-  .TokenBalanceIconContainer,
-  .TokenBalanceIconContainer:hover {
+  .token_balance_icon_container,
+  .token_balance_icon_container:hover {
     width: 80px;
     height: 40px
   }
 
-  .TokenBalanceIconInner {
+  .token_balance_icon_inner {
     width: 40px;
     height: 40px
   }
@@ -5978,10 +5978,10 @@ body.light_mode .tokenIcon svg {
   fill: var(--darkGrey)
 }
 
-.TokenBalanceIconContainer,
-.TokenBalanceIconContainer:active,
-.TokenBalanceIconContainer:focus,
-.TokenBalanceIconContainer:hover {
+.token_balance_icon_container,
+.token_balance_icon_container:active,
+.token_balance_icon_container:focus,
+.token_balance_icon_container:hover {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -5989,10 +5989,10 @@ body.light_mode .tokenIcon svg {
   height: 47px
 }
 
-.TokenBalanceIconInner,
-.TokenBalanceIconInner:active,
-.TokenBalanceIconInner:focus,
-.TokenBalanceIconInner:hover {
+.token_balance_icon_inner,
+.token_balance_icon_inner:active,
+.token_balance_icon_inner:focus,
+.token_balance_icon_inner:hover {
   width: 45px;
   height: 45px
 }
@@ -6004,18 +6004,18 @@ body.light_mode .tokenIcon svg {
     margin-right: 33px
   }
 
-  .TokenBalanceIconContainer,
-  .TokenBalanceIconContainer:active,
-  .TokenBalanceIconContainer:focus,
-  .TokenBalanceIconContainer:hover {
+  .token_balance_icon_container,
+  .token_balance_icon_container:active,
+  .token_balance_icon_container:focus,
+  .token_balance_icon_container:hover {
     width: 80px;
     height: 41px
   }
 
-  .TokenBalanceIconInner,
-  .TokenBalanceIconInner:active,
-  .TokenBalanceIconInner:focus,
-  .TokenBalanceIconInner:hover {
+  .token_balance_icon_inner,
+  .token_balance_icon_inner:active,
+  .token_balance_icon_inner:focus,
+  .token_balance_icon_inner:hover {
     width: 40px;
     height: 40px
   }
@@ -6023,18 +6023,18 @@ body.light_mode .tokenIcon svg {
 
 @media (max-width:480px) {
 
-  .TokenBalanceIconContainer,
-  .TokenBalanceIconContainer:active,
-  .TokenBalanceIconContainer:focus,
-  .TokenBalanceIconContainer:hover {
+  .token_balance_icon_container,
+  .token_balance_icon_container:active,
+  .token_balance_icon_container:focus,
+  .token_balance_icon_container:hover {
     width: 75px;
     height: 37px
   }
 
-  .TokenBalanceIconInner,
-  .TokenBalanceIconInner:active,
-  .TokenBalanceIconInner:focus,
-  .TokenBalanceIconInner:hover {
+  .token_balance_icon_inner,
+  .token_balance_icon_inner:active,
+  .token_balance_icon_inner:focus,
+  .token_balance_icon_inner:hover {
     width: 35px;
     height: 35px
   }
@@ -6042,27 +6042,27 @@ body.light_mode .tokenIcon svg {
 
 @media (max-width:400px) {
 
-  .TokenBalanceIconContainer,
-  .TokenBalanceIconContainer:active,
-  .TokenBalanceIconContainer:focus,
-  .TokenBalanceIconContainer:hover {
+  .token_balance_icon_container,
+  .token_balance_icon_container:active,
+  .token_balance_icon_container:focus,
+  .token_balance_icon_container:hover {
     width: 70px;
     height: 30px
   }
 
-  .TokenBalanceIconInner .TokenBalanceIconInner:hover,
-  .TokenBalanceIconInner:active,
-  .TokenBalanceIconInner:focus {
+  .token_balance_icon_inner .token_balance_icon_inner:hover,
+  .token_balance_icon_inner:active,
+  .token_balance_icon_inner:focus {
     width: 30px;
     height: 30px
   }
 
-  .DappFormAmountInputInner {
+  .dapp_form_amount_input_inner {
     height: 49px
   }
 
-  .PercentageAmountNumbers img,
-  .PercentageAmountNumbers img:hover {
+  .percentage_amount_numbers img,
+  .percentage_amount_numbers img:hover {
     width: 30px;
     height: 30px
   }
@@ -6706,8 +6706,8 @@ body.light_mode .Color4 {
   border-bottom-left-radius: 4px
 }
 
-.ComponentBG.NoRoundingBottom,
-body.light_mode .ComponentBG.NoRoundingBottom {
+.component_bg.NoRoundingBottom,
+body.light_mode .component_bg.NoRoundingBottom {
   background-color: transparent !important
 }
 
@@ -7103,16 +7103,16 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   text-align: center
 }
 
-.ComponentBG.EverrevokeNothingFound {
+.component_bg.EverrevokeNothingFound {
   padding: 20px
 }
 
-.EverStakeNavWrapInner .WarmButton {
+.stake_nav_wrap_inner .WarmButton {
   margin-top: 0;
   margin-bottom: 0
 }
 
-.EverTable.EverRevokeTable .ComponentBG {
+.EverTable.EverRevokeTable .component_bg {
   padding: 19px;
   height: 65px
 }
@@ -7130,17 +7130,17 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   padding: 8px 13px
 }
 
-.EverStakeNav.RevokeNav {
+.stake_nav.RevokeNav {
   height: 65px
 }
 
-.EverStakeNav.RevokeNav ul li {
+.stake_nav.RevokeNav ul li {
   margin-right: 20px;
   font-size: 14px;
   padding: 0
 }
 
-.EverStakeNav.RevokeNav ul {
+.stake_nav.RevokeNav ul {
   margin: 0;
   padding: 0
 }
@@ -7160,7 +7160,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
 }
 
 @media (max-width:850px) {
-  .EverTable.EverRevokeTable .ComponentBG {
+  .EverTable.EverRevokeTable .component_bg {
     padding: 18px;
     min-height: 55px
   }
@@ -7176,8 +7176,8 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
     margin-bottom: -5px
   }
 
-  .EverTable.EverRevokeTable .ComponentBG.NoRoundingBottom,
-  .EverTable.EverRevokeTable .ComponentBG.NoRoundingTop {
+  .EverTable.EverRevokeTable .component_bg.NoRoundingBottom,
+  .EverTable.EverRevokeTable .component_bg.NoRoundingTop {
     height: 60px
   }
 
@@ -7194,7 +7194,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
     padding: 10px 15px
   }
 
-  .EverStakeNav.RevokeNav {
+  .stake_nav.RevokeNav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7287,7 +7287,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   padding-top: 20px
 }
 
-.EverBridgeWrap .PercentageAmountNumbers input#tokenCount {
+.EverBridgeWrap .percentage_amount_numbers input#tokenCount {
   margin: 0;
   height: 100%
 }
@@ -7300,7 +7300,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   min-height: 50vh !important
 }
 
-.BridgeMainForm.ComponentBG {
+.BridgeMainForm.component_bg {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-bottom-left-radius: 15px;
@@ -7315,18 +7315,18 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   height: 100%
 }
 
-.EverBridgeNetworkContainer.ComponentBG {
+.EverBridgeNetworkContainer.component_bg {
   border-radius: 25px
 }
 
-.ToChosenNetwork.ComponentBG {
+.ToChosenNetwork.component_bg {
   border-top-left-radius: 7px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 15px
 }
 
-.FromWalletConnectedNetwork.ComponentBG {
+.FromWalletConnectedNetwork.component_bg {
   border-top-left-radius: 15px;
   border-top-right-radius: 7px;
   border-bottom-left-radius: 15px;
@@ -7443,11 +7443,11 @@ body.light_mode .TokenPair {
   width: 60%
 }
 
-.EverBridgeWrap .DappFormTokenBalanceColumnLeft {
+.EverBridgeWrap .dapp_form_token_balance_column_left {
   width: 40%
 }
 
-.BridgeButtonFooter.ComponentBG {
+.BridgeButtonFooter.component_bg {
   padding: 20px 10px;
   border-radius: 25px;
   border-top-left-radius: 15px;
@@ -7505,7 +7505,7 @@ body.light_mode .TokenPair {
   padding-top: 10px
 }
 
-.TransactionForm.ComponentBG {
+.TransactionForm.component_bg {
   border-radius: 25px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
@@ -7627,7 +7627,7 @@ body.light_mode .TransactionTable td {
   padding-right: 15px
 }
 
-.FormTopHalf.TransactionForm.ComponentBG .PoweredBy {
+.form_top_half.TransactionForm.component_bg .PoweredBy {
   padding-top: 20px
 }
 
@@ -7673,7 +7673,7 @@ body.light_mode .TransactionTable td {
     padding: 25px 35px 0
   }
 
-  .BridgeMainForm.ComponentBG {
+  .BridgeMainForm.component_bg {
     padding-bottom: 10px
   }
 
@@ -7737,7 +7737,7 @@ body.light_mode .TransactionTable td {
     padding: 25px 35px 17px
   }
 
-  .BridgeMainForm.ComponentBG {
+  .BridgeMainForm.component_bg {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px
   }
@@ -7747,12 +7747,12 @@ body.light_mode .TransactionTable td {
     border-top-right-radius: 25px
   }
 
-  body.light_mode .BridgeButtonFooter.ComponentBG,
-  body.light_mode .EverBridgeWrap .HalfSplitRight.ComponentBG {
+  body.light_mode .BridgeButtonFooter.component_bg,
+  body.light_mode .EverBridgeWrap .HalfSplitRight.component_bg {
     box-shadow: none
   }
 
-  .BridgeMainForm.ComponentBG {
+  .BridgeMainForm.component_bg {
     padding-bottom: 10px
   }
 
@@ -7826,7 +7826,7 @@ body.light_mode .TransactionTable td {
     margin-top: 5px
   }
 
-  .BridgeButtonFooter.ComponentBG {
+  .BridgeButtonFooter.component_bg {
     padding: 0 10px 15px
   }
 
@@ -7854,7 +7854,7 @@ body.light_mode .TransactionTable td {
 }
 
 @media (max-width:480px) {
-  .BridgeMainForm.ComponentBG {
+  .BridgeMainForm.component_bg {
     padding-bottom: 25px
   }
 
@@ -7973,7 +7973,7 @@ body.light_mode .TransactionTable td {
   }
 }
 
-.app.EverOwn.home .EverContentInner {
+.app.EverOwn.home .content_inner {
   padding-left: 0;
   padding-right: 0;
   width: 100%;
@@ -7984,7 +7984,7 @@ body.light_mode .TransactionTable td {
   align-items: center
 }
 
-.app.EverOwn.Locker .EverContentInner {
+.app.EverOwn.Locker .content_inner {
   padding-top: 45px;
   padding-left: 0;
   padding-right: 0;
@@ -7993,11 +7993,11 @@ body.light_mode .TransactionTable td {
   width: calc(100% - 40px)
 }
 
-.EverOwn.home.app .EverContentInner>div {
+.EverOwn.home.app .content_inner>div {
   width: calc(100% - 40px)
 }
 
-.EverOwn.home.app .EverContentInner>div:not(.FadeWrapMobile) {
+.EverOwn.home.app .content_inner>div:not(.FadeWrapMobile) {
   padding: 0 4px !important
 }
 
@@ -8184,7 +8184,7 @@ body .TotalContractsValue {
   line-height: 1.1em
 }
 
-.WhatIsEverOwnWrap.ComponentBG {
+.WhatIsEverOwnWrap.component_bg {
   display: flex
 }
 
@@ -8256,7 +8256,7 @@ body .TotalContractsLabel {
   border-radius: 100%
 }
 
-.EverOwnListItem.ComponentBG {
+.EverOwnListItem.component_bg {
   padding: 18px 20px
 }
 
@@ -8449,7 +8449,7 @@ body .EverOwnFeaturedStatLabel {
   margin: 0 6px 5px 0
 }
 
-.EverOwnFeaturedStat.ComponentBG:last-child .EverOwnFeaturedStatValue {
+.EverOwnFeaturedStat.component_bg:last-child .EverOwnFeaturedStatValue {
   font-size: 37px;
   margin-bottom: 4px
 }
@@ -9205,7 +9205,7 @@ button.EverOwnLockerNotificationBtn svg path {
   align-items: center
 }
 
-.ProfileSideBar .ComponentBG {
+.ProfileSideBar .component_bg {
   padding-bottom: 38px;
   position: -webkit-sticky;
   position: sticky;
@@ -9469,7 +9469,7 @@ ul.StatusStats li span:first-child {
   display: flex
 }
 
-.ComponentBG.ComponentDonutChart>svg {
+.component_bg.ComponentDonutChart>svg {
   position: absolute;
   width: 20px;
   top: 15px;
@@ -9860,7 +9860,7 @@ body.light_mode .EverOwnRenounceContractHeader {
 }
 
 @media (max-width:9999px) and (min-width:1161px) {
-  .RegisterWithEverOwnWrap.ComponentBG {
+  .RegisterWithEverOwnWrap.component_bg {
     padding-left: 60px
   }
 
@@ -9873,7 +9873,7 @@ body.light_mode .EverOwnRenounceContractHeader {
 
 @media (max-width:1420px) {
 
-  .EverOwnFeaturedStat.ComponentBG:last-child .EverOwnFeaturedStatValue,
+  .EverOwnFeaturedStat.component_bg:last-child .EverOwnFeaturedStatValue,
   span.EverOwnFeaturedStatValue {
     font-size: 33px;
     margin-bottom: 0
@@ -9945,7 +9945,7 @@ body.light_mode .EverOwnRenounceContractHeader {
 
 @media (max-width:1300px) {
 
-  .EverOwnFeaturedStat.ComponentBG:last-child .EverOwnFeaturedStatValue,
+  .EverOwnFeaturedStat.component_bg:last-child .EverOwnFeaturedStatValue,
   span.EverOwnFeaturedStatValue {
     font-size: 28px;
     margin-bottom: 0
@@ -10095,7 +10095,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     box-shadow: inset 212px 0 8px -202px #e6ebf1
   }
 
-  .app.EverOwn.home .EverContentInner {
+  .app.EverOwn.home .content_inner {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
@@ -10153,7 +10153,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     min-width: 250px
   }
 
-  .WhatIsEverOwnWrap.ComponentBG {
+  .WhatIsEverOwnWrap.component_bg {
     flex: 1 1;
     flex-wrap: wrap
   }
@@ -10380,7 +10380,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     grid-gap: 15px
   }
 
-  .EverOwn.home.app .EverContentInner>div {
+  .EverOwn.home.app .content_inner>div {
     width: calc(100% - 20px)
   }
 
@@ -10388,7 +10388,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     padding: 5px 15px 15px
   }
 
-  .app.EverOwn.home .EverContentInner {
+  .app.EverOwn.home .content_inner {
     padding-top: 16px
   }
 }
@@ -10589,7 +10589,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     margin-top: 6px
   }
 
-  .RegisterWithEverOwnWrap.ComponentBG {
+  .RegisterWithEverOwnWrap.component_bg {
     padding-top: 45px;
     padding-bottom: 55px
   }
@@ -10723,7 +10723,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     text-indent: 0
   }
 
-  .app.EverOwn.Locker .EverContentInner {
+  .app.EverOwn.Locker .content_inner {
     width: calc(100% - 20px)
   }
 
@@ -10864,7 +10864,7 @@ body.light_mode .EverOwnRenounceContractHeader {
 }
 
 @media (max-width:450px) {
-  .app.EverOwn.Locker .EverContentInner {
+  .app.EverOwn.Locker .content_inner {
     padding-top: 0;
     margin-top: 14px
   }
@@ -10898,7 +10898,7 @@ body.light_mode .EverOwnRenounceContractHeader {
     height: 34px
   }
 
-  .EverOwnListItem.ComponentBG {
+  .EverOwnListItem.component_bg {
     padding: 18px 12px
   }
 
@@ -10946,7 +10946,7 @@ body.light_mode .EverOwnRenounceContractHeader {
 
 @media (max-width:400px) {
 
-  .app.EverOwn.Locker .EverContentInner,
+  .app.EverOwn.Locker .content_inner,
   .EverOwnInner {
     width: calc(100% - 20px)
   }
@@ -10999,57 +10999,57 @@ body.light_mode .EverOwnRenounceContractHeader {
   }
 }
 
-.EverSwap.app .EverStakeNav.SmallNav li:first-child a,
-.EverSwapNative.app .EverStakeNav.SmallNav li:nth-child(2) a,
-.EverSwapOnramp.app .EverStakeNav.SmallNav li:nth-child(3) a {
+.EverSwap.app .stake_nav.small_nav li:first-child a,
+.EverSwapNative.app .stake_nav.small_nav li:nth-child(2) a,
+.EverSwapOnramp.app .stake_nav.small_nav li:nth-child(3) a {
   background: var(--warmGradient);
   color: #fff !important;
   border-radius: 35px;
   padding: 10px 30px
 }
 
-body.light_mode .EverSwap.app .EverStakeNav.SmallNav li:first-child a,
-body.light_mode .EverSwapNative.app .EverStakeNav.SmallNav li:nth-child(2) a,
-body.light_mode .EverSwapOnramp.app .EverStakeNav.SmallNav li:nth-child(3) a {
+body.light_mode .EverSwap.app .stake_nav.small_nav li:first-child a,
+body.light_mode .EverSwapNative.app .stake_nav.small_nav li:nth-child(2) a,
+body.light_mode .EverSwapOnramp.app .stake_nav.small_nav li:nth-child(3) a {
   background: var(--warmGradientW);
   color: var(--fontWhite) !important
 }
 
-.EverStakeNav.SmallNav,
-.SmallNavContainer {
+.stake_nav.small_nav,
+.small_nav_container {
   display: flex;
   justify-content: center
 }
 
-.ComponentBG.SmallNav {
+.component_bg.small_nav {
   padding: 0;
   border-radius: 25px;
   max-width: 650px;
   width: 100%
 }
 
-.EverStakeNavWrapInner.SmallNav nav {
+.stake_nav_wrap_inner.small_nav nav {
   padding: 10px 15px;
   height: 70px
 }
 
-.EverStakeNav.SmallNav,
-.EverStakeNav.SmallNav .HeaderAccountBtns,
-.EverStakeNav.SmallNav .HeaderAccountInfo {
+.stake_nav.small_nav,
+.stake_nav.small_nav .header_account_btns,
+.stake_nav.small_nav .HeaderAccountInfo {
   display: none
 }
 
-.EverSwapForm .FormBottomHalf.ComponentBG,
-.EverSwapForm .FormTopHalf.ComponentBG {
+.swap_form .FormBottomHalf.component_bg,
+.swap_form .form_top_half.component_bg {
   border-radius: 25px;
   padding: 0
 }
 
-.EverSwapForm .FormTopHalfInner {
+.swap_form .FormTopHalfInner {
   padding: 35px 50px 40px
 }
 
-.EverSwapForm .FormBottomHalfInner {
+.swap_form .FormBottomHalfInner {
   padding: 40px 50px 20px
 }
 
@@ -11092,17 +11092,17 @@ body.light_mode .EverSwapSummary span {
 }
 
 @media (max-width:900px) {
-  .ComponentBG.SmallNav {
+  .component_bg.small_nav {
     max-width: 650px
   }
 }
 
 @media (max-width:768px) {
-  .EverSwapForm .FormTopHalfInner {
+  .swap_form .FormTopHalfInner {
     padding: 35px 45px 30px
   }
 
-  .EverSwapForm .FormBottomHalfInner {
+  .swap_form .FormBottomHalfInner {
     padding: 35px 45px 20px
   }
 }
@@ -11115,8 +11115,8 @@ body.light_mode .EverSwapSummary span {
 
 @media (max-width:600px) {
 
-  .SmallNav .HeaderAccountInfo,
-  body.light_mode .SmallNav .HeaderAccountInfo {
+  .small_nav .HeaderAccountInfo,
+  body.light_mode .small_nav .HeaderAccountInfo {
     border: none;
     box-shadow: none
   }
@@ -11137,31 +11137,31 @@ body.light_mode .EverSwapSummary span {
     padding: 10px 20px
   }
 
-  .EverSwapForm .FormTopHalfInner {
+  .swap_form .FormTopHalfInner {
     padding: 20px 35px 30px
   }
 
-  .EverSwapForm .FormBottomHalfInner {
+  .swap_form .FormBottomHalfInner {
     padding: 35px 35px 15px
   }
 
-  .EverSwap.app .EverStakeNav.SmallNav li:first-child a,
-  .EverSwapNative.app .EverStakeNav.SmallNav li:nth-child(2) a,
-  .EverSwapOnramp.app .EverStakeNav.SmallNav li:nth-child(3) a {
+  .EverSwap.app .stake_nav.small_nav li:first-child a,
+  .EverSwapNative.app .stake_nav.small_nav li:nth-child(2) a,
+  .EverSwapOnramp.app .stake_nav.small_nav li:nth-child(3) a {
     padding: 10px 20px
   }
 }
 
 @media (max-width:480px) {
-  .EverSwapForm .SelectionHeaderItems {
+  .swap_form .selection_header_items {
     flex-direction: column-reverse
   }
 
-  .EverSwapForm .FormTopHalfInner {
+  .swap_form .FormTopHalfInner {
     padding: 20px 25px 30px
   }
 
-  .EverSwapForm .FormBottomHalfInner {
+  .swap_form .FormBottomHalfInner {
     padding: 35px 25px 18px
   }
 
@@ -11181,11 +11181,11 @@ body.light_mode .EverSwapSummary span {
 }
 
 @media (max-width:400px) {
-  .app:not(.EverStake.app) .EverStakeNav.SmallNav {
+  .app:not(.EverStake.app) .stake_nav.small_nav {
     margin-bottom: 10px !important
   }
 
-  .ComponentBG.SmallNav {
+  .component_bg.small_nav {
     padding: 0;
     border-radius: 18px;
     max-width: 650px;
@@ -11194,16 +11194,16 @@ body.light_mode .EverSwapSummary span {
     width: 100%
   }
 
-  .EverStakeNavWrapInner.SmallNav nav {
+  .stake_nav_wrap_inner.small_nav nav {
     padding: 10px 8px;
     height: 60px
   }
 
-  .EverSwapForm .FormTopHalfInner {
+  .swap_form .FormTopHalfInner {
     padding: 15px 15px 20px
   }
 
-  .EverSwapForm .FormBottomHalfInner {
+  .swap_form .FormBottomHalfInner {
     padding: 32px 15px 14px
   }
 
@@ -11365,30 +11365,30 @@ span.USDTPriceEqv>span:last-child {
   }
 }
 
-.app:not(.EverStake.app) .EverStakeNav {
+.app:not(.EverStake.app) .stake_nav {
   margin-bottom: 15px !important
 }
 
-.EverStakeNav {
+.stake_nav {
   width: 100%;
   border-radius: 20px
 }
 
-.EverStakeNav,
-.EverStakeNav ul {
+.stake_nav,
+.stake_nav ul {
   justify-content: center;
   align-items: center;
   align-content: center
 }
 
-.EverStakeNav ul {
+.stake_nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex
 }
 
-.EverStakeNavWrapInner nav {
+.stake_nav_wrap_inner nav {
   display: flex;
   outline: none;
   align-items: center;
@@ -11396,30 +11396,30 @@ span.USDTPriceEqv>span:last-child {
   padding: 25px 15px
 }
 
-.ComponentBG.EverStakeNav {
+.component_bg.stake_nav {
   padding: 0
 }
 
-.EverStakeNav span {
+.stake_nav span {
   color: var(--fontWhite)
 }
 
-body.light_mode .EverStakeNav span {
+body.light_mode .stake_nav span {
   color: var(--fontWhite5)
 }
 
-.EverStakeNav ul:last-of-type li:last-of-type {
+.stake_nav ul:last-of-type li:last-of-type {
   margin-right: 0
 }
 
-.EverStakeNav ul li {
+.stake_nav ul li {
   margin-right: 10px;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px
 }
 
-.EverStakeNav li a {
+.stake_nav li a {
   padding: 10px 15px;
   background: transparent;
   box-shadow: var(--neoButtonThin);
@@ -11428,25 +11428,25 @@ body.light_mode .EverStakeNav span {
   transition: all .1s ease
 }
 
-body.light_mode .EverStakeNav li a {
+body.light_mode .stake_nav li a {
   background: var(--bgWhite1);
   box-shadow: var(--neoButtonThinW);
   color: #041e50
 }
 
-.EverStakeNav a,
-body.light_mode .EverStakeNav a {
+.stake_nav a,
+body.light_mode .stake_nav a {
   color: var(--fontWhite)
 }
 
-.EverStakeNav a:focus {
+.stake_nav a:focus {
   box-shadow: none
 }
 
-.EverStake.app .EverStakeNav li:first-child a,
-.EverStakeClaim.app .EverStakeNav li:nth-child(4) a,
-.EverStakeDisplay.app .EverStakeNav li:nth-child(3) a,
-.EverStakeManager.app .EverStakeNav li:nth-child(2) a {
+.EverStake.app .stake_nav li:first-child a,
+.EverStakeClaim.app .stake_nav li:nth-child(4) a,
+.EverStakeDisplay.app .stake_nav li:nth-child(3) a,
+.EverStakeManager.app .stake_nav li:nth-child(2) a {
   background: var(--warmGradient);
   color: var(--warmButtonFont);
   border-radius: 35px;
@@ -11454,10 +11454,10 @@ body.light_mode .EverStakeNav a {
   box-shadow: none
 }
 
-body.light_mode .EverStake.app .EverStakeNav li:first-child a,
-body.light_mode .EverStakeClaim.app .EverStakeNav li:nth-child(4) a,
-body.light_mode .EverStakeDisplay.app .EverStakeNav li:nth-child(3) a,
-body.light_mode .EverStakeManager.app .EverStakeNav li:nth-child(2) a {
+body.light_mode .EverStake.app .stake_nav li:first-child a,
+body.light_mode .EverStakeClaim.app .stake_nav li:nth-child(4) a,
+body.light_mode .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
+body.light_mode .EverStakeManager.app .stake_nav li:nth-child(2) a {
   background: var(--warmGradientW);
   color: var(--warmButtonFont);
   border-radius: 35px;
@@ -11720,7 +11720,7 @@ body.light_mode .ComponentDonutChart * {
 .StakingNFTProfileActions ul,
 .StakingNFtPanelContent ul,
 ul.ActionPopupList,
-ul.EverStakeNav,
+ul.stake_nav,
 ul.EverStakeUserNftList {
   list-style-type: none;
   margin: 0;
@@ -11965,7 +11965,7 @@ body.light_mode .StakingOrderBtnSummary p {
   color: var(--fontWhite3)
 }
 
-.ComponentBG.MintSvg {
+.component_bg.MintSvg {
   padding: 0
 }
 
@@ -12475,7 +12475,7 @@ body.light_mode .UserStakeClaim button {
   padding-bottom: 15px
 }
 
-.ClaimRewards .ComponentBG {
+.ClaimRewards .component_bg {
   padding: 15px 20px 17px
 }
 
@@ -12537,7 +12537,7 @@ body.light_mode .UserStakeStat h2 {
   justify-content: space-between
 }
 
-.EverStakeManageFilter.ComponentBG {
+.EverStakeManageFilter.component_bg {
   padding: 10px 20px
 }
 
@@ -12968,7 +12968,7 @@ body button.chakra-button.StakingActionCancelBtn {
   display: none
 }
 
-.StakeWithdrawPopupInput .DappFormAmountInputBG {
+.StakeWithdrawPopupInput .dapp_form_amount_input_bg {
   height: 60px
 }
 
@@ -13845,7 +13845,7 @@ svg#LoaderAnimation {
     grid-template-columns: 100%
   }
 
-  .EverStakeStatsClaimWrapInner .ComponentBG {
+  .EverStakeStatsClaimWrapInner .component_bg {
     min-width: 300px
   }
 
@@ -13911,22 +13911,22 @@ svg#LoaderAnimation {
 
 @media (max-width:480px) {
 
-  .EverStake.app .EverStakeNav li:first-child a,
-  .EverStakeClaim.app .EverStakeNav li:nth-child(4) a,
-  .EverStakeDisplay.app .EverStakeNav li:nth-child(3) a,
-  .EverStakeManager.app .EverStakeNav li:nth-child(2) a {
+  .EverStake.app .stake_nav li:first-child a,
+  .EverStakeClaim.app .stake_nav li:nth-child(4) a,
+  .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
+  .EverStakeManager.app .stake_nav li:nth-child(2) a {
     padding: 8px 14px
   }
 
-  .EverStakeNavWrapInner nav {
+  .stake_nav_wrap_inner nav {
     padding: 18px 10px
   }
 
-  .EverStakeNav li a {
+  .stake_nav li a {
     padding: 8px 14px
   }
 
-  .EverStakeNav ul li {
+  .stake_nav ul li {
     margin-right: 2px
   }
 
@@ -14034,22 +14034,22 @@ svg#LoaderAnimation {
     max-width: 85%
   }
 
-  .EverStake.app .EverStakeNav li:first-child a,
-  .EverStakeClaim.app .EverStakeNav li:nth-child(4) a,
-  .EverStakeDisplay.app .EverStakeNav li:nth-child(3) a,
-  .EverStakeManager.app .EverStakeNav li:nth-child(2) a {
+  .EverStake.app .stake_nav li:first-child a,
+  .EverStakeClaim.app .stake_nav li:nth-child(4) a,
+  .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
+  .EverStakeManager.app .stake_nav li:nth-child(2) a {
     padding: 7px 10px
   }
 
-  .EverStakeNavWrapInner nav {
+  .stake_nav_wrap_inner nav {
     padding: 18px 10px
   }
 
-  .EverStakeNav li a {
+  .stake_nav li a {
     padding: 7px 10px
   }
 
-  .EverStakeNav ul li {
+  .stake_nav ul li {
     margin-right: 2px;
     font-size: 3.5vw;
     letter-spacing: .04em
@@ -15115,16 +15115,16 @@ span#GetEverStakeHelp {
   transition: all .2s ease-in-out
 }
 
-.DappFormAmountInputBG:active .EverStakeAmountSlider,
-.DappFormAmountInputBG:focus .EverStakeAmountSlider,
-.DappFormAmountInputBG:hover .EverStakeAmountSlider {
+.dapp_form_amount_input_bg:active .EverStakeAmountSlider,
+.dapp_form_amount_input_bg:focus .EverStakeAmountSlider,
+.dapp_form_amount_input_bg:hover .EverStakeAmountSlider {
   opacity: 1
 }
 
-.DappFormAmountInputBG:active .InputAmountSlider,
-.DappFormAmountInputBG:focus .InputAmountSlider,
-.DappFormAmountInputBG:hover .InputAmountSlider,
-.DappFormAmountInputWrapper:focus-within .InputAmountSlider {
+.dapp_form_amount_input_bg:active .InputAmountSlider,
+.dapp_form_amount_input_bg:focus .InputAmountSlider,
+.dapp_form_amount_input_bg:hover .InputAmountSlider,
+.dapp_form_amount_input_wrapper:focus-within .InputAmountSlider {
   opacity: 1
 }
 
@@ -15186,8 +15186,8 @@ span#GetEverStakeHelp {
 
 .StakingLockerAddressContent *,
 .StakingLockerAddressContent>span,
-p.DappFormTokenBalance *,
-p.DappFormTokenBalance>span {
+p.dapp_form_toen_balance *,
+p.dapp_form_toen_balance>span {
   color: var(--fontColor2)
 }
 
@@ -15304,7 +15304,7 @@ a.ContractExplorerLink svg.NewWindowIcon {
   padding: 55px
 }
 
-.StakingFormWrapper .DappFormAmountInput input#tokenCount {
+.StakingFormWrapper .dapp_form_amount_input input#tokenCount {
   padding-top: 0 !important
 }
 
