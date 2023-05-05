@@ -76,7 +76,7 @@ body.light_mode * {
 }
 
 .chakra_button_group.css_1ind3v2 {
-  display: inline-flex;
+  display: flex;
   width: 100%;
 }
 
@@ -98,10 +98,10 @@ body::-webkit-scrollbar {
   display: none
 }
 
-button.chakra-button,
-button.chakra-button:focus,
-input.chakra-input,
-input.chakra-input:focus,
+button.chakra_button,
+button.chakra_button:focus,
+input.chakra_input,
+input.chakra_input:focus,
 input:focus {
   border-width: 0;
   border-color: transparent;
@@ -109,15 +109,16 @@ input:focus {
   outline: none
 }
 
-button.chakra-button:hover {
+button.chakra_button:hover {
   background: unset
 }
 
 .chakra_numberinput,
 .chakra_numberinput_field,
-.chakra-select,
-.chakra-select:hover {
-  border: none
+.chakra_select,
+.chakra_select:hover {
+  border: none;
+  background: none;
 }
 
 .SelectWrap {
@@ -135,7 +136,7 @@ body.light_mode .SelectWrap {
   border: 2px solid var(--bgWhite4)
 }
 
-.chakra-select {
+.chakra_select {
   border: transparent;
   box-shadow: none;
   background: transparent;
@@ -144,7 +145,7 @@ body.light_mode .SelectWrap {
   border-radius: 12px
 }
 
-.chakra-select__wrapper {
+.chakra_select__wrapper {
   border: transparent;
   box-shadow: none;
   -webkit-appearance: none;
@@ -152,7 +153,7 @@ body.light_mode .SelectWrap {
   background: transparent
 }
 
-.chakra-select__icon {
+.chakra_select__icon {
   width: 2em;
   height: 2em
 }
@@ -342,14 +343,14 @@ body.light_mode .PopupListScrollWrap {
   align-items: center
 }
 
-.WalletLocker .chakra-select__wrapper {
+.WalletLocker .chakra_select__wrapper {
   max-width: 180px
 }
 
 .WalletLocker .chakra_numberinput,
 .WalletLocker .chakra_numberinput_field,
-.WalletLocker .chakra-select,
-.WalletLocker .chakra-select:hover {
+.WalletLocker .chakra_select,
+.WalletLocker .chakra_select:hover {
   border: none
 }
 
@@ -1494,7 +1495,8 @@ span.MainMenuTxt.p_arrow:after {
 button.p_arrow.down {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  background: none;
 }
 
 .ticker_btn.p_arrow:after {
@@ -1561,7 +1563,7 @@ body.light_mode .RegisterBtn a {
   color: #4e5158
 }
 
-body.light_mode .DevLoginWrap .chakra-input__group button.chakra-button {
+body.light_mode .DevLoginWrap .chakra_input__group button.chakra_button {
   color: #000 !important
 }
 
@@ -1590,19 +1592,19 @@ p.DevLoginSummary {
   max-width: 290px
 }
 
-.DevLoginWrap input.chakra-input,
-.DevLoginWrap input.chakra-input:focus {
+.DevLoginWrap input.chakra_input,
+.DevLoginWrap input.chakra_input:focus {
   box-shadow: 0 0 0 1px #041c4b, 2px 3px 2px 0 #041b47, inset 1px 2px 2px 0 #021035, inset 0 0 0 1px #021035, 5px 6px 10px 0 rgba(3, 12, 38, .29);
   background: #001135;
   height: 55px;
   margin-bottom: 27px
 }
 
-.DevLoginWrap .chakra-input__group button.chakra-button {
+.DevLoginWrap .chakra_input__group button.chakra_button {
   font-weight: 200
 }
 
-.DevLoginWrap .chakra-input__group .chakra-input__right-element {
+.DevLoginWrap .chakra_input__group .chakra_input__right-element {
   height: 77%
 }
 
@@ -1620,7 +1622,7 @@ p.DevLoginSummary {
   height: 520px
 }
 
-.DevLoginWrap .chakra-alert {
+.DevLoginWrap .chakra_alert {
   margin-bottom: 14px !important
 }
 
@@ -1674,8 +1676,8 @@ body.light_mode .dark-mode-toggle input[type=checkbox].dmcheck+label {
   box-shadow: inset 0 0 0 1px #fff
 }
 
-body.light_mode .DevLoginWrap input.chakra-input,
-body.light_mode .DevLoginWrap input.chakra-input:focus {
+body.light_mode .DevLoginWrap input.chakra_input,
+body.light_mode .DevLoginWrap input.chakra_input:focus {
   box-shadow: 2px 2px 2px 0 #fff, inset 1px 2px 2px 0 #e3e6ef, 5px 6px 15px 0 #e4e4e4;
   background: #eaeff5
 }
@@ -1699,7 +1701,7 @@ body.light_mode .DevLoginWrap input.chakra-input:focus {
   font-family: Montserrat, sans-serif
 }
 
-.FormAdvancedOptions .chakra-accordion__item {
+.FormAdvancedOptions .chakra_accordion__item {
   border-width: 0 !important;
   margin-left: auto;
   display: flex;
@@ -1707,7 +1709,7 @@ body.light_mode .DevLoginWrap input.chakra-input:focus {
   align-items: flex-end
 }
 
-.FormAdvancedOptions .chakra-collapse {
+.FormAdvancedOptions .chakra_collapse {
   width: 100%;
   max-width: 96%;
   margin-right: 2%
@@ -1718,7 +1720,7 @@ body.light_mode .DevLoginWrap input.chakra-input:focus {
   padding: 25px 20px
 }
 
-.FormAdvancedOptions .chakra-accordion__panel {
+.FormAdvancedOptions .chakra_accordion__panel {
   padding: 0;
   margin-bottom: 13px
 }
@@ -1753,21 +1755,21 @@ body.light_mode .dapp_form_amount_input_bg {
   background: var(--bgWhite3)
 }
 
-.dapp_form_amount_input_bg .chakra-slider__track {
+.dapp_form_amount_input_bg .chakra_slider__track {
   background: transparent
 }
 
-.dapp_form_amount_input_bg .chakra-slider {
+.dapp_form_amount_input_bg .chakra_slider {
   padding: 0 !important
 }
 
-body .dapp_form_amount_input_bg .chakra-slider__filled-track {
+body .dapp_form_amount_input_bg .chakra_slider__filled-track {
   background: var(--sliderGrad);
   border-radius: 4px;
   margin-left: 1px
 }
 
-body.light_mode .dapp_form_amount_input_bg .chakra-slider__filled-track {
+body.light_mode .dapp_form_amount_input_bg .chakra_slider__filled-track {
   background: var(--sliderGradW)
 }
 
@@ -1775,7 +1777,7 @@ body .dapp_form_amount_input input#tokenCount {
   padding-bottom: 2px !important
 }
 
-body .dapp_form_amount_input_bg .chakra-slider__thumb {
+body .dapp_form_amount_input_bg .chakra_slider__thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1789,13 +1791,13 @@ body .dapp_form_amount_input_bg .chakra-slider__thumb {
   border-radius: 8px
 }
 
-body.light_mode .dapp_form_amount_input_bg .chakra-slider__thumb {
+body.light_mode .dapp_form_amount_input_bg .chakra_slider__thumb {
   background: var(--bgHorzGradW);
   box-shadow: var(--smallShadowW);
   border: 1px solid var(--borderWhite1)
 }
 
-body .dapp_form_amount_input_bg .chakra-slider__thumb:active {
+body .dapp_form_amount_input_bg .chakra_slider__thumb:active {
   -webkit-transform: translateY(-50%) scale(1.5);
   transform: translateY(-50%) scale(1.5)
 }
@@ -1812,13 +1814,13 @@ body.light_mode button.p_arrow.down {
   color: var(--fontWhite4)
 }
 
-.chakra-select__icon-wrapper {
+.chakra_select__icon-wrapper {
   right: 36px;
   font-size: 50px !important;
   width: 34px
 }
 
-.chakra-select__icon-wrapper path {
+.chakra_select__icon-wrapper path {
   color: rgba(111, 135, 190, .83)
 }
 
@@ -1846,8 +1848,8 @@ select::-ms-expand {
   display: none
 }
 
-.ChakCheckbox span.chakra-checkbox__control,
-.ChakCheckbox span.chakra-checkbox__control:hover {
+.ChakCheckbox span.chakra_checkbox__control,
+.ChakCheckbox span.chakra_checkbox__control:hover {
   box-shadow: var(--checkbox);
   border: 0 !important;
   height: 30px;
@@ -1856,11 +1858,11 @@ select::-ms-expand {
   border-radius: 6px
 }
 
-span.chakra-checkbox__control svg polyline {
+span.chakra_checkbox__control svg polyline {
   stroke: url(#EverOwnIconGrad)
 }
 
-span.chakra-checkbox__control svg {
+span.chakra_checkbox__control svg {
   font-size: 15px
 }
 
@@ -2138,7 +2140,7 @@ body.light_mode .select_option_popup_content .SelectTokenItem svg {
   font-size: 13px
 }
 
-chakra-accordion.css-1ki54i {
+.chakra-accordion.css_1ki54i {
   display: none
 }
 
@@ -2210,7 +2212,7 @@ span.exit_icon {
   align-items: center
 }
 
-.chakra-alert {
+.chakra_alert {
   background: linear-gradient(90deg, #1e449f 30%, #0382c8) !important;
   border-radius: 11px;
   padding: 20px;
@@ -2218,23 +2220,23 @@ span.exit_icon {
   margin-bottom: 30px !important
 }
 
-span.chakra-alert__icon path {
+span.chakra_alert__icon path {
   color: var(--fontWhite)
 }
 
-span.chakra-alert__icon {
+span.chakra_alert__icon {
   position: relative;
   width: auto
 }
 
-span.chakra-alert__icon:after {
+span.chakra_alert__icon:after {
   content: "ATTENTION!";
   position: relative;
   color: var(--fontWhite);
   margin-right: 20px
 }
 
-span.chakra-alert__icon svg {
+span.chakra_alert__icon svg {
   max-width: 30px;
   margin-right: 6px
 }
@@ -3343,14 +3345,14 @@ body.light_mode .popupInlineWarning {
   height: 55px
 }
 
-.RegisterFormWrap .formCheckboxGrid label.chakra-checkbox .chakra-checkbox__label {
+.RegisterFormWrap .formCheckboxGrid label.chakra_checkbox .chakra_checkbox__label {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%
 }
 
-.RegisterFormWrap label.chakra-checkbox {
+.RegisterFormWrap label.chakra_checkbox {
   border: 2px solid #0f295570;
   border-radius: 13px;
   box-shadow: 0 0 0 1px #030c26, 4px 4px 25px 0 rgba(3, 12, 38, .86);
@@ -3364,7 +3366,7 @@ body.light_mode .popupInlineWarning {
   width: 100%
 }
 
-.RegisterFormWrap label.chakra-checkbox.ChakCheckbox.css-1uiwwan * {
+.RegisterFormWrap label.chakra_checkbox.ChakCheckbox.css_1uiwwan * {
   z-index: 1
 }
 
@@ -3377,12 +3379,12 @@ body.light_mode .popupInlineWarning {
 }
 
 .RegisterFormWrap .formCheckboxGrid input,
-.RegisterFormWrap .formCheckboxGrid span.chakra-checkbox__control {
+.RegisterFormWrap .formCheckboxGrid span.chakra_checkbox__control {
   order: 2;
   margin-right: 30px
 }
 
-.RegisterFormWrap label.chakra-checkbox[data-checked]:before {
+.RegisterFormWrap label.chakra_checkbox[data-checked]:before {
   content: "";
   width: 100%;
   height: 100%;
@@ -3435,7 +3437,7 @@ body.light_mode .ProfileContractIcon svg path {
 body.light_mode .ticker button span,
 body.light_mode .ticker button.p_arrow.down:after {
   font-weight: 700;
-  border-color: var(--fontWhite3)
+  border-color: var(--fontWhite3);
 }
 
 body.light_mode .ComponentHeaderBG:after {
@@ -3750,7 +3752,7 @@ body.light_mode .ComponentHeaderBG:after {
     margin: 0 10px
   }
 
-  .dapp_form_amount_input .chakra-select__wrapper,
+  .dapp_form_amount_input .chakra_select__wrapper,
   .ticker {
     max-width: 125px;
     height: 38px
@@ -3789,7 +3791,7 @@ body.light_mode .ComponentHeaderBG:after {
     letter-spacing: .025em
   }
 
-  .FormAdvancedOptions .chakra-accordion__panel {
+  .FormAdvancedOptions .chakra_accordion__panel {
     padding: 0;
     margin-bottom: 13px
   }
@@ -4111,7 +4113,7 @@ body.light_mode .ComponentHeaderBG:after {
     min-width: 30px
   }
 
-  .dapp_form_amount_input .chakra-select__wrapper,
+  .dapp_form_amount_input .chakra_select__wrapper,
   .ticker {
     max-width: 120px
   }
@@ -4135,7 +4137,7 @@ body.light_mode .ComponentHeaderBG:after {
     height: 58px
   }
 
-  .dapp_form_amount_input .chakra-select__wrapper {
+  .dapp_form_amount_input .chakra_select__wrapper {
     margin-right: 9px !important;
     padding: 0 0 0 3px !important
   }
@@ -4280,6 +4282,7 @@ body.light_mode .ComponentHeaderBG:after {
 
   .invert_form_button button span.p_arrow.right {
     top: -4px
+    
   }
 
   .invert_form_button_inner {
@@ -5092,12 +5095,12 @@ body.light_mode .NeoBtn {
   box-shadow: var(--neoButtonW)
 }
 
-.inset_btn{
+.inset_btn {
   box-shadow: var(--insetButton);
   border-radius: 14px
 }
 
-body.light_mode .inset_btn{
+body.light_mode .inset_btn {
   box-shadow: var(--insetButtonW);
   border-left: 1px solid var(--borderWhite2)
 }
@@ -12005,12 +12008,12 @@ body.light_mode .StakingOrderBtnSummary p {
   flex-direction: column
 }
 
-.chakra-alert__desc {
+.chakra_alert__desc {
   margin-top: 4px;
   margin-bottom: 7px
 }
 
-.chakra-alert__title {
+.chakra_alert__title {
   margin-top: 8px
 }
 
@@ -12881,7 +12884,7 @@ body.light_mode .ActionPopupListWrap {
 }
 
 .StakingActionCancelBtn,
-body button.chakra-button.StakingActionCancelBtn {
+body button.chakra_button.StakingActionCancelBtn {
   font-size: 13px;
   font-weight: 100;
   letter-spacing: .03em;
@@ -15891,4 +15894,11 @@ ul {
 
 body .header_wallet_login button {
   cursor: pointer;
+}
+
+.wallet_input_one {
+  position: relative;
+  z-index: 0;
+  --number-input-stepper-width: 24px;
+  --number-input-input-padding: calc(var(24px) + 0.5rem);
 }
