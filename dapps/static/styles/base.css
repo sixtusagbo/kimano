@@ -4,12 +4,6 @@ body {
   scrollbar-width: none
 }
 
-body {
-  height: calc(var(--vh, 1vh) * 100);
-  -ms-overflow-style: none;
-  scrollbar-width: none
-}
-
 body,
 body * {
   font-family: Montserrat, sans-serif
@@ -75,7 +69,7 @@ body.light_mode * {
   scrollbar-color: var(--bgWhite5) var(--bgWhite5)
 }
 
-.chakra_button_group.css_1ind3v2 {
+.wallet_input.stake {
   display: flex;
   width: 100%;
 }
@@ -106,11 +100,11 @@ input:focus {
   border-width: 0;
   border-color: transparent;
   background-color: transparent;
-  outline: none
+  outline: none;
 }
 
 button.chakra_button:hover {
-  background: unset
+  background: unset;
 }
 
 .chakra_numberinput,
@@ -1833,7 +1827,7 @@ body.light_mode button.p_arrow.down {
   display: none
 }
 
-.InputAmountSlider {
+.input_amount_slider {
   position: relative;
   top: 5px;
   height: 10px;
@@ -2241,7 +2235,7 @@ span.chakra_alert__icon svg {
   margin-right: 6px
 }
 
-.EverBridgeWrapInner,
+.bridge_wrap_inner,
 .EverMigrateInner,
 .swap_form,
 .NativeCoinSwapInner {
@@ -2249,8 +2243,8 @@ span.chakra_alert__icon svg {
   width: 100%
 }
 
-.EverBridgeWrap,
-.EverBridgeWrapInner,
+.bridge_wrap,
+.bridge_wrap_inner,
 .EverMigrateContainer,
 .swap_form_wrap {
   display: flex;
@@ -2259,13 +2253,13 @@ span.chakra_alert__icon svg {
   margin-top: 5px
 }
 
-.EverBridgeWrap form,
-.EverBridgeWrap form *,
+.bridge_wrap form,
+.bridge_wrap form *,
 .swap_form form>* {
   width: 100%
 }
 
-.EverBridgeWrap form,
+.bridge_wrap form,
 .swap_form form {
   display: flex;
   flex-direction: column;
@@ -2428,9 +2422,9 @@ body .WrapInput input#outputCount {
   padding-bottom: 2px !important
 }
 
-.TopInput,
-.TopInput:active,
-.TopInput:hover {
+.top_input,
+.top_input:active,
+.top_input:hover {
   padding-top: 15px !important
 }
 
@@ -2448,7 +2442,7 @@ body .WrapInput input#outputCount {
   top: 3px
 }
 
-.USDTPriceEqv {
+.USDT_price_eqv {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -2457,7 +2451,7 @@ body .WrapInput input#outputCount {
   top: 2px
 }
 
-.USDTPriceEqv span:last-child {
+.USDT_price_eqv span:last-child {
   font-size: 12px;
   position: relative;
   left: 1px
@@ -2470,7 +2464,7 @@ body .WrapInput input#outputCount {
   flex-direction: column
 }
 
-.USDTPriceEqv span:first-child:empty:after {
+.USDT_price_eqv span:first-child:empty:after {
   content: "$0.00"
 }
 
@@ -2531,7 +2525,7 @@ body.light_mode .SwapPriceImpact span:last-child:empty:after {
   padding: 35px 50px
 }
 
-.FormTabs.component_bg {
+.form_tabs.component_bg {
   padding: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -2539,31 +2533,31 @@ body.light_mode .SwapPriceImpact span:last-child:empty:after {
   border-top-right-radius: 25px
 }
 
-.FormTab {
+.form_tab {
   width: 50%;
   height: 70px;
   cursor: pointer
 }
 
-.FormTab,
-.FormTab a {
+.form_tab,
+.form_tab a {
   display: flex;
   justify-content: center;
   align-items: center
 }
 
-.FormTab a {
+.form_tab a {
   width: 100%;
   height: 100%
 }
 
-.FormTabs * {
+.form_tabs * {
   text-align: center;
   padding: 0 10px;
   line-height: 1.2em
 }
 
-.FormTabs {
+.form_tabs {
   display: flex;
   justify-content: center;
   background: var(--bgColor2);
@@ -2573,17 +2567,17 @@ body.light_mode .SwapPriceImpact span:last-child:empty:after {
   width: 100%
 }
 
-body.light_mode .FormTabs {
+body.light_mode .form_tabs {
   background: var(--bgWhite3);
   box-shadow: var(--bgComponentTabsW) !important
 }
 
-.EverBridgeWrap .FormTab.active:first-child,
-.EverBridgeWrap .FormTab:not(.inactive):first-child,
-.EverMigrateContainer .FormTab.active,
-.EverMigrateContainer .FormTab:not(.inactive):first-child,
-.swap_form_wrap .FormTab:first-child,
-.NativeCoinSwapContainer .FormTab:last-child {
+.bridge_wrap .form_tab.active:first-child,
+.bridge_wrap .form_tab:not(.inactive):first-child,
+.EverMigrateContainer .form_tab.active,
+.EverMigrateContainer .form_tab:not(.inactive):first-child,
+.swap_form_wrap .form_tab:first-child,
+.NativeCoinSwapContainer .form_tab:last-child {
   background: var(--bgColor1);
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -2594,17 +2588,17 @@ body.light_mode .FormTabs {
   margin-bottom: -2px
 }
 
-body.light_mode .EverBridgeWrap .FormTab.active:first-child,
-body.light_mode .EverBridgeWrap .FormTab:not(.inactive):first-child,
-body.light_mode .EverMigrateContainer .FormTab.active,
-body.light_mode .EverMigrateContainer .FormTab:not(.inactive):first-child,
-body.light_mode .swap_form_wrap .FormTab:first-child,
-body.light_mode .NativeCoinSwapContainer .FormTab:last-child {
+body.light_mode .bridge_wrap .form_tab.active:first-child,
+body.light_mode .bridge_wrap .form_tab:not(.inactive):first-child,
+body.light_mode .EverMigrateContainer .form_tab.active,
+body.light_mode .EverMigrateContainer .form_tab:not(.inactive):first-child,
+body.light_mode .swap_form_wrap .form_tab:first-child,
+body.light_mode .NativeCoinSwapContainer .form_tab:last-child {
   background: var(--bgWhite1);
   box-shadow: var(--formTabLeftW)
 }
 
-.EverBridgeWrap .FormTab.active:last-child {
+.bridge_wrap .form_tab.active:last-child {
   background: var(--bgColor1);
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -2615,7 +2609,7 @@ body.light_mode .NativeCoinSwapContainer .FormTab:last-child {
   box-shadow: var(--formTabRight)
 }
 
-body.light_mode .EverBridgeWrap .FormTab.active:last-child {
+body.light_mode .bridge_wrap .form_tab.active:last-child {
   background: var(--bgWhite1);
   box-shadow: var(--formTabRightW)
 }
@@ -2666,12 +2660,12 @@ body.light_mode .dapp_form_amount_input .ticker {
   padding: 0
 }
 
-span.USDTPriceEqv>span:first-child {
+span.USDT_price_eqv>span:first-child {
   font-size: 15px;
   margin-right: 5px
 }
 
-span.USDTPriceEqv>span:last-child {
+span.USDT_price_eqv>span:last-child {
   font-weight: 400 !important
 }
 
@@ -2702,29 +2696,29 @@ ul.HomeDappList {
   max-width: 90px
 }
 
-.HalfSplitWrap {
+.half_split_wrap {
   display: flex;
   justify-content: center
 }
 
-.HalfSplitWrap>div {
+.half_split_wrap>div {
   width: 50%;
   margin-top: 15px;
   border-radius: 4px;
   min-height: 230px
 }
 
-.HalfSplitLeft>div,
-.HalfSplitRight>div {
+.half_split_left>div,
+.half_split_right>div {
   padding: 0 10px
 }
 
-.HalfSplitLeft.disabled>* {
+.half_split_left.disabled>* {
   opacity: .5
 }
 
-.HalfSplitLeft.disabled,
-.HalfSplitWrap .invert_form_button_inner,
+.half_split_left.disabled,
+.half_split_wrap .invert_form_button_inner,
 .NativeCoinSwapContainer .invert_form_button {
   pointer-events: none
 }
@@ -2825,7 +2819,7 @@ body.light_mode .invert_form_button svg {
   fill: var(--svgColorW6)
 }
 
-.BottomHalfSplit .invert_form_button_inner {
+.bottom_half_split .invert_form_button_inner {
   margin: 0 -31px;
   position: relative;
   top: -5px;
@@ -2833,7 +2827,7 @@ body.light_mode .invert_form_button svg {
   box-shadow: var(--rightFormButtonInner)
 }
 
-body.light_mode .BottomHalfSplit .invert_form_button_inner {
+body.light_mode .bottom_half_split .invert_form_button_inner {
   box-shadow: var(--rightFormButtonInnerW)
 }
 
@@ -3688,28 +3682,28 @@ body.light_mode .ComponentHeaderBG:after {
     margin-inline-start: .3rem
   }
 
-  .FormTabs,
+  .form_tabs,
   .form_top_half_inner>* {
     width: 100%
   }
 
-  .FormTab {
+  .form_tab {
     height: 55px
   }
 
-  .EverBridgeWrap .FormTab.active:first-child,
-  .EverBridgeWrap .FormTab.active:last-child,
-  .EverBridgeWrap .FormTab:not(.inactive):first-child,
-  .EverMigrateContainer .FormTab.active,
-  .EverMigrateContainer .FormTab:not(.inactive):first-child,
-  .swap_form_wrap .FormTab:first-child,
-  .NativeCoinSwapContainer .FormTab:last-child {
+  .bridge_wrap .form_tab.active:first-child,
+  .bridge_wrap .form_tab.active:last-child,
+  .bridge_wrap .form_tab:not(.inactive):first-child,
+  .EverMigrateContainer .form_tab.active,
+  .EverMigrateContainer .form_tab:not(.inactive):first-child,
+  .swap_form_wrap .form_tab:first-child,
+  .NativeCoinSwapContainer .form_tab:last-child {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 60px
   }
 
-  .FormTabs.component_bg {
+  .form_tabs.component_bg {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px
   }
@@ -3723,12 +3717,12 @@ body.light_mode .ComponentHeaderBG:after {
     width: 100%
   }
 
-  .BottomHalfSplit .invert_form_button_inner {
+  .bottom_half_split .invert_form_button_inner {
     box-shadow: var(--formButtonInner);
     top: -8px
   }
 
-  body.light_mode .BottomHalfSplit .invert_form_button_inner {
+  body.light_mode .bottom_half_split .invert_form_button_inner {
     box-shadow: var(--formButtonInnerW)
   }
 
@@ -3758,7 +3752,7 @@ body.light_mode .ComponentHeaderBG:after {
     height: 38px
   }
 
-  .USDTPriceEqv span:last-child {
+  .USDT_price_eqv span:last-child {
     font-size: 12px
   }
 
@@ -3784,8 +3778,8 @@ body.light_mode .ComponentHeaderBG:after {
   .FormAdvancedOptions button:active,
   .FormAdvancedOptions button:focus,
   .FormAdvancedOptions button:hover,
-  .FormTab,
-  .FormTab a,
+  .form_tab,
+  .form_tab a,
   p.dapp_form_token_balance span {
     font-size: 13px;
     letter-spacing: .025em
@@ -3932,11 +3926,11 @@ body.light_mode .ComponentHeaderBG:after {
     font-size: 16px
   }
 
-  .HalfSplitWrap {
+  .half_split_wrap {
     flex-wrap: wrap
   }
 
-  .HalfSplitWrap>div {
+  .half_split_wrap>div {
     width: 100%;
     margin-top: 14px;
     border-radius: 4px;
@@ -3945,8 +3939,8 @@ body.light_mode .ComponentHeaderBG:after {
     padding: 0
   }
 
-  .HalfSplitLeft>div,
-  .HalfSplitRight>div {
+  .half_split_left>div,
+  .half_split_right>div {
     padding: 0
   }
 
@@ -3991,12 +3985,12 @@ body.light_mode .ComponentHeaderBG:after {
     padding: 25px
   }
 
-  .EverBridgeWrap .FormTab.active,
-  .EverBridgeWrap .FormTab:not(.inactive):first-child,
-  .EverMigrateContainer .FormTab.active,
-  .EverMigrateContainer .FormTab:not(.inactive):first-child,
-  .swap_form_wrap .FormTab:first-child,
-  .NativeCoinSwapContainer .FormTab:last-child {
+  .bridge_wrap .form_tab.active,
+  .bridge_wrap .form_tab:not(.inactive):first-child,
+  .EverMigrateContainer .form_tab.active,
+  .EverMigrateContainer .form_tab:not(.inactive):first-child,
+  .swap_form_wrap .form_tab:first-child,
+  .NativeCoinSwapContainer .form_tab:last-child {
     height: 55px
   }
 
@@ -4026,7 +4020,7 @@ body.light_mode .ComponentHeaderBG:after {
     min-width: auto
   }
 
-  .HalfSplitWrap>div {
+  .half_split_wrap>div {
     width: 50%;
     margin-top: 14px;
     border-radius: 4px;
@@ -4056,8 +4050,8 @@ body.light_mode .ComponentHeaderBG:after {
     margin-left: -24px !important
   }
 
-  .dapp_form_amount_input .USDTPriceEqv:active,
-  .USDTPriceEqv {
+  .dapp_form_amount_input .USDT_price_eqv:active,
+  .USDT_price_eqv {
     letter-spacing: .06em;
     top: 3px !important
   }
@@ -4123,8 +4117,8 @@ body.light_mode .ComponentHeaderBG:after {
     display: none
   }
 
-  .dapp_form_amount_input .USDTPriceEqv:active,
-  .USDTPriceEqv {
+  .dapp_form_amount_input .USDT_price_eqv:active,
+  .USDT_price_eqv {
     font-size: 11px
   }
 
@@ -4238,7 +4232,7 @@ body.light_mode .ComponentHeaderBG:after {
     letter-spacing: .04em
   }
 
-  .InputAmountSlider {
+  .input_amount_slider {
     top: 5px;
     height: 18px
   }
@@ -4268,8 +4262,8 @@ body.light_mode .ComponentHeaderBG:after {
   .FormAdvancedOptions button:active,
   .FormAdvancedOptions button:focus,
   .FormAdvancedOptions button:hover,
-  .FormTab,
-  .FormTab a,
+  .form_tab,
+  .form_tab a,
   p.dapp_form_token_balance span {
     font-size: 12px
   }
@@ -4291,7 +4285,7 @@ body.light_mode .ComponentHeaderBG:after {
     width: auto !important
   }
 
-  .BottomHalfSplit .invert_form_button_inner {
+  .bottom_half_split .invert_form_button_inner {
     margin-top: -29px;
     margin-bottom: -20px;
     width: auto !important;
@@ -4299,7 +4293,7 @@ body.light_mode .ComponentHeaderBG:after {
     box-shadow: var(--formButtonInnerSmall)
   }
 
-  body.light_mode .BottomHalfSplit .invert_form_button_inner,
+  body.light_mode .bottom_half_split .invert_form_button_inner,
   body.light_mode .invert_form_button_inner {
     box-shadow: var(--formButtonInnerSmallW)
   }
@@ -4322,14 +4316,14 @@ body.light_mode .ComponentHeaderBG:after {
     box-shadow: var(--formButtonSmallW)
   }
 
-  .EverBridgeWrap .FormTab.active:first-child,
-  .EverBridgeWrap .FormTab.active:last-child,
-  .EverBridgeWrap .FormTab:not(.inactive):first-child,
-  .EverMigrateContainer .FormTab.active,
-  .EverMigrateContainer .FormTab:not(.inactive):first-child,
-  .swap_form_wrap .FormTab:first-child,
-  .FormTab,
-  .NativeCoinSwapContainer .FormTab:last-child {
+  .bridge_wrap .form_tab.active:first-child,
+  .bridge_wrap .form_tab.active:last-child,
+  .bridge_wrap .form_tab:not(.inactive):first-child,
+  .EverMigrateContainer .form_tab.active,
+  .EverMigrateContainer .form_tab:not(.inactive):first-child,
+  .swap_form_wrap .form_tab:first-child,
+  .form_tab,
+  .NativeCoinSwapContainer .form_tab:last-child {
     height: 50px
   }
 }
@@ -5104,7 +5098,7 @@ body.light_mode .inset_btn {
   border-left: 1px solid var(--borderWhite2)
 }
 
-.IndentedBtnWrap {
+.indented_btn_wrap {
   width: 100%;
   height: 56px;
   border-radius: 10px;
@@ -5114,58 +5108,60 @@ body.light_mode .inset_btn {
   box-shadow: var(--insetButton)
 }
 
-body.light_mode .IndentedBtnWrap {
+body.light_mode .indented_btn_wrap {
   box-shadow: var(--insetButtonW);
   border-left: 1px solid var(--borderWhite2)
 }
 
-.IndentedBtnWrap:active>div {
+.indented_btn_wrap:active>div {
   box-shadow: 0 0 0 0 transparent !important;
   background: transparent !important
 }
 
-.IndentedBtnWrapInner {
+.indented_btn_wrap_inner {
   height: 50px;
   position: relative;
   top: 1px;
   width: calc(100% - 8px) !important;
   border-radius: 8px !important;
   left: 1px;
-  box-shadow: var(--neoButton)
+  box-shadow: var(--neoButton);
+  background: none;
 }
 
-.IndentedBtnWrap button,
-.IndentedBtnWrapInner {
+.indented_btn_wrap button,
+.indented_btn_wrap_inner {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  background: none;
 }
 
-.IndentedBtnWrap button {
+.indented_btn_wrap button {
   height: 100%;
   border-radius: 7px;
   min-width: 100%
 }
 
-.IndentedBtnWrapInner button>span:first-child {
+.indented_btn_wrap_inner button>span:first-child {
   display: none
 }
 
-.IndentedBtnWrapInner button>span:first-child:only-child {
+.indented_btn_wrap_inner button>span:first-child:only-child {
   display: block
 }
 
-body.light_mode .IndentedBtnWrap button *,
-body.light_mode .IndentedBtnWrapInner * {
+body.light_mode .indented_btn_wrap button *,
+body.light_mode .indented_btn_wrap_inner * {
   color: var(--fontWhite3)
 }
 
-.IndentedBtnWrapInner:after {
+.indented_btn_wrap_inner:after {
   right: 40px;
   border-color: var(--fontColor1)
 }
 
-body.light_mode .IndentedBtnWrapInner:after {
+body.light_mode .indented_btn_wrap_inner:after {
   border-color: #5e667a
 }
 
@@ -5259,8 +5255,8 @@ body.light_mode .RoundButton button[disabled] svg.our_icon path {
   margin: 20px 0
 }
 
-.stake_amount_buttons .chakra_button_group button,
-.stake_amount_buttons .chakra_button_group button:hover[disabled] {
+.stake_amount_buttons .wallet_input button,
+.stake_amount_buttons .wallet_input button:hover[disabled] {
   height: 55px;
   font-family: Montserrat;
   font-size: 22px;
@@ -5270,23 +5266,23 @@ body.light_mode .RoundButton button[disabled] svg.our_icon path {
   margin: 5px 5px 6px;
   transition: all .1s ease;
   color: var(--fontColor1);
-  box-shadow: var(--neoButton)
+  box-shadow: var(--neoButton);
 }
 
-.stake_amount_buttons .chakra_button_group {
+.stake_amount_buttons .wallet_input {
   width: 100%;
 }
 
-.stake_amount_buttons .chakra_button_group button:active,
-body.light_mode .stake_amount_buttons .chakra_button_group button:active {
+.stake_amount_buttons .wallet_input button:active,
+body.light_mode .stake_amount_buttons .wallet_input button:active {
   box-shadow: none !important;
   font-size: 20px;
   background: transparent !important
 }
 
-body.light_mode .stake_amount_buttons .chakra_button_group button,
-body.light_mode .stake_amount_buttons .chakra_button_group button:hover[disabled],
-body.light_mode .IndentedBtnWrap>div {
+body.light_mode .stake_amount_buttons .wallet_input button,
+body.light_mode .stake_amount_buttons .wallet_input button:hover[disabled],
+body.light_mode .indented_btn_wrap>div {
   background: var(--bgWhite2);
   box-shadow: var(--neoButtonW);
   color: var(--fontWhite3) !important
@@ -5311,8 +5307,8 @@ body.light_mode .IndentedBtnWrap>div {
     font-size: 15px
   }
 
-  .stake_amount_buttons .chakra_button_group button,
-  .stake_amount_buttons .chakra_button_group button:hover[disabled],
+  .stake_amount_buttons .wallet_input button,
+  .stake_amount_buttons .wallet_input button:hover[disabled],
   .percentage_amount_numbers input,
   .percentage_amount_numbers input:active,
   .percentage_amount_numbers input:focus,
@@ -5321,12 +5317,12 @@ body.light_mode .IndentedBtnWrap>div {
     font-size: 20px
   }
 
-  .stake_amount_buttons .chakra_button_group button:active {
+  .stake_amount_buttons .wallet_input button:active {
     font-size: 18px
   }
 
-  .stake_amount_buttons .chakra_button_group button,
-  .stake_amount_buttons .chakra_button_group button:hover[disabled] {
+  .stake_amount_buttons .wallet_input button,
+  .stake_amount_buttons .wallet_input button:hover[disabled] {
     height: 45px;
     padding: 0
   }
@@ -5386,8 +5382,8 @@ body.light_mode .IndentedBtnWrap>div {
     padding-top: 0 !important
   }
 
-  .stake_amount_buttons .chakra_button_group button,
-  .stake_amount_buttons .chakra_button_group button:hover[disabled],
+  .stake_amount_buttons .wallet_input button,
+  .stake_amount_buttons .wallet_input button:hover[disabled],
   .percentage_amount_numbers input,
   .percentage_amount_numbers input:active,
   .percentage_amount_numbers input:focus,
@@ -5450,8 +5446,8 @@ body.light_mode .IndentedBtnWrap>div {
     margin-bottom: 13px
   }
 
-  .stake_amount_buttons .chakra_button_group button,
-  .stake_amount_buttons .chakra_button_group button:hover[disabled] {
+  .stake_amount_buttons .wallet_input button,
+  .stake_amount_buttons .wallet_input button:hover[disabled] {
     font-size: 4.3vw;
     height: 38px
   }
@@ -7295,22 +7291,22 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   }
 }
 
-.EverBridgeWrap .form_bottom_half,
-.EverBridgeWrap .form_bottom_half_inner {
+.bridge_wrap .form_bottom_half,
+.bridge_wrap .form_bottom_half_inner {
   padding: 0
 }
 
-.EverBridgeWrap .form_top_half_inner {
+.bridge_wrap .form_top_half_inner {
   padding-bottom: 0;
   padding-top: 20px
 }
 
-.EverBridgeWrap .percentage_amount_numbers input#tokenCount {
+.bridge_wrap .percentage_amount_numbers input#tokenCount {
   margin: 0;
   height: 100%
 }
 
-.EverBridgeContainer {
+.bridge_container {
   position: relative;
   top: 0;
   width: 100%;
@@ -7318,7 +7314,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   min-height: 50vh !important
 }
 
-.BridgeMainForm.component_bg {
+.bridge_main_form.component_bg {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-bottom-left-radius: 15px;
@@ -7326,32 +7322,32 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   padding-bottom: 10px
 }
 
-.EverBridgeNetworkContainer {
+.bridge_network_container {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%
 }
 
-.EverBridgeNetworkContainer.component_bg {
+.bridge_network_container.component_bg {
   border-radius: 25px
 }
 
-.ToChosenNetwork.component_bg {
+.to_chosen_network.component_bg {
   border-top-left-radius: 7px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 15px
 }
 
-.FromWalletConnectedNetwork.component_bg {
+.from_wallet_connected_network.component_bg {
   border-top-left-radius: 15px;
   border-top-right-radius: 7px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 7px
 }
 
-.BridgeFromWalletStatus {
+.bridge_from_wallet_status {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7359,7 +7355,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   font-size: 14px
 }
 
-.BridgeFromWalletStatus>div {
+.bridge_from_wallet_status>div {
   border: 1px solid var(--borderColor2);
   border-radius: 6px;
   padding: 15px 20px;
@@ -7367,37 +7363,37 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   width: 100%
 }
 
-body.light_mode .BridgeFromWalletStatus>div {
+body.light_mode .bridge_from_wallet_status>div {
   color: var(--fontWhite3);
   border: 1px solid var(--borderWhite2)
 }
 
-.FromWalletConnectedNetwork .TokenPair h3:before {
+.from_wallet_connected_network .token_pair h3:before {
   content: "Bridging From:";
   color: var(--fontColor2);
   letter-spacing: .03em
 }
 
-.ToChosenNetwork .TokenPair h3:before {
+.to_chosen_network .token_pair h3:before {
   content: "Bridging To:";
   color: var(--fontColor2);
   letter-spacing: .03em
 }
 
-body.light_mode .FromWalletConnectedNetwork .TokenPair h3:before,
-body.light_mode .ToChosenNetwork .TokenPair h3:before {
+body.light_mode .from_wallet_connected_network .token_pair h3:before,
+body.light_mode .to_chosen_network .token_pair h3:before {
   color: var(--fontWhite3)
 }
 
-.ToChosenNetwork {
+.to_chosen_network {
   position: static
 }
 
-.EverBridgeWrap .invert_form_button_inner {
+.bridge_wrap .invert_form_button_inner {
   top: -2px
 }
 
-.TokenPair {
+.token_pair {
   border-radius: 14px;
   padding: 15px 10px;
   margin-bottom: 5px;
@@ -7407,20 +7403,20 @@ body.light_mode .ToChosenNetwork .TokenPair h3:before {
   box-shadow: var(--hollowBoxThin)
 }
 
-.TokenPair,
-.TokenPairWrap {
+.token_pair,
+.token_pair_wrap {
   display: flex;
   justify-content: center;
   align-items: center
 }
 
-.TokenPairWrap {
+.token_pair_wrap {
   width: 100%;
   height: 100%;
   flex-wrap: wrap
 }
 
-.TokenPair h3 {
+.token_pair h3 {
   font-size: 18px;
   margin-left: 15px;
   width: -webkit-fit-content;
@@ -7429,7 +7425,7 @@ body.light_mode .ToChosenNetwork .TokenPair h3:before {
   font-weight: 700
 }
 
-.TokenPair h3:before {
+.token_pair h3:before {
   display: block;
   width: 100%;
   font-weight: 500;
@@ -7437,7 +7433,7 @@ body.light_mode .ToChosenNetwork .TokenPair h3:before {
   letter-spacing: .01em
 }
 
-.TokenPair h3:after {
+.token_pair h3:after {
   content: attr(Protocol);
   display: block;
   font-size: 14px;
@@ -7447,32 +7443,32 @@ body.light_mode .ToChosenNetwork .TokenPair h3:before {
   text-indent: .5px
 }
 
-.TokenPair img {
+.token_pair img {
   width: 40px;
   height: 40px
 }
 
-body.light_mode .TokenPair {
+body.light_mode .token_pair {
   background: var(--bgWhite2);
   box-shadow: var(--hollowBoxThinW)
 }
 
-.EverBridgeWrap .dapp_form_token_balance_column_right {
+.bridge_wrap .dapp_form_token_balance_column_right {
   width: 60%
 }
 
-.EverBridgeWrap .dapp_form_token_balance_column_left {
+.bridge_wrap .dapp_form_token_balance_column_left {
   width: 40%
 }
 
-.BridgeButtonFooter.component_bg {
+.bridge_button_footer.component_bg {
   padding: 20px 10px;
   border-radius: 25px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px
 }
 
-.BridgeButtonFooter {
+.bridge_button_footer {
   margin-top: 15px;
   display: flex;
   flex-direction: column;
@@ -7480,12 +7476,12 @@ body.light_mode .TokenPair {
   align-items: center
 }
 
-.BridgeButton {
+.bridge_button {
   padding-top: 5px;
   width: 140px
 }
 
-.BridgeButtonGroupHorizontal {
+.bridge_button_group_horizontal {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -7493,25 +7489,25 @@ body.light_mode .TokenPair {
   width: 100%
 }
 
-.BridgeButtonFooter .submit_dapp_form_buttons {
+.bridge_button_footer .submit_dapp_form_buttons {
   margin-top: 15px;
   max-width: 89%
 }
 
-.BridgeButton {
+.bridge_button {
   width: 100%;
   min-width: 100px;
   margin-right: 10px
 }
 
-.TransferButton {
+.transfer_button {
   width: 100%;
   min-width: 100px;
   margin-right: 0;
   padding-top: 5px
 }
 
-.BridgeGasEstimation {
+.bridge_gas_estimation {
   font-size: 14px;
   color: var(--fontColor5)
 }
@@ -7665,20 +7661,20 @@ body.light_mode .TransactionTable td {
 }
 
 @media (max-width:768px) {
-  .EverBridgeWrap .invert_form_button button {
+  .bridge_wrap .invert_form_button button {
     flex-direction: row
   }
 
-  .EverBridgeWrap .invert_form_button_inner {
+  .bridge_wrap .invert_form_button_inner {
     box-shadow: var(--rightFormButtonInner)
   }
 
-  body.light_mode .EverBridgeWrap .invert_form_button_inner {
+  body.light_mode .bridge_wrap .invert_form_button_inner {
     box-shadow: var(--rightFormButtonInnerW)
   }
 
-  .EverBridgeWrap .submit_dapp_form_buttons button,
-  .EverBridgeWrap .submit_dapp_form_buttons button:hover {
+  .bridge_wrap .submit_dapp_form_buttons button,
+  .bridge_wrap .submit_dapp_form_buttons button:hover {
     height: 45px;
     font-size: 14px;
     letter-spacing: .01em
@@ -7686,34 +7682,34 @@ body.light_mode .TransactionTable td {
 }
 
 @media (max-width:650px) {
-  .EverBridgeWrap .form_top_half_inner {
+  .bridge_wrap .form_top_half_inner {
     width: 100%;
     padding: 25px 35px 0
   }
 
-  .BridgeMainForm.component_bg {
+  .bridge_main_form.component_bg {
     padding-bottom: 10px
   }
 
-  .FromWalletConnectedNetwork {
+  .from_wallet_connected_network {
     padding-right: 35px;
     padding-left: 25px
   }
 
-  .ToChosenNetwork {
+  .to_chosen_network {
     padding-left: 35px;
     padding-right: 25px
   }
 
-  .TokenPair h3 {
+  .token_pair h3 {
     font-size: 2.258vw
   }
 
-  .TokenPair h3:before {
+  .token_pair h3:before {
     font-size: 12px
   }
 
-  .TokenPair h3:after {
+  .token_pair h3:after {
     content: attr(Protocol);
     display: block;
     font-size: 14px;
@@ -7723,58 +7719,58 @@ body.light_mode .TransactionTable td {
     text-indent: .5px
   }
 
-  .FromWalletConnectedNetwork .TokenPair h3:before {
+  .from_wallet_connected_network .token_pair h3:before {
     content: "Bridging From:";
     color: var(--fontColor2);
     letter-spacing: .01em
   }
 
-  .ToChosenNetwork .TokenPair h3:before {
+  .to_chosen_network .token_pair h3:before {
     content: "Bridging To:";
     color: var(--fontColor2);
     letter-spacing: .01em
   }
 
-  .TokenPairWrap {
+  .token_pair_wrap {
     margin-bottom: 12px
   }
 
-  .TokenPair h3 {
+  .token_pair h3 {
     font-size: 2.5vw;
     line-height: 1.3em
   }
 
-  .TokenPair h3:after {
+  .token_pair h3:after {
     font-size: 12px
   }
 }
 
 @media (max-width:550px) {
-  .EverBridgeWrap .form_top_half_inner {
+  .bridge_wrap .form_top_half_inner {
     width: 100%;
     padding: 25px 35px 17px
   }
 
-  .BridgeMainForm.component_bg {
+  .bridge_main_form.component_bg {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px
   }
 
-  .EverBridgeWrap .form_bottom_half.BottomHalfSplit {
+  .bridge_wrap .form_bottom_half.bottom_half_split {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px
   }
 
-  body.light_mode .BridgeButtonFooter.component_bg,
-  body.light_mode .EverBridgeWrap .HalfSplitRight.component_bg {
+  body.light_mode .bridge_button_footer.component_bg,
+  body.light_mode .bridge_wrap .half_split_right.component_bg {
     box-shadow: none
   }
 
-  .BridgeMainForm.component_bg {
+  .bridge_main_form.component_bg {
     padding-bottom: 10px
   }
 
-  .EverBridgeWrap .form_bottom_half {
+  .bridge_wrap .form_bottom_half {
     background-color: var(--bgColor1);
     padding: 34px 0 0;
     border-radius: 25px;
@@ -7784,26 +7780,26 @@ body.light_mode .TransactionTable td {
     margin-top: 17px
   }
 
-  body.light_mode .EverBridgeWrap .form_bottom_half {
+  body.light_mode .bridge_wrap .form_bottom_half {
     background-color: var(--bgWhite1);
     box-shadow: var(--bgComponentW)
   }
 
-  .EverBridgeWrap .invert_form_button {
+  .bridge_wrap .invert_form_button {
     min-height: 0;
     margin: -72px 0 0
   }
 
-  .EverBridgeWrap .invert_form_button button {
+  .bridge_wrap .invert_form_button button {
     flex-direction: column
   }
 
-  .EverBridgeWrap .invert_form_button button>* {
+  .bridge_wrap .invert_form_button button>* {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg)
   }
 
-  .EverBridgeWrap .invert_form_button button span.p_arrow.right {
+  .bridge_wrap .invert_form_button button span.p_arrow.right {
     margin: 0 -5px !important;
     position: relative;
     max-width: 1px;
@@ -7811,40 +7807,40 @@ body.light_mode .TransactionTable td {
     top: -2px
   }
 
-  .EverBridgeWrap .invert_form_button_inner {
+  .bridge_wrap .invert_form_button_inner {
     box-shadow: var(--formButtonInner);
     top: -8px
   }
 
-  body.light_mode .EverBridgeWrap .invert_form_button_inner {
+  body.light_mode .bridge_wrap .invert_form_button_inner {
     box-shadow: var(--formButtonInnerW)
   }
 
-  .FromWalletConnectedNetwork {
+  .from_wallet_connected_network {
     display: none
   }
 
-  .TokenPair {
+  .token_pair {
     min-height: 65px;
     margin-bottom: 0
   }
 
-  .TokenPair h3 {
+  .token_pair h3 {
     font-size: 18px;
     line-height: 1.3em
   }
 
-  .BridgeButtonFooter,
-  .ToChosenNetwork {
+  .bridge_button_footer,
+  .to_chosen_network {
     box-shadow: none;
     background: none
   }
 
-  .BridgeButtonFooter .submit_dapp_form_buttons {
+  .bridge_button_footer .submit_dapp_form_buttons {
     margin-top: 5px
   }
 
-  .BridgeButtonFooter.component_bg {
+  .bridge_button_footer.component_bg {
     padding: 0 10px 15px
   }
 
@@ -7863,8 +7859,8 @@ body.light_mode .TransactionTable td {
     line-height: 1.3em
   }
 
-  .EverBridgeWrap .submit_dapp_form_buttons button,
-  .EverBridgeWrap .submit_dapp_form_buttons button:hover {
+  .bridge_wrap .submit_dapp_form_buttons button,
+  .bridge_wrap .submit_dapp_form_buttons button:hover {
     height: 45px;
     font-size: 12px;
     letter-spacing: .01em
@@ -7872,32 +7868,32 @@ body.light_mode .TransactionTable td {
 }
 
 @media (max-width:480px) {
-  .BridgeMainForm.component_bg {
+  .bridge_main_form.component_bg {
     padding-bottom: 25px
   }
 
-  .EverBridgeWrap .form_bottom_half {
+  .bridge_wrap .form_bottom_half {
     padding: 30px 0 0
   }
 
-  .EverBridgeWrap .form_top_half_inner {
+  .bridge_wrap .form_top_half_inner {
     padding: 20px 25px 10px
   }
 
-  .BridgeButton {
+  .bridge_button {
     width: 100%;
     min-width: 100px;
     margin-right: 10px
   }
 
-  .TransferButton {
+  .transfer_button {
     width: 100%;
     min-width: 100px;
     margin-top: 7px;
     padding-top: 0
   }
 
-  .TokenPair {
+  .token_pair {
     min-height: 60px;
     padding: 10px
   }
@@ -7922,28 +7918,28 @@ body.light_mode .TransactionTable td {
     max-width: 230px
   }
 
-  .EverBridgeWrap .submit_dapp_form_buttons button,
-  .EverBridgeWrap .submit_dapp_form_buttons button:hover {
+  .bridge_wrap .submit_dapp_form_buttons button,
+  .bridge_wrap .submit_dapp_form_buttons button:hover {
     height: 45px;
     font-size: 11.5px;
     letter-spacing: .01em
   }
 
-  .BridgeButtonFooter .submit_dapp_form_buttons {
+  .bridge_button_footer .submit_dapp_form_buttons {
     margin-top: 15px;
     max-width: 95%
   }
 }
 
 @media (max-width:450px) {
-  .BridgeButton {
+  .bridge_button {
     width: 100%;
     min-width: 100px;
     margin-right: 10px;
     padding-bottom: 4px
   }
 
-  .TransferButton {
+  .transfer_button {
     width: 100%;
     min-width: 100px;
     margin-top: 5px;
@@ -7970,23 +7966,23 @@ body.light_mode .TransactionTable td {
 }
 
 @media (max-width:400px) {
-  .EverBridgeWrap .form_top_half_inner {
+  .bridge_wrap .form_top_half_inner {
     padding: 10px 22px
   }
 
-  .EverBridgeWrap .form_bottom_half {
+  .bridge_wrap .form_bottom_half {
     margin-top: 14px;
     padding: 0
   }
 
-  .EverBridgeWrap .invert_form_button_inner {
+  .bridge_wrap .invert_form_button_inner {
     margin-top: 40px;
     margin-bottom: 0;
     padding: 12px;
     box-shadow: var(--formButtonInnerSmall)
   }
 
-  body.light_mode .EverBridgeWrap .invert_form_button_inner {
+  body.light_mode .bridge_wrap .invert_form_button_inner {
     box-shadow: var(--formButtonInnerSmallW)
   }
 }
@@ -11294,7 +11290,7 @@ body.light_mode .EverSwapSummary span {
   padding: 20px
 }
 
-.NativeSwapTokenEstimation .USDTPriceEqv {
+.NativeSwapTokenEstimation .USDT_price_eqv {
   position: relative
 }
 
@@ -11324,7 +11320,7 @@ span.NativeSwapTokenEstimationLabel {
 
 span.NativeSwapGasEstimationPrice span:last-child,
 span.TokenExchangeEstimate>span:last-child,
-span.USDTPriceEqv>span:last-child {
+span.USDT_price_eqv>span:last-child {
   color: var(--fontColor2);
   font-weight: 700
 }
@@ -11885,24 +11881,24 @@ body.light_mode .StakingFormHeader p {
   padding: 0 !important
 }
 
-.CreateStake .HalfSplitWrap>div {
+.CreateStake .half_split_wrap>div {
   margin-top: 0;
   min-width: 20px
 }
 
-.CreateStake .HalfSplitRight {
+.CreateStake .half_split_right {
   max-width: 32.3%;
   border-radius: 16px;
   padding: 0
 }
 
-.CreateStake .HalfSplitLeft {
+.CreateStake .half_split_left {
   width: 68%;
   border-radius: 16px;
   margin-bottom: 15px
 }
 
-.HalfSplitRight>div.NFTGenerator {
+.half_split_right>div.NFTGenerator {
   padding: 0
 }
 
@@ -12910,13 +12906,13 @@ body button.chakra_button.StakingActionCancelBtn {
   text-transform: uppercase
 }
 
-.StakingActionSubmitBtn.BridgeButton {
+.StakingActionSubmitBtn.bridge_button {
   margin-top: 15px;
   margin-bottom: 10px
 }
 
 .StakingActionSubmitBtn.BottomBridgeButton,
-.StakingActionSubmitBtn.BridgeButton {
+.StakingActionSubmitBtn.bridge_button {
   text-transform: uppercase;
   max-height: 50px
 }
@@ -12990,7 +12986,7 @@ body button.chakra_button.StakingActionCancelBtn {
   height: 60px
 }
 
-.StakeWithdrawPopupInput .InputAmountSlider {
+.StakeWithdrawPopupInput .input_amount_slider {
   top: 12px
 }
 
@@ -13886,7 +13882,7 @@ svg#LoaderAnimation {
     padding: 25px 35px
   }
 
-  .CreateStake.BottomHalfSplit .neomorphic_slice {
+  .CreateStake.bottom_half_split .neomorphic_slice {
     right: -27vw;
     width: 70vw;
     content: "";
@@ -13896,7 +13892,7 @@ svg#LoaderAnimation {
     background: linear-gradient(90deg, transparent 0, var(--bgColor4) 50%, transparent 100%)
   }
 
-  body.light_mode .CreateStake .BottomHalfSplit .neomorphic_slice {
+  body.light_mode .CreateStake .bottom_half_split .neomorphic_slice {
     height: 15px;
     background: linear-gradient(90deg, transparent, #e7ecf3 50%, transparent)
   }
@@ -15139,10 +15135,10 @@ span#GetEverStakeHelp {
   opacity: 1
 }
 
-.dapp_form_amount_input_bg:active .InputAmountSlider,
-.dapp_form_amount_input_bg:focus .InputAmountSlider,
-.dapp_form_amount_input_bg:hover .InputAmountSlider,
-.dapp_form_amount_input_wrapper:focus-within .InputAmountSlider {
+.dapp_form_amount_input_bg:active .input_amount_slider,
+.dapp_form_amount_input_bg:focus .input_amount_slider,
+.dapp_form_amount_input_bg:hover .input_amount_slider,
+.dapp_form_amount_input_wrapper:focus-within .input_amount_slider {
   opacity: 1
 }
 
@@ -15909,4 +15905,7 @@ body .header_wallet_login button {
   position: relative;
   height: 15px;
   width: 15px;
+}
+.stake {
+  display: inline-flex;
 }
