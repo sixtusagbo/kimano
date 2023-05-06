@@ -115,7 +115,7 @@ button.chakra_button:hover {
   background: none;
 }
 
-.SelectWrap {
+.select_wrap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,7 +126,7 @@ button.chakra_button:hover {
   border-radius: 12px
 }
 
-body.light_mode .SelectWrap {
+body.light_mode .select_wrap {
   border: 2px solid var(--bgWhite4)
 }
 
@@ -136,23 +136,27 @@ body.light_mode .SelectWrap {
   background: transparent;
   width: 100%;
   height: 100%;
-  border-radius: 12px
+  border-radius: 12px;
+  padding-inline-start: 1rem;
 }
 
-.chakra_select__wrapper {
+.chakra_select_wrapper {
   border: transparent;
   box-shadow: none;
   -webkit-appearance: none;
   appearance: none;
-  background: transparent
+  background: transparent;
+  width: 100%;
+  height: fit-content;
+  position: relative;
 }
 
-.chakra_select__icon {
+.chakra_select_icon {
   width: 2em;
   height: 2em
 }
 
-.SelectWrap svg {
+.select_wrap svg {
   width: 2em !important;
   height: 2em !important
 }
@@ -337,7 +341,7 @@ body.light_mode .PopupListScrollWrap {
   align-items: center
 }
 
-.WalletLocker .chakra_select__wrapper {
+.WalletLocker .chakra_select_wrapper {
   max-width: 180px
 }
 
@@ -356,7 +360,7 @@ body.light_mode .PopupListScrollWrap {
   margin-left: 20px
 }
 
-.WalletLocker .SelectWrap {
+.WalletLocker .select_wrap {
   height: 40px
 }
 
@@ -719,7 +723,7 @@ svg.Copy_Icon {
   margin-top: 2px
 }
 
-.HeaderAccountInfo {
+.header_account_info {
   height: 35px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -727,7 +731,7 @@ svg.Copy_Icon {
   min-width: 155px
 }
 
-.HeaderAccountInfo>span:first-of-type {
+.header_account_info>span:first-of-type {
   display: flex;
   flex: 1 1;
   justify-content: center;
@@ -738,15 +742,15 @@ svg.Copy_Icon {
   font-size: 14px
 }
 
-.HeaderAccountInfo span {
+.header_account_info span {
   white-space: nowrap
 }
 
-.HeaderAccountInfo>div:first-of-type {
+.header_account_info>div:first-of-type {
   display: flex
 }
 
-.HeaderAccountInfo {
+.header_account_info {
   background: var(--bgColor3);
   border-radius: 90px;
   display: flex;
@@ -759,7 +763,7 @@ svg.Copy_Icon {
   height: 44px
 }
 
-body.light_mode .HeaderAccountInfo {
+body.light_mode .header_account_info {
   background: var(--bgWhite1);
   border: 1px solid var(--borderWhite1);
   box-shadow: var(--hollowLineW)
@@ -1808,13 +1812,13 @@ body.light_mode button.p_arrow.down {
   color: var(--fontWhite4)
 }
 
-.chakra_select__icon-wrapper {
+.chakra_select_icon_wrapper {
   right: 36px;
   font-size: 50px !important;
   width: 34px
 }
 
-.chakra_select__icon-wrapper path {
+.chakra_select_icon_wrapper path {
   color: rgba(111, 135, 190, .83)
 }
 
@@ -3608,12 +3612,12 @@ body.light_mode .ComponentHeaderBG:after {
     padding: 0 12px
   }
 
-  .HeaderAccountInfo {
+  .header_account_info {
     min-width: 0;
     min-width: auto
   }
 
-  .HeaderAccountInfo>span:first-of-type {
+  .header_account_info>span:first-of-type {
     font-size: 12px;
     padding: 0 9px 0 13px
   }
@@ -3751,7 +3755,7 @@ body.light_mode .ComponentHeaderBG:after {
     margin: 0 10px
   }
 
-  .dapp_form_amount_input .chakra_select__wrapper,
+  .dapp_form_amount_input .chakra_select_wrapper,
   .ticker {
     max-width: 125px;
     height: 38px
@@ -3868,12 +3872,12 @@ body.light_mode .ComponentHeaderBG:after {
 }
 
 @media (max-width:600px) {
-  .HeaderAccountInfo {
+  .header_account_info {
     background: none
   }
 
-  .HeaderAccountInfo,
-  body.light_mode .HeaderAccountInfo {
+  .header_account_info,
+  body.light_mode .header_account_info {
     border: none;
     box-shadow: none
   }
@@ -3899,7 +3903,7 @@ body.light_mode .ComponentHeaderBG:after {
     font-size: 13px !important
   }
 
-  .ChainBubble {
+  .chain_bubble {
     margin-left: 10px;
     padding: 3px 9px
   }
@@ -3980,7 +3984,7 @@ body.light_mode .ComponentHeaderBG:after {
     width: calc(100% - 25px)
   }
 
-  body.light_mode .HeaderAccountInfo {
+  body.light_mode .header_account_info {
     border: none;
     box-shadow: none
   }
@@ -4112,7 +4116,7 @@ body.light_mode .ComponentHeaderBG:after {
     min-width: 30px
   }
 
-  .dapp_form_amount_input .chakra_select__wrapper,
+  .dapp_form_amount_input .chakra_select_wrapper,
   .ticker {
     max-width: 120px
   }
@@ -4136,7 +4140,7 @@ body.light_mode .ComponentHeaderBG:after {
     height: 58px
   }
 
-  .dapp_form_amount_input .chakra_select__wrapper {
+  .dapp_form_amount_input .chakra_select_wrapper {
     margin-right: 9px !important;
     padding: 0 0 0 3px !important
   }
@@ -4202,7 +4206,7 @@ body.light_mode .ComponentHeaderBG:after {
     width: calc(100% - 20px)
   }
 
-  .HeaderAccountInfo>span:first-of-type {
+  .header_account_info>span:first-of-type {
     font-size: 11px
   }
 
@@ -4442,7 +4446,7 @@ body.custom .stake_nav_wrap_inner .warm_button {
   margin-bottom: 30px
 }
 
-body.embedded .small_nav .HeaderAccountInfo {
+body.embedded .small_nav .header_account_info {
   display: none
 }
 
@@ -4505,7 +4509,7 @@ body.custom .header {
 }
 
 body.custom .stake_nav.small_nav .header_account_btns,
-body.custom .stake_nav.small_nav .HeaderAccountInfo,
+body.custom .stake_nav.small_nav .header_account_info,
 body.custom .small_nav {
   display: flex
 }
@@ -4524,7 +4528,7 @@ body.custom.embedded.light_mode .header {
 
 body.custom.embedded .stake_nav.small_nav,
 body.custom.embedded .stake_nav.small_nav .header_account_btns,
-body.custom.embedded .stake_nav.small_nav .HeaderAccountInfo {
+body.custom.embedded .stake_nav.small_nav .header_account_info {
   display: none
 }
 
@@ -4873,12 +4877,12 @@ body.light_mode .StakingSummaryWalletConnectBtn button:hover {
   height: 50px
 }
 
-.header_wallet_login .HeaderAccountInfo>button {
+.header_wallet_login .header_account_info>button {
   color: var(--coldButtonFont) !important;
   margin-right: 5px
 }
 
-.HeaderAccountInfo button {
+.header_account_info button {
   padding: 0 20px;
   width: auto;
   background: var(--hoverColdGradient);
@@ -4892,14 +4896,14 @@ body.light_mode .StakingSummaryWalletConnectBtn button:hover {
   left: 2px
 }
 
-body.light_mode .HeaderAccountInfo button {
+body.light_mode .header_account_info button {
   background: var(--warmGradientW);
   box-shadow: none;
   border: 1px solid var(--warmButtonBorderW);
   color: var(--fontWhite) !important
 }
 
-.HeaderAccountInfo button:after {
+.header_account_info button:after {
   margin-top: -3px !important
 }
 
@@ -5458,7 +5462,7 @@ body.light_mode .indented_btn_wrap>div {
   }
 }
 
-.LockButton {
+.lock_button {
   display: flex;
   align-items: center
 }
@@ -6087,18 +6091,18 @@ body.light_mode .tokenIcon svg {
   }
 }
 
-.LockButton svg {
+.lock_button svg {
   fill: var(--svgColorW1);
   width: 12px;
   margin-left: 10px
 }
 
-.CopyButton button {
+.copy_button button {
   color: var(--fontColor1);
   font-weight: 500
 }
 
-body.light_mode .CopyButton button {
+body.light_mode .copy_button button {
   color: var(--fontWhite4);
   font-weight: 500
 }
@@ -6227,13 +6231,13 @@ body.light_mode .coinmarketcapIcon.warning {
   background-image: url(https://data.everrise.com/icons/coinmarketcap-warning.png)
 }
 
-.ScanLogo svg {
+.scan_logo svg {
   fill: var(--svgColor2);
   width: 16px;
   margin-right: 6px
 }
 
-body.light_mode .ScanLogo svg {
+body.light_mode .scan_logo svg {
   fill: var(--svgColorW5)
 }
 
@@ -6450,11 +6454,11 @@ body.light_mode .HomeLogo svg path {
   color: var(--orange) !important
 }
 
-.FlexWrap {
+.flex_wrap {
   justify-content: flex-start
 }
 
-.FlexWrap,
+.flex_wrap,
 .FlexWrapColumn {
   display: flex;
   align-items: center
@@ -6470,35 +6474,35 @@ body.light_mode .HomeLogo svg path {
   flex-direction: row
 }
 
-.FlexWrapStart {
+.flex_wrap_start {
   justify-content: flex-start
 }
 
-.FlexWrapCenter,
-.FlexWrapStart {
+.flex_wrap_center,
+.flex_wrap_start {
   display: flex;
   align-items: center;
   margin-top: 5px;
   margin-bottom: 5px
 }
 
-.FlexWrapCenter {
+.flex_wrap_center {
   justify-content: center
 }
 
-.FlexWrapSpace {
+.flex_wrap_space {
   justify-content: space-between
 }
 
-.FlexWrapRight,
-.FlexWrapSpace {
+.flex_wrap_right,
+.flex_wrap_space {
   display: flex;
   align-items: center;
   margin-top: 5px;
   margin-bottom: 5px
 }
 
-.FlexWrapRight {
+.flex_wrap_right {
   justify-content: flex-start;
   margin-right: 10px
 }
@@ -6584,7 +6588,7 @@ body.light_mode .HomeLogo svg path {
   margin-top: 20px
 }
 
-.marginBottom20,
+.margin_bottom_20,
 .marginVert20 {
   margin-bottom: 20px
 }
@@ -6608,11 +6612,11 @@ body.light_mode .HomeLogo svg path {
 }
 
 .marginBottom30,
-.marginVert30 {
+.margin_vert_30 {
   margin-bottom: 30px
 }
 
-.marginVert30 {
+.margin_vert_30 {
   margin-top: 30px
 }
 
@@ -6647,7 +6651,7 @@ body.light_mode .TitleText {
   letter-spacing: .01em
 }
 
-.TextCenter {
+.text_center {
   text-align: center
 }
 
@@ -6738,7 +6742,7 @@ body.light_mode .HollowBox {
   box-shadow: var(--hollowBoxW)
 }
 
-.ChainBubble {
+.chain_bubble {
   position: relative;
   padding: 3px 12px;
   font-size: 13px;
@@ -6753,12 +6757,12 @@ body.light_mode .HollowBox {
   width: auto !important
 }
 
-.ChainBubble,
-body.light_mode .ChainBubble {
+.chain_bubble,
+body.light_mode .chain_bubble {
   color: var(--fontWhite)
 }
 
-.ChainBubble:after {
+.chain_bubble:after {
   content: "";
   position: absolute;
   top: 7px;
@@ -6770,7 +6774,7 @@ body.light_mode .ChainBubble {
   z-index: 0
 }
 
-.ChainBubble.Small {
+.chain_bubble.Small {
   height: 18px;
   font-size: 11px;
   letter-spacing: .04em;
@@ -6779,7 +6783,7 @@ body.light_mode .ChainBubble {
   line-height: 0
 }
 
-.ChainBubble.Small:after {
+.chain_bubble.Small:after {
   content: "";
   position: absolute;
   top: 4px;
@@ -6791,81 +6795,81 @@ body.light_mode .ChainBubble {
   z-index: 0
 }
 
-span.BNB.ChainBubble,
-span.BNB.ChainBubble:after {
+span.BNB.chain_bubble,
+span.BNB.chain_bubble:after {
   background: #bb9331
 }
 
-body.light_mode span.BNB.ChainBubble,
-body.light_mode span.BNB.ChainBubble:after {
+body.light_mode span.BNB.chain_bubble,
+body.light_mode span.BNB.chain_bubble:after {
   background: #f3ba2f
 }
 
-.ChainBubble {
+.chain_bubble {
   min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
   min-width: fit-content
 }
 
-span.ETH.ChainBubble,
-span.ETH.ChainBubble:after {
+span.ETH.chain_bubble,
+span.ETH.chain_bubble:after {
   background: #294eac
 }
 
-body.light_mode span.ETH.ChainBubble,
-body.light_mode span.ETH.ChainBubble:after {
+body.light_mode span.ETH.chain_bubble,
+body.light_mode span.ETH.chain_bubble:after {
   background: #4d70c8
 }
 
-span.MATIC.ChainBubble,
-span.MATIC.ChainBubble:after {
+span.MATIC.chain_bubble,
+span.MATIC.chain_bubble:after {
   background: #8247e5
 }
 
-span.AVAX.ChainBubble,
-span.AVAX.ChainBubble:after {
+span.AVAX.chain_bubble,
+span.AVAX.chain_bubble:after {
   background: #e84142
 }
 
-span.FTM.ChainBubble,
-span.FTM.ChainBubble:after {
+span.FTM.chain_bubble,
+span.FTM.chain_bubble:after {
   background: #1a69ff
 }
 
-span.warm.ChainBubble {
+span.warm.chain_bubble {
   background: var(--warmGradient)
 }
 
-span.warm.ChainBubble:after {
+span.warm.chain_bubble:after {
   background: var(--warmGradLeft)
 }
 
-span.cold.ChainBubble {
+span.cold.chain_bubble {
   background: var(--coldGradient)
 }
 
-span.cold.ChainBubble:after {
+span.cold.chain_bubble:after {
   background: var(--bgColor2)
 }
 
-span.initial.ChainBubble,
-span.initial.ChainBubble:after {
+span.initial.chain_bubble,
+span.initial.chain_bubble:after {
   background: var(--svgColor3)
 }
 
-span.left.ChainBubble,
-span.left.ChainBubble:after {
+span.left.chain_bubble,
+span.left.chain_bubble:after {
   background: var(--svgColor5)
 }
 
-body.light_mode span.initial.ChainBubble,
-body.light_mode span.initial.ChainBubble:after {
+body.light_mode span.initial.chain_bubble,
+body.light_mode span.initial.chain_bubble:after {
   background: var(--svgColorW2);
   color: var(--fontWhite4) !important
 }
 
-body.light_mode span.left.ChainBubble,
-body.light_mode span.left.ChainBubble:after {
+body.light_mode span.left.chain_bubble,
+body.light_mode span.left.chain_bubble:after {
   background: var(--svgColorW3);
   color: var(--fontWhite4) !important
 }
@@ -7079,7 +7083,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   white-space: nowrap
 }
 
-.AddressDisplayContainer .FlexWrap {
+.AddressDisplayContainer .flex_wrap {
   justify-content: center;
   align-items: center;
   word-break: keep-all;
@@ -11058,7 +11062,7 @@ body.light_mode .EverSwapOnramp.app .stake_nav.small_nav li:nth-child(3) a {
 
 .stake_nav.small_nav,
 .stake_nav.small_nav .header_account_btns,
-.stake_nav.small_nav .HeaderAccountInfo {
+.stake_nav.small_nav .header_account_info {
   display: none
 }
 
@@ -11138,8 +11142,8 @@ body.light_mode .EverSwapSummary span {
 
 @media (max-width:600px) {
 
-  .small_nav .HeaderAccountInfo,
-  body.light_mode .small_nav .HeaderAccountInfo {
+  .small_nav .header_account_info,
+  body.light_mode .small_nav .header_account_info {
     border: none;
     box-shadow: none
   }
@@ -12964,7 +12968,7 @@ body button.chakra_button.StakingActionCancelBtn {
   font-size: 15px
 }
 
-.EverStakeBridgePopup .StakingActionSubmitBtn {
+.stake_bridge_popup .StakingActionSubmitBtn {
   margin-top: 5px
 }
 
@@ -15926,4 +15930,22 @@ body .header_wallet_login button {
   opacity: 0.4;
   cursor: not-allowed;
   box-shadow: none;
+}
+
+#change_account_btn {
+  display: inline-flex;
+  appearance: none;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  line-height: 1.2;
+  font-weight: 600;
 }

@@ -58,6 +58,11 @@
     $("#bridge_to_modal").fadeIn();
   });
 
+  $(".header_account_info .lock_button").click(function (e) {
+    e.preventDefault();
+    $(".account_info_modal").fadeIn();
+  });
+
   $("#bridge_txns_tab").click(function (e) {
     e.preventDefault();
     if ($("#bridge_form_tab").hasClass("active")) {
