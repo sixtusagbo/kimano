@@ -1975,17 +1975,17 @@ body.light_mode .select_option_popup_content>div {
 }
 
 .SelectChainItem:before,
-.SelectTokenItem:before {
+.select_token_item:before {
   max-width: 38px;
   margin-right: 15px
 }
 
 .SelectChainItem img,
-.SelectTokenItem img {
+.select_token_item img {
   border-radius: 32px
 }
 
-.SelectTokenItem>div {
+.select_token_item>div {
   min-width: 40px;
   min-height: 40px;
   width: 40px;
@@ -2043,27 +2043,27 @@ body.light_mode .select_option_popup_inner {
 }
 
 .SelectChainItem:hover,
-.SelectOptionPopupListItem:hover {
+.select_option_popup_list_item:hover {
   background: var(--bgColor3)
 }
 
 body.light_mode .SelectChainItem:hover,
-body.light_mode .SelectOptionPopupListItem:hover {
+body.light_mode .select_option_popup_list_item:hover {
   background: var(--bgWhite3)
 }
 
-.SelectOptionPopupListItem {
+.select_option_popup_list_item {
   align-items: center
 }
 
 .SelectChainItem>div,
-.SelectOptionPopupListItem>div {
+.select_option_popup_list_item>div {
   width: 100%;
   display: flex;
   justify-content: space-between
 }
 
-.EverStakeFeaturedStats .SelectOptionPopupListItem,
+.EverStakeFeaturedStats .select_option_popup_list_item,
 .SelectChainItem,
 span.exit_icon {
   cursor: pointer;
@@ -2071,36 +2071,36 @@ span.exit_icon {
   align-items: center
 }
 
-.SelectedTokenArrows svg {
+.selected_token_arrows svg {
   width: 30px;
   height: 30px;
   margin-left: 20px
 }
 
-.SelectedTokenArrows,
-.SelectedTokenArrows svg {
+.selected_token_arrows,
+.selected_token_arrows svg {
   display: flex;
   align-items: center
 }
 
-.select_option_popup_content .SelectedToken span,
-.select_option_popup_content .SelectedToken>div {
+.select_option_popup_content .selected_token span,
+.select_option_popup_content .selected_token>div {
   opacity: .4
 }
 
-.select_option_popup_content .SelectTokenItem span {
+.select_option_popup_content .select_token_item span {
   color: var(--fontColor2)
 }
 
-body.light_mode .select_option_popup_content .SelectTokenItem span {
+body.light_mode .select_option_popup_content .select_token_item span {
   color: var(--fontWhite4)
 }
 
-.select_option_popup_content .SelectTokenItem svg {
+.select_option_popup_content .select_token_item svg {
   fill: var(--svgColor2)
 }
 
-body.light_mode .select_option_popup_content .SelectTokenItem svg {
+body.light_mode .select_option_popup_content .select_token_item svg {
   fill: var(--svgWhite3)
 }
 
@@ -2322,7 +2322,7 @@ select.tokenSelect[data-value="0xc2132D05D31c914a87C6611C10748AEb04B58e8F"] {
 .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .SelectChainBtn:before,
 .SelectChainItem:before,
-.SelectTokenItem:before {
+.select_token_item:before {
   content: "";
   height: 40px;
   width: 40px;
@@ -2343,7 +2343,7 @@ select.tokenSelect[data-value="0xc2132D05D31c914a87C6611C10748AEb04B58e8F"] {
   margin-right: 8px
 }
 
-.SelectTokenItem:before {
+.select_token_item:before {
   width: 32px;
   height: 32px
 }
@@ -3857,7 +3857,7 @@ body.light_mode .ComponentHeaderBG:after {
 
   .SelectChainBtn:before,
   .SelectChainItem:before,
-  .SelectTokenItem:before {
+  .select_token_item:before {
     margin-left: 10px
   }
 }
@@ -4101,7 +4101,7 @@ body.light_mode .ComponentHeaderBG:after {
   .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
   .SelectChainBtn:before,
   .SelectChainItem:before,
-  .SelectTokenItem:before {
+  .select_token_item:before {
     width: 30px;
     height: 30px;
     min-width: 30px
@@ -5530,7 +5530,7 @@ body.light_mode .indented_btn_wrap>div {
 .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .RISE.SelectChainBtn:before,
 .RISE.SelectChainItem:before,
-.RISE.SelectTokenItem:before,
+.RISE.select_token_item:before,
 .TokenPairIcons>div.RISE:before {
   background-image: url(https://data.everrise.com/icons/smartchain/0xc17c30e98541188614df99239cabd40280810ca3.png)
 }
@@ -5538,7 +5538,7 @@ body.light_mode .indented_btn_wrap>div {
 .BNB.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .BNB.SelectChainBtn:before,
 .BNB.SelectChainItem:before,
-.BNB.SelectTokenItem:before,
+.BNB.select_token_item:before,
 .TokenPairIcons>div.BNB:before {
   background-image: url(https://data.everrise.com/icons/smartchain/gas.png)
 }
@@ -5546,7 +5546,7 @@ body.light_mode .indented_btn_wrap>div {
 .ETH.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .ETH.SelectChainBtn:before,
 .ETH.SelectChainItem:before,
-.ETH.SelectTokenItem:before,
+.ETH.select_token_item:before,
 .TokenPairIcons>div.ETH:before {
   background-image: url(https://data.everrise.com/icons/ethereum/gas.png)
 }
@@ -5554,7 +5554,7 @@ body.light_mode .indented_btn_wrap>div {
 .MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .MATIC.SelectChainBtn:before,
 .MATIC.SelectChainItem:before,
-.MATIC.SelectTokenItem:before,
+.MATIC.select_token_item:before,
 .TokenPairIcons>div.MATIC:before {
   background-image: url(https://data.everrise.com/icons/polygon/gas.png)
 }
@@ -5562,7 +5562,7 @@ body.light_mode .indented_btn_wrap>div {
 .FTM.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .FTM.SelectChainBtn:before,
 .FTM.SelectChainItem:before,
-.FTM.SelectTokenItem:before,
+.FTM.select_token_item:before,
 .TokenPairIcons>div.FTM:before {
   background-image: url(https://data.everrise.com/icons/fantom/gas.png)
 }
@@ -5570,7 +5570,7 @@ body.light_mode .indented_btn_wrap>div {
 .AVAX.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .AVAX.SelectChainBtn:before,
 .AVAX.SelectChainItem:before,
-.AVAX.SelectTokenItem:before,
+.AVAX.select_token_item:before,
 .TokenPairIcons>div.AVAX:before {
   background-image: url(https://data.everrise.com/icons/avalanche/gas.png)
 }
@@ -6865,7 +6865,7 @@ body.light_mode span.left.ChainBubble:after {
   color: var(--fontWhite4) !important
 }
 
-.SelectTokenItem.SelectOptionPopupListItem:before {
+.select_token_item.select_option_popup_list_item:before {
   display: none
 }
 
