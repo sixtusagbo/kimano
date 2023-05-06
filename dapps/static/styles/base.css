@@ -5276,7 +5276,7 @@ body.light_mode .RoundButton button[disabled] svg.our_icon path {
 .stake_amount_buttons .wallet_input button:active,
 body.light_mode .stake_amount_buttons .wallet_input button:active {
   box-shadow: none !important;
-  font-size: 20px;
+  font-size: 20px !important;
   background: transparent !important
 }
 
@@ -15906,6 +15906,7 @@ body .header_wallet_login button {
   height: 15px;
   width: 15px;
 }
+
 .stake {
   display: inline-flex;
 }
