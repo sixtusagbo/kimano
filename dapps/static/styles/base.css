@@ -1965,8 +1965,13 @@ body.light_mode .select_option_popup_content>div {
   box-shadow: var(--hollowBorderW)
 }
 
-.SelectChainItem {
+.select_chain_item {
   height: 90px
+}
+
+.select_chain_item::after {
+  content: "[Coming Soon]";
+  margin-left: .5em;
 }
 
 .select_option_popup_content>div.column_content {
@@ -1974,13 +1979,13 @@ body.light_mode .select_option_popup_content>div {
   padding: 35px
 }
 
-.SelectChainItem:before,
+.select_chain_item:before,
 .select_token_item:before {
   max-width: 38px;
   margin-right: 15px
 }
 
-.SelectChainItem img,
+.select_chain_item img,
 .select_token_item img {
   border-radius: 32px
 }
@@ -2042,12 +2047,12 @@ body.light_mode .select_option_popup_inner {
   margin: 10px
 }
 
-.SelectChainItem:hover,
+.select_chain_item:hover,
 .select_option_popup_list_item:hover {
   background: var(--bgColor3)
 }
 
-body.light_mode .SelectChainItem:hover,
+body.light_mode .select_chain_item:hover,
 body.light_mode .select_option_popup_list_item:hover {
   background: var(--bgWhite3)
 }
@@ -2056,7 +2061,7 @@ body.light_mode .select_option_popup_list_item:hover {
   align-items: center
 }
 
-.SelectChainItem>div,
+.select_chain_item>div,
 .select_option_popup_list_item>div {
   width: 100%;
   display: flex;
@@ -2064,7 +2069,7 @@ body.light_mode .select_option_popup_list_item:hover {
 }
 
 .EverStakeFeaturedStats .select_option_popup_list_item,
-.SelectChainItem,
+.select_chain_item,
 span.exit_icon {
   cursor: pointer;
   z-index: 100;
@@ -2321,7 +2326,7 @@ select.tokenSelect[data-value="0xc2132D05D31c914a87C6611C10748AEb04B58e8F"] {
 .MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .SelectChainBtn:before,
-.SelectChainItem:before,
+.select_chain_item:before,
 .select_token_item:before {
   content: "";
   height: 40px;
@@ -3856,7 +3861,7 @@ body.light_mode .ComponentHeaderBG:after {
 @media (max-width:685px) {
 
   .SelectChainBtn:before,
-  .SelectChainItem:before,
+  .select_chain_item:before,
   .select_token_item:before {
     margin-left: 10px
   }
@@ -4100,7 +4105,7 @@ body.light_mode .ComponentHeaderBG:after {
   .MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
   .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
   .SelectChainBtn:before,
-  .SelectChainItem:before,
+  .select_chain_item:before,
   .select_token_item:before {
     width: 30px;
     height: 30px;
@@ -5529,7 +5534,7 @@ body.light_mode .indented_btn_wrap>div {
 .EverRise.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .RISE.SelectChainBtn:before,
-.RISE.SelectChainItem:before,
+.RISE.select_chain_item:before,
 .RISE.select_token_item:before,
 .TokenPairIcons>div.RISE:before {
   background-image: url(https://data.everrise.com/icons/smartchain/0xc17c30e98541188614df99239cabd40280810ca3.png)
@@ -5537,7 +5542,7 @@ body.light_mode .indented_btn_wrap>div {
 
 .BNB.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .BNB.SelectChainBtn:before,
-.BNB.SelectChainItem:before,
+.BNB.select_chain_item:before,
 .BNB.select_token_item:before,
 .TokenPairIcons>div.BNB:before {
   background-image: url(https://data.everrise.com/icons/smartchain/gas.png)
@@ -5545,7 +5550,7 @@ body.light_mode .indented_btn_wrap>div {
 
 .ETH.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .ETH.SelectChainBtn:before,
-.ETH.SelectChainItem:before,
+.ETH.select_chain_item:before,
 .ETH.select_token_item:before,
 .TokenPairIcons>div.ETH:before {
   background-image: url(https://data.everrise.com/icons/ethereum/gas.png)
@@ -5553,7 +5558,7 @@ body.light_mode .indented_btn_wrap>div {
 
 .MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .MATIC.SelectChainBtn:before,
-.MATIC.SelectChainItem:before,
+.MATIC.select_chain_item:before,
 .MATIC.select_token_item:before,
 .TokenPairIcons>div.MATIC:before {
   background-image: url(https://data.everrise.com/icons/polygon/gas.png)
@@ -5561,7 +5566,7 @@ body.light_mode .indented_btn_wrap>div {
 
 .FTM.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .FTM.SelectChainBtn:before,
-.FTM.SelectChainItem:before,
+.FTM.select_chain_item:before,
 .FTM.select_token_item:before,
 .TokenPairIcons>div.FTM:before {
   background-image: url(https://data.everrise.com/icons/fantom/gas.png)
@@ -5569,7 +5574,7 @@ body.light_mode .indented_btn_wrap>div {
 
 .AVAX.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .AVAX.SelectChainBtn:before,
-.AVAX.SelectChainItem:before,
+.AVAX.select_chain_item:before,
 .AVAX.select_token_item:before,
 .TokenPairIcons>div.AVAX:before {
   background-image: url(https://data.everrise.com/icons/avalanche/gas.png)
@@ -7512,21 +7517,21 @@ body.light_mode .token_pair {
   color: var(--fontColor5)
 }
 
-.TransactionHistory {
+.transaction_history {
   min-height: 50vh;
   width: 100%;
   height: 100%;
   padding-top: 10px
 }
 
-.TransactionForm.component_bg {
+.transaction_form.component_bg {
   border-radius: 25px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   padding-bottom: 20px
 }
 
-.TransactionHistoryHeader {
+.transaction_history_header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7534,77 +7539,81 @@ body.light_mode .token_pair {
   font-size: 14px
 }
 
-.TransactionHistoryHeader .ticker {
+.transaction_history_header .ticker {
   margin-left: 15px
 }
 
-.TransactionHistoryHeader .ticker button {
+.transaction_history_header .ticker button {
   width: 100%;
   height: 100%;
   min-width: 120px;
   justify-content: space-around
 }
 
-.TransactionHistoryHeader .ticker_btn.p_arrow:after {
+.transaction_history_header .ticker_btn.p_arrow:after {
   border-color: rgba(200, 208, 228, .83)
 }
 
-.TransactionHistoryHeader .ticker,
-body.light_mode .TransactionHistoryHeader .ticker {
+.transaction_history_header .ticker,
+body.light_mode .transaction_history_header .ticker {
   border: 1.5px solid var(--borderColor3);
   border-radius: 9px;
   height: 40px;
   background: var(--bgColor2);
-  max-width: 100%
+  max-width: 100%;
 }
 
-body.light_mode .TransactionHistoryHeader .ticker {
+body.light_mode .transaction_history_header .ticker {
   box-shadow: none;
   border: 1.5px solid var(--borderWhite2) !important;
   background: var(--bgWhite2)
 }
 
-.NoHistory {
+.no_history {
   text-align: center
 }
 
-.TransactionTable {
+.transaction_table {
   border: 1px solid var(--borderColor3);
   border-collapse: separate !important;
   border-spacing: 0;
   border-radius: 10px;
-  box-shadow: var(--borderColor3)
+  box-shadow: var(--borderColor3);
+  font-variant-numeric: lining-nums tabular-nums;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: .75rem;
 }
 
-body.light_mode .TransactionTable {
+body.light_mode .transaction_table {
   border: 1px solid var(--borderWhite2)
 }
 
-.TransactionTable tr {
+.transaction_table tr {
   background: var(--bgColor0)
 }
 
-body.light_mode .TransactionTable tr {
+body.light_mode .transaction_table tr {
   background: var(--bgWhite3)
 }
 
-.TransactionTable tr:nth-child(2n) {
+.transaction_table tr:nth-child(2n) {
   background: var(--bgColor1)
 }
 
-body.light_mode .TransactionTable tr:nth-child(2n) {
+body.light_mode .transaction_table tr:nth-child(2n) {
   background: var(--bgWhite1)
 }
 
-.TransactionTable tr:nth-child(odd) {
+.transaction_table tr:nth-child(odd) {
   background: var(--bgColor0)
 }
 
-body.light_mode .TransactionTable tr:nth-child(odd) {
+body.light_mode .transaction_table tr:nth-child(odd) {
   background: var(--bgWhite0)
 }
 
-.TransactionTable th {
+.transaction_table th {
   color: var(--fontColor4);
   border-bottom: none;
   padding: 15px 10px;
@@ -7612,12 +7621,12 @@ body.light_mode .TransactionTable tr:nth-child(odd) {
   text-align: center
 }
 
-body.light_mode .TransactionTable th {
+body.light_mode .transaction_table th {
   color: var(--fontWhite4);
   background: var(--bgWhite1)
 }
 
-.TransactionTable td {
+.transaction_table td {
   padding: 7px 5px;
   text-align: center;
   align-items: center;
@@ -7626,22 +7635,22 @@ body.light_mode .TransactionTable th {
   border-top: 1px solid var(--bgColor2)
 }
 
-body.light_mode .TransactionTable td {
+body.light_mode .transaction_table td {
   border-bottom: none;
   border-top: 1px solid var(--bgWhite4)
 }
 
-.TransactionTable td:first-of-type,
-.TransactionTable th:first-of-type {
+.transaction_table td:first-of-type,
+.transaction_table th:first-of-type {
   padding-left: 15px
 }
 
-.TransactionTable td:last-of-type,
-.TransactionTable th:last-of-type {
+.transaction_table td:last-of-type,
+.transaction_table th:last-of-type {
   padding-right: 15px
 }
 
-.form_top_half.TransactionForm.component_bg .powered_by {
+.form_top_half.transaction_form.component_bg .powered_by {
   padding-top: 20px
 }
 
@@ -7656,7 +7665,7 @@ body.light_mode .TransactionTable td {
   height: 30px
 }
 
-.DateColumn {
+.date_column {
   max-width: 120px
 }
 
@@ -7844,16 +7853,16 @@ body.light_mode .TransactionTable td {
     padding: 0 10px 15px
   }
 
-  .TransactionHistoryHeader {
+  .transaction_history_header {
     flex-direction: column
   }
 
-  .TransactionHistoryHeader .ticker {
+  .transaction_history_header .ticker {
     margin-top: 12px;
     min-width: 130px
   }
 
-  .TransactionHistoryHeader>p {
+  .transaction_history_header>p {
     font-size: 14px;
     text-align: center;
     line-height: 1.3em
@@ -7909,12 +7918,12 @@ body.light_mode .TransactionTable td {
     min-width: 32px
   }
 
-  .TransactionTable th {
+  .transaction_table th {
     font-size: 10px;
     letter-spacing: .02em
   }
 
-  .TransactionHistoryHeader>p {
+  .transaction_history_header>p {
     max-width: 230px
   }
 
@@ -7949,8 +7958,8 @@ body.light_mode .TransactionTable td {
 
 @media (max-width:414px) {
 
-  .DateColumn,
-  .DateColumn th {
+  .date_column,
+  .date_column th {
     display: none
   }
 
@@ -7960,7 +7969,7 @@ body.light_mode .TransactionTable td {
     height: 18px
   }
 
-  .TransactionHistory {
+  .transaction_history {
     min-height: 30vh
   }
 }
@@ -15909,4 +15918,12 @@ body .header_wallet_login button {
 
 .stake {
   display: inline-flex;
+}
+
+.bridge_button_footer_btn[disabled],
+.bridge_button_footer_btn[aria-disabled="true"],
+.bridge_button_footer_btn[data-disabled] {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none;
 }
