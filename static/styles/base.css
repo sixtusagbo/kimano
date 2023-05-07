@@ -275,19 +275,6 @@ video {
   height: auto
 }
 
-* {
-  --tw-shadow: 0 0 #0000;
-  --tw-ring-inset: var(--tw-empty,
-      /*!*/
-      /*!*/
-    );
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgba(66, 153, 225, 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000
-}
-
 .btn {
   border-radius: .25rem;
   --tw-bg-opacity: 1;
@@ -703,7 +690,7 @@ h2 span {
   color: #fff;
   font-size: 12px;
   padding: 8px 10px;
-  background: linear-gradient(90deg, #001130, #001a47);
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   box-shadow: inset 0 0 1px 1px #001e5a;
   border: solid #030c25;
   border-width: 1px 1px 2px;
@@ -865,18 +852,18 @@ noLineHeight {
 }
 
 .primary_links::-webkit-scrollbar {
-  background-color: #000d23;
+  background-color: #993491;
   width: 10px
 }
 
 .primary_links::-webkit-scrollbar-thumb {
-  background: #031b44;
+  background: #993491;
   border: 1px solid #031e4d
 }
 
 .our_nav,
 nav ul li.parent_menu_item>ul {
-  background-color: #001846
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
 }
 
 body.kimano_dapp .our_nav,
@@ -1000,12 +987,12 @@ li.dapp_menu_item.active a {
 
 a.orange_hero_btn,
 a.RedHeroBtn {
-  border-image-source: linear-gradient(90deg, #fb8b47, #ce2041)
+  border-image-source: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
 }
 
 a.orange_hero_btn span,
 a.RedHeroBtn {
-  background: linear-gradient(90deg, #fb8b47, #ce2041);
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
@@ -1013,7 +1000,7 @@ a.RedHeroBtn {
 
 a.orange_hero_btn:after,
 a.RedHeroBtn:after {
-  color: #dc4243
+  color: #993491
 }
 
 a.blue_hero_btn {
@@ -1081,7 +1068,7 @@ a.blue_hero_btn span {
 }
 
 .OrangeTxtflat {
-  color: #3fb2ff
+  color:linear-gradient(270deg, #11d617, #0752bb)
 }
 
 .orange_txt_left_grad {
@@ -1091,7 +1078,7 @@ a.blue_hero_btn span {
 
 .orange_txt_left_grad,
 .orange_txt_left_grad span {
-  background: linear-gradient(270deg, #fb8b47, #ce2041);
+  background: linear-gradient(270deg, #11d617, #0752bb);
   border-image-slice: 1;
   background-clip: text;
   -webkit-background-clip: text;
@@ -1104,7 +1091,7 @@ a.blue_hero_btn span {
 
 .orange_txt_right_grad,
 .orange_txt_right_grad span {
-  background: linear-gradient(90deg, #fb8b47, #ce2041);
+  background: linear-gradient(270deg, #11d617, #0752bb);
   border-image-slice: 1;
   background-clip: text;
   -webkit-background-clip: text;
@@ -1147,9 +1134,8 @@ a.blue_hero_btn span {
 }
 
 .blue_box {
-  border: 1px solid #000e2a;
-  box-shadow: inset 0 0 1px 1px #001e5a;
-  background: linear-gradient(216deg, #001130, #001a47);
+  border: 1px solid #993491;
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   border-radius: 20px
 }
 
@@ -1516,17 +1502,13 @@ span.dropdown_trigger {
 li.parent_menu_item.dapp_menu_item ul.child_menu li a:before {
   max-width: 100%;
   background-size: 100%;
-  background-image: url(../images/ecosystem_icons_nw.png)
+  background-image: url(../images/ecosystem_icons_nw_1.png)
 }
 
-.icon_revoke:before {
-  max-width: 100%;
-  background-size: 100%;
-  background-image: url(../images/revoke_icon.png) !important
-}
+
 
 img.icon_rise {
-  background-image: url(https://www.everrise.com/assets/images/icon/EverRiseIcon45.png);
+  background-image: url(../images/swap_icon.png);
   background-size: contain
 }
 
@@ -1656,13 +1638,13 @@ body.reward .token_features_section {
 }
 
 ::-webkit-scrollbar-track {
-  background: #020a22
+  background: #41043c
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #04163b;
+  background-color: #BD54EA;
   border-radius: 10px;
-  border: 2px solid #020a22
+  border: 2px solid #41043c
 }
 
 .section_arrow {
@@ -1677,7 +1659,7 @@ body.reward .token_features_section {
   content: "";
   position: absolute;
   z-index: 2;
-  background: #00437b;
+  background: #993491;
   height: 100px;
   width: 100px;
   transform: rotate(45deg);
@@ -1685,7 +1667,7 @@ body.reward .token_features_section {
   margin-left: 50%;
   left: -50px;
   pointer-events: none;
-  box-shadow: inset 0 0 1px 1px #00285f
+  box-shadow: inset 0 0 1px 1px #903189
 }
 
 .community_faq_section_right h2,
@@ -1875,9 +1857,9 @@ section.RedirectSection {
     border-radius: 100px;
     padding: 0 20px;
     color: #fff;
-    background: linear-gradient(90deg, #fb8b47, #ce2041);
-    box-shadow: inset 0 0 1px 1px #ef5d13;
-    border-color: #001635;
+    background: linear-gradient(270deg, #11d617, #0752bb);
+    box-shadow: inset 0 0 1px 1px #11d617;
+    border-color: #0752bb;
     font-size: 14px;
     letter-spacing: .03em;
     font-weight: 500
@@ -2015,8 +1997,8 @@ section.RedirectSection {
 @media only screen and (min-width:961px) and (max-width:99999px) {
   .our_menu_item a:hover {
     color: #fff;
-    background: linear-gradient(90deg, #fb8b47, #ce2041);
-    box-shadow: inset 0 0 1px 1px #f78247;
+    background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+    box-shadow: inset 0 0 1px 1px rgb(182, 76, 233);
     border-color: #001635
   }
 
@@ -2066,7 +2048,7 @@ section.RedirectSection {
 
   span.primary_links li a {
     min-height: 50px;
-    border-bottom: 1px solid #0f1e36;
+    border-bottom: 1px solid #903189;
     margin-bottom: 10px;
     padding-bottom: 10px
   }
@@ -2107,8 +2089,8 @@ section.RedirectSection {
   }
 
   .primary_links {
-    background: #00112c;
-    border: 1px solid #031c45ad
+    background: #993491;
+    border: 1px solid #993491
   }
 
   html.our_mobile_menu,
@@ -2778,7 +2760,7 @@ span.faq_dapp_title {
 }
 
 .FaqBlocks ul li:first-child .logo path.EverRiseTxt {
-  fill: #012447
+  fill: #993491
 }
 
 .FaqBlocks ul li:first-child .logo {
@@ -3087,9 +3069,9 @@ body.site_faq .header_txt h1 {
 .submit button {
   border-radius: 90px;
   color: #fff;
-  background: linear-gradient(90deg, #fb8b47, #ce2041);
-  box-shadow: inset 0 0 1px 1px #f78247;
-  border: 4px solid #0b1f50;
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+  box-shadow: inset 0 0 1px 1px #d330c6;
+  border: 1px solid #d330c6;
   font-weight: 800;
   letter-spacing: .03em;
   text-transform: uppercase;
@@ -3357,7 +3339,7 @@ section.subscribe_section {
 }
 
 .subscribe_section {
-  background: #0b1f50
+  background: #d330c6
 }
 
 @media only screen and (max-width:750px) and (min-width:0px) {
@@ -3485,7 +3467,7 @@ section.subscribe_section {
 
 .footer_links {
   padding: 100px 0;
-  border-top: 1px solid #142038
+  border-top: 1px solid #903189
 }
 
 .footer_links_inner {
@@ -4081,13 +4063,13 @@ section.home_hero .global_inner {
 }
 
 .home_hero:after {
-  background: linear-gradient(90deg, #001333, #001333 15%, rgba(0, 19, 51, 0) 70%, rgba(0, 19, 51, 0));
+  background-image: linear-gradient(#993391, #993491 5%, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   left: -10%;
   height: 99999px
 }
 
 .home_hero:before {
-  background-image: linear-gradient(#001333, #021638 5%, rgba(0, 19, 51, 0) 30%, rgba(0, 19, 51, 0));
+  background-image: linear-gradient(#993391, #993491 5%,rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   top: -11px
 }
 
@@ -4226,7 +4208,7 @@ section.home_hero .global_inner {
   }
 
   .home_hero:after {
-    background: linear-gradient(90deg, #001333 1%, #001333 0, rgba(0, 19, 51, 0) 130%, rgba(0, 19, 51, 0) 0);
+    background-image: linear-gradient(#993391, #993491 5%, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
     left: 0
   }
 }
@@ -4253,7 +4235,7 @@ section.home_hero .global_inner {
 
   .home_hero:after {
     min-height: 900vh;
-    background: linear-gradient(90deg, #001333, #001333 5%, rgba(0, 19, 51, 0) 110%, rgba(0, 19, 51, 0) 0);
+    background-image: linear-gradient(#993391, #993491 5%, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
     left: 0
   }
 
@@ -4367,10 +4349,8 @@ section.home_hero .global_inner {
 }
 
 .press_section {
-  background-color: #0b5390;
-  background: linear-gradient(180deg, #074483, #1a79b1);
-  box-shadow: inset 0 0 1px 1px #0d5ea5;
-  border-bottom: 1px solid #4fa3db
+  border: 1px solid #CA63EC;
+  background: #CA63EC
 }
 
 li.press_btn a {
@@ -4390,11 +4370,11 @@ li.press_btn a {
 
 li.press_btn a:focus,
 li.press_btn a:hover {
-  background: linear-gradient(180deg, rgb(26 121 177/45%), rgb(7 68 131/46%))
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
 }
 
 li.press_btn a:active {
-  background: linear-gradient(180deg, rgb(7 68 131/46%), rgb(26 121 177/45%))
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
 }
 
 .logo_slider {
@@ -4970,7 +4950,7 @@ li.press_logo {
 }
 
 .Foundation.global_outer {
-  border-top: 1px solid #001b51
+  border-top: 1px solid #903189
 }
 
 .foundation_section:after {
@@ -5002,10 +4982,10 @@ li.press_logo {
   text-align: center;
   margin-right: 50px;
   color: #001a46;
-  border: 1px solid #03122d;
+  border: 1px solid #993491;
   box-shadow: inset 0 0 1px 1px #092a59, 0 2px 5px 0 rgb(3 19 56/20%);
   z-index: 1;
-  background: linear-gradient(340deg, #000832, #05285f 90%);
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   border-radius: 10px;
   width: 33.333%
 }
@@ -5038,7 +5018,7 @@ body.home .foundation_section h2 {
   margin-bottom: 1em;
   font-weight: 600;
   text-transform: uppercase;
-  color: #d8dde2
+  color: #000
 }
 
 .foundation_section .global_inner>p:last-child {
@@ -5071,8 +5051,8 @@ body.home .foundation_section h2 {
 }
 
 .foundation_card p {
-  color: #e5e6e9;
-  font-weight: 300;
+  color: #000;
+  font-weight: 600;
   line-height: 1.5em;
   letter-spacing: .02em
 }
@@ -5188,7 +5168,7 @@ body.home .foundation_section h2 {
 }
 
 .ecosystem_section_top {
-  background-color: #030d2b;
+  background-color: #993491;
   overflow: hidden;
   position: relative;
   border-bottom: 0;
@@ -5222,7 +5202,7 @@ body.home .foundation_section h2 {
 }
 
 .ecosystem_section_top_content p {
-  color: #d3d9e3;
+  color: #000;
   font-size: 1.2em;
   margin-bottom: 40px;
   margin-top: 20px;
@@ -5235,13 +5215,11 @@ body.home .foundation_section h2 {
   content: "dApp";
   position: relative;
   z-index: 1;
-  background: #021231;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 1px 1px #022250;
   border-radius: 90px;
-  color: #b9c2d2bd;
+  color: #000;
   font-size: 11px;
   height: 26px;
   width: 65px;
@@ -5261,7 +5239,7 @@ body.home .foundation_section h2 {
 .full_ecosystem_content ul li h3 {
   transition: all .5s ease-out;
   font-size: 1.5em;
-  color: #b9c2d2;
+  color: #000;
   letter-spacing: .03em;
   margin: 1em .7em .5em;
   font-weight: 600
@@ -5274,8 +5252,8 @@ body.home .foundation_section h2 {
 .CompactEcosystemContent ul li h4,
 .full_ecosystem_content ul li h4 {
   transition: all .5s ease-out;
-  font-size: 1.3em;
-  color: #b9c2d2;
+  font-size: 5.3em;
+  color: #000;
   letter-spacing: .01em;
   margin: 1em .7em .5em;
   font-weight: 600
@@ -5284,9 +5262,9 @@ body.home .foundation_section h2 {
 .CompactEcosystemContent ul li p,
 .full_ecosystem_content ul li p {
   text-align: center;
-  color: #b9c2d2;
+  color: #000;
   letter-spacing: .03em;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.4em;
   font-size: .98em;
   transition: all .4s ease-out;
@@ -5294,7 +5272,7 @@ body.home .foundation_section h2 {
 }
 
 section.full_ecosystem_section {
-  background-color: #030d2b
+  background-color: #993491
 }
 
 .full_ecosystem_section_inner {
@@ -5325,18 +5303,17 @@ section.full_ecosystem_section {
 }
 
 .full_ecosystem_content li .eco_learn_btn {
-  border: 2px solid #00143a;
+  border: 2px solid #d378d2;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100px;
   padding: 0 26px;
-  box-shadow: inset 0 0 1px 1px #032758;
   color: #cbe1f4;
   margin: 20px 0 0;
   width: 80%;
-  background-color: #001a4a;
+  background-color: #F596F4;
   width: 100%
 }
 
@@ -8133,7 +8110,7 @@ a.card_hero_btn {
 }
 
 .community_faq_section_left {
-  background: #0b1f50
+  background: #993491
 }
 
 .community_faq_section_left p {
@@ -8340,7 +8317,7 @@ body.reward .community_faq_section_right {
   font-weight: 800;
   margin-bottom: 25px;
   font-size: 1.8em;
-  color: #0b327d
+  color: #903189
 }
 
 .bottom_articles article {
@@ -8474,7 +8451,7 @@ body.reward .community_faq_section_left h2 {
 }
 
 section.MigrationBanner.global_outer {
-  background: #020c29
+  background: #C230B7 ;
 }
 
 .MigrationBannerImg {
@@ -9297,15 +9274,14 @@ body.community .bottom_articles h2 {
 }
 
 .img_header {
-  background-color: #001846;
-  background: linear-gradient(276deg, #001d56, #041942 60%, #001231);
+  background-color: #993491;
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   min-height: 550px;
   display: flex;
   color: #fff;
   position: relative;
   overflow: hidden;
   margin-bottom: 80px;
-  border-top: 2px solid #001337
 }
 
 .img_header_hero_left {
@@ -9986,8 +9962,7 @@ li.social_card:nth-child(3) .social_card_text {
 }
 
 .social_card_text a:hover {
-  background: linear-gradient(90deg, #fea162, #e62020);
-  color: #fff
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
 }
 
 .social_card_text p {
@@ -10719,7 +10694,7 @@ section.dapp_faq_section .community_faq_section_left {
 }
 
 body.kimano_dapp .content {
-  background: #001333
+  background: #C230B7
 }
 
 body.kimano_dapp .section_arrow:before {
@@ -10870,7 +10845,7 @@ body.kimano_dapp .section_arrow:before {
 }
 
 .DappCardBtn a:hover {
-  background: linear-gradient(90deg, #fb8b47, #ce2041)
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
 }
 
 .dapp_header {
@@ -13224,8 +13199,8 @@ p.press_item_publish_date {
 }
 
 .press_button a:hover {
-  background: linear-gradient(90deg, #fb8b47, #ce2041);
-  box-shadow: inset 0 0 1px 1px #f78247;
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+    box-shadow: inset 0 0 1px 1px rgb(182, 76, 233);
   border-color: #001635
 }
 
