@@ -4403,7 +4403,9 @@ body.embedded .component_bg {
 }
 
 body.custom .app:not(.kim_stake.app) .stake_nav,
-body.embedded .app:not(.kim_stake.app) .stake_nav {
+body.embedded .app:not(.kim_stake.app) .stake_nav,
+body.custom .app:not(.swap.app) .stake_nav,
+body.embedded .app:not(.swap.app) .stake_nav {
   margin-bottom: 10px !important
 }
 
@@ -11217,7 +11219,9 @@ body.light_mode .EverSwapSummary span {
 }
 
 @media (max-width:400px) {
-  .app:not(.kim_stake.app) .stake_nav.small_nav {
+
+  .app:not(.kim_stake.app) .stake_nav.small_nav,
+  .app:not(.swap.app) .stake_nav.small_nav {
     margin-bottom: 10px !important
   }
 
@@ -11401,7 +11405,8 @@ span.USDT_price_eqv>span:last-child {
   }
 }
 
-.app:not(.kim_stake.app) .stake_nav {
+.app:not(.kim_stake.app) .stake_nav,
+.app:not(.swap.app) .stake_nav {
   margin-bottom: 15px !important
 }
 
@@ -11480,6 +11485,7 @@ body.light_mode .stake_nav a {
 }
 
 .kim_stake.app .stake_nav li:first-child a,
+.swap.app .stake_nav li:first-child a,
 .EverStakeClaim.app .stake_nav li:nth-child(4) a,
 .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
 .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -11491,6 +11497,7 @@ body.light_mode .stake_nav a {
 }
 
 body.light_mode .kim_stake.app .stake_nav li:first-child a,
+body.light_mode .swap.app .stake_nav li:first-child a,
 body.light_mode .EverStakeClaim.app .stake_nav li:nth-child(4) a,
 body.light_mode .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
 body.light_mode .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -13948,6 +13955,7 @@ svg#LoaderAnimation {
 @media (max-width:480px) {
 
   .kim_stake.app .stake_nav li:first-child a,
+  .swap.app .stake_nav li:first-child a,
   .EverStakeClaim.app .stake_nav li:nth-child(4) a,
   .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
   .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -14071,6 +14079,7 @@ svg#LoaderAnimation {
   }
 
   .kim_stake.app .stake_nav li:first-child a,
+  .swap.app .stake_nav li:first-child a,
   .EverStakeClaim.app .stake_nav li:nth-child(4) a,
   .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
   .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -15973,4 +15982,11 @@ ul.stake_nav_list li a.stake_nav_list_link {
 
 ul.stake_nav_list li a.stake_nav_list_link span {
   display: inline-block;
+}
+
+body .swap.app .menu_tabs {
+  max-width: 650px;
+  width: 100%;
+  justify-self: center;
+  align-self: center;
 }

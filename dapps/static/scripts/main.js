@@ -85,4 +85,19 @@
     }
   });
 
+  const query_params = new Proxy(new URLSearchParams(window.location.search), {
+    get: (searchParams, prop) => searchParams.get(prop),
+  })
+
+  if (query_params.isEmbedded) {
+    $(document.body).addClass('embedded');
+
+    if (query_params.theme) {
+      if (query_params.theme === "dark") {
+        $(document.body).removeClass('light_mode');
+        $(document.body).addClass('dark_mode');
+      }
+    }
+  }
+
 })(jQuery);
