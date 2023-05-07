@@ -20,7 +20,7 @@
     });
   });
 
-  $("li .faq_block_accordion .collapsible #collapsible_trigger").each(function (
+  $("li .faq_block_accordion .collapsible #collapsible_trigger, .faq_accordion .collapsible #collapsible_trigger").each(function (
     index,
     element
   ) {
