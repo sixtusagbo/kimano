@@ -881,7 +881,7 @@ nav ul li.parent_menu_item>ul {
 
 body.kimano_dapp .our_nav,
 body.home .our_nav,
-body.rise .our_nav {
+body.reward .our_nav {
   background: transparent;
   background-color: transparent;
   margin-bottom: -122px;
@@ -1016,18 +1016,18 @@ a.RedHeroBtn:after {
   color: #dc4243
 }
 
-a.BlueHeroBtn {
+a.blue_hero_btn {
   border-image-source: linear-gradient(90deg, #01f3f5, #0093df)
 }
 
-a.BlueHeroBtn span {
+a.blue_hero_btn span {
   background: linear-gradient(90deg, #01f3f5, #0093df);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
 
-.hero_content_btns a.BlueHeroBtn:after {
+.hero_content_btns a.blue_hero_btn:after {
   color: #01ace5
 }
 
@@ -1227,7 +1227,7 @@ body>div>div {
 .RiseV1Section .global_inner,
 .RiseV2Section .global_inner,
 body.community .community_inner,
-body:not(.rise) .CompactEcosystemSectionInner {
+body:not(.reward) .CompactEcosystemSectionInner {
   width: 100%;
   max-width: 1920px;
   padding: 0 100px;
@@ -1628,7 +1628,7 @@ a.revoke_mm:before {
   opacity: .9
 }
 
-body.rise .RiseFeaturesSection {
+body.reward .RiseFeaturesSection {
   padding: 140px 0 100px
 }
 
@@ -4259,7 +4259,7 @@ section.home_hero .global_inner {
 
   body.kimano_dapp .our_nav,
   body.home .our_nav,
-  body.rise .our_nav {
+  body.reward .our_nav {
     margin-bottom: -86px
   }
 
@@ -6383,21 +6383,21 @@ body.blog-post li>p {
   margin-bottom: 0 !important
 }
 
-body.rise .content {
+body.reward .content {
   background: #030d2b
 }
 
-.RiseHeader {
+.reward_header {
   height: 90vh;
   min-height: 1000px;
   background: url(https://www.everrise.com/assets/images/bg/DeepMetaVerseBG.png) bottom/cover no-repeat rgb(0 20 59/0)
 }
 
-.RiseHeader .dapp_header_content_container {
+.reward_header .dapp_header_content_container {
   width: 100%
 }
 
-.RiseHeader .hero_content_btns {
+.reward_header .hero_content_btns {
   text-transform: uppercase;
   display: flex;
   flex-wrap: wrap;
@@ -6405,13 +6405,13 @@ body.rise .content {
   color: #fff
 }
 
-.RiseHeader .dapp_header_content {
+.reward_header .dapp_header_content {
   text-align: left;
   align-items: flex-start;
   margin-right: 3vw
 }
 
-.RiseHeader h1 {
+.reward_header h1 {
   background: linear-gradient(270deg, #fb8b47, #ce2041);
   border-image-slice: 1;
   -webkit-background-clip: text;
@@ -6426,7 +6426,7 @@ body.rise .content {
   margin-bottom: 10px
 }
 
-.BoldWhiteCaps {
+.bold_white_caps {
   text-transform: uppercase;
   color: #fff;
   font-size: 1.7em;
@@ -6435,7 +6435,7 @@ body.rise .content {
   margin-top: .7em
 }
 
-.RiseHeader .dapp_header_txt {
+.reward_header .dapp_header_txt {
   color: #e0e0e0;
   font-size: 1.3em
 }
@@ -6523,35 +6523,35 @@ body.rise .content {
 }
 
 @media only screen and (max-width:1400px) and (min-width:0px) {
-  .RiseHeader .hero_content_btns a:nth-child(3) {
+  .reward_header .hero_content_btns a:nth-child(3) {
     width: 100%;
     margin-top: 10px
   }
 
-  .RiseHeader .hero_content_btns a:first-child,
-  .RiseHeader .hero_content_btns a:nth-child(2) {
+  .reward_header .hero_content_btns a:first-child,
+  .reward_header .hero_content_btns a:nth-child(2) {
     width: calc(50% - 10px);
     margin-right: 0
   }
 
-  .RiseHeader .hero_content_btns a:first-child {
+  .reward_header .hero_content_btns a:first-child {
     margin-right: 20px
   }
 
-  .RiseHeader .dapp_header_content .hero_content_btns a {
+  .reward_header .dapp_header_content .hero_content_btns a {
     margin-bottom: 10px;
     padding: 15px
   }
 }
 
 @media only screen and (max-width:1310px) and (min-width:0px) {
-  .RiseHeader .dapp_header_content {
+  .reward_header .dapp_header_content {
     text-align: left;
     align-items: flex-start;
     margin-right: 4vw
   }
 
-  .RiseHeader .hero_content_btns {
+  .reward_header .hero_content_btns {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6562,13 +6562,13 @@ body.rise .content {
 }
 
 @media only screen and (max-width:1130px) and (min-width:0px) {
-  .RiseHeader .dapp_header_content {
+  .reward_header .dapp_header_content {
     text-align: left;
     align-items: flex-start;
     margin-right: 4vw
   }
 
-  .RiseHeader .dapp_header_content .hero_content_btns a {
+  .reward_header .dapp_header_content .hero_content_btns a {
     margin-bottom: 10px;
     padding: 15px
   }
@@ -6600,15 +6600,15 @@ body.rise .content {
 }
 
 @media only screen and (max-width:880px) and (min-width:0px) {
-  .RiseHeader h1 {
+  .reward_header h1 {
     font-size: 60px
   }
 
-  .BoldWhiteCaps {
+  .bold_white_caps {
     font-size: 1.6em
   }
 
-  .RiseHeader p {
+  .reward_header p {
     font-size: .9em
   }
 }
@@ -6622,7 +6622,7 @@ body.rise .content {
     margin-bottom: 0
   }
 
-  .RiseHeader .dapp_header_content {
+  .reward_header .dapp_header_content {
     margin-right: 0
   }
 }
@@ -6881,8 +6881,8 @@ a.BuyRiseLink:hover {
   border-bottom: 1px solid rgb(255 255 255/42%)
 }
 
-body.rise .baseBlueBtn,
-body.rise .BuyRiseLink {
+body.reward .baseBlueBtn,
+body.reward .BuyRiseLink {
   border: 2px solid #00143a;
   height: 55px;
   display: flex;
@@ -6898,8 +6898,8 @@ body.rise .BuyRiseLink {
   background: linear-gradient(91deg, #01173e, #08225a)
 }
 
-body.rise .baseBlueBtn:hover,
-body.rise .BuyRiseLink:hover {
+body.reward .baseBlueBtn:hover,
+body.reward .BuyRiseLink:hover {
   box-shadow: inset 0 0 21px 11px rgb(30 85 160/13%), inset 0 0 1px 1px #032758, 0 2px 7px 2px rgb(0 0 0/9%);
   background: linear-gradient(91deg, #001540, #051f5c)
 }
@@ -7494,7 +7494,7 @@ section.RiseV1Section h3:first-of-type {
 }
 
 @media only screen and (max-width:1000px) and (min-width:0px) {
-  body.rise .FeaturesGlobalInner {
+  body.reward .FeaturesGlobalInner {
     padding: 90px 40px 140px
   }
 
@@ -7554,7 +7554,7 @@ section.RiseV1Section h3:first-of-type {
     font-size: 38px
   }
 
-  body.rise .FeaturesGlobalInner {
+  body.reward .FeaturesGlobalInner {
     padding: 55px 0 80px
   }
 
@@ -7594,7 +7594,7 @@ section.RiseV1Section h3:first-of-type {
     margin-bottom: 2em
   }
 
-  body.rise .FeaturesGlobalInner {
+  body.reward .FeaturesGlobalInner {
     margin: 0;
     width: 94%
   }
@@ -7603,7 +7603,7 @@ section.RiseV1Section h3:first-of-type {
     font-size: 24px
   }
 
-  body.rise .RiseFeaturesSection {
+  body.reward .RiseFeaturesSection {
     padding: 100px 0 56px
   }
 
@@ -8140,7 +8140,7 @@ a.CardHeroBtn {
   background-color: #030d2b
 }
 
-body.rise .community_faq_global_inner div#community {
+body.reward .community_faq_global_inner div#community {
   width: 43%
 }
 
@@ -8191,7 +8191,7 @@ body.rise .community_faq_global_inner div#community {
   border-bottom: 1px solid #04205a
 }
 
-body.rise .community_faq_section_left {
+body.reward .community_faq_section_left {
   border-top-right-radius: 370px;
   border-bottom-right-radius: 370px;
   box-shadow: -220px 0 0 0 #0b1f50, -420px 0 0 0 #0b1f50, -620px 0 0 0 #0b1f50, -820px 0 0 0 #0b1f50, -1020px 0 0 0 #0b1f50, -1220px 0 0 0 #0b1f50, -1420px 0 0 0 #0b1f50, -1620px 0 0 0 #0b1f50, -1820px 0 0 0 #0b1f50, -2020px 0 0 0 #0b1f50, -2220px 0 0 0 #0b1f50, -2420px 0 0 0 #0b1f50, -2620px 0 0 0 #0b1f50, -2820px 0 0 0 #0b1f50, -3020px 0 0 0 #0b1f50, -3220px 0 0 0 #0b1f50, -3420px 0 0 0 #0b1f50, -3220px 0 0 0 #0b1f50, -3420px 0 0 0 #0b1f50, -3620px 0 0 0 #0b1f50, -3820px 0 0 0 #0b1f50, -4020px 0 0 0 #0b1f50, -4220px 0 0 0 #0b1f50, -4420px 0 0 0 #0b1f50, -4620px 0 0 0 #0b1f50, -4820px 0 0 0 #0b1f50, -5020px 0 0 0 #0b1f50, -5220px 0 0 0 #0b1f50, -5420px 0 0 0 #0b1f50, -5620px 0 0 0 #0b1f50, -5820px 0 0 0 #0b1f50, -6020px 0 0 0 #0b1f50;
@@ -8199,13 +8199,13 @@ body.rise .community_faq_section_left {
   padding-right: 5%
 }
 
-body.rise .community_faq_section {
+body.reward .community_faq_section {
   background: #030d2b;
   padding-bottom: 40px;
   padding-top: 40px
 }
 
-body.rise .faq_title {
+body.reward .faq_title {
   width: 100%;
   margin-top: 0
 }
@@ -8216,7 +8216,7 @@ body.rise .faq_title {
   overflow-y: auto
 }
 
-body.rise .community_faq_global_inner {
+body.reward .community_faq_global_inner {
   display: flex
 }
 
@@ -8238,7 +8238,7 @@ body.rise .community_faq_global_inner {
   margin-right: 15px
 }
 
-body.rise .community_faq_section_right {
+body.reward .community_faq_section_right {
   margin-left: 15px
 }
 
@@ -8285,7 +8285,7 @@ body.rise .community_faq_section_right {
   align-items: center
 }
 
-body.rise .community_faq_section_right {
+body.reward .community_faq_section_right {
   width: 58%;
   margin-left: 5%;
   margin-bottom: 10px
@@ -8374,18 +8374,18 @@ body.rise .community_faq_section_right {
 }
 
 @media only screen and (max-width:1460px) and (min-width:0px) {
-  body.rise .community_faq_section_left {
+  body.reward .community_faq_section_left {
     width: 45%
   }
 
-  body.rise .community_faq_section_right {
+  body.reward .community_faq_section_right {
     width: 50%;
     margin-left: 5%
   }
 }
 
 @media only screen and (max-width:1400px) and (min-width:0px) {
-  .rise .community_faq_section_left {
+  .reward .community_faq_section_left {
     padding-right: 50px;
     border-top-right-radius: 300px;
     border-bottom-right-radius: 300px
@@ -8397,22 +8397,22 @@ body.rise .community_faq_section_right {
     display: none
   }
 
-  body.rise .community_faq_section {
+  body.reward .community_faq_section {
     padding-bottom: 80px
   }
 
-  body.rise .community_faq_global_inner {
+  body.reward .community_faq_global_inner {
     flex-wrap: wrap;
     width: 100%
   }
 
-  body.rise .community_faq_section .community_faq_section_left,
-  body.rise .community_faq_section .community_faq_section_right {
+  body.reward .community_faq_section .community_faq_section_left,
+  body.reward .community_faq_section .community_faq_section_right {
     width: 100%;
     box-shadow: 0 0 0 0 transparent
   }
 
-  body.rise .community_faq_section_left {
+  body.reward .community_faq_section_left {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     padding: 60px 0;
@@ -8420,35 +8420,35 @@ body.rise .community_faq_section_right {
     border-radius: 20px
   }
 
-  body.rise .community_faq_section_right {
+  body.reward .community_faq_section_right {
     margin-left: 0
   }
 
-  body.rise .community_faq_section_right .faq_accordion {
+  body.reward .community_faq_section_right .faq_accordion {
     width: 100%
   }
 
-  body.rise .community_faq_section_right .faq_accordion .collapsible {
+  body.reward .community_faq_section_right .faq_accordion .collapsible {
     margin-right: 10px
   }
 
-  body.rise .community_faq_section_left .hero_content_btns {
+  body.reward .community_faq_section_left .hero_content_btns {
     width: 100%;
     max-width: 330px
   }
 
-  body.rise .community_faq_section_left .hero_content_btns a:first-child {
+  body.reward .community_faq_section_left .hero_content_btns a:first-child {
     margin: initial;
     width: 100%
   }
 
-  body.rise .community_faq_section_right {
+  body.reward .community_faq_section_right {
     max-height: 770px
   }
 }
 
 @media only screen and (max-width:960px) and (min-width:0px) {
-  body.rise .community_faq_section_right .faq_accordion .collapsible {
+  body.reward .community_faq_section_right .faq_accordion .collapsible {
     margin-right: 0
   }
 }
@@ -8458,13 +8458,13 @@ body.rise .community_faq_section_right {
     font-size: 9.3vw
   }
 
-  body.rise .community_faq_section_left {
+  body.reward .community_faq_section_left {
     margin: 0 0 55px;
     border-radius: 15px
   }
 }
 
-body.rise .community_faq_section_left h2 {
+body.reward .community_faq_section_left h2 {
   text-align: center
 }
 
@@ -8493,7 +8493,7 @@ section.MigrationBanner.global_outer {
   line-height: 1em
 }
 
-body.rise section.CompactEcosystemSection {
+body.reward section.CompactEcosystemSection {
   padding-top: 125px
 }
 
@@ -9171,7 +9171,7 @@ p.swapServiceTxtLinks a:last-child>span:first-child {
   border-bottom: 1px solid #516994
 }
 
-.EverIframeContainer {
+.iframe_container {
   background: transparent;
   color: #fff;
   display: flex;
@@ -9182,7 +9182,7 @@ p.swapServiceTxtLinks a:last-child>span:first-child {
   align-items: center
 }
 
-.EverIframe {
+.iframe {
   margin-top: 120px;
   width: 550px;
   max-width: 550px;
@@ -9196,33 +9196,33 @@ p.swapServiceTxtLinks a:last-child>span:first-child {
 }
 
 @media only screen and (max-width:1550px) and (min-width:0px) {
-  .EverIframeContainer {
+  .iframe_container {
     width: 480px
   }
 
-  .EverIframe {
+  .iframe {
     width: 480px;
     height: 780px
   }
 }
 
 @media only screen and (max-width:1350px) and (min-width:0px) {
-  .EverIframeContainer {
+  .iframe_container {
     width: 480px
   }
 
-  .EverIframe {
+  .iframe {
     width: 480px;
     height: 780px
   }
 }
 
 @media only screen and (max-width:1000px) and (min-width:0px) {
-  .EverIframeContainer {
+  .iframe_container {
     width: 450px
   }
 
-  .EverIframe {
+  .iframe {
     margin-top: 70px;
     width: 400px;
     height: 690px
@@ -9230,18 +9230,18 @@ p.swapServiceTxtLinks a:last-child>span:first-child {
 }
 
 @media only screen and (max-width:880px) and (min-width:0px) {
-  .EverIframeContainer {
+  .iframe_container {
     width: 450px
   }
 
-  .EverIframe {
+  .iframe {
     width: 45vw;
     height: 690px
   }
 }
 
 @media only screen and (max-width:804px) and (min-width:0px) {
-  .EverIframe {
+  .iframe {
     width: 45vw;
     height: 690px
   }
@@ -9249,12 +9249,12 @@ p.swapServiceTxtLinks a:last-child>span:first-child {
 
 @media only screen and (max-width:769px) and (min-width:0px) {
 
-  .EverIframeContainer,
-  .RiseHeader .EverIframe {
+  .iframe_container,
+  .reward_header .iframe {
     display: none
   }
 
-  .EverIframe {
+  .iframe {
     margin-top: 0;
     width: 550px;
     max-width: 650px;
@@ -9267,7 +9267,7 @@ p.swapServiceTxtLinks a:last-child>span:first-child {
 }
 
 @media only screen and (max-width:600px) and (min-width:0px) {
-  .EverIframe {
+  .iframe {
     width: 90vw;
     max-width: 650px;
     height: 790px
@@ -9275,7 +9275,7 @@ p.swapServiceTxtLinks a:last-child>span:first-child {
 }
 
 @media only screen and (max-width:446px) and (min-width:0px) {
-  .EverIframe {
+  .iframe {
     width: 90vw;
     max-width: 650px;
     height: 690px
@@ -11146,7 +11146,7 @@ body.kimano_dapp .section_arrow:before {
     font-weight: 100
   }
 
-  .RiseHeader .dapp_header_txt p {
+  .reward_header .dapp_header_txt p {
     padding: 0;
     font-size: 17px;
     font-weight: 100
