@@ -1600,12 +1600,12 @@ a.revoke_mm:before {
   background-size: 100%
 }
 
-.AnimArrowAfter {
+.anim_arrow_after {
   position: relative;
   overflow: visible !important
 }
 
-.AnimArrowAfter:after {
+.anim_arrow_after:after {
   max-width: 100%;
   background-image: url(https://i.postimg.cc/K4XtmM3T/Anim-Arrows.png);
   background-position: 0 100%;
@@ -1624,19 +1624,19 @@ a.revoke_mm:before {
   transform: scale(.85)
 }
 
-.RiseFeaturesSection .foundation_card img {
+.token_features_section .foundation_card img {
   opacity: .9
 }
 
-body.reward .RiseFeaturesSection {
+body.reward .token_features_section {
   padding: 140px 0 100px
 }
 
-.AnimArrowAfter:nth-child(2) {
+.anim_arrow_after:nth-child(2) {
   z-index: 3
 }
 
-.AnimArrowAfter:first-child {
+.anim_arrow_after:first-child {
   z-index: 4
 }
 
@@ -7371,7 +7371,7 @@ section.RiseV1Section h3:first-of-type {
   display: none
 }
 
-.RiseFeaturesSection .foundation_card {
+.token_features_section .foundation_card {
   width: 33.333%;
   padding: 50px 40px;
   box-shadow: inset 0 0 1px 1px #001e5a;
@@ -7383,7 +7383,7 @@ section.RiseV1Section h3:first-of-type {
   border-radius: 20px
 }
 
-.RiseFeaturesSection li.foundation_card h3 {
+.token_features_section li.foundation_card h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7395,7 +7395,7 @@ section.RiseV1Section h3:first-of-type {
   color: #adbecc
 }
 
-.RiseFeaturesSection li.foundation_card h3:after {
+.token_features_section li.foundation_card h3:after {
   content: "";
   width: 60%;
   min-width: 150px;
@@ -7479,7 +7479,7 @@ section.RiseV1Section h3:first-of-type {
     margin-right: 0
   }
 
-  .AnimArrowAfter:after {
+  .anim_arrow_after:after {
     margin: initial;
     right: auto;
     bottom: 0;
@@ -7493,7 +7493,7 @@ section.RiseV1Section h3:first-of-type {
     padding-bottom: 70px
   }
 
-  .RiseFeaturesSection li.foundation_card h3 {
+  .token_features_section li.foundation_card h3 {
     text-align: center
   }
 }
@@ -7608,7 +7608,7 @@ section.RiseV1Section h3:first-of-type {
     font-size: 24px
   }
 
-  body.reward .RiseFeaturesSection {
+  body.reward .token_features_section {
     padding: 100px 0 56px
   }
 
