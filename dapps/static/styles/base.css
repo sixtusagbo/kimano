@@ -554,6 +554,11 @@ body.light_mode .claim_nft_stats>div {
   .ClaimMigrationTable th:nth-of-type(4) {
     display: none
   }
+
+  ul.stake_nav_list li a.stake_nav_list_link span {
+    font-size: 11px;
+  }
+
 }
 
 @media (max-width:480px) {
@@ -576,6 +581,10 @@ body.light_mode .claim_nft_stats>div {
   .ClaimMigrationTable td:nth-of-type(3),
   .ClaimMigrationTable th:nth-of-type(3) {
     display: none
+  }
+
+  ul.stake_nav_list li a.stake_nav_list_link span {
+    font-size: 9px;
   }
 }
 
@@ -4393,8 +4402,8 @@ body.embedded .component_bg {
   width: 100%
 }
 
-body.custom .app:not(.EverStake.app) .stake_nav,
-body.embedded .app:not(.EverStake.app) .stake_nav {
+body.custom .app:not(.kim_stake.app) .stake_nav,
+body.embedded .app:not(.kim_stake.app) .stake_nav {
   margin-bottom: 10px !important
 }
 
@@ -11208,7 +11217,7 @@ body.light_mode .EverSwapSummary span {
 }
 
 @media (max-width:400px) {
-  .app:not(.EverStake.app) .stake_nav.small_nav {
+  .app:not(.kim_stake.app) .stake_nav.small_nav {
     margin-bottom: 10px !important
   }
 
@@ -11392,7 +11401,7 @@ span.USDT_price_eqv>span:last-child {
   }
 }
 
-.app:not(.EverStake.app) .stake_nav {
+.app:not(.kim_stake.app) .stake_nav {
   margin-bottom: 15px !important
 }
 
@@ -11470,7 +11479,7 @@ body.light_mode .stake_nav a {
   box-shadow: none
 }
 
-.EverStake.app .stake_nav li:first-child a,
+.kim_stake.app .stake_nav li:first-child a,
 .EverStakeClaim.app .stake_nav li:nth-child(4) a,
 .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
 .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -11481,7 +11490,7 @@ body.light_mode .stake_nav a {
   box-shadow: none
 }
 
-body.light_mode .EverStake.app .stake_nav li:first-child a,
+body.light_mode .kim_stake.app .stake_nav li:first-child a,
 body.light_mode .EverStakeClaim.app .stake_nav li:nth-child(4) a,
 body.light_mode .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
 body.light_mode .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -13938,7 +13947,7 @@ svg#LoaderAnimation {
 
 @media (max-width:480px) {
 
-  .EverStake.app .stake_nav li:first-child a,
+  .kim_stake.app .stake_nav li:first-child a,
   .EverStakeClaim.app .stake_nav li:nth-child(4) a,
   .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
   .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -14061,7 +14070,7 @@ svg#LoaderAnimation {
     max-width: 85%
   }
 
-  .EverStake.app .stake_nav li:first-child a,
+  .kim_stake.app .stake_nav li:first-child a,
   .EverStakeClaim.app .stake_nav li:nth-child(4) a,
   .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
   .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -15948,4 +15957,20 @@ body .header_wallet_login button {
   outline-offset: 2px;
   line-height: 1.2;
   font-weight: 600;
+}
+
+ul.stake_nav_list {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+}
+
+ul.stake_nav_list li a.stake_nav_list_link {
+  cursor: pointer;
+  text-decoration: none;
+  outline-offset: 2px;
+}
+
+ul.stake_nav_list li a.stake_nav_list_link span {
+  display: inline-block;
 }
