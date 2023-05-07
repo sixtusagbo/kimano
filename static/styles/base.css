@@ -733,11 +733,11 @@ h2 span {
   align-items: center
 }
 
-.topbar p.ContractID:before {
+.topbar p.contract_id:before {
   display: none
 }
 
-.topbar p.ContractID:after {
+.topbar p.contract_id:after {
   height: 15px;
   width: 15px
 }
@@ -748,7 +748,7 @@ h2 span {
   justify-content: center
 }
 
-.topbar .ContractID {
+.topbar .contract_id {
   width: 392px;
   font-size: 11px;
   margin: 0 0 0 14px;
@@ -757,18 +757,18 @@ h2 span {
   min-height: 36px
 }
 
-p.ContractID {
+p.contract_id {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap
 }
 
-.copiedPopup:after {
+.copied_popup:after {
   content: "Copied!";
   pointer-events: none
 }
 
-.copiedPopup {
+.copied_popup {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -787,7 +787,7 @@ p.ContractID {
   top: 68%
 }
 
-.copiedPopup-active {
+.copied_popup-active {
   opacity: 0;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
@@ -795,7 +795,7 @@ p.ContractID {
   animation: FadeInOut 1.4s linear forwards
 }
 
-.topbar p.ContractID {
+.topbar p.contract_id {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap
@@ -805,11 +805,11 @@ p.ContractID {
   line-height: 1em
 }
 
-.topbar .ContractID {
+.topbar .contract_id {
   padding-left: 6px
 }
 
-.topbar .copiedPopup {
+.topbar .copied_popup {
   font-size: 12px;
   padding: 0;
   height: 30px;
@@ -817,7 +817,7 @@ p.ContractID {
 }
 
 @media only screen and (max-width:768px) and (min-width:0px) {
-  .topbar .ContractID {
+  .topbar .contract_id {
     margin-left: 0;
     padding-left: 5px;
     padding-right: 12px
@@ -839,19 +839,19 @@ p.ContractID {
     margin: 0 !important
   }
 
-  .topbar .ContractID {
+  .topbar .contract_id {
     width: 350px;
     font-size: 10px
   }
 
-  .topbar p.ContractID {
+  .topbar p.contract_id {
     padding-left: 6px;
     padding-right: 12px
   }
 }
 
 @media only screen and (max-width:375px) and (min-width:0px) {
-  .topbar .ContractID {
+  .topbar .contract_id {
     width: 291px;
     padding: 0 !important;
     font-size: 9px;
@@ -1042,7 +1042,7 @@ a.blue_hero_btn span {
   color: #fff !important
 }
 
-.baseBlueBtn,
+.base_blue_btn,
 .BuyRiseLink {
   border: 2px solid #00143a;
   min-height: 50px;
@@ -1059,7 +1059,7 @@ a.blue_hero_btn span {
   background: linear-gradient(91deg, #001b41, #032554)
 }
 
-.baseBlueBtn:hover,
+.base_blue_btn:hover,
 .BuyRiseLink:hover {
   color: #fff;
   background: linear-gradient(270deg, #fb8b47, #ce2041);
@@ -1557,7 +1557,7 @@ a.sale_mm:before {
   background-position: 0 42.8%
 }
 
-.ERIconEverSwap,
+.icon_swap,
 a.swap_mm:before {
   background-position: 0 57.25%
 }
@@ -6725,18 +6725,18 @@ body.reward .content {
   }
 }
 
-.ContractsSection {
+.contracts_section {
   background-color: #020c29
 }
 
-.ContractsSection ul {
+.contracts_section ul {
   display: flex;
   min-height: 30vh;
   width: 100%;
   padding: 10px
 }
 
-.ContractsSection li {
+.contracts_section li {
   width: calc(20% - 20px);
   border: 1px solid #000e2a;
   box-shadow: inset 0 0 1px 1px #001e5a;
@@ -6768,7 +6768,7 @@ body.reward .content {
   fill: #fff
 }
 
-img.ContractLogo {
+img.contract_logo {
   max-width: 62px;
   max-height: 62px;
   width: 100%;
@@ -6786,49 +6786,54 @@ img.SwapShopIcon.uniswap-logo {
   max-width: 34px
 }
 
-.avalanche-logo,
-.binance-logo,
-.ethereum-logo,
-.fantom-logo,
+.arbitrum_logo,
+.binance_logo,
+.ethereum_logo,
+.fantom_logo,
 .pancakeswap-logo,
-.polygon-matic-logo,
+.polygon_matic_logo,
 .quickswap-logo,
 .uniswap-logo,
-p.ContractID:before {
+p.contract_id:before {
   max-width: 100%;
   background-size: 100%;
-  background-image: url(https://www.everrise.com/assets/images/icon/CryptoServicesSprite.png);
+  background-image: url(../../dapps/static/icons/crypto_services_sprite.png);
   background-image: url(https://i.postimg.cc/YpxW1957/Crypto-Services-Sprite2.png)
 }
 
-.binance-logo,
-.BinanceContract p.ContractID:before {
+.arbitrum_logo {
+  background-image: none;
+}
+
+.binance_logo,
+.binance_contract p.contract_id:before {
   background-position: center 0;
   background-size: 100%
 }
 
-.ethereum-logo,
-.EthereumContract p.ContractID:before {
+.ethereum_logo,
+.ethereum_contract p.contract_id:before {
   background-position: center 9.9%;
   background-size: 64%;
   background-repeat: no-repeat
 }
 
-.polygon-matic-logo,
-.PolygonContract p.ContractID:before {
+.polygon_matic_logo,
+.polygon_contract p.contract_id:before {
   background-position: center 32.8%;
   background-size: 100%
 }
 
-.avalanche-logo,
-.AvalancheContract p.ContractID:before {
+.arbitrum_logo,
+.arbitrum_contract p.contract_id:before {
+  background-image: url(../../dapps/static/icons/arbitrum.png);
   background-position: center 62.5%;
   background-size: 96%;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
 
-.fantom-logo,
-.FantomContract p.ContractID:before {
+.fantom_logo,
+.fantom_contract p.contract_id:before {
   background-position: center 72.8%;
   background-size: 81%;
   background-repeat: no-repeat
@@ -6849,21 +6854,21 @@ p.ContractID:before {
   background-size: 100%
 }
 
-.ContractsSection h2 span,
-.ContractsSection h3 span {
+.contracts_section h2 span,
+.contracts_section h3 span {
   display: block;
   font-size: .6em
 }
 
-.ContractsSection h2,
-.ContractsSection h3 {
+.contracts_section h2,
+.contracts_section h3 {
   text-transform: uppercase;
   color: #adbecc;
   text-align: center;
   font-size: 20px
 }
 
-.TikrTxt span {
+.tikr_txt span {
   font-weight: 700;
   font-size: 30px
 }
@@ -6881,7 +6886,7 @@ a.BuyRiseLink:hover {
   border-bottom: 1px solid rgb(255 255 255/42%)
 }
 
-body.reward .baseBlueBtn,
+body.reward .base_blue_btn,
 body.reward .BuyRiseLink {
   border: 2px solid #00143a;
   height: 55px;
@@ -6898,13 +6903,13 @@ body.reward .BuyRiseLink {
   background: linear-gradient(91deg, #01173e, #08225a)
 }
 
-body.reward .baseBlueBtn:hover,
+body.reward .base_blue_btn:hover,
 body.reward .BuyRiseLink:hover {
   box-shadow: inset 0 0 21px 11px rgb(30 85 160/13%), inset 0 0 1px 1px #032758, 0 2px 7px 2px rgb(0 0 0/9%);
   background: linear-gradient(91deg, #001540, #051f5c)
 }
 
-.ContractIDWrap {
+.contract_id_wrap {
   width: 100%;
   margin-top: auto;
   border-top: 2px solid #030f31;
@@ -6918,15 +6923,15 @@ body.reward .BuyRiseLink:hover {
   align-items: center
 }
 
-.TheSwapService a:last-child {
+.the_swap_service a:last-child {
   width: 35%
 }
 
-.TheSwapService a:first-child {
+.the_swap_service a:first-child {
   width: 100%
 }
 
-.ContractID {
+.contract_id {
   border: 1px solid #001d55;
   min-height: 40px;
   display: flex;
@@ -6945,7 +6950,7 @@ body.reward .BuyRiseLink:hover {
   letter-spacing: .08em
 }
 
-.ContractID:after {
+.contract_id:after {
   content: "";
   background-image: url(https://www.everrise.com/assets/images/icon/CopyIcon.png);
   height: 18px;
@@ -6959,7 +6964,7 @@ body.reward .BuyRiseLink:hover {
   cursor: pointer
 }
 
-p.swapServiceTxtLinks {
+p.swap_service_txt_links {
   color: rgb(173 190 204/99%);
   font-size: 14px;
   font-weight: 100;
@@ -6971,7 +6976,7 @@ p.swapServiceTxtLinks {
   width: 100%
 }
 
-.ContractID:before {
+.contract_id:before {
   content: "";
   height: 22px;
   width: 22px;
@@ -6984,13 +6989,13 @@ p.swapServiceTxtLinks {
   pointer-events: none
 }
 
-.ContractsSection li h4 {
+.contracts_section li h4 {
   color: #bebebe
 }
 
-.ContractsSection li>h4,
-.ContractsSection li h4,
-.ContractsSection li h5 {
+.contracts_section li>h4,
+.contracts_section li h4,
+.contracts_section li h5 {
   font-weight: 100;
   font-size: 13px;
   letter-spacing: .05em;
@@ -6998,8 +7003,8 @@ p.swapServiceTxtLinks {
   text-align: center
 }
 
-.ContractsSection li>h4,
-.ContractsSection li h5 {
+.contracts_section li>h4,
+.contracts_section li h5 {
   color: rgb(173 190 204/64%)
 }
 
@@ -7011,9 +7016,9 @@ p.swapServiceTxtLinks {
   text-align: center
 }
 
-.ContractTitle,
-.TheContract,
-.TheSwapService {
+.contract_title,
+.the_contract,
+.the_swap_service {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7022,12 +7027,12 @@ p.swapServiceTxtLinks {
   position: relative
 }
 
-.TheSwapService {
+.the_swap_service {
   flex-direction: row;
   padding: 20px
 }
 
-.ChartIcon {
+.chart_icon {
   margin-right: 10px;
   display: flex;
   justify-content: center;
@@ -7036,17 +7041,17 @@ p.swapServiceTxtLinks {
   min-width: 20px
 }
 
-.ContractID input {
+.contract_id input {
   letter-spacing: .1em;
   font-weight: 100;
   max-width: 70%
 }
 
-.ContractID input:focus {
+.contract_id input:focus {
   outline: none
 }
 
-.ContractID input {
+.contract_id input {
   appearance: none;
   -webkit-appearance: none;
   background: transparent;
@@ -7081,19 +7086,19 @@ p.swapServiceTxtLinks {
 }
 
 @media only screen and (max-width:1921px) and (min-width:0px) {
-  .ContractID {
+  .contract_id {
     font-size: 13px
   }
 }
 
 @media only screen and (max-width:1600px) and (min-width:0px) {
-  .ContractID {
+  .contract_id {
     font-size: .78vw
   }
 }
 
 @media only screen and (max-width:1450px) and (min-width:0px) {
-  .ContractID:after {
+  .contract_id:after {
     height: 15px;
     width: 15px
   }
@@ -7101,13 +7106,13 @@ p.swapServiceTxtLinks {
 
 @media only screen and (max-width:1400px) and (min-width:0px) {
 
-  .ContractsSection h2,
-  .ContractsSection h3 {
+  .contracts_section h2,
+  .contracts_section h3 {
     padding: 0 15px;
     font-size: 27px
   }
 
-  img.ContractLogo {
+  img.contract_logo {
     max-width: 77px;
     max-height: 80px;
     margin: 2em .9em .9em
@@ -7115,61 +7120,61 @@ p.swapServiceTxtLinks {
 }
 
 @media only screen and (max-width:1550px) and (min-width:0px) {
-  .ContractID:before {
+  .contract_id:before {
     height: 20px;
     width: 20px
   }
 
-  .ContractsSection ul {
+  .contracts_section ul {
     flex-wrap: wrap;
     padding: 5px
   }
 
-  .ContractsSection li.BinanceContract,
-  .ContractsSection li.EthereumContract,
-  .ContractsSection li.PolygonContract {
+  .contracts_section li.binance_contract,
+  .contracts_section li.ethereum_contract,
+  .contracts_section li.polygon_contract {
     width: calc(33.333% - 10px);
     margin: 5px
   }
 
-  .ContractsSection li.AvalancheContract,
-  .ContractsSection li.FantomContract {
+  .contracts_section li.arbitrum_contract,
+  .contracts_section li.fantom_contract {
     width: calc(50% - 10px);
     margin: 5px
   }
 
-  .ContractsSection li.PolygonContract .TheContract {
+  .contracts_section li.polygon_contract .the_contract {
     width: 100%
   }
 
-  .ContractsSection li.PolygonContract .TheSwapService {
+  .contracts_section li.polygon_contract .the_swap_service {
     width: 45%
   }
 
-  .ContractID {
+  .contract_id {
     font-size: 14px
   }
 
-  .ContractsSection li.PolygonContract .TheSwapService {
+  .contracts_section li.polygon_contract .the_swap_service {
     width: 100%
   }
 }
 
 @media only screen and (max-width:1068px) and (min-width:0px) {
-  .ContractsSection li.EthereumContract {
+  .contracts_section li.ethereum_contract {
     width: calc(100% - 10px);
     margin: 5px
   }
 
-  .ContractsSection li.AvalancheContract,
-  .ContractsSection li.BinanceContract,
-  .ContractsSection li.FantomContract,
-  .ContractsSection li.PolygonContract {
+  .contracts_section li.arbitrum_contract,
+  .contracts_section li.binance_contract,
+  .contracts_section li.fantom_contract,
+  .contracts_section li.polygon_contract {
     width: calc(50% - 10px);
     margin: 5px
   }
 
-  .ContractID {
+  .contract_id {
     font-size: 1.3vw
   }
 }
@@ -7179,7 +7184,7 @@ p.swapServiceTxtLinks {
     min-width: 279px
   }
 
-  .ContractID {
+  .contract_id {
     font-size: 1.5vw
   }
 }
@@ -7189,46 +7194,46 @@ p.swapServiceTxtLinks {
     margin-top: 0
   }
 
-  .ContractsSection li.AvalancheContract,
-  .ContractsSection li.BinanceContract,
-  .ContractsSection li.EthereumContract,
-  .ContractsSection li.FantomContract,
-  .ContractsSection li.PolygonContract {
+  .contracts_section li.arbitrum_contract,
+  .contracts_section li.binance_contract,
+  .contracts_section li.ethereum_contract,
+  .contracts_section li.fantom_contract,
+  .contracts_section li.polygon_contract {
     width: calc(100% - 10px);
     margin: 5px
   }
 
-  .ContractID {
+  .contract_id {
     font-size: 13px
   }
 
-  .ContractsSection {
+  .contracts_section {
     order: 2
   }
 
-  .EverSwapSection {
+  .swap_section {
     padding-top: 10px
   }
 }
 
 @media only screen and (max-width:670px) and (min-width:0px) {
 
-  .ContractsSection li.BinanceContract,
-  .ContractsSection li.EthereumContract,
-  .ContractsSection li.PolygonContract {
+  .contracts_section li.binance_contract,
+  .contracts_section li.ethereum_contract,
+  .contracts_section li.polygon_contract {
     flex-direction: column
   }
 
-  .ContractsSection li.BinanceContract .TheContract,
-  .ContractsSection li.BinanceContract .TheSwapService,
-  .ContractsSection li.EthereumContract .TheContract,
-  .ContractsSection li.EthereumContract .TheSwapService,
-  .ContractsSection li.PolygonContract .TheContract,
-  .ContractsSection li.PolygonContract .TheSwapService {
+  .contracts_section li.binance_contract .the_contract,
+  .contracts_section li.binance_contract .the_swap_service,
+  .contracts_section li.ethereum_contract .the_contract,
+  .contracts_section li.ethereum_contract .the_swap_service,
+  .contracts_section li.polygon_contract .the_contract,
+  .contracts_section li.polygon_contract .the_swap_service {
     width: 100%
   }
 
-  .ContractID {
+  .contract_id {
     margin: 8px 10px 20px
   }
 
@@ -7238,27 +7243,27 @@ p.swapServiceTxtLinks {
 }
 
 @media only screen and (max-width:500px) and (min-width:0px) {
-  .ContractID {
+  .contract_id {
     font-size: 13px
   }
 
-  .ContractsSection li.BinanceContract,
-  .ContractsSection li.EthereumContract,
-  .ContractsSection li.PolygonContract {
+  .contracts_section li.binance_contract,
+  .contracts_section li.ethereum_contract,
+  .contracts_section li.polygon_contract {
     padding: 0
   }
 
-  .ContractIDWrap {
+  .contract_id_wrap {
     padding: 0 10px
   }
 
-  .ContractID {
+  .contract_id {
     margin: 8px 0 20px
   }
 
-  .ContractsSection li.BinanceContract .ContractTitle,
-  .ContractsSection li.EthereumContract .ContractTitle,
-  .ContractsSection li.PolygonContract .ContractTitle {
+  .contracts_section li.binance_contract .contract_title,
+  .contracts_section li.ethereum_contract .contract_title,
+  .contracts_section li.polygon_contract .contract_title {
     flex-direction: column
   }
 }
@@ -7277,25 +7282,25 @@ section.RiseV1Section h2 {
   min-width: 230px
 }
 
-.GetRiseSection {
+.get_token_section {
   background: #020c29;
   padding: 80px 0 150px
 }
 
-.GetRiseSection .global_inner {
+.get_token_section .global_inner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center
 }
 
-.GetRiseSection li.foundation_card h3 {
+.get_token_section li.foundation_card h3 {
   font-weight: 700;
   color: #fff;
   margin-top: 25px
 }
 
-.GetRiseSection h2,
+.get_token_section h2,
 .RiseV2Section h2 {
   text-align: center;
   font-size: 48px;
@@ -7307,13 +7312,13 @@ section.RiseV1Section h2 {
   -webkit-text-fill-color: transparent
 }
 
-.GetRiseSection .foundation_card {
+.get_token_section .foundation_card {
   width: 33.333%;
   box-shadow: inset 0 0 1px 1px #001e5a;
   background: linear-gradient(216deg, #001130, #001a47)
 }
 
-.GetRiseSection .global_inner>p,
+.get_token_section .global_inner>p,
 .RiseV2Section .global_inner>p {
   text-align: center;
   margin: 40px;
@@ -7323,22 +7328,22 @@ section.RiseV1Section h2 {
   font-size: 1em
 }
 
-.GetRiseSection .global_inner>p:first-of-type {
+.get_token_section .global_inner>p:first-of-type {
   position: relative;
   top: -15px;
   font-size: 18px
 }
 
-.GetRiseSection p {
+.get_token_section p {
   max-width: 1225px
 }
 
-.GetRiseSection .hero_content_btns {
+.get_token_section .hero_content_btns {
   width: 100%;
   margin-top: 60px
 }
 
-.GetRiseSection .hero_content_btns,
+.get_token_section .hero_content_btns,
 a.WhitepaperLink {
   display: flex;
   justify-content: center;
@@ -7401,23 +7406,23 @@ section.RiseV1Section h3:first-of-type {
   background: linear-gradient(90deg, #fb8b47, #ce2041)
 }
 
-.EverBridgeLeadInner>div:first-child,
-.EverBridgeLeadInner>div:first-child .EverBridgeLeadContent,
-.EverSwapLeadInner>div:first-child,
-.EverSwapLeadInner>div:first-child .EverSwapLeadContent {
+.bridge_lead_inner>div:first-child,
+.bridge_lead_inner>div:first-child .bridge_lead_content,
+.swap_lead_inner>div:first-child,
+.swap_lead_inner>div:first-child .swap_lead_content {
   height: 100%
 }
 
-.EverBridgeLead h2,
-.EverSwapLead h2 {
+.bridge_lead h2,
+.swap_lead h2 {
   font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center
 }
 
-.EverBridgeLeadContentLinks,
-.EverSwapLeadContentLinks {
+.bridge_lead_content_links,
+.swap_lead_content_links {
   flex: 1
 }
 
@@ -7442,20 +7447,20 @@ section.RiseV1Section h3:first-of-type {
 }
 
 @media only screen and (max-width:1180px) and (min-width:0px) {
-  .GetRiseSection {
+  .get_token_section {
     padding: 20px 0 10px
   }
 
-  .GetRiseSection .global_inner {
+  .get_token_section .global_inner {
     padding: 15px 35px 0
   }
 
-  .GetRiseSection .foundation_card {
+  .get_token_section .foundation_card {
     padding: 38px 30px 60px;
     margin-right: 1.3em
   }
 
-  .GetRiseSection h2 {
+  .get_token_section h2 {
     text-align: center;
     max-width: 690px;
     font-size: 5vw
@@ -7465,9 +7470,9 @@ section.RiseV1Section h3:first-of-type {
     flex-wrap: wrap
   }
 
-  .GetRiseSection .foundation_card:first-child,
-  .GetRiseSection .foundation_card:nth-child(2),
-  .GetRiseSection .foundation_card:nth-child(3) {
+  .get_token_section .foundation_card:first-child,
+  .get_token_section .foundation_card:nth-child(2),
+  .get_token_section .foundation_card:nth-child(3) {
     width: 100%;
     max-width: 100%;
     margin-bottom: 40px;
@@ -7483,7 +7488,7 @@ section.RiseV1Section h3:first-of-type {
     margin-top: -54px
   }
 
-  .GetRiseSection .foundation_card {
+  .get_token_section .foundation_card {
     padding-top: 72px;
     padding-bottom: 70px
   }
@@ -7498,7 +7503,7 @@ section.RiseV1Section h3:first-of-type {
     padding: 90px 40px 140px
   }
 
-  .GetRiseSection .hero_content_btns a {
+  .get_token_section .hero_content_btns a {
     font-size: 2.7vw;
     width: 46%
   }
@@ -7509,29 +7514,29 @@ section.RiseV1Section h3:first-of-type {
     flex-wrap: wrap
   }
 
-  .GetRiseSection .foundation_card {
+  .get_token_section .foundation_card {
     width: 100%;
     max-width: 100%;
     margin-bottom: 22px;
     margin-right: 0
   }
 
-  .GetRiseSection .global_inner {
+  .get_token_section .global_inner {
     padding: 0 10px
   }
 
-  .GetRiseSection .global_inner>p:last-of-type {
+  .get_token_section .global_inner>p:last-of-type {
     margin-bottom: 0;
     padding-bottom: 30px
   }
 
-  .GetRiseSection .global_inner>p:not(:first-of-type),
+  .get_token_section .global_inner>p:not(:first-of-type),
   .RiseV2Section .global_inner>p {
     padding: 30px 0 70px;
     margin: 0 10px
   }
 
-  .GetRiseSection h2 {
+  .get_token_section h2 {
     font-size: 7vw
   }
 
@@ -7564,33 +7569,33 @@ section.RiseV1Section h3:first-of-type {
     color: #fff
   }
 
-  section.GetRiseSection .global_inner {
+  section.get_token_section .global_inner {
     padding: 0 20px
   }
 
-  .GetRiseSection .global_inner>p:last-of-type {
+  .get_token_section .global_inner>p:last-of-type {
     font-size: 16px
   }
 
-  .GetRiseSection .hero_content_btns {
+  .get_token_section .hero_content_btns {
     flex-direction: column
   }
 
-  .GetRiseSection .hero_content_btns a {
+  .get_token_section .hero_content_btns a {
     width: 100%;
     margin-left: 0;
     margin-right: 0
   }
 
-  .GetRiseSection .hero_content_btns a:not(:last-child) {
+  .get_token_section .hero_content_btns a:not(:last-child) {
     margin-bottom: 3em
   }
 
-  .GetRiseSection .hero_content_btns a {
+  .get_token_section .hero_content_btns a {
     font-size: 20px
   }
 
-  .GetRiseSection .hero_content_btns a:not(:last-child) {
+  .get_token_section .hero_content_btns a:not(:last-child) {
     margin-bottom: 2em
   }
 
@@ -7613,22 +7618,22 @@ section.RiseV1Section h3:first-of-type {
 }
 
 @media only screen and (max-width:530px) and (min-width:0px) {
-  .TheSwapService a {
+  .the_swap_service a {
     width: 100% !important;
     margin: 0 !important
   }
 
-  .TheSwapService a:first-child {
+  .the_swap_service a:first-child {
     margin-bottom: 20px !important
   }
 
-  .TheSwapService {
+  .the_swap_service {
     flex-direction: column
   }
 }
 
 @media only screen and (max-width:500px) and (min-width:0px) {
-  .GetRiseSection .global_inner>p:not(:first-of-type) {
+  .get_token_section .global_inner>p:not(:first-of-type) {
     padding: 30px 0 70px;
     margin: 0
   }
@@ -8489,7 +8494,7 @@ section.MigrationBanner.global_outer {
   position: relative
 }
 
-.TheSwapService a {
+.the_swap_service a {
   line-height: 1em
 }
 
@@ -8738,18 +8743,18 @@ body.reward section.CompactEcosystemSection {
   }
 }
 
-.EverBridgeLead svg path,
-.EverSwapLead svg path {
+.bridge_lead svg path,
+.swap_lead svg path {
   fill: url(#orange-gradient)
 }
 
-.EverBridgeLeadContent h2 span,
-.EverSwapLeadContent h2 span {
+.bridge_lead_content h2 span,
+.swap_lead_content h2 span {
   display: initial
 }
 
-.EverBridgeLeadContent h2 span span,
-.EverSwapLeadContent h2 span span {
+.bridge_lead_content h2 span span,
+.swap_lead_content h2 span span {
   display: initial;
   background: linear-gradient(270deg, #fb8b47, #ce2041);
   border-image-slice: 1;
@@ -8765,20 +8770,20 @@ body.reward section.CompactEcosystemSection {
   text-transform: uppercase
 }
 
-.EverBridgeLeadContent,
-.EverSwapLeadContent {
+.bridge_lead_content,
+.swap_lead_content {
   width: 80%;
   max-width: 560px
 }
 
-.EverSwapSectionInner {
+.swap_section_inner {
   margin: 0 !important;
   padding: 0 20px !important;
   max-width: 100%
 }
 
-.EverBridgeLead,
-.EverSwapLead {
+.bridge_lead,
+.swap_lead {
   border: 1px solid #000e2a;
   box-shadow: inset 0 0 1px 1px #001e5a;
   border-radius: 15px;
@@ -8787,25 +8792,25 @@ body.reward section.CompactEcosystemSection {
   display: flex
 }
 
-.EverBridgeLead {
+.bridge_lead {
   width: calc(50% - 10px);
   margin-left: 10px;
   display: flex
 }
 
-.EverSwapLead {
+.swap_lead {
   width: calc(50% - 10px);
   margin-right: 10px
 }
 
-.EverBridgeLeadInner svg,
-.EverSwapLeadInner svg {
+.bridge_lead_inner svg,
+.swap_lead_inner svg {
   max-width: 165px;
   width: 50%
 }
 
-.EverBridgeLeadContentLinks>a:first-child,
-.EverSwapLeadContentLinks>a:first-child {
+.bridge_lead_content_links>a:first-child,
+.swap_lead_content_links>a:first-child {
   border: 2px solid #00143a;
   height: 70px;
   display: flex;
@@ -8821,30 +8826,30 @@ body.reward section.CompactEcosystemSection {
   max-width: 340px
 }
 
-.EverBridgeLeadContentLinks>a:first-child:hover,
-.EverBridgeLeadContentLinks>a:last-child:hover,
-.EverSwapLeadContentLinks>a:first-child:hover,
-.EverSwapLeadContentLinks>a:last-child:hover {
+.bridge_lead_content_links>a:first-child:hover,
+.bridge_lead_content_links>a:last-child:hover,
+.swap_lead_content_links>a:first-child:hover,
+.swap_lead_content_links>a:last-child:hover {
   box-shadow: inset 0 0 21px 11px rgb(30 85 160/13%), inset 0 0 1px 1px #032758, 0 2px 7px 2px rgb(0 0 0/9%);
   background: linear-gradient(91deg, #001540, #051f5c)
 }
 
-.EverBridgeLeadContentLinks,
-.EverSwapLeadContentLinks {
+.bridge_lead_content_links,
+.swap_lead_content_links {
   display: flex;
   align-items: center;
   min-width: 380px
 }
 
-.EverBridgeLeadContentLinks>a:last-child,
-.EverSwapLeadContentLinks>a:last-child {
+.bridge_lead_content_links>a:last-child,
+.swap_lead_content_links>a:last-child {
   color: #cbe2f5;
   border-bottom: 1px solid;
   margin: 20px
 }
 
-.EverBridgeLead h2,
-.EverSwapLead h2 {
+.bridge_lead h2,
+.swap_lead h2 {
   color: #c4d2dd;
   font-size: 23px;
   line-height: 1.3em;
@@ -8852,24 +8857,24 @@ body.reward section.CompactEcosystemSection {
   min-width: 500px
 }
 
-.EverBridgeLeadInner,
-.EverSwapLeadInner {
+.bridge_lead_inner,
+.swap_lead_inner {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center
 }
 
-.EverBridgeLeadContentLinks a span,
-.EverSwapLeadContentLinks a span {
+.bridge_lead_content_links a span,
+.swap_lead_content_links a span {
   flex: 1;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .04em
 }
 
-.EverBridgeLeadContentLinks>a:last-child,
-.EverSwapLeadContentLinks>a:last-child {
+.bridge_lead_content_links>a:last-child,
+.swap_lead_content_links>a:last-child {
   font-weight: 100;
   line-height: 1.1em;
   font-size: 15px;
@@ -8888,31 +8893,31 @@ body.reward section.CompactEcosystemSection {
   margin: 10px 0 0 5px
 }
 
-.EverBridgeLeadInner svg {
+.bridge_lead_inner svg {
   max-width: 165px
 }
 
-.EverBridgeLeadInner>div:first-child,
-.EverSwapLeadInner>div:first-child {
+.bridge_lead_inner>div:first-child,
+.swap_lead_inner>div:first-child {
   width: 65%;
   display: flex;
   align-items: center;
   justify-content: center
 }
 
-.EverBridgeLeadInner>div:last-child,
-.EverSwapLeadInner>div:last-child {
+.bridge_lead_inner>div:last-child,
+.swap_lead_inner>div:last-child {
   width: 30%;
   display: flex;
   align-items: center;
   justify-content: center
 }
 
-p.swapServiceTxtLinks a:last-child {
+p.swap_service_txt_links a:last-child {
   border-color: rgb(173 190 204/44%)
 }
 
-.EverSwapLeadContent p {
+.swap_lead_content p {
   color: rgb(196 210 221/81%);
   font-size: 15px;
   font-weight: 100;
@@ -8921,129 +8926,129 @@ p.swapServiceTxtLinks a:last-child {
   margin-bottom: -15px
 }
 
-.EverSwapLead h2 {
+.swap_lead h2 {
   padding-bottom: 5px
 }
 
-.EverBridgeLeadContent {
+.bridge_lead_content {
   display: flex;
   flex-direction: column
 }
 
 @media only screen and (max-width:1920px) and (min-width:0px) {
 
-  .EverBridgeLead h2,
-  .EverSwapLead h2 {
+  .bridge_lead h2,
+  .swap_lead h2 {
     font-size: 20px
   }
 }
 
 @media only screen and (max-width:1620px) and (min-width:0px) {
 
-  .EverBridgeLead,
-  .EverSwapLead {
+  .bridge_lead,
+  .swap_lead {
     padding: 40px 0
   }
 
-  .EverBridgeLeadInner>div:last-child,
-  .EverSwapLeadInner>div:last-child {
+  .bridge_lead_inner>div:last-child,
+  .swap_lead_inner>div:last-child {
     flex: 1
   }
 }
 
 @media only screen and (max-width:1550px) and (min-width:0px) {
-  .EverSwapSectionInner {
+  .swap_section_inner {
     padding: 0 10px !important
   }
 
-  .EverSwapLead {
+  .swap_lead {
     margin-right: 5px
   }
 
-  .EverBridgeLead {
+  .bridge_lead {
     margin-left: 5px;
     width: calc(50% - 0px)
   }
 
-  .EverBridgeLead h2,
-  .EverSwapLead h2 {
+  .bridge_lead h2,
+  .swap_lead h2 {
     min-width: 570px
   }
 
-  .EverBridgeLeadInner>div:last-child,
-  .EverSwapLeadInner>div:last-child {
+  .bridge_lead_inner>div:last-child,
+  .swap_lead_inner>div:last-child {
     position: relative;
     top: 30px
   }
 }
 
 @media only screen and (max-width:1260px) and (min-width:0px) {
-  .EverSwapLead {
+  .swap_lead {
     margin-right: 0;
     width: calc(100% - 0px);
     margin-bottom: 10px
   }
 
-  .EverBridgeLead {
+  .bridge_lead {
     margin-left: 0;
     width: calc(100% - 0px)
   }
 
-  .EverBridgeLeadInner>div:last-child,
-  .EverSwapLeadInner>div:last-child {
+  .bridge_lead_inner>div:last-child,
+  .swap_lead_inner>div:last-child {
     top: 0
   }
 }
 
 @media only screen and (max-width:830px) and (min-width:0px) {
 
-  .EverBridgeLeadInner>div:last-child,
-  .EverSwapLeadInner>div:last-child {
+  .bridge_lead_inner>div:last-child,
+  .swap_lead_inner>div:last-child {
     top: 30px
   }
 
-  .EverBridgeLead,
-  .EverSwapLead {
+  .bridge_lead,
+  .swap_lead {
     padding-bottom: 60px
   }
 }
 
 @media only screen and (max-width:635px) and (min-width:0px) {
 
-  .EverBridgeLead h2,
-  .EverSwapLead h2 {
+  .bridge_lead h2,
+  .swap_lead h2 {
     min-width: 100%
   }
 
-  .EverBridgeLeadContent,
-  .EverSwapLeadContent {
+  .bridge_lead_content,
+  .swap_lead_content {
     width: 84%
   }
 
-  .EverBridgeLeadContentLinks,
-  .EverSwapLeadContentLinks {
+  .bridge_lead_content_links,
+  .swap_lead_content_links {
     min-width: auto
   }
 
-  .EverBridgeLeadInner>div:first-child,
-  .EverBridgeLeadInner>div:last-child,
-  .EverSwapLeadInner>div:first-child,
-  .EverSwapLeadInner>div:last-child {
+  .bridge_lead_inner>div:first-child,
+  .bridge_lead_inner>div:last-child,
+  .swap_lead_inner>div:first-child,
+  .swap_lead_inner>div:last-child {
     width: 100%
   }
 
-  .EverBridgeLeadInner,
-  .EverSwapLeadInner {
+  .bridge_lead_inner,
+  .swap_lead_inner {
     flex-direction: column
   }
 
-  .EverBridgeLeadInner>div:first-child,
-  .EverSwapLeadInner>div:first-child {
+  .bridge_lead_inner>div:first-child,
+  .swap_lead_inner>div:first-child {
     order: 2
   }
 
-  .EverBridgeLeadInner>div:last-child,
-  .EverSwapLeadInner>div:last-child {
+  .bridge_lead_inner>div:last-child,
+  .swap_lead_inner>div:last-child {
     max-width: 260px;
     margin-bottom: 20px;
     top: 0
@@ -9052,71 +9057,71 @@ p.swapServiceTxtLinks a:last-child {
 
 @media only screen and (max-width:550px) and (min-width:0px) {
 
-  .EverBridgeLead h2,
-  .EverSwapLead h2 {
+  .bridge_lead h2,
+  .swap_lead h2 {
     font-size: 16px
   }
 
-  .EverBridgeLeadContentLinks>a:first-child,
-  .EverSwapLeadContentLinks>a:first-child {
+  .bridge_lead_content_links>a:first-child,
+  .swap_lead_content_links>a:first-child {
     padding-left: 15px;
     padding-right: 15px;
     font-size: .85em
   }
 
-  .EverBridgeLeadContentLinks a img,
-  .EverSwapLeadContentLinks a img {
+  .bridge_lead_content_links a img,
+  .swap_lead_content_links a img {
     max-width: 35px
   }
 
-  .EverBridgeLeadContentLinks>a:first-child,
-  .EverSwapLeadContentLinks>a:first-child {
+  .bridge_lead_content_links>a:first-child,
+  .swap_lead_content_links>a:first-child {
     height: 66px
   }
 
-  .EverBridgeLeadContentLinks>a:last-child,
-  .EverSwapLeadContentLinks>a:last-child {
+  .bridge_lead_content_links>a:last-child,
+  .swap_lead_content_links>a:last-child {
     padding: 0 19px
   }
 }
 
 @media only screen and (max-width:360px) and (min-width:0px) {
 
-  .EverBridgeLeadContentLinks>a:first-child,
-  .EverSwapLeadContentLinks>a:first-child {
+  .bridge_lead_content_links>a:first-child,
+  .swap_lead_content_links>a:first-child {
     font-size: .65em
   }
 }
 
-p.swapServiceTxtLinks {
+p.swap_service_txt_links {
   display: flex;
   flex-direction: column
 }
 
-span.SwapTitle {
+span.swap_title {
   margin: 10px 0 0;
   padding-bottom: 10px;
   border-bottom: 1px solid rgb(30 51 87/47%)
 }
 
-span.SwapLink {
+span.swap_link {
   width: 100%
 }
 
-span.SwapLink a {
+span.swap_link a {
   flex-wrap: wrap;
   justify-content: center
 }
 
-span.SwapDivider,
-span.SwapLink a {
+span.swap_divider,
+span.swap_link a {
   display: flex;
   align-items: center;
   flex-direction: column
 }
 
-span.SwapDivider:after,
-span.SwapDivider:before {
+span.swap_divider:after,
+span.swap_divider:before {
   content: "";
   display: block;
   background: #1e3357;
@@ -9125,22 +9130,22 @@ span.SwapDivider:before {
   margin: 6px
 }
 
-span.swapServiceTxtLinksInner {
+span.swap_service_txt_links_inner {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center
 }
 
-p.swapServiceTxtLinks span.SwapLink:first-of-type {
+p.swap_service_txt_links span.swap_link:first-of-type {
   margin-right: 10px
 }
 
-p.swapServiceTxtLinks span.SwapLink:last-of-type {
+p.swap_service_txt_links span.swap_link:last-of-type {
   margin-left: 10px
 }
 
-span.SwapLink.EverSwapLink a>span:first-child {
+span.swap_link.our_swap_link a>span:first-child {
   border-bottom: 1px solid;
   color: #d2d2d2a8;
   background: linear-gradient(90deg, #fb8b47, #ce2041);
@@ -9153,12 +9158,12 @@ span.SwapLink.EverSwapLink a>span:first-child {
   border-image-source: linear-gradient(90deg, #fb8b47, #ce2041)
 }
 
-span.SwapLink a>span:first-child {
+span.swap_link a>span:first-child {
   margin-top: 11px;
   font-size: 15px
 }
 
-span.SwapLink a>span:last-child {
+span.swap_link a>span:last-child {
   color: #62718c;
   text-decoration: none !important;
   font-size: 12px;
@@ -9167,7 +9172,7 @@ span.SwapLink a>span:last-child {
   margin: 2px 6px
 }
 
-p.swapServiceTxtLinks a:last-child>span:first-child {
+p.swap_service_txt_links a:last-child>span:first-child {
   border-bottom: 1px solid #516994
 }
 
@@ -9191,7 +9196,7 @@ p.swapServiceTxtLinks a:last-child>span:first-child {
   overflow: hidden
 }
 
-.GetRiseIframe {
+.get_token_iframe {
   display: none
 }
 
@@ -9261,7 +9266,7 @@ p.swapServiceTxtLinks a:last-child>span:first-child {
     height: 790px
   }
 
-  .GetRiseIframe {
+  .get_token_iframe {
     display: inline
   }
 }

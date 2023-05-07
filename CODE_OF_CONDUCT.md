@@ -151,3 +151,5 @@ And in the css too, We changed from div#__next it to div#wrapper
 
 ### Dapps
 - before: `css-1lc114p` after: `our_checkbox`
+- before: `GetRiseIframe` after: `get_token_iframe`
+- before: `GetRiseSection` after: `get_token_section`
