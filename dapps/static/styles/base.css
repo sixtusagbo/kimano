@@ -5069,7 +5069,7 @@ body .StakingActionSubmitBtn[disabled]:not(.submit_dapp_form_buttons button) {
   letter-spacing: .05em
 }
 
-.submit_dapp_form_buttons.MaxWidth {
+.submit_dapp_form_buttons.max_width {
   max-width: 100%;
   width: 100%;
   display: flex;
@@ -11484,8 +11484,8 @@ body.light_mode .stake_nav a {
   box-shadow: none
 }
 
-.kim_stake.app .stake_nav li:first-child a,
-.swap.app .stake_nav li:first-child a,
+.kim_stake.app .stake_nav li a.active,
+.swap.app .stake_nav li a.active,
 .EverStakeClaim.app .stake_nav li:nth-child(4) a,
 .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
 .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -15984,9 +15984,74 @@ ul.stake_nav_list li a.stake_nav_list_link span {
   display: inline-block;
 }
 
-body .swap.app .menu_tabs {
+body .swap.app .menu_tabs,
+body .kim_stake.app .menu_tabs,
+body .kim_stake.app .component_bg {
   max-width: 650px;
   width: 100%;
   justify-self: center;
   align-self: center;
+}
+
+body .kim_stake.app .menu_tabs,
+body .kim_stake.app .component_bg {
+  max-width: 450px;
+}
+
+.stake_list {
+  list-style: none;
+}
+
+.stake_list .stake_list_item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.stake_list .stake_list_item h4 {
+  display: flex;
+}
+
+.stake_list .stake_list_item span {
+  color: #fff !important;
+  margin-left: 4px;
+}
+
+.stake_list .stake_list_item span.tooltip {
+  font-size: 14px;
+}
+
+.stake_list .stake_list_item span.tooltip svg {
+  position: relative;
+  fill: #2d2e31 !important;
+  cursor: pointer;
+}
+
+.stake_list .stake_list_item span.tooltip:hover svg {
+  opacity: .5;
+  transition: all 200ms;
+}
+
+.stake_list .stake_list_item span.tooltip .tooltip_content {
+  display: none;
+  background: linear-gradient(rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 230px;
+  color: #000;
+  z-index: 1000;
+}
+
+.stake_list .stake_list_item span.tooltip:hover .tooltip_content {
+  display: block;
+  position: absolute;
+  opacity: 1 !important;
+}
+
+.kim_stake.app .percentage_amount_numbers input:hover {
+  height: 55px;
+}
+
+.kim_stake.app .percentage_amount_numbers input {
+  padding-left: .6em !important;
 }

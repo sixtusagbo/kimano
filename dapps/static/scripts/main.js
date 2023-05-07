@@ -100,4 +100,9 @@
     }
   }
 
+  $("#stake_form_modal_trigger").click(function (e) {
+    e.preventDefault();
+    $("#stake_form_modal").fadeIn();
+  });
+
 })(jQuery);
