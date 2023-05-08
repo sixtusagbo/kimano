@@ -15986,7 +15986,8 @@ ul.stake_nav_list li a.stake_nav_list_link span {
 
 body .swap.app .menu_tabs,
 body .kim_stake.app .menu_tabs,
-body .kim_stake.app .component_bg {
+body .kim_stake.app .component_bg,
+body .swap.app .pool_section {
   max-width: 650px;
   width: 100%;
   justify-self: center;
@@ -16027,6 +16028,7 @@ body .kim_stake.app .component_bg {
   cursor: pointer;
 }
 
+
 .stake_list .stake_list_item span.tooltip:hover svg {
   opacity: .5;
   transition: all 200ms;
@@ -16054,4 +16056,13 @@ body .kim_stake.app .component_bg {
 
 .kim_stake.app .percentage_amount_numbers input {
   padding-left: .6em !important;
+}
+
+
+body.light_mode .stake_list .stake_list_item span {
+  color: #000 !important;
+}
+
+body.light_mode .stake_list .stake_list_item span.tooltip svg {
+  fill: #fff !important;
 }
