@@ -1068,7 +1068,7 @@ a.blue_hero_btn span {
 }
 
 .OrangeTxtflat {
-  color:linear-gradient(270deg, #11d617, #0752bb)
+  color: linear-gradient(270deg, #11d617, #0752bb)
 }
 
 .orange_txt_left_grad {
@@ -1733,16 +1733,14 @@ section.RedirectSection {
   li.parent_menu_item.dapp_menu_item ul.child_menu {
     flex-direction: row;
     flex-wrap: wrap;
-    background: #000f2a;
+    background: #993491;
     margin-top: 490px;
     width: calc(100% - 100px);
     margin-left: 73px;
     max-width: 1000px;
-    border: 1px solid #000;
+    border: 1px solid #ef75e7;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: inset 0 0 1px 1px #001b4a;
-    box-shadow: inset 0 0 1px 1px #00173f, 0 3px 0 0 #000f2a
   }
 
   li.parent_menu_item.dapp_menu_item ul.child_menu li {
@@ -4069,7 +4067,7 @@ section.home_hero .global_inner {
 }
 
 .home_hero:before {
-  background-image: linear-gradient(#993391, #993491 5%,rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+  background-image: linear-gradient(#993391, #993491 5%, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   top: -11px
 }
 
@@ -4355,7 +4353,7 @@ section.home_hero .global_inner {
 
 li.press_btn a {
   border-radius: 90px;
-  border: 2px solid rgb(9 70 135/77%);
+  border: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   color: #fff;
   display: flex;
   justify-content: center;
@@ -4365,7 +4363,7 @@ li.press_btn a {
   padding: 1px 25px 0;
   text-transform: uppercase;
   letter-spacing: .06em;
-  box-shadow: inset 0 0 1px 1px #0a74ab
+  box-shadow: inset 0 0 1px 1px rgb(182, 76, 233);
 }
 
 li.press_btn a:focus,
@@ -5219,6 +5217,7 @@ body.home .foundation_section h2 {
   justify-content: center;
   align-items: center;
   border-radius: 90px;
+  border: 2px solid #993491;
   color: #000;
   font-size: 11px;
   height: 26px;
@@ -5319,8 +5318,8 @@ section.full_ecosystem_section {
 
 .full_ecosystem_content li .eco_learn_btn:hover {
   color: #fff;
-  background: linear-gradient(90deg, #fb8b47, #ce2041);
-  box-shadow: inset 0 0 1px 1px #f78247
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+  box-shadow: inset 0 0 1px 1px rgb(182, 76, 233);
 }
 
 .full_ecosystem_content li a {
@@ -8451,7 +8450,7 @@ body.reward .community_faq_section_left h2 {
 }
 
 section.MigrationBanner.global_outer {
-  background: #C230B7 ;
+  background: #C230B7;
 }
 
 .MigrationBannerImg {
@@ -13200,7 +13199,7 @@ p.press_item_publish_date {
 
 .press_button a:hover {
   background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
-    box-shadow: inset 0 0 1px 1px rgb(182, 76, 233);
+  box-shadow: inset 0 0 1px 1px rgb(182, 76, 233);
   border-color: #001635
 }
 
