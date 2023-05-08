@@ -37,11 +37,11 @@
                             <div class="header_content">
                                 <div class="dapp_icon">
                                     <span>
-                                        <!-- Revoke Icon -->
+                                        <!-- Bridge Icon -->
                                     </span>
                                 </div>
                                 <div class="header_txt">
-                                    <h1>Bridge</h1>
+                                    <h1>KimBridge</h1>
                                     <div class="breadcrumbs">
                                         <div class="global_bread">Ecosystem</div>
                                     </div>
@@ -50,7 +50,7 @@
                             <div class="header_account">
                                 <div class="header_account_btns">
                                     <div class="header_wallet_login">
-                                        <button>
+                                        <button class="connect_wallet_trigger">
                                             <span>
                                                 <span>Connect</span>&nbsp;<span>Wallet</span>
                                             </span>
@@ -280,35 +280,35 @@
                     <!-- Dropdowns -->
                     <div class="toggle_dropdown active nine_dots">
                         <div class="app_grid_main">
-                            <a class="app_grid_item" href="/">
+                            <a class="app_grid_item" href="stake.html">
                                 <div class="app_grid_item_icon">
 
                                 </div>
-                                <div class="app_grid_item_text">NFT Staking</div>
+                                <div class="app_grid_item_text">KimStake Lab</div>
                             </a>
-                            <a class="app_grid_item" href="revoke.html">
+                            <a class="app_grid_item" href="reward.html">
                                 <div class="app_grid_item_icon">
 
                                 </div>
-                                <div class="app_grid_item_text">Revoke</div>
+                                <div class="app_grid_item_text">Reward</div>
                             </a>
                             <a class="app_grid_item" href="swap.html">
                                 <div class="app_grid_item_icon">
 
                                 </div>
-                                <div class="app_grid_item_text">Swap</div>
+                                <div class="app_grid_item_text">KimSwap</div>
                             </a>
                             <a class="app_grid_item" href="bridge.html">
                                 <div class="app_grid_item_icon">
 
                                 </div>
-                                <div class="app_grid_item_text">Bridge</div>
+                                <div class="app_grid_item_text">KimBridge</div>
                             </a>
                             <a class="app_grid_item" href="mintnft.html">
                                 <div class="app_grid_item_icon">
 
                                 </div>
-                                <div class="app_grid_item_text">RiserBotz NFTs</div>
+                                <div class="app_grid_item_text">Kima NFTs</div>
                             </a>
                         </div>
                     </div>
@@ -367,31 +367,12 @@
 
                 <main class="content">
                     <div class="content_inner">
-                        <div class="small_nav_container">
-                            <div class="stake_nav small_nav">
-                                <div class="ever_stake_nav_wrap_inner small_nav component_bg">
-                                    <nav>
-                                        <ul role="list" class="css-r60o2e"><button class="warm_button">BRIDGE</button>
-                                            <div class="css-17xejub"></div>
-                                            <div>
-                                                <div class="header_account_btns">
-                                                    <div class="header_wallet_login">
-                                                        <div class="header_account_info"><span>0.000 ETH</span><button class="LockButton">0x9ad8
-                                                                ... 1ec1f4</button></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
                         <div class="bridge_wrap">
                             <div class="bridge_wrap_inner">
                                 <div class="bridge_container">
                                     <div class="form_tabs component_bg">
-                                        <div class="form_tab">Bridge</div>
-                                        <div class="form_tab">Transaction History</div>
+                                        <div class="form_tab active" id="bridge_form_tab">Bridge</div>
+                                        <div class="form_tab inactive" id="bridge_txns_tab">Transaction History</div>
                                     </div>
                                     <div class="form_top_half bridge_main_form component_bg">
                                         <div class="form_top_half_inner">
@@ -419,58 +400,113 @@
                                                                 </div>
                                                                 <div value="0" class="chakra_numberinput css-5vz1f0">
                                                                     <p class="USDT_price_eqv">
-                                                                        <span></span>&nbsp;<span><span class="usdt_eqv">USDT
-                                                                                <span class="eqv">EQV</span></span></span>
+                                                                        <span></span>&nbsp;<span><span
+                                                                                class="usdt_eqv">USDT
+                                                                                <span
+                                                                                    class="eqv">EQV</span></span></span>
                                                                     </p>
-                                                                    <div class="top_input"><input inputmode="decimal" type="text"
-                                                                            pattern="[0-9]*(.[0-9]+)?" id="tokenCountxxI" role="spinbutton"
-                                                                            aria-valuemin="0" aria-valuemax="0" aria-valuenow="0"
-                                                                            aria-valuetext="0" autocomplete="off" autocorrect="off"
-                                                                            class="chakra_numberinput_field css_1l7fss8" value="0"></div>
+                                                                    <div class="top_input"><input inputmode="decimal"
+                                                                            type="text" pattern="[0-9]*(.[0-9]+)?"
+                                                                            id="tokenCountxxI" role="spinbutton"
+                                                                            aria-valuemin="0" aria-valuemax="0"
+                                                                            aria-valuenow="0" aria-valuetext="0"
+                                                                            autocomplete="off" autocorrect="off"
+                                                                            class="chakra_numberinput_field css_1l7fss8"
+                                                                            value="0"></div>
                                                                 </div>
                                                             </div>
-                                                            <div class="ticker"><button
-                                                                    class="ticker_btn p_arrow down"><span>RISE</span></button>
+                                                            <div class="ticker">
+                                                                <button class="ticker_btn" style="background: none;">
+                                                                    <span>RISE</span>
+                                                                </button>
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="input_amount_slider">
-                                                        <div tabindex="-1" class="chakra_slider css-17m87zz"
-                                                            style="position: relative; touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); user-select: none; outline: 0px; padding-top: 10px; padding-bottom: 10px;">
-                                                            <div id="slider-track-:r4:" class="chakra_slider_track css-1jsne3t"
-                                                                style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;">
-                                                                <div class="chakra_slider_filled-track css-us0ay6"
-                                                                    style="position: absolute; top: 50%; transform: translateY(-50%); width: 0%; left: 0%;">
-                                                                </div>
-                                                            </div>
-                                                            <div role="slider" tabindex="0" id="slider-thumb-:r4:" aria-valuemin="0"
-                                                                aria-valuemax="100" aria-valuenow="0" aria-orientation="horizontal"
-                                                                class="chakra_slider_thumb css-yy5vui"
-                                                                style="position: absolute; user-select: none; touch-action: none; left: calc(0% - 23.5px);">
-                                                                <div>0%</div>
-                                                            </div><input type="hidden" value="0">
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="stake_amount_buttons css-8atqhb">
                                                 <div role="group" class="wallet_input stake">
-                                                    <div class="inset_btn staking_percentage_btn css-0"><button disabled="" type="button"
-                                                            class="chakra_button css_zk7whs"> 25% </button>
+                                                    <div class="inset_btn staking_percentage_btn css-0"><button
+                                                            disabled="" type="button" class="chakra_button css_zk7whs">
+                                                            25% </button>
                                                     </div>
-                                                    <div class="inset_btn staking_percentage_btn css-0"><button disabled="" type="button"
-                                                            class="chakra_button css_zk7whs"> 50% </button>
+                                                    <div class="inset_btn staking_percentage_btn css-0"><button
+                                                            disabled="" type="button" class="chakra_button css_zk7whs">
+                                                            50% </button>
                                                     </div>
-                                                    <div class="inset_btn staking_percentage_btn css-0"><button disabled="" type="button"
-                                                            class="chakra_button css_zk7whs"> 75% </button>
+                                                    <div class="inset_btn staking_percentage_btn css-0"><button
+                                                            disabled="" type="button" class="chakra_button css_zk7whs">
+                                                            75% </button>
                                                     </div>
-                                                    <div class="inset_btn staking_percentage_btn css-0"><button disabled="" type="button"
-                                                            class="chakra_button css_zk7whs"> Max </button>
+                                                    <div class="inset_btn staking_percentage_btn css-0"><button
+                                                            disabled="" type="button" class="chakra_button css_zk7whs">
+                                                            Max </button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="form_top_half transaction_form component_bg" style="display: none;">
+                                        <div class="form_top_half_inner">
+                                            <div class="toggle_content active">
+                                                <!-- Not connected -->
+                                                <!-- <div>
+                                                    <div class="submit_dapp_form_buttons"
+                                                        style="margin: 30px auto 25px;">
+                                                        <button class="connect_wallet_trigger"
+                                                            style="cursor: pointer;">Connect Wallet</button>
+                                                    </div>
+                                                </div> -->
+
+                                                <!-- Connected -->
+                                                <div>
+                                                    <div class="transaction_history">
+                                                        <div class="transaction_history_header">
+                                                            <p>Past Bridge Transactions for:</p>
+                                                            <div class="ticker">
+                                                                <button class="ticker_btn"
+                                                                    style="background: none;"><span>KIMANO</span></button>
+                                                            </div>
+                                                        </div>
+                                                        <table role="table" class="transaction_table">
+                                                            <thead>
+                                                                <tr role="row">
+                                                                    <th>From</th>
+                                                                    <th>To</th>
+                                                                    <th class="date_column">Date</th>
+                                                                    <th>Amount</th>
+                                                                    <th>Hash</th>
+                                                                    <th>Target Hash</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr role="row">
+                                                                    <td role="gridcell" colspan="6" class="css-xumdn4">
+                                                                        <p class="no_history">You have no Kimano Bridge
+                                                                            history for the token - KIMANO</p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+
+                                                        <div class="powered_by">
+                                                            <div class="powered_by_inner">
+                                                                <span>Powered by:</span>
+                                                                <a target="blank" href="https://kimano.xyz">
+                                                                    <div>
+                                                                        <!-- Our Logo class:our_logo -->
+                                                                        &nbsp;Kimano
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div class="form_bottom_half bottom_half_split">
                                         <div class="form_bottom_half_inner">
                                             <div class="half_split_wrap">
@@ -488,7 +524,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="invert_form_button">
-                                                    <div class="invert_form_button_inner"><button><span class="p_arrow right"></span><span
+                                                    <div class="invert_form_button_inner"><button><span
+                                                                class="p_arrow right"></span><span
                                                                 class="p_arrow right"></span></button>
                                                         <div class="neomorphic_slice"></div>
                                                     </div>
@@ -503,30 +540,38 @@
                                                         </div>
                                                         <div>
                                                             <div class="indented_btn_wrap" style="width: 100%;">
-                                                                <div class="indented_btn_wrap_inner p_arrow down"><button>
+                                                                <div class="indented_btn_wrap_inner p_arrow down">
+                                                                    <button id="bridge_to_modal_trigger">
                                                                         <p>BNB Chain</p>
-                                                                    </button></div>
+                                                                    </button>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class=".bridge_button_footer component_bg" style="margin: 5% 0%;">
+
+                                            <div class="bridge_button_footer component_bg" style="margin: 5% 0%;">
                                                 <div class="bridge_gas_estimation">Minimum size: 1000 RISE</div>
                                                 <div class="submit_dapp_form_buttons">
                                                     <div class="bridge_button_group_horizontal">
-                                                        <div class="bridge_button"><button disabled="" type="button"
-                                                                class="chakra-button css-1d0ox2v">Sign</button></div>
-                                                        <div class="bridge_button"><button disabled="" type="button"
-                                                                class="chakra-button css-1d0ox2v">Approve</button></div>
-                                                        <div class="transfer_button"><button disabled="" type="button"
-                                                                class="chakra-button css-1d0ox2v">Transfer</button>
+                                                        <div class="bridge_button">
+                                                            <button disabled="" type="button"
+                                                                class="chakra_button bridge_button_footer_btn">Sign</button>
+                                                        </div>
+                                                        <div class="bridge_button">
+                                                            <button disabled="" type="button"
+                                                                class="chakra_button bridge_button_footer_btn">Approve</button>
+                                                        </div>
+                                                        <div class="transfer_button">
+                                                            <button disabled="" type="button"
+                                                                class="chakra_button bridge_button_footer_btn">Transfer</button>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="powered_by">
-                                                    <div class="powered_by_inner"><span>Powered by:</span><a target="blank"
-                                                            href="https://everrise.com">
+                                                    <div class="powered_by_inner"><span>Powered by:</span><a
+                                                            target="blank" href="https://everrise.com">
                                                             <div> <!-- class="our_logo" -->
                                                                 &nbsp;Kimano
                                                             </div>
@@ -538,8 +583,27 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="bridge_network_container">
-                            <div></div>
+                            <div class="select_option_popup_wrap" id="bridge_to_modal">
+                                <div class="select_option_popup_inner">
+                                    <div class="select_option_popup_header">
+                                        <h2>Bridging to</h2>
+                                        <span class="exit_icon">
+                                            <svg viewBox="0 0 319.97467 319.92474" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M27.02,7.29a32.05938,32.05938,0,0,1,31.59,8.09q52.74,52.635,105.4,105.36Q216.495,68.345,268.9,15.87a31.98542,31.98542,0,0,1,51.92,35.99c-2.29,5.03-6.27,8.95-10.17,12.76q-50.685,50.685-101.36,101.37,52.845,53.025,105.83,105.92c11.95,11.87,11.67,33.14-.54,44.73-11.58,12.13-32.79,12.4-44.62.5q-53.07-52.845-105.95-105.87Q110.985,264.175,58.04,317.16c-11.02,10.94-30.15,11.76-42.05,1.77C4.53,310.07.66,293.08,7.16,280.14c2.29-5.05,6.32-8.94,10.23-12.75Q68.06,216.69,118.76,166,66.095,113.275,13.38,60.6A31.96328,31.96328,0,0,1,27.02,7.29Z"
+                                                    transform="translate(-3.99307 -5.99904)"></path>
+                                            </svg></span>
+                                    </div>
+                                    <div class="select_option_popup_content">
+                                        <div class="BNB select_chain_item" data-value="56">BNB Chain</div>
+                                        <div class="FTM select_chain_item" data-value="250">Fantom Network</div>
+                                        <div class="AVAX select_chain_item" data-value="43114">Avalanche Network</div>
+                                        <div class="MATIC select_chain_item" data-value="137">Polygon Network</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
 

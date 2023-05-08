@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Kimano Dapp</title>
+  <title>KimStake Lab</title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
 </head>
 
 <body class="light_mode">
-  <div class="revoke app">
+  <div class="kim_stake app">
     <div class="app_inner">
       <div class="primary_container" style="width: 100%;">
         <div class="header">
@@ -37,11 +37,11 @@
               <div class="header_content">
                 <div class="dapp_icon">
                   <span>
-                    <!-- Revoke Icon -->
+                    <!-- Stake Icon -->
                   </span>
                 </div>
                 <div class="header_txt">
-                  <h1>Revoke</h1>
+                  <h1>KimStake Lab</h1>
                   <div class="breadcrumbs">
                     <div class="global_bread">Ecosystem</div>
                   </div>
@@ -318,35 +318,35 @@
           <!-- Dropdowns -->
           <div class="toggle_dropdown active nine_dots">
             <div class="app_grid_main">
-              <a class="app_grid_item" href="/">
+              <a class="app_grid_item" href="">
                 <div class="app_grid_item_icon">
 
                 </div>
-                <div class="app_grid_item_text">NFT Staking</div>
+                <div class="app_grid_item_text">KimStake Lab</div>
               </a>
-              <a class="app_grid_item" href="revoke.html">
+              <a class="app_grid_item" href="reward.html">
                 <div class="app_grid_item_icon">
 
                 </div>
-                <div class="app_grid_item_text">Revoke</div>
+                <div class="app_grid_item_text">Reward</div>
               </a>
               <a class="app_grid_item" href="swap.html">
                 <div class="app_grid_item_icon">
 
                 </div>
-                <div class="app_grid_item_text">Swap</div>
+                <div class="app_grid_item_text">KimSwap</div>
               </a>
               <a class="app_grid_item" href="bridge.html">
                 <div class="app_grid_item_icon">
 
                 </div>
-                <div class="app_grid_item_text">Bridge</div>
+                <div class="app_grid_item_text">KimBridge</div>
               </a>
               <a class="app_grid_item" href="mintnft.html">
                 <div class="app_grid_item_icon">
 
                 </div>
-                <div class="app_grid_item_text">RiserBotz NFTs</div>
+                <div class="app_grid_item_text">Kima NFTs</div>
               </a>
             </div>
           </div>
@@ -402,7 +402,152 @@
 
         <main class="content">
           <div class="content_inner">
+            <div class="stake_nav component_bg menu_tabs">
+              <div class="stake_nav_wrap_inner">
+                <nav>
+                  <ul role="list" class="stake_nav_list">
+                    <li>
+                      <a class="stake_nav_list_link active" href="">
+                        <span>Stake Kim</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="stake_nav_list_link" href="stake_nft.html">
+                        <span>NFT Staking</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
 
+            <div class="component_bg">
+              <ul class="stake_list">
+                <li class="stake_list_item">
+                  <h4>APR <span>49.31%</span></h4>
+                  <h4>TVR <span>$137.28K</span></h4>
+                </li>
+                <li class="stake_list_item">
+                  <h4>Available KIM</h4>
+                  <h4>0</h4>
+                </li>
+                <li class="stake_list_item">
+                  <h4>Staked KIM</h4>
+                  <h4>0</h4>
+                </li>
+                <li class="stake_list_item">
+                  <h4>
+                    Earned KIM
+                    <span class="tooltip">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                      </svg>
+
+                      <div class="tooltip_content">
+                        Earned since your last action. Staked KIM include Earned KIM.
+                      </div>
+                    </span>
+                  </h4>
+                  <h4>0</h4>
+                </li>
+              </ul>
+
+              <div role="group" class="submit_dapp_form_buttons max_width">
+                <button type="button" class="chakra_button" id="stake_form_modal_trigger"
+                  style="margin-right: 12px;cursor: pointer;">Stake</button>
+                <a href="swap.html" style="text-decoration: none;">
+                  <button type="button" class="chakra_button" style="cursor: pointer;">
+                    Get KIM
+                  </button>
+                </a>
+              </div>
+
+              <!-- Stake Form -->
+              <div class="select_option_popup_wrap popup_wrap_full" id="stake_form_modal">
+                <div class="select_option_popup_inner">
+                  <div class="select_option_popup_header">
+                    <h2>Stake KIM</h2>
+                    <span class="exit_icon">
+                      <svg class="exit_icon" viewBox="0 0 319.97467 319.92474" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M27.02,7.29a32.05938,32.05938,0,0,1,31.59,8.09q52.74,52.635,105.4,105.36Q216.495,68.345,268.9,15.87a31.98542,31.98542,0,0,1,51.92,35.99c-2.29,5.03-6.27,8.95-10.17,12.76q-50.685,50.685-101.36,101.37,52.845,53.025,105.83,105.92c11.95,11.87,11.67,33.14-.54,44.73-11.58,12.13-32.79,12.4-44.62.5q-53.07-52.845-105.95-105.87Q110.985,264.175,58.04,317.16c-11.02,10.94-30.15,11.76-42.05,1.77C4.53,310.07.66,293.08,7.16,280.14c2.29-5.05,6.32-8.94,10.23-12.75Q68.06,216.69,118.76,166,66.095,113.275,13.38,60.6A31.96328,31.96328,0,0,1,27.02,7.29Z"
+                          transform="translate(-3.99307 -5.99904)"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="select_option_popup_content">
+                    <div class="form_top_half bridge_main_form component_bg" style="max-width: 100%; width: 100%;">
+                      <div class="form_top_half_inner">
+                        <div class="wallet_balance_in_form">
+                          <div class="selection_header_items">
+                            <div class="dapp_form_token_balance_column_left">
+                              <div class="dapp_form_token_balance"></div>
+                              <div style="height: 1em;"> </div>
+                            </div>
+                            <div class="dapp_form_token_balance_column_right">
+                              <div class="dapp_form_token_balance">Balance: 0 KIM</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dapp_form_amount_input_inner">
+                          <div class="dapp_form_amount_input_bg">
+                            <div class="dapp_form_amount_input">
+                              <div class="dapp_form_amount_input_inner">
+                                <div class="percentage_amount_numbers">
+                                  <div value="0" class="chakra_numberinput css-5vz1f0">
+                                    <div class="top_input">
+                                      <input inputmode="decimal" type="text" pattern="[0-9]*(.[0-9]+)?"
+                                        id="tokenCountxxI" role="spinbutton" aria-valuemin="0" aria-valuemax="0"
+                                        aria-valuenow="0" aria-valuetext="0" autocomplete="off" autocorrect="off"
+                                        class="chakra_numberinput_field css_1l7fss8" value="0">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="ticker">
+                                  <button class="ticker_btn" style="background: none;">
+                                    <span>KIM</span>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="stake_amount_buttons css-8atqhb">
+                          <div role="group" class="wallet_input stake">
+                            <div class="inset_btn staking_percentage_btn css-0"><button disabled="" type="button"
+                                class="chakra_button css_zk7whs">
+                                25% </button>
+                            </div>
+                            <div class="inset_btn staking_percentage_btn css-0"><button disabled="" type="button"
+                                class="chakra_button css_zk7whs">
+                                50% </button>
+                            </div>
+                            <div class="inset_btn staking_percentage_btn css-0"><button disabled="" type="button"
+                                class="chakra_button css_zk7whs">
+                                75% </button>
+                            </div>
+                            <div class="inset_btn staking_percentage_btn css-0"><button disabled="" type="button"
+                                class="chakra_button css_zk7whs">
+                                Max </button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div role="group" class="submit_dapp_form_buttons max_width">
+                          <button type="button" disabled class="chakra_button" id="stake_form_modal_trigger"
+                            style="margin-right: 12px;cursor: pointer;">Stake</button>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div class="footer">
               <footer class="global_footer">

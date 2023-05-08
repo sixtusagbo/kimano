@@ -115,7 +115,7 @@ button.chakra_button:hover {
   background: none;
 }
 
-.SelectWrap {
+.select_wrap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,7 +126,7 @@ button.chakra_button:hover {
   border-radius: 12px
 }
 
-body.light_mode .SelectWrap {
+body.light_mode .select_wrap {
   border: 2px solid var(--bgWhite4)
 }
 
@@ -136,23 +136,27 @@ body.light_mode .SelectWrap {
   background: transparent;
   width: 100%;
   height: 100%;
-  border-radius: 12px
+  border-radius: 12px;
+  padding-inline-start: 1rem;
 }
 
-.chakra_select__wrapper {
+.chakra_select_wrapper {
   border: transparent;
   box-shadow: none;
   -webkit-appearance: none;
   appearance: none;
-  background: transparent
+  background: transparent;
+  width: 100%;
+  height: fit-content;
+  position: relative;
 }
 
-.chakra_select__icon {
+.chakra_select_icon {
   width: 2em;
   height: 2em
 }
 
-.SelectWrap svg {
+.select_wrap svg {
   width: 2em !important;
   height: 2em !important
 }
@@ -337,7 +341,7 @@ body.light_mode .PopupListScrollWrap {
   align-items: center
 }
 
-.WalletLocker .chakra_select__wrapper {
+.WalletLocker .chakra_select_wrapper {
   max-width: 180px
 }
 
@@ -356,7 +360,7 @@ body.light_mode .PopupListScrollWrap {
   margin-left: 20px
 }
 
-.WalletLocker .SelectWrap {
+.WalletLocker .select_wrap {
   height: 40px
 }
 
@@ -372,11 +376,13 @@ body.light_mode .PopupListScrollWrap {
   width: 100%
 }
 
-.ClaimNftTitle {
-  display: flex
+.claim_nft_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.ClaimNftTitle p {
+.claim_nft_title p {
   font-weight: 700
 }
 
@@ -550,6 +556,11 @@ body.light_mode .claim_nft_stats>div {
   .ClaimMigrationTable th:nth-of-type(4) {
     display: none
   }
+
+  ul.stake_nav_list li a.stake_nav_list_link span {
+    font-size: 11px;
+  }
+
 }
 
 @media (max-width:480px) {
@@ -572,6 +583,10 @@ body.light_mode .claim_nft_stats>div {
   .ClaimMigrationTable td:nth-of-type(3),
   .ClaimMigrationTable th:nth-of-type(3) {
     display: none
+  }
+
+  ul.stake_nav_list li a.stake_nav_list_link span {
+    font-size: 9px;
   }
 }
 
@@ -719,7 +734,7 @@ svg.Copy_Icon {
   margin-top: 2px
 }
 
-.HeaderAccountInfo {
+.header_account_info {
   height: 35px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -727,7 +742,7 @@ svg.Copy_Icon {
   min-width: 155px
 }
 
-.HeaderAccountInfo>span:first-of-type {
+.header_account_info>span:first-of-type {
   display: flex;
   flex: 1 1;
   justify-content: center;
@@ -738,15 +753,15 @@ svg.Copy_Icon {
   font-size: 14px
 }
 
-.HeaderAccountInfo span {
+.header_account_info span {
   white-space: nowrap
 }
 
-.HeaderAccountInfo>div:first-of-type {
+.header_account_info>div:first-of-type {
   display: flex
 }
 
-.HeaderAccountInfo {
+.header_account_info {
   background: var(--bgColor3);
   border-radius: 90px;
   display: flex;
@@ -759,7 +774,7 @@ svg.Copy_Icon {
   height: 44px
 }
 
-body.light_mode .HeaderAccountInfo {
+body.light_mode .header_account_info {
   background: var(--bgWhite1);
   border: 1px solid var(--borderWhite1);
   box-shadow: var(--hollowLineW)
@@ -1808,13 +1823,13 @@ body.light_mode button.p_arrow.down {
   color: var(--fontWhite4)
 }
 
-.chakra_select__icon-wrapper {
+.chakra_select_icon_wrapper {
   right: 36px;
   font-size: 50px !important;
   width: 34px
 }
 
-.chakra_select__icon-wrapper path {
+.chakra_select_icon_wrapper path {
   color: rgba(111, 135, 190, .83)
 }
 
@@ -1965,8 +1980,13 @@ body.light_mode .select_option_popup_content>div {
   box-shadow: var(--hollowBorderW)
 }
 
-.SelectChainItem {
+.select_chain_item {
   height: 90px
+}
+
+.select_chain_item::after {
+  content: "[Coming Soon]";
+  margin-left: .5em;
 }
 
 .select_option_popup_content>div.column_content {
@@ -1974,13 +1994,13 @@ body.light_mode .select_option_popup_content>div {
   padding: 35px
 }
 
-.SelectChainItem:before,
+.select_chain_item:before,
 .select_token_item:before {
   max-width: 38px;
   margin-right: 15px
 }
 
-.SelectChainItem img,
+.select_chain_item img,
 .select_token_item img {
   border-radius: 32px
 }
@@ -2042,12 +2062,12 @@ body.light_mode .select_option_popup_inner {
   margin: 10px
 }
 
-.SelectChainItem:hover,
+.select_chain_item:hover,
 .select_option_popup_list_item:hover {
   background: var(--bgColor3)
 }
 
-body.light_mode .SelectChainItem:hover,
+body.light_mode .select_chain_item:hover,
 body.light_mode .select_option_popup_list_item:hover {
   background: var(--bgWhite3)
 }
@@ -2056,7 +2076,7 @@ body.light_mode .select_option_popup_list_item:hover {
   align-items: center
 }
 
-.SelectChainItem>div,
+.select_chain_item>div,
 .select_option_popup_list_item>div {
   width: 100%;
   display: flex;
@@ -2064,7 +2084,7 @@ body.light_mode .select_option_popup_list_item:hover {
 }
 
 .EverStakeFeaturedStats .select_option_popup_list_item,
-.SelectChainItem,
+.select_chain_item,
 span.exit_icon {
   cursor: pointer;
   z-index: 100;
@@ -2321,7 +2341,7 @@ select.tokenSelect[data-value="0xc2132D05D31c914a87C6611C10748AEb04B58e8F"] {
 .MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .SelectChainBtn:before,
-.SelectChainItem:before,
+.select_chain_item:before,
 .select_token_item:before {
   content: "";
   height: 40px;
@@ -3603,12 +3623,12 @@ body.light_mode .ComponentHeaderBG:after {
     padding: 0 12px
   }
 
-  .HeaderAccountInfo {
+  .header_account_info {
     min-width: 0;
     min-width: auto
   }
 
-  .HeaderAccountInfo>span:first-of-type {
+  .header_account_info>span:first-of-type {
     font-size: 12px;
     padding: 0 9px 0 13px
   }
@@ -3746,7 +3766,7 @@ body.light_mode .ComponentHeaderBG:after {
     margin: 0 10px
   }
 
-  .dapp_form_amount_input .chakra_select__wrapper,
+  .dapp_form_amount_input .chakra_select_wrapper,
   .ticker {
     max-width: 125px;
     height: 38px
@@ -3829,7 +3849,7 @@ body.light_mode .ComponentHeaderBG:after {
     margin-left: 0
   }
 
-  .ClaimNftTitle {
+  .claim_nft_title {
     display: flex;
     justify-content: center
   }
@@ -3856,19 +3876,19 @@ body.light_mode .ComponentHeaderBG:after {
 @media (max-width:685px) {
 
   .SelectChainBtn:before,
-  .SelectChainItem:before,
+  .select_chain_item:before,
   .select_token_item:before {
     margin-left: 10px
   }
 }
 
 @media (max-width:600px) {
-  .HeaderAccountInfo {
+  .header_account_info {
     background: none
   }
 
-  .HeaderAccountInfo,
-  body.light_mode .HeaderAccountInfo {
+  .header_account_info,
+  body.light_mode .header_account_info {
     border: none;
     box-shadow: none
   }
@@ -3894,7 +3914,7 @@ body.light_mode .ComponentHeaderBG:after {
     font-size: 13px !important
   }
 
-  .ChainBubble {
+  .chain_bubble {
     margin-left: 10px;
     padding: 3px 9px
   }
@@ -3975,7 +3995,7 @@ body.light_mode .ComponentHeaderBG:after {
     width: calc(100% - 25px)
   }
 
-  body.light_mode .HeaderAccountInfo {
+  body.light_mode .header_account_info {
     border: none;
     box-shadow: none
   }
@@ -4100,14 +4120,14 @@ body.light_mode .ComponentHeaderBG:after {
   .MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
   .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
   .SelectChainBtn:before,
-  .SelectChainItem:before,
+  .select_chain_item:before,
   .select_token_item:before {
     width: 30px;
     height: 30px;
     min-width: 30px
   }
 
-  .dapp_form_amount_input .chakra_select__wrapper,
+  .dapp_form_amount_input .chakra_select_wrapper,
   .ticker {
     max-width: 120px
   }
@@ -4131,7 +4151,7 @@ body.light_mode .ComponentHeaderBG:after {
     height: 58px
   }
 
-  .dapp_form_amount_input .chakra_select__wrapper {
+  .dapp_form_amount_input .chakra_select_wrapper {
     margin-right: 9px !important;
     padding: 0 0 0 3px !important
   }
@@ -4197,7 +4217,7 @@ body.light_mode .ComponentHeaderBG:after {
     width: calc(100% - 20px)
   }
 
-  .HeaderAccountInfo>span:first-of-type {
+  .header_account_info>span:first-of-type {
     font-size: 11px
   }
 
@@ -4384,8 +4404,10 @@ body.embedded .component_bg {
   width: 100%
 }
 
-body.custom .app:not(.EverStake.app) .stake_nav,
-body.embedded .app:not(.EverStake.app) .stake_nav {
+body.custom .app:not(.kim_stake.app) .stake_nav,
+body.embedded .app:not(.kim_stake.app) .stake_nav,
+body.custom .app:not(.swap.app) .stake_nav,
+body.embedded .app:not(.swap.app) .stake_nav {
   margin-bottom: 10px !important
 }
 
@@ -4437,7 +4459,7 @@ body.custom .stake_nav_wrap_inner .warm_button {
   margin-bottom: 30px
 }
 
-body.embedded .small_nav .HeaderAccountInfo {
+body.embedded .small_nav .header_account_info {
   display: none
 }
 
@@ -4500,7 +4522,7 @@ body.custom .header {
 }
 
 body.custom .stake_nav.small_nav .header_account_btns,
-body.custom .stake_nav.small_nav .HeaderAccountInfo,
+body.custom .stake_nav.small_nav .header_account_info,
 body.custom .small_nav {
   display: flex
 }
@@ -4519,7 +4541,7 @@ body.custom.embedded.light_mode .header {
 
 body.custom.embedded .stake_nav.small_nav,
 body.custom.embedded .stake_nav.small_nav .header_account_btns,
-body.custom.embedded .stake_nav.small_nav .HeaderAccountInfo {
+body.custom.embedded .stake_nav.small_nav .header_account_info {
   display: none
 }
 
@@ -4868,12 +4890,12 @@ body.light_mode .StakingSummaryWalletConnectBtn button:hover {
   height: 50px
 }
 
-.header_wallet_login .HeaderAccountInfo>button {
+.header_wallet_login .header_account_info>button {
   color: var(--coldButtonFont) !important;
   margin-right: 5px
 }
 
-.HeaderAccountInfo button {
+.header_account_info button {
   padding: 0 20px;
   width: auto;
   background: var(--hoverColdGradient);
@@ -4887,14 +4909,14 @@ body.light_mode .StakingSummaryWalletConnectBtn button:hover {
   left: 2px
 }
 
-body.light_mode .HeaderAccountInfo button {
+body.light_mode .header_account_info button {
   background: var(--warmGradientW);
   box-shadow: none;
   border: 1px solid var(--warmButtonBorderW);
   color: var(--fontWhite) !important
 }
 
-.HeaderAccountInfo button:after {
+.header_account_info button:after {
   margin-top: -3px !important
 }
 
@@ -5049,7 +5071,7 @@ body .StakingActionSubmitBtn[disabled]:not(.submit_dapp_form_buttons button) {
   letter-spacing: .05em
 }
 
-.submit_dapp_form_buttons.MaxWidth {
+.submit_dapp_form_buttons.max_width {
   max-width: 100%;
   width: 100%;
   display: flex;
@@ -5453,7 +5475,7 @@ body.light_mode .indented_btn_wrap>div {
   }
 }
 
-.LockButton {
+.lock_button {
   display: flex;
   align-items: center
 }
@@ -5529,7 +5551,7 @@ body.light_mode .indented_btn_wrap>div {
 .EverRise.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .RISE.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .RISE.SelectChainBtn:before,
-.RISE.SelectChainItem:before,
+.RISE.select_chain_item:before,
 .RISE.select_token_item:before,
 .TokenPairIcons>div.RISE:before {
   background-image: url(https://data.everrise.com/icons/smartchain/0xc17c30e98541188614df99239cabd40280810ca3.png)
@@ -5537,7 +5559,7 @@ body.light_mode .indented_btn_wrap>div {
 
 .BNB.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .BNB.SelectChainBtn:before,
-.BNB.SelectChainItem:before,
+.BNB.select_chain_item:before,
 .BNB.select_token_item:before,
 .TokenPairIcons>div.BNB:before {
   background-image: url(https://data.everrise.com/icons/smartchain/gas.png)
@@ -5545,7 +5567,7 @@ body.light_mode .indented_btn_wrap>div {
 
 .ETH.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .ETH.SelectChainBtn:before,
-.ETH.SelectChainItem:before,
+.ETH.select_chain_item:before,
 .ETH.select_token_item:before,
 .TokenPairIcons>div.ETH:before {
   background-image: url(https://data.everrise.com/icons/ethereum/gas.png)
@@ -5553,7 +5575,7 @@ body.light_mode .indented_btn_wrap>div {
 
 .MATIC.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .MATIC.SelectChainBtn:before,
-.MATIC.SelectChainItem:before,
+.MATIC.select_chain_item:before,
 .MATIC.select_token_item:before,
 .TokenPairIcons>div.MATIC:before {
   background-image: url(https://data.everrise.com/icons/polygon/gas.png)
@@ -5561,7 +5583,7 @@ body.light_mode .indented_btn_wrap>div {
 
 .FTM.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .FTM.SelectChainBtn:before,
-.FTM.SelectChainItem:before,
+.FTM.select_chain_item:before,
 .FTM.select_token_item:before,
 .TokenPairIcons>div.FTM:before {
   background-image: url(https://data.everrise.com/icons/fantom/gas.png)
@@ -5569,7 +5591,7 @@ body.light_mode .indented_btn_wrap>div {
 
 .AVAX.dapp_form_amount_input_wrapper .percentage_amount_numbers:before,
 .AVAX.SelectChainBtn:before,
-.AVAX.SelectChainItem:before,
+.AVAX.select_chain_item:before,
 .AVAX.select_token_item:before,
 .TokenPairIcons>div.AVAX:before {
   background-image: url(https://data.everrise.com/icons/avalanche/gas.png)
@@ -6082,18 +6104,18 @@ body.light_mode .tokenIcon svg {
   }
 }
 
-.LockButton svg {
+.lock_button svg {
   fill: var(--svgColorW1);
   width: 12px;
   margin-left: 10px
 }
 
-.CopyButton button {
+.copy_button button {
   color: var(--fontColor1);
   font-weight: 500
 }
 
-body.light_mode .CopyButton button {
+body.light_mode .copy_button button {
   color: var(--fontWhite4);
   font-weight: 500
 }
@@ -6222,13 +6244,13 @@ body.light_mode .coinmarketcapIcon.warning {
   background-image: url(https://data.everrise.com/icons/coinmarketcap-warning.png)
 }
 
-.ScanLogo svg {
+.scan_logo svg {
   fill: var(--svgColor2);
   width: 16px;
   margin-right: 6px
 }
 
-body.light_mode .ScanLogo svg {
+body.light_mode .scan_logo svg {
   fill: var(--svgColorW5)
 }
 
@@ -6338,7 +6360,7 @@ body.light_mode .HomeLogo svg path {
   --hoverWarmGradientW: linear-gradient(90deg, #e8304f, #ffad66);
   --coldGradient: linear-gradient(90deg, #00287d, #001d57);
   --hoverColdGradient: linear-gradient(90deg, #002f94, #001e5f);
-  --coldGradientW: linear-gradient(90deg, #ebeff5, #ebeff5);
+  --coldGradientW: linear-gradient(90deg, #ebeff5, #979da5);
   --hoverColdGradientW: linear-gradient(90deg, #fff, #fff);
   --softGradient: linear-gradient(90deg, #1e459f, #0366c9);
   --softGradientW: linear-gradient(90deg, #2a63d5, #42baff);
@@ -6445,11 +6467,11 @@ body.light_mode .HomeLogo svg path {
   color: var(--orange) !important
 }
 
-.FlexWrap {
+.flex_wrap {
   justify-content: flex-start
 }
 
-.FlexWrap,
+.flex_wrap,
 .FlexWrapColumn {
   display: flex;
   align-items: center
@@ -6465,35 +6487,35 @@ body.light_mode .HomeLogo svg path {
   flex-direction: row
 }
 
-.FlexWrapStart {
+.flex_wrap_start {
   justify-content: flex-start
 }
 
-.FlexWrapCenter,
-.FlexWrapStart {
+.flex_wrap_center,
+.flex_wrap_start {
   display: flex;
   align-items: center;
   margin-top: 5px;
   margin-bottom: 5px
 }
 
-.FlexWrapCenter {
+.flex_wrap_center {
   justify-content: center
 }
 
-.FlexWrapSpace {
+.flex_wrap_space {
   justify-content: space-between
 }
 
-.FlexWrapRight,
-.FlexWrapSpace {
+.flex_wrap_right,
+.flex_wrap_space {
   display: flex;
   align-items: center;
   margin-top: 5px;
   margin-bottom: 5px
 }
 
-.FlexWrapRight {
+.flex_wrap_right {
   justify-content: flex-start;
   margin-right: 10px
 }
@@ -6579,7 +6601,7 @@ body.light_mode .HomeLogo svg path {
   margin-top: 20px
 }
 
-.marginBottom20,
+.margin_bottom_20,
 .marginVert20 {
   margin-bottom: 20px
 }
@@ -6603,11 +6625,11 @@ body.light_mode .HomeLogo svg path {
 }
 
 .marginBottom30,
-.marginVert30 {
+.margin_vert_30 {
   margin-bottom: 30px
 }
 
-.marginVert30 {
+.margin_vert_30 {
   margin-top: 30px
 }
 
@@ -6642,11 +6664,11 @@ body.light_mode .TitleText {
   letter-spacing: .01em
 }
 
-.TextCenter {
+.text_center {
   text-align: center
 }
 
-.Bold {
+.bold {
   font-weight: 700
 }
 
@@ -6710,18 +6732,18 @@ body.light_mode .Color4 {
   border-radius: 4px
 }
 
-.NoRoundingTop {
+.no_rounding_top {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px
 }
 
-.NoRoundingBottom {
+.no_rounding_bottom {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px
 }
 
-.component_bg.NoRoundingBottom,
-body.light_mode .component_bg.NoRoundingBottom {
+.component_bg.no_rounding_bottom,
+body.light_mode .component_bg.no_rounding_bottom {
   background-color: transparent !important
 }
 
@@ -6733,7 +6755,7 @@ body.light_mode .HollowBox {
   box-shadow: var(--hollowBoxW)
 }
 
-.ChainBubble {
+.chain_bubble {
   position: relative;
   padding: 3px 12px;
   font-size: 13px;
@@ -6748,12 +6770,12 @@ body.light_mode .HollowBox {
   width: auto !important
 }
 
-.ChainBubble,
-body.light_mode .ChainBubble {
+.chain_bubble,
+body.light_mode .chain_bubble {
   color: var(--fontWhite)
 }
 
-.ChainBubble:after {
+.chain_bubble:after {
   content: "";
   position: absolute;
   top: 7px;
@@ -6765,7 +6787,7 @@ body.light_mode .ChainBubble {
   z-index: 0
 }
 
-.ChainBubble.Small {
+.chain_bubble.Small {
   height: 18px;
   font-size: 11px;
   letter-spacing: .04em;
@@ -6774,7 +6796,7 @@ body.light_mode .ChainBubble {
   line-height: 0
 }
 
-.ChainBubble.Small:after {
+.chain_bubble.Small:after {
   content: "";
   position: absolute;
   top: 4px;
@@ -6786,81 +6808,81 @@ body.light_mode .ChainBubble {
   z-index: 0
 }
 
-span.BNB.ChainBubble,
-span.BNB.ChainBubble:after {
+span.BNB.chain_bubble,
+span.BNB.chain_bubble:after {
   background: #bb9331
 }
 
-body.light_mode span.BNB.ChainBubble,
-body.light_mode span.BNB.ChainBubble:after {
+body.light_mode span.BNB.chain_bubble,
+body.light_mode span.BNB.chain_bubble:after {
   background: #f3ba2f
 }
 
-.ChainBubble {
+.chain_bubble {
   min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
   min-width: fit-content
 }
 
-span.ETH.ChainBubble,
-span.ETH.ChainBubble:after {
+span.ETH.chain_bubble,
+span.ETH.chain_bubble:after {
   background: #294eac
 }
 
-body.light_mode span.ETH.ChainBubble,
-body.light_mode span.ETH.ChainBubble:after {
+body.light_mode span.ETH.chain_bubble,
+body.light_mode span.ETH.chain_bubble:after {
   background: #4d70c8
 }
 
-span.MATIC.ChainBubble,
-span.MATIC.ChainBubble:after {
+span.MATIC.chain_bubble,
+span.MATIC.chain_bubble:after {
   background: #8247e5
 }
 
-span.AVAX.ChainBubble,
-span.AVAX.ChainBubble:after {
+span.AVAX.chain_bubble,
+span.AVAX.chain_bubble:after {
   background: #e84142
 }
 
-span.FTM.ChainBubble,
-span.FTM.ChainBubble:after {
+span.FTM.chain_bubble,
+span.FTM.chain_bubble:after {
   background: #1a69ff
 }
 
-span.warm.ChainBubble {
+span.warm.chain_bubble {
   background: var(--warmGradient)
 }
 
-span.warm.ChainBubble:after {
+span.warm.chain_bubble:after {
   background: var(--warmGradLeft)
 }
 
-span.cold.ChainBubble {
+span.cold.chain_bubble {
   background: var(--coldGradient)
 }
 
-span.cold.ChainBubble:after {
+span.cold.chain_bubble:after {
   background: var(--bgColor2)
 }
 
-span.initial.ChainBubble,
-span.initial.ChainBubble:after {
+span.initial.chain_bubble,
+span.initial.chain_bubble:after {
   background: var(--svgColor3)
 }
 
-span.left.ChainBubble,
-span.left.ChainBubble:after {
+span.left.chain_bubble,
+span.left.chain_bubble:after {
   background: var(--svgColor5)
 }
 
-body.light_mode span.initial.ChainBubble,
-body.light_mode span.initial.ChainBubble:after {
+body.light_mode span.initial.chain_bubble,
+body.light_mode span.initial.chain_bubble:after {
   background: var(--svgColorW2);
   color: var(--fontWhite4) !important
 }
 
-body.light_mode span.left.ChainBubble,
-body.light_mode span.left.ChainBubble:after {
+body.light_mode span.left.chain_bubble,
+body.light_mode span.left.chain_bubble:after {
   background: var(--svgColorW3);
   color: var(--fontWhite4) !important
 }
@@ -7074,7 +7096,7 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
   white-space: nowrap
 }
 
-.AddressDisplayContainer .FlexWrap {
+.AddressDisplayContainer .flex_wrap {
   justify-content: center;
   align-items: center;
   word-break: keep-all;
@@ -7190,8 +7212,8 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
     margin-bottom: -5px
   }
 
-  .EverTable.EverRevokeTable .component_bg.NoRoundingBottom,
-  .EverTable.EverRevokeTable .component_bg.NoRoundingTop {
+  .EverTable.EverRevokeTable .component_bg.no_rounding_bottom,
+  .EverTable.EverRevokeTable .component_bg.no_rounding_top {
     height: 60px
   }
 
@@ -7512,21 +7534,21 @@ body.light_mode .token_pair {
   color: var(--fontColor5)
 }
 
-.TransactionHistory {
+.transaction_history {
   min-height: 50vh;
   width: 100%;
   height: 100%;
   padding-top: 10px
 }
 
-.TransactionForm.component_bg {
+.transaction_form.component_bg {
   border-radius: 25px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   padding-bottom: 20px
 }
 
-.TransactionHistoryHeader {
+.transaction_history_header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7534,77 +7556,81 @@ body.light_mode .token_pair {
   font-size: 14px
 }
 
-.TransactionHistoryHeader .ticker {
+.transaction_history_header .ticker {
   margin-left: 15px
 }
 
-.TransactionHistoryHeader .ticker button {
+.transaction_history_header .ticker button {
   width: 100%;
   height: 100%;
   min-width: 120px;
   justify-content: space-around
 }
 
-.TransactionHistoryHeader .ticker_btn.p_arrow:after {
+.transaction_history_header .ticker_btn.p_arrow:after {
   border-color: rgba(200, 208, 228, .83)
 }
 
-.TransactionHistoryHeader .ticker,
-body.light_mode .TransactionHistoryHeader .ticker {
+.transaction_history_header .ticker,
+body.light_mode .transaction_history_header .ticker {
   border: 1.5px solid var(--borderColor3);
   border-radius: 9px;
   height: 40px;
   background: var(--bgColor2);
-  max-width: 100%
+  max-width: 100%;
 }
 
-body.light_mode .TransactionHistoryHeader .ticker {
+body.light_mode .transaction_history_header .ticker {
   box-shadow: none;
   border: 1.5px solid var(--borderWhite2) !important;
   background: var(--bgWhite2)
 }
 
-.NoHistory {
+.no_history {
   text-align: center
 }
 
-.TransactionTable {
+.transaction_table {
   border: 1px solid var(--borderColor3);
   border-collapse: separate !important;
   border-spacing: 0;
   border-radius: 10px;
-  box-shadow: var(--borderColor3)
+  box-shadow: var(--borderColor3);
+  font-variant-numeric: lining-nums tabular-nums;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: .75rem;
 }
 
-body.light_mode .TransactionTable {
+body.light_mode .transaction_table {
   border: 1px solid var(--borderWhite2)
 }
 
-.TransactionTable tr {
+.transaction_table tr {
   background: var(--bgColor0)
 }
 
-body.light_mode .TransactionTable tr {
+body.light_mode .transaction_table tr {
   background: var(--bgWhite3)
 }
 
-.TransactionTable tr:nth-child(2n) {
+.transaction_table tr:nth-child(2n) {
   background: var(--bgColor1)
 }
 
-body.light_mode .TransactionTable tr:nth-child(2n) {
+body.light_mode .transaction_table tr:nth-child(2n) {
   background: var(--bgWhite1)
 }
 
-.TransactionTable tr:nth-child(odd) {
+.transaction_table tr:nth-child(odd) {
   background: var(--bgColor0)
 }
 
-body.light_mode .TransactionTable tr:nth-child(odd) {
+body.light_mode .transaction_table tr:nth-child(odd) {
   background: var(--bgWhite0)
 }
 
-.TransactionTable th {
+.transaction_table th {
   color: var(--fontColor4);
   border-bottom: none;
   padding: 15px 10px;
@@ -7612,12 +7638,12 @@ body.light_mode .TransactionTable tr:nth-child(odd) {
   text-align: center
 }
 
-body.light_mode .TransactionTable th {
+body.light_mode .transaction_table th {
   color: var(--fontWhite4);
   background: var(--bgWhite1)
 }
 
-.TransactionTable td {
+.transaction_table td {
   padding: 7px 5px;
   text-align: center;
   align-items: center;
@@ -7626,22 +7652,22 @@ body.light_mode .TransactionTable th {
   border-top: 1px solid var(--bgColor2)
 }
 
-body.light_mode .TransactionTable td {
+body.light_mode .transaction_table td {
   border-bottom: none;
   border-top: 1px solid var(--bgWhite4)
 }
 
-.TransactionTable td:first-of-type,
-.TransactionTable th:first-of-type {
+.transaction_table td:first-of-type,
+.transaction_table th:first-of-type {
   padding-left: 15px
 }
 
-.TransactionTable td:last-of-type,
-.TransactionTable th:last-of-type {
+.transaction_table td:last-of-type,
+.transaction_table th:last-of-type {
   padding-right: 15px
 }
 
-.form_top_half.TransactionForm.component_bg .powered_by {
+.form_top_half.transaction_form.component_bg .powered_by {
   padding-top: 20px
 }
 
@@ -7656,7 +7682,7 @@ body.light_mode .TransactionTable td {
   height: 30px
 }
 
-.DateColumn {
+.date_column {
   max-width: 120px
 }
 
@@ -7844,16 +7870,16 @@ body.light_mode .TransactionTable td {
     padding: 0 10px 15px
   }
 
-  .TransactionHistoryHeader {
+  .transaction_history_header {
     flex-direction: column
   }
 
-  .TransactionHistoryHeader .ticker {
+  .transaction_history_header .ticker {
     margin-top: 12px;
     min-width: 130px
   }
 
-  .TransactionHistoryHeader>p {
+  .transaction_history_header>p {
     font-size: 14px;
     text-align: center;
     line-height: 1.3em
@@ -7909,12 +7935,12 @@ body.light_mode .TransactionTable td {
     min-width: 32px
   }
 
-  .TransactionTable th {
+  .transaction_table th {
     font-size: 10px;
     letter-spacing: .02em
   }
 
-  .TransactionHistoryHeader>p {
+  .transaction_history_header>p {
     max-width: 230px
   }
 
@@ -7949,8 +7975,8 @@ body.light_mode .TransactionTable td {
 
 @media (max-width:414px) {
 
-  .DateColumn,
-  .DateColumn th {
+  .date_column,
+  .date_column th {
     display: none
   }
 
@@ -7960,7 +7986,7 @@ body.light_mode .TransactionTable td {
     height: 18px
   }
 
-  .TransactionHistory {
+  .transaction_history {
     min-height: 30vh
   }
 }
@@ -11049,7 +11075,7 @@ body.light_mode .EverSwapOnramp.app .stake_nav.small_nav li:nth-child(3) a {
 
 .stake_nav.small_nav,
 .stake_nav.small_nav .header_account_btns,
-.stake_nav.small_nav .HeaderAccountInfo {
+.stake_nav.small_nav .header_account_info {
   display: none
 }
 
@@ -11129,8 +11155,8 @@ body.light_mode .EverSwapSummary span {
 
 @media (max-width:600px) {
 
-  .small_nav .HeaderAccountInfo,
-  body.light_mode .small_nav .HeaderAccountInfo {
+  .small_nav .header_account_info,
+  body.light_mode .small_nav .header_account_info {
     border: none;
     box-shadow: none
   }
@@ -11195,7 +11221,9 @@ body.light_mode .EverSwapSummary span {
 }
 
 @media (max-width:400px) {
-  .app:not(.EverStake.app) .stake_nav.small_nav {
+
+  .app:not(.kim_stake.app) .stake_nav.small_nav,
+  .app:not(.swap.app) .stake_nav.small_nav {
     margin-bottom: 10px !important
   }
 
@@ -11379,7 +11407,8 @@ span.USDT_price_eqv>span:last-child {
   }
 }
 
-.app:not(.EverStake.app) .stake_nav {
+.app:not(.kim_stake.app) .stake_nav,
+.app:not(.swap.app) .stake_nav {
   margin-bottom: 15px !important
 }
 
@@ -11457,7 +11486,8 @@ body.light_mode .stake_nav a {
   box-shadow: none
 }
 
-.EverStake.app .stake_nav li:first-child a,
+.kim_stake.app .stake_nav li a.active,
+.swap.app .stake_nav li a.active,
 .EverStakeClaim.app .stake_nav li:nth-child(4) a,
 .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
 .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -11468,7 +11498,8 @@ body.light_mode .stake_nav a {
   box-shadow: none
 }
 
-body.light_mode .EverStake.app .stake_nav li:first-child a,
+body.light_mode .kim_stake.app .stake_nav li a.active,
+body.light_mode .swap.app .stake_nav li a.active,
 body.light_mode .EverStakeClaim.app .stake_nav li:nth-child(4) a,
 body.light_mode .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
 body.light_mode .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -12955,7 +12986,7 @@ body button.chakra_button.StakingActionCancelBtn {
   font-size: 15px
 }
 
-.EverStakeBridgePopup .StakingActionSubmitBtn {
+.stake_bridge_popup .StakingActionSubmitBtn {
   margin-top: 5px
 }
 
@@ -13925,7 +13956,8 @@ svg#LoaderAnimation {
 
 @media (max-width:480px) {
 
-  .EverStake.app .stake_nav li:first-child a,
+  .kim_stake.app .stake_nav li:first-child a,
+  .swap.app .stake_nav li:first-child a,
   .EverStakeClaim.app .stake_nav li:nth-child(4) a,
   .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
   .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -14048,7 +14080,8 @@ svg#LoaderAnimation {
     max-width: 85%
   }
 
-  .EverStake.app .stake_nav li:first-child a,
+  .kim_stake.app .stake_nav li:first-child a,
+  .swap.app .stake_nav li:first-child a,
   .EverStakeClaim.app .stake_nav li:nth-child(4) a,
   .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
   .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -15898,15 +15931,36 @@ body .header_wallet_login button {
   --number-input-input-padding: calc(var(24px) + 0.5rem);
 }
 
-.our_checkbox {
-  cursor: pointer;
-  -webkit-box-align: center;
-  align-items: center;
-  position: relative;
-  height: 15px;
-  width: 15px;
+body,
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0px;
 }
 
-.stake {
-  display: inline-flex;
+body {
+  position: relative;
+  min-height: 100%;
+  font-feature-settings: "kern";
+  line-height: 1.5;
+}
+
+*,
+::before,
+::after {
+  border-width: 0px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-color: #e2e8f0;
+  overflow-wrap: break-word;
 }
