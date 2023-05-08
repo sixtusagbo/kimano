@@ -635,7 +635,7 @@ video {
 body {
   overflow-y: auto;
   font-family: Montserrat, sans-serif;
-  background-color: #001846;
+  background-color: #993491;
   caret-color: transparent;
   min-width: 280px
 }
@@ -4041,7 +4041,6 @@ div.wrapper {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-image: url(../images/hero_bg.png);
   background-repeat: no-repeat;
   background-position: 100% 100%
 }
@@ -4062,13 +4061,11 @@ section.home_hero .global_inner {
 }
 
 .home_hero:after {
-  background-image: linear-gradient(#993391, #993491 5%, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
-  left: -10%;
+  background: linear-gradient(#993391, #993491 5%, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   height: 99999px
 }
 
 .home_hero:before {
-  background-image: linear-gradient(#993391, #993491 5%, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   top: -11px
 }
 
