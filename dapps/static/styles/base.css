@@ -376,11 +376,13 @@ body.light_mode .PopupListScrollWrap {
   width: 100%
 }
 
-.ClaimNftTitle {
-  display: flex
+.claim_nft_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.ClaimNftTitle p {
+.claim_nft_title p {
   font-weight: 700
 }
 
@@ -3847,7 +3849,7 @@ body.light_mode .ComponentHeaderBG:after {
     margin-left: 0
   }
 
-  .ClaimNftTitle {
+  .claim_nft_title {
     display: flex;
     justify-content: center
   }
@@ -6358,7 +6360,7 @@ body.light_mode .HomeLogo svg path {
   --hoverWarmGradientW: linear-gradient(90deg, #e8304f, #ffad66);
   --coldGradient: linear-gradient(90deg, #00287d, #001d57);
   --hoverColdGradient: linear-gradient(90deg, #002f94, #001e5f);
-  --coldGradientW: linear-gradient(90deg, #ebeff5, #ebeff5);
+  --coldGradientW: linear-gradient(90deg, #ebeff5, #979da5);
   --hoverColdGradientW: linear-gradient(90deg, #fff, #fff);
   --softGradient: linear-gradient(90deg, #1e459f, #0366c9);
   --softGradientW: linear-gradient(90deg, #2a63d5, #42baff);
@@ -6666,7 +6668,7 @@ body.light_mode .TitleText {
   text-align: center
 }
 
-.Bold {
+.bold {
   font-weight: 700
 }
 
@@ -6730,18 +6732,18 @@ body.light_mode .Color4 {
   border-radius: 4px
 }
 
-.NoRoundingTop {
+.no_rounding_top {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px
 }
 
-.NoRoundingBottom {
+.no_rounding_bottom {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px
 }
 
-.component_bg.NoRoundingBottom,
-body.light_mode .component_bg.NoRoundingBottom {
+.component_bg.no_rounding_bottom,
+body.light_mode .component_bg.no_rounding_bottom {
   background-color: transparent !important
 }
 
@@ -7210,8 +7212,8 @@ body.light_mode .toggle_dropdown_btn.nine_dots svg {
     margin-bottom: -5px
   }
 
-  .EverTable.EverRevokeTable .component_bg.NoRoundingBottom,
-  .EverTable.EverRevokeTable .component_bg.NoRoundingTop {
+  .EverTable.EverRevokeTable .component_bg.no_rounding_bottom,
+  .EverTable.EverRevokeTable .component_bg.no_rounding_top {
     height: 60px
   }
 
@@ -11496,8 +11498,8 @@ body.light_mode .stake_nav a {
   box-shadow: none
 }
 
-body.light_mode .kim_stake.app .stake_nav li:first-child a,
-body.light_mode .swap.app .stake_nav li:first-child a,
+body.light_mode .kim_stake.app .stake_nav li a.active,
+body.light_mode .swap.app .stake_nav li a.active,
 body.light_mode .EverStakeClaim.app .stake_nav li:nth-child(4) a,
 body.light_mode .EverStakeDisplay.app .stake_nav li:nth-child(3) a,
 body.light_mode .stake_manager.app .stake_nav li:nth-child(2) a {
@@ -16065,4 +16067,8 @@ body.light_mode .stake_list .stake_list_item span {
 
 body.light_mode .stake_list .stake_list_item span.tooltip svg {
   fill: #fff !important;
+}
+
+.pool_section .description p {
+  line-height: 1.3;
 }
