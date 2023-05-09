@@ -1063,8 +1063,8 @@ a.blue_hero_btn span {
   transform: scaleX(0);
   transform-origin: right;
   transition: transform .25s;
-  background: linear-gradient(90deg, #d42133, #0c4d98);
-  background: linear-gradient(90deg, #fb8b47, #ce2041)
+  background: linear-gradient(90deg, #11d617, #0752bb);
+  background: linear-gradient(90deg, #11d617, #0752bb);
 }
 
 .OrangeTxtflat {
