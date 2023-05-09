@@ -9330,7 +9330,7 @@ body.community .bottom_articles h2 {
 }
 
 p.img_header_hero_txt a {
-  background: linear-gradient(90deg, #fea162, #e62020);
+  background: linear-gradient(270deg, #11d617, #0752bb);
   border-image-slice: 1;
   -webkit-background-clip: text;
   background-clip: text;
