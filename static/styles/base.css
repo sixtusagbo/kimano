@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
 hr {
@@ -4041,7 +4041,7 @@ div.wrapper {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-image: url(../images/migrate_metaverse_bg.png);
+  background-image: url(../images/k_logo_png.png);
   background-repeat: no-repeat;
   background-position: 100% 100%
 }
@@ -9535,7 +9535,7 @@ spans_divider {
   align-items: center;
   height: 40px;
   min-width: 192px;
-  background: #00205e;
+  background:linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   color: #fff;
   border-radius: 90px;
   padding: 10px 21px
@@ -9552,7 +9552,7 @@ spans_divider {
   width: fit-content;
   font-weight: 800;
   font-size: 1.8em;
-  color: #0b327d
+  color: #45af45
 }
 
 p.ama_date {
