@@ -105,4 +105,60 @@
     $("#stake_form_modal").fadeIn();
   });
 
+  // Add Liquidity: Transaction Settings
+  function checkSlippageIsAuto() {
+    console.log(Number($("#slippage").val()));
+
+    if (isNaN(Number($("#slippage").val())) && $("#slippage").val().replace(/[^.]/g, "").length === 1) {
+      return;
+    }
+
+    if (Number($("#slippage").val()) !== 0.5) {
+      $(".slippage_btn").removeClass("selected");
+    }
+
+    if (Number($("#slippage").val()) === 0.5) {
+      $(".slippage_btn").addClass("selected");
+    }
+
+    if (Number($("#slippage").val()) > 1 && Number($("#slippage").val()) <= 50) {
+      $("#slippage").addClass("warn");
+      $(".slippage_info_msg").text("Your transaction may be frontrun").addClass("warn").show();
+    }
+
+    if (Number($("#slippage").val()) === 0) {
+      $("#slippage").addClass("warn");
+      $(".slippage_info_msg").text("Your transaction may fail").addClass("warn").show();
+    }
+
+    if (Number($("#slippage").val()) > 50 || isNaN(Number($("#slippage").val()))) {
+      $("#slippage").addClass("error");
+      $(".slippage_info_msg").text("Enter a valid slippage percentage").addClass("error").show();
+    }
+  }
+
+  $("#slippage").keyup(function (e) {
+    $(".slippage_info_msg").removeClass("warn error").hide();
+    $("#slippage").removeClass("warn error");
+    checkSlippageIsAuto();
+  });
+
+  $("#txn_deadline").keyup(function (e) {
+    $("#txn_deadline").removeClass("error");
+    if (Number($("#txn_deadline").val()) <= 0 || Number($("#txn_deadline").val()) > 4320) {
+      $("#txn_deadline").addClass("error");
+    }
+  });
+
+  $("#set_slippage").click(function (e) {
+    e.preventDefault();
+    $("#slippage").val("0.5");
+    $(".slippage_btn").addClass("selected");
+  });
+
+  $("#txn_settings_btn").click(function (e) {
+    e.preventDefault();
+    $(".settings_content").toggle();
+  });
+
 })(jQuery);
