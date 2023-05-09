@@ -4041,6 +4041,7 @@ div.wrapper {
   display: flex;
   justify-content: center;
   overflow: hidden;
+  background-image: url(../images/migrate_metaverse_bg.png);
   background-repeat: no-repeat;
   background-position: 100% 100%
 }
@@ -4940,7 +4941,7 @@ li.press_logo {
 }
 
 .foundation_section {
-  color: #000;
+  color: #fff;
   font-size: 1.1em;
   overflow: hidden;
   position: relative
@@ -4997,7 +4998,7 @@ li.press_logo {
   letter-spacing: .04em;
   margin: 20px 2em;
   color: #e8ebf1;
-  background: #000;
+  background: linear-gradient(270deg, #11d617, #0752bb);
   border-image-slice: 1;
   background-clip: text;
   -webkit-background-clip: text;
@@ -13198,8 +13199,7 @@ p.press_item_publish_date {
 
 .press_button a:hover {
   background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
-  box-shadow: inset 0 0 1px 1px rgb(182, 76, 233);
-  border-color: #001635
+  border-color: #993491
 }
 
 .press_logo img {
