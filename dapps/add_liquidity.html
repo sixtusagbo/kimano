@@ -367,7 +367,7 @@
 
             <div class="pool_section">
               <div class="component_bg" style="display: flex;flex-direction: column;">
-                <div class="claim_nft_title">
+                <div class="claim_nft_title" style="justify-content:space-between;align-items: center;">
                   <a href="pool.html">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                       stroke="#7780A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -443,6 +443,140 @@
                   </div>
                 </div>
 
+                <div class="component_bg margin_top_20" style="padding: 15px;line-height: 1.3;">
+                  <b>Tip:</b> When you add liquidity, you will receive
+                  pool tokens representing your position. These tokens automatically earn fees proportional to
+                  your share of the pool, and can be redeemed at any time.
+                </div>
+
+                <div class="swap_form">
+                  <div class="form_top_half">
+                    <div class="form_top_half_inner">
+                      <div class="swap_select_one">
+                        <div>
+                          <div class="wallet_balance_in_form">
+                            <div class="selection_header_items">
+                              <div class="dapp_form_token_balance_column_left">
+                                <div class="dapp_form_token_balance"></div>
+                                <div style="height: 1em;"> </div>
+                              </div>
+                              <div class="dapp_form_token_balance_column_right">
+                                <div class="dapp_form_token_balance">Available: -- ETH</div>
+                                <div class="dapp_form_token_balance">Balance: -- ETH</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="dapp_form_amount_input_wrapper">
+                            <div class="dapp_form_amount_input_bg">
+                              <div class="dapp_form_amount_input">
+                                <div class="dapp_form_amount_input_inner">
+                                  <div class="percentage_amount_numbers">
+                                    <div class="token_balance_icon_container">
+                                      <div class="token_balance_icon_inner"><img
+                                          src="https://data.everrise.com/icons/ethereum/gas.png">
+                                      </div>
+                                    </div>
+                                    <div class="chakra_numberinput wallet_input_one">
+                                      <div class="bottom_input">
+                                        <input inputmode="decimal" type="text" pattern="[0-9]*(.[0-9]+)?" id="amountxxI"
+                                          disabled="" placeholder="Connect Wallet..." role="spinbutton"
+                                          aria-valuemin="0" aria-valuemax="0" autocomplete="off" autocorrect="off"
+                                          class="chakra_numberinput_field css_1l7fss8" value="">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="ticker">
+                                    <button class="ticker_btn p_arrow down"
+                                      id="from_token_select_trigger"><span>ETH</span></button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="invert_form_button" style="margin-top: 14px;margin-bottom: 0;">
+                    <div class="invert_form_button_inner">
+                      <button type="button" class="chakra_button" aria-label="">
+                        <span class="swap_arrow" aria-hidden="true" focusable="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                            stroke="currentColor" fill="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                          </svg>
+                        </span>
+                      </button>
+                      <div class="neomorphic_slice"></div>
+                    </div>
+                  </div>
+
+                  <div class="form_bottom_half">
+                    <div class="form_bottom_half_inner">
+                      <div class="swap_to_wrap">
+                        <div class="wallet_balance_in_form">
+                          <div class="selection_header_items">
+                            <div class="dapp_form_token_balance_column_left">
+                              <div style="height: 1em;"> </div>
+                            </div>
+                            <div class="dapp_form_token_balance_column_right">
+                              <div class="dapp_form_token_balance"> </div>
+                              <div class="dapp_form_token_balance">Balance: -- KIM</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dapp_form_amount_input_wrapper">
+                          <div class="dapp_form_amount_input_bg">
+                            <div class="dapp_form_amount_input">
+                              <div class="dapp_form_amount_input_inner">
+                                <div class="percentage_amount_numbers">
+                                  <div class="token_balance_icon_container">
+                                    <div class="token_balance_icon_inner"><img
+                                        src="https://data.everrise.com/icons/smartchain/0xc17c30e98541188614df99239cabd40280810ca3.png">
+                                    </div>
+                                  </div>
+                                  <div class="chakra_numberinput css_5vz1f0">
+                                    <div class="bottom_input"><input inputmode="decimal" type="text"
+                                        pattern="[0-9]*(.[0-9]+)?" id="estimatedAmountxxI" disabled=""
+                                        placeholder="Connect Wallet..." role="spinbutton" aria-valuemin="0"
+                                        aria-valuemax="0" autocomplete="off" autocorrect="off"
+                                        class="chakra_numberinput_field css_1l7fss8" value=""></div>
+                                  </div>
+                                </div>
+                                <div class="ticker">
+                                  <button class="ticker_btn" style="background: none;">
+                                    <span>KIM</span>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="submit_stake_buttons">
+                        <div class="submit_dapp_form_buttons max_width connect_wallet_trigger">
+                          <button>Connect Wallet</button>
+                        </div>
+                        <div class="powered_by">
+                          <div class="powered_by_inner">
+                            <span>Powered by:</span>
+                            <a target="blank" href="https://kimano.xyz">
+                              <div>
+                                <!-- Our logo, class:our_logo -->
+                                &nbsp;Kimano
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
 
@@ -482,7 +616,7 @@
                       <img
                         src="https://data.everrise.com/icons/smartchain/0xc17c30e98541188614df99239cabd40280810ca3.png">
                     </div>
-                    <span>EverRise ($RISE) </span>
+                    <span>Kimano ($KIM) </span>
                     <div class="selected_token_arrows">
                       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
                         width="1em" xmlns="http://www.w3.org/2000/svg">

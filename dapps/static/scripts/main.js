@@ -109,7 +109,7 @@
   function checkSlippageIsAuto() {
     console.log(Number($("#slippage").val()));
 
-    if (isNaN(Number($("#slippage").val())) && $("#slippage").val().replace(/[^.]/g, "").length === 1) {
+    if (isNaN(Number($("#slippage").val())) && $("#slippage").val().replace(/[^.]\.$/g, "").length === 1) {
       return;
     }
 
@@ -153,6 +153,8 @@
   $("#set_slippage").click(function (e) {
     e.preventDefault();
     $("#slippage").val("0.5");
+    $(".slippage_info_msg").removeClass("warn error").hide();
+    $("#slippage").removeClass("warn error");
     $(".slippage_btn").addClass("selected");
   });
 

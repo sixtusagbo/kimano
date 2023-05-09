@@ -1823,7 +1823,7 @@ section.RedirectSection {
   }
 
   .staking_mm span:after {
-    content: "Earn RISE rewards"
+    content: "Earn KIM rewards"
   }
 
   .swap_mm span:after {
@@ -13806,7 +13806,7 @@ body.stats-page .stats-container {
 }
 
 .ticker-rise:after {
-  content: " RISE"
+  content: " KIM"
 }
 
 .ticker-matic:after {

@@ -378,8 +378,6 @@ body.light_mode .PopupListScrollWrap {
 
 .claim_nft_title {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .claim_nft_title p {
