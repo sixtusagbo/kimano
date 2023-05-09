@@ -909,7 +909,7 @@ body.reward .our_nav {
 }
 
 body.home .content {
-  background: #001236
+  background: #fff
 }
 
 .dapp_menu_item .arrow span {
@@ -987,12 +987,12 @@ li.dapp_menu_item.active a {
 
 a.orange_hero_btn,
 a.RedHeroBtn {
-  border-image-source: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+  border-image-source: linear-gradient(270deg, #11d617, #0752bb);
 }
 
 a.orange_hero_btn span,
 a.RedHeroBtn {
-  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+  background: #fff;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
@@ -1000,7 +1000,7 @@ a.RedHeroBtn {
 
 a.orange_hero_btn:after,
 a.RedHeroBtn:after {
-  color: #993491
+  color: #fff
 }
 
 a.blue_hero_btn {
@@ -5309,7 +5309,7 @@ section.full_ecosystem_section {
   align-items: center;
   border-radius: 100px;
   padding: 0 26px;
-  color: #cbe1f4;
+  color: #189a18;
   margin: 20px 0 0;
   width: 80%;
   background-color: #F596F4;
@@ -8118,7 +8118,7 @@ a.card_hero_btn {
 
 .community_faq_section_right {
   width: 57%;
-  background-color: #030d2b
+  background-color: #993491
 }
 
 body.reward .community_faq_global_inner div#community {
@@ -8160,7 +8160,7 @@ body.reward .community_faq_global_inner div#community {
 }
 
 .community_faq_section_right h2 span {
-  background: linear-gradient(270deg, #fb8b47, #ce2041);
+  background:linear-gradient(90deg, #01d5f5, #0083df);
   border-image-slice: 1;
   -webkit-background-clip: text;
   background-clip: text;
@@ -8230,8 +8230,8 @@ body.reward .community_faq_section_right {
   display: flex;
   align-items: center;
   min-height: 70px;
-  border-bottom: 1px solid #09245d;
-  background: #0b1f50;
+  border-bottom: 1px solid #903189;
+  background: #d703c5;
   border-radius: 10px;
   padding: 15px 0 15px 30px;
   width: 100%
@@ -9984,7 +9984,7 @@ li.social_card:nth-child(3) .social_card_text {
   fill: #cd201f
 }
 
-.social_card .instagram-svg-icon {
+.social_card .tiktok-svg-icon {
   fill: #8321db
 }
 
@@ -12216,7 +12216,7 @@ a.ContactNow {
 
 .dapp_faq_section,
 .dapp_faq_section .community_faq_section_left {
-  background: #030d2b
+  background: #993491
 }
 
 .dapp_faq_global_inner .community_faq_section_left p {
