@@ -2908,7 +2908,7 @@ body.site_faq .header_txt h1 {
 
 .blog_tags ::-webkit-scrollbar-thumb,
 .blog_widget_section ::-webkit-scrollbar-thumb {
-  background-color: #e2e2e2
+  background-color: #993491
 }
 
 .faq_block_accordion,
@@ -5685,8 +5685,9 @@ section.CompactEcosystemSection {
 }
 
 .blog_widget_section {
-  background: #f5f5fa;
+  background: #993491;
   flex-direction: column;
+  color: #000;
   overflow: hidden
 }
 
@@ -8118,7 +8119,7 @@ a.card_hero_btn {
 
 .community_faq_section_right {
   width: 57%;
-  background-color: #993491
+  background-color: #991b8f
 }
 
 body.reward .community_faq_global_inner div#community {
@@ -10774,7 +10775,7 @@ body.kimano_dapp .section_arrow:before {
   .EverLockHeader:before,
   .EverSaleHeader:before,
   .kimano_wallet_header:before {
-    background: url(https://www.everrise.com/assets/images/bg/DeepMetaVerseBG.png) 30% bottom/cover no-repeat rgb(0 20 59/0)
+    background-color: #993491;
   }
 }
 
@@ -12216,7 +12217,7 @@ a.ContactNow {
 
 .dapp_faq_section,
 .dapp_faq_section .community_faq_section_left {
-  background: #993491
+  background: #991b8f
 }
 
 .dapp_faq_global_inner .community_faq_section_left p {
