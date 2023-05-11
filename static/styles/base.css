@@ -13857,24 +13857,24 @@ body.stats-page .content {
   color: rgba(160, 174, 192, 1) !important;
 }
 
-.token {
+body.home .token {
   position: relative;
-  margin-bottom: 8rem;
   background-color: #993391;
-}
-
-.token-info-overview {
-  display: block;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .token-info-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 2rem;
-  color: rgb(222, 226, 230);
+  padding-bottom: 20px;
   font-size: 48px;
-  margin-left: 30rem;
+  text-align: center;
+  background: linear-gradient(270deg, #11d617, #0752bb);
+  border-image-slice: 1;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-shadow: 0 0 #00000000;
+  -webkit-text-fill-color: transparent;
 }
 
 .token-info-title-highlighted {
@@ -13886,10 +13886,9 @@ body.stats-page .content {
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: auto 15px;
 }
 
 .token-info-description {
@@ -13899,7 +13898,6 @@ body.stats-page .content {
   font-weight: 500;
   font-size: 1.1rem;
   text-align: center;
-  max-width: 48rem;
 }
 
 .token-info-table-container {
@@ -13910,7 +13908,6 @@ body.stats-page .content {
   flex-wrap: wrap;
   flex-direction: column;
   -webkit-box-align: center;
-  margin-top: 48px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -13929,7 +13926,7 @@ body.stats-page .content {
 .token-info-table {
   display: flex;
   flex-direction: column;
-  margin-top: 48px;
+  margin-top: 38px;
   gap: 8px;
 }
 
@@ -13956,7 +13953,13 @@ body.stats-page .content {
   width: 155px;
   color: rgb(8, 15, 22);
   border-radius: 5px 0px 0px 5px;
-  background: var(--primary-color);
+  background: linear-gradient(270deg, #11d617, #0752bb);
+  border-image-slice: 1;
+  border-image-source: linear-gradient(180deg, #11d617, #0752bb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-shadow: 0 0 #00000000;
+  -webkit-text-fill-color: transparent;
 }
 
 .token-info-value {
@@ -13967,9 +13970,8 @@ body.stats-page .content {
   border: 1px solid var(--primary-color);
 }
 
-.box-container {
-  margin-top: 6rem;
-  margin-left: 12rem;
+body.home .token .box-container {
+  margin-top: 4rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -13979,7 +13981,14 @@ body.stats-page .content {
   justify-content: center;
 }
 
-.table-container {
+.token-info-table-title {
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #11d617;
+}
+
+body.home .token .table-container {
   width: 100%;
   overflow-x: auto;
   margin-top: 48px;
@@ -13988,7 +13997,7 @@ body.stats-page .content {
   border: 1px solid var(--primary-color);
 }
 
-.data-table {
+body.home .token .data-table {
   display: table;
   border-collapse: collapse;
   min-width: 800px;
@@ -13996,7 +14005,7 @@ body.stats-page .content {
   border-spacing: 0px;
 }
 
-table {
+body.home .token table {
   display: table;
   border-collapse: separate;
   box-sizing: border-box;
@@ -14005,42 +14014,42 @@ table {
   border-color: gray;
 }
 
-thead {
+body.home .token thead {
   display: table-header-group;
   vertical-align: middle;
   border-color: inherit;
 }
 
-.table-head {
+body.home .token .table-head {
   display: table-header-group;
 }
 
-.table-row:nth-of-type(2n+1) {
+body.home .token .table-row:nth-of-type(2n+1) {
   background-color: rgba(204, 19, 136, 0.125);
 }
 
-.table-row {
+body.home .token .table-row {
   color: inherit;
   display: table-row;
   vertical-align: middle;
   outline: 0px;
 }
 
-tr {
+body.home .token tr {
   display: table-row;
   vertical-align: inherit;
   border-color: inherit;
 }
 
-.align-left {
+body.home .token .align-left {
   text-align: left;
 }
 
-.align-center {
+body.home .token .align-center {
   text-align: center;
 }
 
-.size-medium {
+body.home .token .size-medium {
   font-weight: 600;
   font-size: 0.825rem;
   line-height: 1.5rem;
@@ -14051,7 +14060,7 @@ tr {
   padding: 16px;
 }
 
-.head-cell {
+body.home .token .head-cell {
   background-color: var(--primary-color);
   font-weight: 600;
   text-transform: uppercase;
@@ -14061,18 +14070,18 @@ tr {
   border-image: initial;
 }
 
-th {
+body.home .token th {
   display: table-cell;
   vertical-align: inherit;
   font-weight: bold;
   text-align: -internal-center;
 }
 
-.table-body {
+body.home .token .table-body {
   display: table-row-group;
 }
 
-tbody {
+body.home .token tbody {
   display: table-row-group;
   vertical-align: middle;
   border-color: inherit;
