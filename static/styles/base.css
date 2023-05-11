@@ -13860,21 +13860,24 @@ body.stats-page .content {
 body.home .token {
   position: relative;
   background-color: #993391;
-  padding-top: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
 }
 
-.token-info-title {
+.token-info-title,
+.roadmap .roadmap-title {
   padding-bottom: 20px;
   font-size: 48px;
   text-align: center;
-  background: linear-gradient(270deg, #11d617, #0752bb);
+  background: linear-gradient(180deg, #11d617, #0752bb);
   border-image-slice: 1;
   background-clip: text;
   -webkit-background-clip: text;
   text-shadow: 0 0 #00000000;
   -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .token-info-title-highlighted {
