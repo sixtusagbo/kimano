@@ -6,6 +6,11 @@
     $(".dapp_menu_item").toggleClass("active");
   });
 
+  $(".info_menu_item .dropdown_trigger").click(function (e) {
+    e.preventDefault();
+    $(".info_menu_item").toggleClass("active");
+  });
+
   $("#hamburger").click(function (e) {
     e.preventDefault();
     $(".primary_links").slideToggle({

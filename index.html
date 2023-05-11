@@ -21,6 +21,7 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="./static/styles/base.css">
   <link rel="stylesheet" href="./static/styles/token.css">
+  <link rel="stylesheet" href="./static/styles/responsive.css">
 </head>
 
 <body class="home">
@@ -34,7 +35,9 @@
               <div class="font_extrabold text_xl">
                 <a href="/">
                   <span class="logo">
-                    <p class="logo_image"><img src="static/images/" alt=""> Kimano</p>
+                    <span class="logo_image">
+                      <img src="static/images/logo_with_word.svg" alt="">
+                    </span>
                   </span>
                 </a>
               </div>
@@ -51,35 +54,76 @@
                 </div>
               </li>
               <li class="parent_menu_item dapp_menu_item">
-                <div class="list_menu_container"><span class="dropdown_trigger"> </span><span class="link_container"
-                    role="button" aria-hidden="true"><a href=""><span class="menu_name">Ecosystem</span><span
-                        class="arrow"><span></span> <span></span>
-                      </span></a></span>
+                <div class="list_menu_container">
+                  <span class="dropdown_trigger"> </span>
+                  <span class="link_container" role="button" aria-hidden="true">
+                    <a href="">
+                      <span class="menu_name">Ecosystem</span>
+                      <span class="arrow">
+                        <span></span>
+                        <span></span>
+                      </span>
+                    </a>
+                  </span>
                 </div>
 
                 <ul class="child_menu">
-                  <li><a class="swap_mm" href="http://app.kimano.xyz/swap.html"> <img src="static/images/swap_icon.png"
-                        alt="" width="15%"> <span>Swap</span></a>
+                  <li>
+                    <a class="swap_mm" href="https://app.kimano.xyz/swap.html">
+                      <img src="static/images/swap_icon.png" alt="">
+                      <span>Swap</span>
+                    </a>
                   </li>
-                  <li><a class="bridge_mm" href="https://app.kimano.xyz/bridge.html"><img
-                        src="static/images/bridge_icon.png" alt="" width="15%"><span>Bridge</span></a></li>
-                  <li><a class="staking_mm" href="/staking.html"><img src="static/images/nft_staking_icon.png" alt=""
-                        width="15%"><span>Staking
-                        Lab</span></a></li>
-                  <li><a class="wallet_mm" href="/wallet.html"><img src="static/images/wallet_icon.png" alt=""
-                        width="15%"><span>Wallet</span></a></li>
+                  <li>
+                    <a class="bridge_mm" href="https://app.kimano.xyz/bridge.html">
+                      <img src="static/images/bridge_icon.png" alt="">
+                      <span>Bridge</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="staking_mm" href="https://app.kimano.xyz/staking.html">
+                      <img src="static/images/nft_staking_icon.png" alt="">
+                      <span>Staking Lab</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="wallet_mm" href="wallet.html">
+                      <img src="static/images/wallet_icon.png" alt="">
+                      <span>Wallet</span>
+                    </a>
+                  </li>
                 </ul>
               </li>
             </ul>
             <ul class="menu_right">
-              <li><a href="dapps\reward.html">Reward<span class="fillerTxt"></span></a></li>
-              <li><a href="press.html">Press</a></li>
-              <li><a href="blog.html">Articles<span class="fillerTxt">&nbsp;&amp;
-                    Updates</span></a></li>
+              <li><a href="https://app.kimano.xyz/ido.html">Ido</a></li>
+              <li><a href="https://app.kimano.xyz/reward.html">Reward<span class="fillerTxt"></span></a></li>
               <li><a href="community.html">Community</a></li>
               <li class="mobile-only"><a target="_blank" href="./static/pdfs/Kimano-WhitePaper.pdf">Whitepaper</a>
               </li>
               <li><a href="faq.html">FAQ</a></li>
+              <li class="parent_menu_item info_menu_item">
+                <div class="list_menu_container">
+                  <span class="dropdown_trigger"> </span>
+                  <span class="link_container" role="button" aria-hidden="true">
+                    <a href="">
+                      <span class="menu_name">Info</span>
+                      <span class="arrow">
+                        <span></span>
+                        <span></span>
+                      </span>
+                    </a>
+                  </span>
+                </div>
+
+                <ul class="child_menu">
+                  <li><a href="press.html">Press</a></li>
+                  <li>
+                    <a href="blog.html">Articles<span class="fillerTxt">&nbsp;&amp;
+                        Updates</span></a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </span>
         </nav>
@@ -106,10 +150,10 @@
                   <p>Kimano is a blockchain technology company focused on increasing accessibility to DeFi by creating
                     security and decentralized solutions for DeFi protocols. Start building with Kimano today.</p>
                   <div class="hero_content_btns">
-                    <a class="orange_hero_btn p_arrow right" href="reward.html">
+                    <a class="orange_hero_btn p_arrow right" href="https://app.kimano.xyz/reward.html">
                       <span>REWARD</span>
                     </a>
-                    <a target="_blank" class="white_hero_btn p_arrow right" href="http://app.kimano.xyz/swap.html">
+                    <a target="_blank" class="white_hero_btn p_arrow right" href="https://app.kimano.xyz/swap.html">
                       <span>Launch dApp</span>
                     </a>
                   </div>
@@ -120,9 +164,10 @@
                     <div style="box-sizing:border-box;display:block;max-width:100%"><img
                         style="max-width:100%;display:block;margin:0;border:none;padding:0" alt="" aria-hidden="true"
                         src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEzIiBoZWlnaHQ9IjUxNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4=">
-                    </div><img alt="MetaVerse Globe" src="./static/images/k_logo_png.png" decoding="async"
-                      data-nimg="intrinsic"
-                      style="position:absolute;top:10;left:0;bottom:0;right:5;width: 60%;">
+                    </div>
+                    <img alt="MetaVerse Globe" src="./static/images/logo_icon.png?auto=format&amp;fit=max&amp;w=1080"
+                      decoding="async" data-nimg="intrinsic" class="hero_content_left_image"
+                      srcset="./static/images/logo_icon.png?auto=format&amp;fit=max&amp;w=640 1x, ./static/images/logo_icon.png?auto=format&amp;fit=max&amp;w=1080 2x">
                   </div>
                 </div>
               </div>
@@ -304,10 +349,10 @@
                 <img alt="Swap" src="./static/images/swap_icon.png">
                 <h3>Swap</h3>
                 <p>Securely swap native coins and tokens without the need for a central intermidary.</p>
-                <a target="_blank" href="http://app.kimano.xyz/swap.html">
+                <a target="_blank" href="https://app.kimano.xyz/swap.html">
                   <span class="eco_learn_btn p_arrow right">Launch dApp</span>
                 </a>
-                <a href="http://app.kimano.xyz/swap.html">
+                <a href="https://app.kimano.xyz/swap.html">
                   <span class="small_link">Learn More</span>
                 </a>
               </li>
@@ -315,17 +360,19 @@
                 <img alt="Bridge" src="./static/images/bridge_icon.png">
                 <h3>Bridge</h3>
                 <p>Bridge your project and give users a way to transfer their tokens cross-chain at block speed.</p>
-                <a target="_blank" href="bridge.html"><span class="eco_learn_btn p_arrow right">Launch
+                <a target="_blank" href="https://app.kimano.xyz/bridge.html"><span
+                    class="eco_learn_btn p_arrow right">Launch
                     dApp</span></a>
                 <a href="https://app.kimano.xyz/bridge.html"><span class="small_link">Learn More</span></a>
               </li>
               <li class="blue_box">
                 <img alt="Staking" src="./static/images/nft_staking_icon.png">
                 <h3>STAKING LAB</h3>
-                <p>Stake RISE and earn more. Safely secured within Rise’s on-chain NFT Stakes that are tradable,
+                <p>Stake KIM and earn more. Safely secured within Kimano’s on-chain NFT Stakes that are tradable,
                   bridgeable, and transferable.</p>
-                <a target="_blank" href="/staking.html"><span class="eco_learn_btn p_arrow right">Launch
-                    dApp</span></a><a href="/staking.html"><span class="small_link">Learn
+                <a target="_blank" href="https://app.kimano.xyz/staking.html"><span
+                    class="eco_learn_btn p_arrow right">Launch
+                    dApp</span></a><a href="https://app.kimano.xyz/staking.html"><span class="small_link">Learn
                     More</span></a>
               </li>
               <li class="blue_box">
@@ -334,7 +381,7 @@
                 <p>Add an additional layer of security to your existing crypto wallet by securing your holdings
                   directly
                   on the blockchain.</p>
-                <a href="/wallet/"><span class="eco_learn_btn p_arrow right">Learn More</span></a>
+                <a href="wallet.html"><span class="eco_learn_btn p_arrow right">Learn More</span></a>
               </li>
             </ul>
           </div>
@@ -424,124 +471,10 @@
           </p>
         </div>
       </section>
-      <!-- Blog -->
-      <section class="token">
-        <div class="token-info-overview">
-          <div class="token-info">
-            <h2 class="token-info-title">
-              <b>Kimano</b>&nbsp;
-              <span class="token-info-title-highlighted"><b>Token</b></span>
-            </h2>
-          </div>
-          <div class="token-info-description-container">
-            <p class="token-info-description">
-              HU tokens will be required to access the HuDex app after the open Beta period. Different membership tiers will be
-              available based on the amount of tokens held. In the future, HU will also be used for voting on feature priority.
-            </p>
-          </div>
-          <div class="token-info-table-container">
-            <div class="token-info-table-content">
-              <div class="token-info-table-title">
-                <h3>TOKEN INFO</h3>
-              </div>
-              <div class="token-info-table">
-                <div class="token-info-row">
-                  <div class="token-info-label">Token Name</div>
-                  <div class="token-info-value">Kimano</div>
-                </div>
-                <div class="token-info-row">
-                  <div class="token-info-label">Token Symbol</div>
-                  <div class="token-info-value">KIM</div>
-                </div>
-                <div class="token-info-row">
-                  <div class="token-info-label">Total Supplt</div>
-                  <div class="token-info-value">100,000,000KIM</div>
-                </div>
-                <div class="token-info-row">
-                  <div class="token-info-label">Token Decimals</div>
-                  <div class="token-info-value">18</div>
-                </div>
-                <div class="token-info-row">
-                  <div class="token-info-label">Network</div>
-                  <div class="token-info-value">Binance Smart Chain</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="box-container">
-            <div class="token-info-table-title">
-              <h3>Token Allocation</h3>
-            </div>
-            <div class="table-container">
-              <table class="data-table">
-                <thead class="table-head">
-                  <tr class="table-row head-row">
-                    <th class="table-cell head-cell size-medium align-left">Segment</th>
-                    <th class="table-cell head-cell align-center size-medium other-cell">Tokens
-                    </th>
-                    <th class="table-cell head-cell align-center size-medium other-cell">Percentage
-                    </th>
-                    <th class="table-cell head-cell align-center size-medium other-cell">Vesting
-                    </th>
-                  </tr>
-                </thead>
-                <tbody class="table-body">
-                  <tr class="table-row">
-                    <th class="table-cell body-cell align-left size-medium">Public Sale</th>
-                    <td class="table-cell body-cell align-center size-medium">40.000.000</td>
-                    <td class="table-cell body-cell align-center size-medium">40%</td>
-                    <td class="table-cell body-cell align-left size-medium">100%</td>
-                  </tr>
-                  <tr class="table-row">
-                    <th class="table-cell body-cell align-left size-medium">Liquidity Incentive
-                    </th>
-                    <td class="table-cell body-cell align-center size-medium">20.000.000</td>
-                    <td class="table-cell body-cell align-center size-medium">20%</td>
-                    <td class="table-cell body-cell align-left size-medium">Locked 2 years</td>
-                  </tr>
-                  <tr class="table-row">
-                    <th class="table-cell body-cell align-left size-medium">Ecosystem Development
-                    </th>
-                    <td class="table-cell body-cell align-center size-medium">10.000.000</td>
-                    <td class="table-cell body-cell align-center size-medium">10%</td>
-                    <td class="table-cell body-cell align-left size-medium">1% initial unlock, weekly linear
-                      vesting over 48 months.</td>
-                  </tr>
-                  <tr class="table-row">
-                    <th class="table-cell body-cell align-left size-medium">Cex Listings</th>
-                    <td class="table-cell body-cell align-center size-medium">6.500.000</td>
-                    <td class="table-cell body-cell align-center size-medium">6.5%</td>
-                    <td class="table-cell body-cell align-left size-medium">0% initial unlock, vesting every 6
-                      months over 5 years.</td>
-                  </tr>
-                  <tr class="table-row">
-                    <th class="table-cell body-cell align-left size-medium">Staking</th>
-                    <td class="table-cell body-cell align-center size-medium">18.000.000</td>
-                    <td class="table-cell body-cell align-center size-medium">18%</td>
-                    <td class="table-cell body-cell align-left size-medium">Locked &amp; Vesting.</td>
-                  </tr>
-                  <tr class="table-row">
-                    <th class="table-cell body-cell align-left size-medium">Incentives &amp;
-                      rewards</th>
-                    <td class="table-cell body-cell align-center size-medium">1.500.000</td>
-                    <td class="table-cell body-cell align-center size-medium">1.5%</td>
-                    <td class="table-cell body-cell align-left size-medium">10% initial unlock, weekly linear
-                      vesting over 12 months.</td>
-                  </tr>
-                  <tr class="table-row">
-                    <th class="table-cell body-cell align-left size-medium">Core Team</th>
-                    <td class="table-cell body-cell align-center size-medium">4.000.000</td>
-                    <td class="table-cell body-cell align-center size-medium">4%</td>
-                    <td class="table-cell body-cell align-left size-medium">Locked 2 years TGE 5%, Cycle days
-                      30 day, Cycle Release Percent 5%.</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </section>
-      
+
+      <!-- Tokenomics -->
+
+
     </div>
   </div>
 
@@ -576,12 +509,14 @@
           <div class="footer_links_a_inner">
             <a href="/" class="footer_logo">
               <span class="logo">
-                <p class="logo_image" style="color: #fff;font-size: 20px;">Kimano</p>
+                <p class="logo_image" style="color: #fff;font-size: 20px;">
+                  <img src="static/images/k_protocol_text.svg" alt="">
+                </p>
               </span>
             </a>
             <div class="footer_community_social">
               <h2>Join us on:</h2>
-              <div class="social_icon_list flex flex-wrap justify-center mt-3">
+              <div class="social_icon_list flex flex_wrap justify_center mt_3">
                 <a target="_blank" href="https://twitter.com/intent/follow?screen_name=KimanoProtocol">
                   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" class="twitter-svg-icon"
                     fill="currentColor">
@@ -608,21 +543,21 @@
                 </a>
               </div>
               <a target="_blank" class="footer_community_link p_arrow right_arrow"
-                href="http://app.kimano.xyz/swap.html">Launch dApp</a>
+                href="https://app.kimano.xyz/swap.html">Launch dApp</a>
             </div>
           </div>
         </div>
         <div class="footer_links_b">
-          <img src="static/images/k logo svg.svg" alt="">
+          <img src="static/images/logo_icon.svg" alt="">
         </div>
         <div class="footer_links_c">
           <div>
             <h2>Projects</h2>
             <ul>
-              <li><a href="http://app.kimano.xyz/swap.html">Swap</a></li>
+              <li><a href="https://app.kimano.xyz/swap.html">Swap</a></li>
               <li><a href="https://app.kimano.xyz/bridge.html">Bridge</a></li>
-              <li><a href="/staking.html">Staking Lab</a></li>
-              <li><a href="/wallet.html">Wallet</a></li>
+              <li><a href="https://app.kimano.xyz/staking.html">Staking Lab</a></li>
+              <li><a href="wallet.html">Wallet</a></li>
             </ul>
           </div>
         </div>
@@ -630,11 +565,11 @@
           <div>
             <h2>Helpful Links</h2>
             <ul>
-              <li><a href="/blog.html">Articles &amp; Updates</a></li>
-              <li><a href="/community.html">Community</a></li>
-              <li><a href="/press.html">Related Press</a></li>
-              <li><a href="/contact.html">Contact</a></li>
-              <li><a href="/faq.html">FAQ</a></li>
+              <li><a href="blog.html">Articles &amp; Updates</a></li>
+              <li><a href="community.html">Community</a></li>
+              <li><a href="press.html">Press</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="faq.html">FAQ</a></li>
             </ul>
           </div>
         </div>
@@ -648,7 +583,7 @@
           <ul>
             <li><a href="terms.html">Terms of Use</a></li>
             <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="/sitemap.html">Sitemap</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
           </ul>
         </div>
         <div class="copyright"><b>&copy; Copyright 2023 Kimano. All Rights Reserved.</b></div>

@@ -992,15 +992,18 @@ a.RedHeroBtn {
 
 a.orange_hero_btn span,
 a.RedHeroBtn {
-  background: #fff;
+  background: linear-gradient(270deg, #11d617, #0752bb);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
 
-a.orange_hero_btn:after,
 a.RedHeroBtn:after {
-  color: #fff
+  color: #fff;
+}
+
+a.orange_hero_btn:after {
+  color: #11d617;
 }
 
 a.blue_hero_btn {
@@ -1729,6 +1732,7 @@ section.RedirectSection {
 }
 
 @media only screen and (max-width:99999px) and (min-width:961px) {
+
   li.parent_menu_item.dapp_menu_item ul.child_menu {
     flex-direction: row;
     flex-wrap: wrap;
@@ -1743,8 +1747,6 @@ section.RedirectSection {
   }
 
   li.parent_menu_item.dapp_menu_item ul.child_menu li {
-    width: 25%;
-    width: calc(33% - 6px);
     border: 2px solid #6c1d56;
     border-radius: 8px;
     box-shadow: inset 0 0 1px 1px #6c1d65;
@@ -1772,7 +1774,7 @@ section.RedirectSection {
   }
 
   li.parent_menu_item.dapp_menu_item ul.child_menu li:hover {
-    border-color: #000c74
+    border-color: #d378d2;
   }
 
   li.parent_menu_item.dapp_menu_item ul.child_menu li a {
@@ -1823,7 +1825,8 @@ section.RedirectSection {
   }
 
   .staking_mm span:after {
-    content: "Earn KIM rewards"
+    content:
+      "Earn KIM rewards \0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0"
   }
 
   .swap_mm span:after {
@@ -2189,7 +2192,6 @@ section.RedirectSection {
     height: calc(100vh - 52px);
     position: absolute;
     z-index: 100000000000000000;
-    margin-top: 79px
   }
 
   .our_nav nav {
@@ -8160,7 +8162,7 @@ body.reward .community_faq_global_inner div#community {
 }
 
 .community_faq_section_right h2 span {
-  background:linear-gradient(90deg, #01d5f5, #0083df);
+  background: linear-gradient(90deg, #01d5f5, #0083df);
   border-image-slice: 1;
   -webkit-background-clip: text;
   background-clip: text;
@@ -8721,7 +8723,7 @@ body.reward section.CompactEcosystemSection {
 
 .bridge_lead svg path,
 .swap_lead svg path {
-  fill: url(#orange-gradient)
+  fill: url(#green_gradient)
 }
 
 .bridge_lead_content h2 span,
@@ -9535,7 +9537,7 @@ spans_divider {
   align-items: center;
   height: 40px;
   min-width: 192px;
-  background:linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   color: #fff;
   border-radius: 90px;
   padding: 10px 21px
@@ -13855,13 +13857,13 @@ body.stats-page .content {
   color: rgba(160, 174, 192, 1) !important;
 }
 
-.token{
+.token {
   position: relative;
   margin-bottom: 8rem;
   background-color: #993391;
 }
 
-.token-info-overview{
+.token-info-overview {
   display: block;
 }
 
@@ -13879,7 +13881,7 @@ body.stats-page .content {
   color: #45af45
 }
 
-.token-info-description-container{
+.token-info-description-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13890,7 +13892,7 @@ body.stats-page .content {
   height: 100%;
 }
 
-.token-info-description{
+.token-info-description {
   color: rgb(222, 226, 230);
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -13940,7 +13942,7 @@ body.stats-page .content {
   border-bottom: 4px solid rgb(88, 7, 58);
 }
 
-.token-info-label, 
+.token-info-label,
 .token-info-value {
   display: flex;
   align-items: center;
