@@ -4804,7 +4804,6 @@ li.press_logo {
   .EverRiseSectionRight p,
   .foundation_card p {
     margin-bottom: 15px;
-    text-shadow: 2px 2px #000e25;
     font-weight: 100;
     font-size: 16px
   }
@@ -5050,7 +5049,7 @@ body.home .foundation_section h2 {
 
 .foundation_card p {
   color: #000;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 1.5em;
   letter-spacing: .02em
 }
