@@ -3323,7 +3323,7 @@ input::placeholder {
 
 .subscribe_section,
 footer.footer {
-  background: #740f6c
+  background: D330C6
 }
 
 footer.footer {
@@ -13853,4 +13853,225 @@ body.stats-page .content {
 
 .social_icon_list a:hover {
   color: rgba(160, 174, 192, 1) !important;
+}
+
+.token{
+  position: relative;
+  margin-bottom: 8rem;
+  background-color: #993391;
+}
+
+.token-info-overview{
+  display: block;
+}
+
+.token-info-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+  color: rgb(222, 226, 230);
+  font-size: 48px;
+  margin-left: 30rem;
+}
+
+.token-info-title-highlighted {
+  color: #45af45
+}
+
+.token-info-description-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+}
+
+.token-info-description{
+  color: rgb(222, 226, 230);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 48rem;
+}
+
+.token-info-table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  -webkit-box-align: center;
+  margin-top: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.token-info-table-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  -webkit-box-align: center;
+  width: 100%;
+}
+
+.token-info-table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  gap: 8px;
+}
+
+.token-info-row {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  backdrop-filter: blur(8px);
+  border-radius: 0px 0px 10px 10px;
+  border-bottom: 4px solid rgb(88, 7, 58);
+}
+
+.token-info-label, 
+.token-info-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.token-info-label {
+  font-weight: 600;
+  width: 155px;
+  color: rgb(8, 15, 22);
+  border-radius: 5px 0px 0px 5px;
+  background: var(--primary-color);
+}
+
+.token-info-value {
+  font-weight: 500;
+  color: rgb(222, 226, 230);
+  width: 200px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid var(--primary-color);
+}
+
+.box-container {
+  margin-top: 6rem;
+  margin-left: 12rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 900px;
+  text-align: center;
+  justify-content: center;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 48px;
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  border: 1px solid var(--primary-color);
+}
+
+.data-table {
+  display: table;
+  border-collapse: collapse;
+  min-width: 800px;
+  width: 100%;
+  border-spacing: 0px;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.table-head {
+  display: table-header-group;
+}
+
+.table-row:nth-of-type(2n+1) {
+  background-color: rgba(204, 19, 136, 0.125);
+}
+
+.table-row {
+  color: inherit;
+  display: table-row;
+  vertical-align: middle;
+  outline: 0px;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.size-medium {
+  font-weight: 600;
+  font-size: 0.825rem;
+  line-height: 1.5rem;
+  display: table-cell;
+  vertical-align: inherit;
+  color: rgb(222, 226, 230);
+  border-bottom: 1px solid rgb(81, 81, 81);
+  padding: 16px;
+}
+
+.head-cell {
+  background-color: var(--primary-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+
+.table-body {
+  display: table-row-group;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
 }
