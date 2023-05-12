@@ -86,14 +86,19 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a img {
   font-size: 14px;
 }
 
+.roadmap #roadmap_content {
+  position: relative;
+}
+
 .roadmap .bar,
 .roadmap .bar_fill {
   position: absolute;
   width: 6px;
   background: #fff;
-  height: 1250px;
+  height: 100%;
+  overflow-y: hidden;
   margin-left: 40px;
-  margin-top: 150px;
+  top: 160px;
 }
 
 .roadmap .bar_fill {
@@ -189,6 +194,10 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a img {
 
   .partners .partners_list {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .partners .partners_list li a {
+    font-size: 10px;
   }
 }
 

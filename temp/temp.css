@@ -1,0 +1,36 @@
+.container {}
+
+.start,
+.multi,
+.end {
+  width: 200px;
+  height: 400px;
+}
+
+.start {
+  background-color: red;
+}
+
+.start .connector,
+.end .connector {
+  border-top: 1px solid black;
+  width: 250px;
+  position: absolute;
+}
+
+.start .other-connector {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 28px;
+  width: 30px;
+  left: 232px;
+
+}
+
+.multi {
+  background-color: black;
+}
+
+.end {
+  background-color: blue;
+}

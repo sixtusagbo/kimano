@@ -45,4 +45,17 @@
       }
     });
   });
+
+  let barLength = 100;
+  function setBarLength() {
+    let road = $("#roadmap_content");
+    barLength = road.find(".fourth").offset().top - road.find(".first").offset().top;
+    console.log("barLength: ", barLength);
+    $(".bar").height(barLength);
+  }
+  setBarLength();
+
+  $(window).on("resize", function () {
+    setBarLength();
+  });
 })(jQuery);
