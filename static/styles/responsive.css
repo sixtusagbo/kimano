@@ -100,3 +100,51 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a img {
     margin: auto 10%;
   }
 }
+
+.roadmap {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  box-sizing: border-box;
+  background-color: #993391;
+  border-top: 4px solid #fa9cf5;
+  border-top-style: dotted;
+}
+
+.roadmap .roadmap-title {
+  margin-top: 35px;
+}
+
+.roadmap h2 {
+  color: white;
+  padding: 15px;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+.roadmap .stageone {
+  border: 1px solid rgb(11, 180, 11);
+  color: white;
+  list-style: none;
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto 80px;
+  border-radius: 5px;
+}
+
+.roadmap .stageone ul {
+  list-style-type: none;
+  line-height: 1.7;
+}
+
+.roadmap .stageone h2 {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.roadmap .second,
+.roadmap .third,
+.roadmap .fourth {
+  margin-top: 100px;
+}
