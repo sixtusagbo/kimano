@@ -40,6 +40,10 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a img {
   body.home .ecosystem_section_top_content h2 {
     margin-top: 0 !important;
   }
+
+  .roadmap .order_info {
+    margin: 30px 13px !important;
+  }
 }
 
 @media only screen and (max-width:800px) and (min-width:0px) {
@@ -147,4 +151,47 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a img {
 .roadmap .third,
 .roadmap .fourth {
   margin-top: 100px;
+}
+
+.roadmap .order_info {
+  text-align: center;
+  font-style: italic;
+  margin: 40px 150px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.roadmap .bar,
+.roadmap .bar_fill {
+  position: absolute;
+  width: 6px;
+  background: #fff;
+  height: 1250px;
+  margin-left: 40px;
+  margin-top: 150px;
+}
+
+.roadmap .bar_fill {
+  background: #51daac;
+  height: 200px;
+}
+
+.roadmap .milestone {
+  width: 40px;
+  height: 40px;
+  background: #51daac;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 22px;
+  margin-top: 125px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.6s;
+  border-style: none;
+}
+
+.roadmap .milestone::after {
+  content: "\1F947";
 }
