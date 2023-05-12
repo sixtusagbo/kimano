@@ -197,7 +197,7 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a img {
   }
 
   .partners .partners_list li a {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -224,7 +224,11 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a img {
 }
 
 @media only screen and (max-width:450px) and (min-width:0px) {
+
   /* Small Screen */
+  .partners .partners_list li a {
+    font-size: 10px;
+  }
 }
 
 @media only screen and (max-width:375px) and (min-width:0px) {
