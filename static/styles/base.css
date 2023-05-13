@@ -1252,7 +1252,7 @@ body:not(.reward) .CompactEcosystemSectionInner {
   .ContentImgGlobalInner,
   .csd_app .dapp_faq_global_inner,
   .dapp_header_inner,
-  .ever_rise_press_inner,
+  .our_press_inner,
   .EverRiseTeamInner,
   .faq_inner,
   .features_global_inner,
@@ -1280,7 +1280,7 @@ body:not(.reward) .CompactEcosystemSectionInner {
   .ContentImgGlobalInner,
   .csd_app .dapp_faq_global_inner,
   .dapp_header_inner,
-  .ever_rise_press_inner,
+  .our_press_inner,
   .EverRiseTeamInner,
   .faq_inner,
   .features_global_inner,
@@ -13104,7 +13104,7 @@ section.EverRiseTeamSection {
   }
 }
 
-section.ever_rise_press_section {
+section.our_press_section {
   background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%)
 }
 
@@ -13223,26 +13223,26 @@ body.press h1 {
 }
 
 @media only screen and (max-width:1200px) and (min-width:0px) {
-  section.ever_rise_press_section .press_list li {
+  section.our_press_section .press_list li {
     width: calc(50% - 20px);
     margin: 10px
   }
 
   .about_section_header {
-    margin: 0 10px
+    margin: 50px 10px 0px 10px
   }
 }
 
 @media only screen and (max-width:768px) and (min-width:0px) {
 
   .about_section_inner,
-  .ever_rise_press_inner {
+  .our_press_inner {
     padding: 0
   }
 }
 
 @media only screen and (max-width:680px) and (min-width:0px) {
-  section.ever_rise_press_section .press_list li {
+  section.our_press_section .press_list li {
     width: calc(100% - 20px);
     margin: 10px
   }
