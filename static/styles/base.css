@@ -6803,7 +6803,7 @@ p.contract_id:before {
 
 .arbitrum_logo,
 .arbitrum_contract p.contract_id:before {
-  background-image: url(../../dapps/static/icons/arbitrum.png);
+  background-image: url(../images/arbitrum.png);
   background-position: center 62.5%;
   background-size: 96%;
   background-repeat: no-repeat;
@@ -13866,7 +13866,8 @@ body.home .token {
 }
 
 .token-info-title,
-.roadmap .roadmap-title {
+.roadmap .roadmap-title,
+.partners .partners_title {
   padding-bottom: 20px;
   font-size: 48px;
   text-align: center;
@@ -13876,7 +13877,7 @@ body.home .token {
   -webkit-background-clip: text;
   text-shadow: 0 0 #00000000;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .token-info-title-highlighted {

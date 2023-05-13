@@ -30,6 +30,143 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a img {
   width: 70px !important;
 }
 
+.roadmap {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  box-sizing: border-box;
+  background-color: #993391;
+  border-top: 4px solid #fa9cf5;
+  border-top-style: dotted;
+}
+
+.roadmap .roadmap-title {
+  margin-top: 35px;
+}
+
+.roadmap h2 {
+  color: white;
+  padding: 15px;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+.roadmap .stageone {
+  border: 1px solid rgb(11, 180, 11);
+  color: white;
+  list-style: none;
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto 80px;
+  border-radius: 5px;
+}
+
+.roadmap .stageone ul {
+  list-style-type: none;
+  line-height: 1.7;
+}
+
+.roadmap .stageone h2 {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.roadmap .second,
+.roadmap .third,
+.roadmap .fourth {
+  margin-top: 100px;
+}
+
+.roadmap .order_info {
+  text-align: center;
+  font-style: italic;
+  margin: 40px 150px;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+.roadmap .bar,
+.roadmap .bar_fill {
+  position: absolute;
+  width: 6px;
+  background: #fff;
+  height: 1250px;
+  margin-left: 40px;
+  margin-top: 150px;
+}
+
+.roadmap .bar_fill {
+  background: #51daac;
+  height: 200px;
+}
+
+.roadmap .milestone {
+  width: 40px;
+  height: 40px;
+  background: #51daac;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 22px;
+  margin-top: 125px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.6s;
+  border-style: none;
+}
+
+.roadmap .milestone::after {
+  content: "\1F947";
+}
+
+.partners {
+  border: 1px solid #CA63EC;
+  background: #CA63EC;
+  padding: 30px 70px 0;
+}
+
+.partners .partners_list {
+  list-style: none;
+  margin-top: 13px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.partners .partners_list li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.partners .partners_list li a {
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  background-color: transparent;
+  padding: 17px 18px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.502);
+  border-radius: 6px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.partners .partners_list li a:hover {
+  border-color: rgba(255, 255, 255, 0.81);
+  background-color: rgba(181, 25, 233, .3)
+}
+
+.partners .partners_list li a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+  border-radius: 5px;
+}
+
 @media only screen and (max-width:960px) and (min-width:0px) {
   /* Mobile */
 
@@ -43,6 +180,15 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a img {
 
   .roadmap .order_info {
     margin: 30px 13px !important;
+  }
+
+  .partners {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .partners .partners_list {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -103,95 +249,4 @@ li.parent_menu_item.dapp_menu_item ul.child_menu li a img {
   body.home .token .token-info-description-container {
     margin: auto 10%;
   }
-}
-
-.roadmap {
-  margin: 0;
-  padding: 0;
-  margin-top: 20px;
-  box-sizing: border-box;
-  background-color: #993391;
-  border-top: 4px solid #fa9cf5;
-  border-top-style: dotted;
-}
-
-.roadmap .roadmap-title {
-  margin-top: 35px;
-}
-
-.roadmap h2 {
-  color: white;
-  padding: 15px;
-  margin-left: 70px;
-  font-size: 20px;
-}
-
-.roadmap .stageone {
-  border: 1px solid rgb(11, 180, 11);
-  color: white;
-  list-style: none;
-  padding: 10px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin: auto 80px;
-  border-radius: 5px;
-}
-
-.roadmap .stageone ul {
-  list-style-type: none;
-  line-height: 1.7;
-}
-
-.roadmap .stageone h2 {
-  font-size: 20px;
-  padding: 20px;
-}
-
-.roadmap .second,
-.roadmap .third,
-.roadmap .fourth {
-  margin-top: 100px;
-}
-
-.roadmap .order_info {
-  text-align: center;
-  font-style: italic;
-  margin: 40px 150px;
-  margin-bottom: 0;
-  font-size: 14px;
-}
-
-.roadmap .bar,
-.roadmap .bar_fill {
-  position: absolute;
-  width: 6px;
-  background: #fff;
-  height: 1250px;
-  margin-left: 40px;
-  margin-top: 150px;
-}
-
-.roadmap .bar_fill {
-  background: #51daac;
-  height: 200px;
-}
-
-.roadmap .milestone {
-  width: 40px;
-  height: 40px;
-  background: #51daac;
-  border-radius: 50%;
-  position: absolute;
-  margin-left: 22px;
-  margin-top: 125px;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition-duration: 0.6s;
-  border-style: none;
-}
-
-.roadmap .milestone::after {
-  content: "\1F947";
 }
