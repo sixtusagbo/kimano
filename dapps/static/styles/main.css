@@ -56,7 +56,8 @@ ul.stake_nav_list li a.stake_nav_list_link span {
 body .swap.app .menu_tabs,
 body .kim_stake.app .menu_tabs,
 body .kim_stake.app .component_bg,
-body .swap.app .pool_section {
+body .swap.app .pool_section,
+body .info_pane {
   max-width: 650px;
   width: 100%;
   justify-self: center;
@@ -262,4 +263,19 @@ body.light_mode .control_item .control_input input {
 
 .control_item:nth-of-type(2) .control_input::after {
   content: "minutes" !important;
+}
+
+body .info_pane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body .info_pane img {
+  margin-right: 5px;
+  height: 30px;
 }
