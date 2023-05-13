@@ -467,7 +467,6 @@ body.light_mode .MintNFT>div {
 }
 
 .claim_nft_stats>div {
-  box-shadow: var(--hollowBox);
   border-radius: 14px;
   padding: 10px 20px;
   background: var(--bgColor2);
@@ -1953,7 +1952,6 @@ p.dapp_form_token_balance {
   border-top-right-radius: 14px;
   border-top-left-radius: 14px;
   background: var(--bgColor1);
-  border: 1px solid var(--borderColor4)
 }
 
 body.light_mode .select_option_popup_header {
@@ -2015,7 +2013,6 @@ body.light_mode .select_option_popup_content>div {
   background: var(--bgColor3);
   background: var(--bgGradient);
   border-radius: 15px;
-  border: 1px solid var(--borderColor3);
   overflow: hidden;
   box-shadow: var(--softShadow);
   width: 100%;
@@ -4932,14 +4929,13 @@ body.light_mode .header_account_info button {
 .wallet_connect_button_wrap button {
   display: flex;
   align-items: center;
-  background: var(--bgColor0);
+  background: #027F12;
   margin: 7px 10px;
   padding: 0 28px;
   height: 65px;
   border-radius: 15px;
   font-size: 16px;
   font-weight: 100;
-  border: 1px solid var(--borderColor1)
 }
 
 body.light_mode .wallet_connect_button_wrap button {
@@ -4951,7 +4947,6 @@ body.light_mode .wallet_connect_button_wrap button {
 
 .wallet_connect_button_wrap button:hover {
   background: var(--svgColor6);
-  border: 1px solid var(--borderColor1)
 }
 
 body.light_mode .wallet_connect_button_wrap button:hover {
@@ -6289,11 +6284,11 @@ body.light_mode .HomeLogo svg path {
 
 :root {
   --fontWhite: #fff;
-  --fontColor1: #b7c7f5;
+  --fontColor1: #fff;
   --fontColor2: #7a9afa;
-  --fontColor3: #446de9;
+  --fontColor3: #fff;
   --fontColor4: #345eda;
-  --fontColor5: #1e42ae;
+  --fontColor5: #fff;
   --fontColor6: #fff;
   --fontWhite1: #9ea6b8;
   --fontWhite2: #8995ae;
@@ -6324,7 +6319,7 @@ body.light_mode .HomeLogo svg path {
   --tickerBorderW: var(--borderWhite2);
   --borderColor1: #011704;
   --borderColor2: #011704;
-  --borderColor3: #002162;
+  --borderColor3: #011704;
   --borderColor4: #011704;
   --borderWhite1: #fff;
   --borderWhite2: #e0e6f3;
@@ -6356,8 +6351,8 @@ body.light_mode .HomeLogo svg path {
   --hoverWarmGradient: linear-gradient(90deg, #FA9Cf5, #B64CE9);
   --warmGradientW: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   --hoverWarmGradientW: linear-gradient(90deg, #fa9cf5, #b64ce9);
-  --coldGradient: linear-gradient(90deg, #00287d, #001d57);
-  --hoverColdGradient: linear-gradient(90deg, #002f94, #001e5f);
+  --coldGradient: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%); 
+  --hoverColdGradient: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   --coldGradientW: linear-gradient(90deg, #ebeff5, #979da5);
   --hoverColdGradientW: linear-gradient(90deg, #fff, #fff);
   --softGradient: linear-gradient(90deg, #1e459f, #0366c9);
@@ -6379,7 +6374,7 @@ body.light_mode .HomeLogo svg path {
   --headerGradLeft: linear-gradient(270deg, #031338, #021846);
   --headerGradRight: linear-gradient(90deg, #031338, #021846);
   --boxShadow1: rgba(5, 13, 97, .8);
-  --boxShadow2: rgba(20, 29, 48, .2);
+  --boxShadow2: rgba(250, 156, 245);
   --boxShadow3: rgba(0, 0, 0, .1);
   --boxShadow4: rgba(0, 0, 0, .4);
   --boxShadowX: #032161;
@@ -15871,7 +15866,7 @@ ul {
 .expired_notice>span {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #0aa629
+  color: #fff
 }
 
 .expired_notice>p {
