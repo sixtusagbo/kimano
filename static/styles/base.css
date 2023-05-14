@@ -1033,19 +1033,19 @@ a.blue_hero_btn span {
 
 .base_blue_btn,
 .BuyRiseLink {
-  border: 2px solid #00143a;
+  border: 2px solid #993491;
   min-height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 14px 26px;
-  box-shadow: inset 0 0 1px 1px #032758;
+  box-shadow: inset 0 0 1px 1px #fa9cf5;
   color: #cbe1f4;
   margin: 10px 0 0;
   width: 80%;
   border-radius: 6px;
-  background: #001d55;
-  background: linear-gradient(91deg, #001b41, #032554)
+  background: #993491;
+  background: linear-gradient(91deg, #fa9cf5, #b64ce9);
 }
 
 .base_blue_btn:hover,
@@ -1119,7 +1119,7 @@ a.blue_hero_btn span {
 
 .blue_txt_right_grad,
 .blue_txt_right_grad span {
-  background: linear-gradient(90deg, #01d5f5, #0083df);
+  background: linear-gradient(90deg, #11d69b, #b64ce9);
   border-image-slice: 1;
   background-clip: text;
   -webkit-background-clip: text;
@@ -6360,14 +6360,14 @@ body.blog-post li>p {
   margin-bottom: 0 !important
 }
 
+
 body.reward .content {
-  background: #030d2b
+  background: #993491;
 }
 
 .reward_header {
   height: 90vh;
   min-height: 1000px;
-  background: url(https://www.everrise.com/assets/images/bg/DeepMetaVerseBG.png) bottom/cover no-repeat rgb(0 20 59/0)
 }
 
 .reward_header .dapp_header_content_container {
@@ -6703,7 +6703,8 @@ body.reward .content {
 }
 
 .contracts_section {
-  background-color: #020c29
+  background-color: #993491;
+  border-top: 1px solid #fa9cf5;
 }
 
 .contracts_section ul {
@@ -6715,15 +6716,15 @@ body.reward .content {
 
 .contracts_section li {
   width: calc(20% - 20px);
-  border: 1px solid #000e2a;
-  box-shadow: inset 0 0 1px 1px #001e5a;
+  box-shadow: inset 0 0 1px 1px #993491;
   border-radius: 15px;
-  background: linear-gradient(216deg, #001130, #001a47);
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: all .2s ease-out;
-  margin: 10px
+  margin: 10px;
+  border: 1px solid #993491;
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
 }
 
 .DownscrollAnimate {
@@ -6840,7 +6841,7 @@ p.contract_id:before {
 .contracts_section h2,
 .contracts_section h3 {
   text-transform: uppercase;
-  color: #adbecc;
+  color: #fff;
   text-align: center;
   font-size: 20px
 }
@@ -6865,34 +6866,34 @@ a.BuyRiseLink:hover {
 
 body.reward .base_blue_btn,
 body.reward .BuyRiseLink {
-  border: 2px solid #00143a;
+  border: 2px solid #993491;
   height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 14px 26px;
-  box-shadow: inset 0 0 1px 1px #001f5a, 0 2px 4px 0 rgba(0, 0, 0, .09);
+  box-shadow: inset 0 0 1px 1px #fa9cf5, 0 2px 4px 0 #b64ce9;
   color: #cbe1f4;
   margin: 10px 0 0;
   width: 80%;
   border-radius: 6px;
-  background: #001d55;
-  background: linear-gradient(91deg, #01173e, #08225a)
+  background: #993491;
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
 }
 
 body.reward .base_blue_btn:hover,
 body.reward .BuyRiseLink:hover {
-  box-shadow: inset 0 0 21px 11px rgb(30 85 160/13%), inset 0 0 1px 1px #032758, 0 2px 7px 2px rgb(0 0 0/9%);
-  background: linear-gradient(91deg, #001540, #051f5c)
+  box-shadow: inset 0 0 21px 11px rgb(250 156 245/13%), inset 0 0 1px 1px rgb(250, 156, 245), 0 2px 7px 2px rgb(250, 156, 245/9%);
+  background: linear-gradient(91deg, #b64ce9, #fa9cf5)
 }
 
 .contract_id_wrap {
   width: 100%;
   margin-top: auto;
-  border-top: 2px solid #030f31;
-  box-shadow: inset 0 0 1px 1px #001e5ad9;
+  border-top: 2px solid #993491;
+  box-shadow: inset 0 0 1px 1px #993491d8;
   border-radius: 15px;
-  background: linear-gradient(216deg, rgb(0 17 48/90%), rgb(0 26 71/0));
+  background: linear-gradient(216deg, rgb(182, 76, 233/90%), rgb(250, 156, 245/0));
   position: relative;
   display: flex;
   flex-direction: column;
@@ -6909,19 +6910,19 @@ body.reward .BuyRiseLink:hover {
 }
 
 .contract_id {
-  border: 1px solid #001d55;
+  border: 1px solid #993491;
   min-height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5px 15px;
-  box-shadow: inset 0 0 4px 1px rgb(0 0 0/42%);
+  box-shadow: inset 0 0 4px 1px rgb(153, 52, 145/42%);
   color: #adbecc;
   margin: 8px 20px 20px;
   width: calc(100% - 40px);
   width: -webkit-fill-available;
   border-radius: 90px;
-  background: #030f31;
+  background: #993491;
   font-size: 14px;
   font-weight: 100;
   letter-spacing: .08em
@@ -6942,7 +6943,7 @@ body.reward .BuyRiseLink:hover {
 }
 
 p.swap_service_txt_links {
-  color: rgb(173 190 204/99%);
+  color: #fff;
   font-size: 14px;
   font-weight: 100;
   margin-bottom: 10px;
@@ -6982,7 +6983,7 @@ p.swap_service_txt_links {
 
 .contracts_section li>h4,
 .contracts_section li h5 {
-  color: rgb(173 190 204/64%)
+  color: #fff;
 }
 
 .ContractBuyHelp {
@@ -7260,7 +7261,7 @@ section.RiseV1Section h2 {
 }
 
 .get_token_section {
-  background: #020c29;
+  background: #993491;
   padding: 10px 0 70px
 }
 
@@ -8176,13 +8177,13 @@ body.reward .community_faq_global_inner div#community {
 body.reward .community_faq_section_left {
   border-top-right-radius: 370px;
   border-bottom-right-radius: 370px;
-  box-shadow: -220px 0 0 0 #0b1f50, -420px 0 0 0 #0b1f50, -620px 0 0 0 #0b1f50, -820px 0 0 0 #0b1f50, -1020px 0 0 0 #0b1f50, -1220px 0 0 0 #0b1f50, -1420px 0 0 0 #0b1f50, -1620px 0 0 0 #0b1f50, -1820px 0 0 0 #0b1f50, -2020px 0 0 0 #0b1f50, -2220px 0 0 0 #0b1f50, -2420px 0 0 0 #0b1f50, -2620px 0 0 0 #0b1f50, -2820px 0 0 0 #0b1f50, -3020px 0 0 0 #0b1f50, -3220px 0 0 0 #0b1f50, -3420px 0 0 0 #0b1f50, -3220px 0 0 0 #0b1f50, -3420px 0 0 0 #0b1f50, -3620px 0 0 0 #0b1f50, -3820px 0 0 0 #0b1f50, -4020px 0 0 0 #0b1f50, -4220px 0 0 0 #0b1f50, -4420px 0 0 0 #0b1f50, -4620px 0 0 0 #0b1f50, -4820px 0 0 0 #0b1f50, -5020px 0 0 0 #0b1f50, -5220px 0 0 0 #0b1f50, -5420px 0 0 0 #0b1f50, -5620px 0 0 0 #0b1f50, -5820px 0 0 0 #0b1f50, -6020px 0 0 0 #0b1f50;
+  box-shadow: -220px 0 0 0 #993491, -420px 0 0 0 #993491, -620px 0 0 0 #993491, -820px 0 0 0 #993491, -1020px 0 0 0 #993491, -1220px 0 0 0 #993491, -1420px 0 0 0 #993491, -1620px 0 0 0 #993491, -1820px 0 0 0 #993491, -2020px 0 0 0 #993491, -2220px 0 0 0 #993491, -2420px 0 0 0 #993491, -2620px 0 0 0 #993491, -2820px 0 0 0 #993491, -3020px 0 0 0 #993491, -3220px 0 0 0 #993491, -3420px 0 0 0 #993491, -3220px 0 0 0 #993491, -3420px 0 0 0 #993491, -3620px 0 0 0 #993491, -3820px 0 0 0 #993491, -4020px 0 0 0 #993491, -4220px 0 0 0 #993491, -4420px 0 0 0 #993491, -4620px 0 0 0 #993491, -4820px 0 0 0 #993491, -5020px 0 0 0 #993491, -5220px 0 0 0 #993491, -5420px 0 0 0 #993491, -5620px 0 0 0 #993491, -5820px 0 0 0 #993491, -6020px 0 0 0 #993491;
   width: 37%;
-  padding-right: 5%
+  padding-right: 5%;
 }
 
 body.reward .community_faq_section {
-  background: #030d2b;
+  background: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   padding-bottom: 40px;
   padding-top: 40px
 }
@@ -8733,7 +8734,7 @@ body.reward section.CompactEcosystemSection {
 .bridge_lead_content h2 span span,
 .swap_lead_content h2 span span {
   display: initial;
-  background: linear-gradient(270deg, #fb8b47, #ce2041);
+  background: #fa9cf5;
   border-image-slice: 1;
   background-clip: text;
   -webkit-background-clip: text;
@@ -8761,10 +8762,10 @@ body.reward section.CompactEcosystemSection {
 
 .bridge_lead,
 .swap_lead {
-  border: 1px solid #000e2a;
-  box-shadow: inset 0 0 1px 1px #001e5a;
+  border: 1px solid #993491;
+  box-shadow: inset 0 0 1px 1px #993491;
   border-radius: 15px;
-  background: linear-gradient(216deg, #001130, #001a47);
+  background: linear-gradient(216deg, #b64ce9, #b64ce9);
   padding: 48px 35px 45px;
   display: flex
 }
@@ -8788,14 +8789,13 @@ body.reward section.CompactEcosystemSection {
 
 .bridge_lead_content_links>a:first-child,
 .swap_lead_content_links>a:first-child {
-  border: 2px solid #00143a;
+  border: 2px solid #993491;
   height: 70px;
   display: flex;
   align-items: center;
   padding: 14px 26px;
-  box-shadow: inset 0 0 1px 1px #001f5a, 0 2px 4px 0 rgba(0, 0, 0, .09);
-  background: #001d55;
-  background: linear-gradient(91deg, #01173e, #08225a);
+  box-shadow: inset 0 0 1px 1px #993491, 0 2px 4px 0 rgba(0, 0, 0, .09);
+  background: #993491;
   color: #cbe1f4;
   margin: 10px 0 0;
   width: 80%;
@@ -8807,8 +8807,10 @@ body.reward section.CompactEcosystemSection {
 .bridge_lead_content_links>a:last-child:hover,
 .swap_lead_content_links>a:first-child:hover,
 .swap_lead_content_links>a:last-child:hover {
-  box-shadow: inset 0 0 21px 11px rgb(30 85 160/13%), inset 0 0 1px 1px #032758, 0 2px 7px 2px rgb(0 0 0/9%);
-  background: linear-gradient(91deg, #001540, #051f5c)
+  box-shadow: none;
+  border-color: #fa9cf5;
+  background: #fa9cf5;
+  color: #000;
 }
 
 .bridge_lead_content_links,
@@ -8855,16 +8857,15 @@ body.reward section.CompactEcosystemSection {
   font-weight: 100;
   line-height: 1.1em;
   font-size: 15px;
-  border: 2px solid #00143a;
+  border: 2px solid #993491;
   height: 65px;
   display: flex;
   align-items: center;
   padding: 14px 26px;
-  box-shadow: inset 0 0 1px 1px #032758, 0 2px 4px 0 rgb(0 0 0/9%);
+  box-shadow: inset 0 0 1px 1px #993491, 0 2px 4px 0 rgb(0 0 0/9%);
   color: #cbe1f4;
   border-radius: 6px;
-  background: #001d55;
-  background: linear-gradient(91deg, #011a44, #08225a);
+  background: #993491;
   font-weight: 600;
   font-size: 22px;
   margin: 10px 0 0 5px
@@ -11751,9 +11752,7 @@ body.kimano_dapp .ProjectServices {
 }
 
 .features_section {
-  background: #01173e;
-  background: linear-gradient(0deg, #053465, #01173e 60%);
-  background: linear-gradient(0deg, #053465, #021b43 60%);
+  background: #fa9cf5;
   overflow: hidden;
   z-index: 0;
   position: relative
@@ -11805,9 +11804,9 @@ body.kimano_dapp .ProjectServices {
   min-height: 440px;
   margin-right: 40px;
   border-radius: 20px;
-  border: 1px solid #000e2a;
-  box-shadow: inset 0 0 1px 1px #001e5a;
-  background: linear-gradient(216deg, #001130, #001a47);
+  border: 1px solid #993491;
+  box-shadow: inset 0 0 1px 1px #b64ce9;
+  background: linear-gradient(216deg, #fa9cf5, #b64ce9);
   padding: 50px 30px;
   display: flex;
   flex-direction: column;
