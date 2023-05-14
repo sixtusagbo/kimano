@@ -30,16 +30,24 @@
   let currentTheme = localStorage["currentTheme"] || "light_mode";
   $("body").removeClass("light_mode");
   $("body").addClass(currentTheme);
+  if (currentTheme === "light_mode") {
+    let nftShowcase = document.querySelector(".nft_showcase video");
+    nftShowcase.src = "static/videos/nft_showcase_light.mp4";
+  }
   $(".dropdown_dark_mode_toggle").click(function (e) {
     e.preventDefault();
-    if (localStorage.currentTheme == "light_mode") {
+    if (localStorage.currentTheme === "light_mode") {
       localStorage.currentTheme = "dark_mode";
       $("body").removeClass("light_mode");
       $("body").addClass(localStorage.currentTheme);
+      let nftShowcase = document.querySelector(".nft_showcase video");
+      nftShowcase.src = "static/videos/nft_showcase.mp4";
     } else {
       localStorage.currentTheme = "light_mode";
       $("body").removeClass("dark_mode");
       $("body").addClass(localStorage.currentTheme);
+      let nftShowcase = document.querySelector(".nft_showcase video");
+      nftShowcase.src = "static/videos/nft_showcase_light.mp4";
     }
   });
 
