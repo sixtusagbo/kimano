@@ -13222,6 +13222,15 @@ body.press h1 {
   width: fit-content
 }
 
+.airdrop_button a:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  margin-left: 8px;
+}
+
 @media only screen and (max-width:1200px) and (min-width:0px) {
   section.our_press_section .press_list li {
     width: calc(50% - 20px);
