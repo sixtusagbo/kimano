@@ -13222,14 +13222,6 @@ body.press h1 {
   width: fit-content
 }
 
-.airdrop_button a:after {
-  content: "";
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-size: contain;
-  margin-left: 8px;
-}
 
 @media only screen and (max-width:1200px) and (min-width:0px) {
   section.our_press_section .press_list li {
@@ -14097,4 +14089,11 @@ body.home .token tbody {
   display: table-row-group;
   vertical-align: middle;
   border-color: inherit;
+}
+
+.ad-km{
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fa9cf5;
+  border: 2px solid purple;
 }
