@@ -43,11 +43,6 @@
     }
   });
 
-  $("#nft_terms_trigger").click(function (e) {
-    e.preventDefault();
-    $(".nft_terms_modal").fadeIn();
-  });
-
   $("#from_token_select_trigger").click(function (e) {
     e.preventDefault();
     $("#from_token_select_modal").fadeIn();
