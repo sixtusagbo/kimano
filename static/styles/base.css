@@ -9125,14 +9125,14 @@ p.swap_service_txt_links span.swap_link:last-of-type {
 span.swap_link.our_swap_link a>span:first-child {
   border-bottom: 1px solid;
   color: #d2d2d2a8;
-  background: linear-gradient(90deg, #fb8b47, #ce2041);
+  background: linear-gradient(270deg, #11d617, #0752bb);
   border-image-slice: 1;
   background-clip: text;
   -webkit-background-clip: text;
   text-shadow: 0 0 #00000000;
   -webkit-text-fill-color: transparent;
   font-weight: 400;
-  border-image-source: linear-gradient(90deg, #fb8b47, #ce2041)
+  border-image-source: linear-gradient(270deg, #11d617, #0752bb);
 }
 
 span.swap_link a>span:first-child {
