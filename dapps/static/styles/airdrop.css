@@ -146,7 +146,7 @@
 }
 
 .main[data-airdrop-inner] {
-  background: rgba(0, 0, 0, .5);
+  background: #4C1A48;
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
   border-radius: 15px;
@@ -381,7 +381,7 @@
 }
 
 .block[data-airdrop] {
-  padding: 80px 0;
+  padding: 10px 0;
   min-height: 300px
 }
 
@@ -401,7 +401,7 @@
 
 @media only screen and (max-width: 1000px) {
   .block[data-airdrop] {
-    padding: 40px 0
+    padding: 10px 0
   }
 
   .block .topTitle[data-airdrop] {
