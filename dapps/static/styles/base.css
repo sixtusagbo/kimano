@@ -36,9 +36,9 @@ a {
   width: 10px
 }
 
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   background: var(--bgDarkBack1)
-}
+} */
 
 body.light_mode ::-webkit-scrollbar-track {
   background: var(--bgWhite4)
@@ -708,13 +708,13 @@ body.light_mode .EverNav {
   background: #f5f7fd
 }
 
-header.global_header:before {
-  background: var(--headerGradLeft)
+/* header.global_header:before {
+  background: var(--bgColor2)
 }
 
 header.global_header:after {
-  background: var(--headerGradRight)
-}
+  background: var(--bgColor2)
+} */
 
 svg.Copy_Icon {
   cursor: pointer
@@ -820,7 +820,7 @@ body.light_mode .component_bg {
   font-size: 18px;
   border-radius: 13px;
   margin-left: 12px;
-  border: 1px solid var(--coldButtonBorder);
+  border: 2px solid var(--coldButtonBorder);
   line-height: 0;
   display: flex;
   justify-content: center;
@@ -2059,7 +2059,7 @@ body.light_mode .select_option_popup_inner {
 
 .select_chain_item:hover,
 .select_option_popup_list_item:hover {
-  background: var(--bgColor3)
+  background: #10c72a
 }
 
 body.light_mode .select_chain_item:hover,
@@ -2621,7 +2621,6 @@ body.light_mode .NativeCoinSwapContainer .form_tab:last-child {
   top: -2px;
   height: 72px;
   margin-bottom: -2px;
-  box-shadow: var(--formTabRight)
 }
 
 body.light_mode .bridge_wrap .form_tab.active:last-child {
@@ -2639,7 +2638,7 @@ body.light_mode .bridge_wrap .form_tab.active:last-child {
 }
 
 body .dapp_form_amount_input .ticker {
-  border: 1.5px solid var(--tickerBorder) !important;
+  border: 2px solid var(--tickerBorder) !important;
   margin-right: 16px !important;
   padding: 4px 10px !important;
   position: relative;
@@ -6287,7 +6286,7 @@ body.light_mode .HomeLogo svg path {
   --fontColor1: #fff;
   --fontColor2: #7a9afa;
   --fontColor3: #fff;
-  --fontColor4: #345eda;
+  --fontColor4: #fff;
   --fontColor5: #fff;
   --fontColor6: #fff;
   --fontWhite1: #9ea6b8;
@@ -6307,7 +6306,7 @@ body.light_mode .HomeLogo svg path {
   --svgColorW4: #9ea6b8;
   --svgColorW5: #7f8ba5;
   --svgColorW6: #545b73;
-  --poweredBy: #1b3da2;
+  --poweredBy: #fff;
   --balanceFont: var(--fontColor1);
   --summaryFont: var(--fontColor3);
   --tickerBg: var(--bgColor2);
@@ -6319,15 +6318,15 @@ body.light_mode .HomeLogo svg path {
   --tickerBorderW: var(--borderWhite2);
   --borderColor1: #011704;
   --borderColor2: #011704;
-  --borderColor3: #011704;
-  --borderColor4: #011704;
+  --borderColor3: #045f10;
+  --borderColor4: #05460d;
   --borderWhite1: #fff;
   --borderWhite2: #e0e6f3;
   --borderWhite3: #cbced3;
   --bgColor0: #027F12;
   --bgColor1: #027F12;
-  --bgColor2: #011704;
-  --bgColor3: #031335;
+  --bgColor2: #021b05cc;
+  --bgColor3: #011704;
   --bgColor4: #03102b;
   --bgColor5: #020e27;
   --bgColor6: #011B01;
@@ -6351,7 +6350,7 @@ body.light_mode .HomeLogo svg path {
   --hoverWarmGradient: linear-gradient(90deg, #FA9Cf5, #B64CE9);
   --warmGradientW: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   --hoverWarmGradientW: linear-gradient(90deg, #fa9cf5, #b64ce9);
-  --coldGradient: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%); 
+  --coldGradient: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   --hoverColdGradient: linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
   --coldGradientW: linear-gradient(90deg, #ebeff5, #979da5);
   --hoverColdGradientW: linear-gradient(90deg, #fff, #fff);
@@ -6378,7 +6377,7 @@ body.light_mode .HomeLogo svg path {
   --boxShadow3: rgba(0, 0, 0, .1);
   --boxShadow4: rgba(0, 0, 0, .4);
   --boxShadowX: #032161;
-  --darkShadow:  #011704;
+  --darkShadow: #011704;
   --darkShadowW: 0px 3px 8px 3px rgba(211, 214, 225, .6);
   --smallShadow: 1px 1px 2px 1px #011238;
   --smallShadowW: 1px 1px 2px 1px #dee3e9;
@@ -6388,14 +6387,11 @@ body.light_mode .HomeLogo svg path {
   --cornerShadowW: inset -2px 2px 6px 0px #d5d5d5;
   --checkbox: 0px 0px 0px 1px #071e4b, 1px 2px 1px 0px #001f5d, inset -2px 2px 2px 0px #011238;
   --scrollbar: inset -13px 0px 0px 0px #027F12;
-  --formTabLeft: 0px 20px 0px 0px var(--bgColor1), 8px 4px 15px -4px #05143a, inset -1px 1px 1px 0px #0b255c;
-  --formTabRight: 0px 20px 0px 0px var(--bgColor1), -8px 4px 15px -4px #05143a, inset 1px 1px 1px 0px #0b255c;
   --formTabLeftW: 0px 20px 0px 0px #f7fbfe, 8px 4px 15px -4px #e7ecef, inset -1px 2px 0px 0px #fff;
   --formTabRightW: 0px 20px 0px 0px #f7fbfe, -8px 4px 15px -4px #e7ecef, inset 1px 1px 1px 0px #fff;
   --baseShadow: inset 0px -9999px 0px 0px var(--bgColor1), 2px 2px 11px 0px rgba(0, 0, 0, .18), 2px 2px 4px 0px rgba(0, 0, 0, .12);
   --baseShadowGloss: inset 0px -1px 0px 0px #001b55, inset 2px 0px 0px 0px #00184b, -1px -1px 0px 1px #032161, -1px -1px 1px 1px #03216196;
   --bgComponent: inset 0px -1px 0px 0px #036b11, inset 2px 0px 0px 0px #036b11, -1px -1px 0px 1px #036b11, -1px -1px 1px 1px #036b11, var(--baseShadow);
-  --bgComponentTabs: inset 0px 0px 0px 0px #001b55, inset 2px 0px 0px 0px #00184b, -1px -1px 0px 1px #032161, 0px 1px 1px 0px #032161;
   --bgTopGloss: inset 0px 56px 15px 0px #041e50c2, var(--baseShadowGloss), var(--baseShadow);
   --bgSoftTopGloss: inset 0px 20px 15px 0px #041e50e6, var(--baseShadowGloss), var(--baseShadow);
   --bgBisel: inset 0px -1px 0px 0px #001b55, inset 1px 0px 0px 0px #00184b, -1px -1px 0px 1px #032161, -1px -1px 1px 1px #03216196, inset 0px -9999px 0px 0px var(--bgColor1), 2px 2px 11px 0px rgba(0, 0, 0, .18), 2px 2px 4px 0px rgba(0, 0, 0, .12);
@@ -6410,10 +6406,10 @@ body.light_mode .HomeLogo svg path {
   --buttonShadow: 1px 1px 6px 1px var(--boxShadow2);
   --neoButton: -2px -2px 1px 0px rgba(6, 35, 93, .62), -4px -4px 13px 0px rgba(15, 58, 144, .16), 2px 3px 1px 0px #001031, 4px 4px 16px 0px rgba(0, 0, 0, .42);
   --neoButtonThin: -2px -2px 1px 0px rgb(2, 127, 18), -1px -1px 10px 0px rgb(2, 127, 18), 1px 1px 1px 0px #027F12, 1px 1px 5px 0px rgba(0, 0, 0, .42);
-  --insetButton: 0px 0px 0px 1px #071e4b, 1px 2px 1px 0px #00194c, inset -2px 2px 2px 0px #011238;
+  --insetButton: 0px 0px 0px 0px #001B01, 0px 0px 0px 0px #001B01, inset 0px 0px 0px 0px #001B01;
   --warmButtonLight: 1px 1px 8px 1px #011704;
   --warmButtonLightW: 1px 1px 6px 1px #ffd8c3;
-  --hollowBox: 0px 0px 0px 1px #041e50, 2px 2px 2px 0px #052054, inset 1px 1px 1px 0px #021035, inset 0px 0px 0px 1px #021035, 2px 2px 3px 0px rgba(0, 0, 0, .29);
+  --hollowBox: 0px 0px 0px 0px #001B01, 0px 0px 0px 0px #001B01, inset 0px 0px 0px 0px #001B01;
   --hollowBox2: 0px 0px 0px 1px #041e50, 2px 2px 2px 0px #052054, inset 1px 1px 1px 0px #021035, inset 0px 0px 0px 1px #021035, 2px 2px 3px 0px rgba(0, 0, 0, .29);
   --hollowBoxThin: inset 1px 1px 0px 0px rgba(0, 0, 0, .5), 1px 1px 0px 0px #072463;
   --hollowLine: inset 0px 0px 0px 1px #000;
@@ -7584,7 +7580,7 @@ body.light_mode .transaction_history_header .ticker {
 }
 
 .transaction_table {
-  border: 1px solid var(--borderColor3);
+  border: 5px solid var(--borderColor3);
   border-collapse: separate !important;
   border-spacing: 0;
   border-radius: 10px;
@@ -15866,7 +15862,6 @@ ul {
 .expired_notice>span {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #fff
 }
 
 .expired_notice>p {
