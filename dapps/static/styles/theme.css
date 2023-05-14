@@ -86,7 +86,7 @@
   --bgGradient: linear-gradient(90deg, var(--bgGradLeft), var(--bgGradRight));
   --bgGradLeft: #011704;
   --bgGradRight: #011704;
-  --bgHeader: #011704;
+  --bgHeader: #011B01;
   --headerGradLeft: #011704;
   --headerGradRight: #011704;
   --boxShadow1: rgba(5, 13, 97, .8);
@@ -120,7 +120,7 @@
   --donutHole: inset 0px 0px 0px 8px #010e2f;
   --formButton: inset 0px -1px 0px 0px #07590b, inset 2px 0px 0px 0px #07590b, -1px -1px 0px 1px #07590b, -1px -1px 2px 2px #07590b, inset 0px -9999px 0px 0px var(--bgColor1), 2px 2px 11px 0px #07590b, 1px 1px 4px 0px #07590b, -1px -1px 9px 8px #07590b;
   --formButtonSmall: inset 0px -1px 0px 0px #001b55, inset 2px 0px 0px 0px #00184b, -1px -1px 0px 1px #032161, -1px -1px 2px 2px #03216196, inset 0px -9999px 0px 0px var(--bgColor1), 2px 2px 11px 0px rgba(0, 0, 0, .18), 1px 1px 4px 0px rgba(0, 0, 0, .72), -1px -1px 9px 0px #07590b;
-  --formButtonInner: 0px -3px 0px -1px  , inset 0px 20px 10px -10px #07590b, 0px 3px 0px -1px #07590b, inset 0px -20px 10px -10px #07590b;
+  --formButtonInner: 0px -3px 0px -1px, inset 0px 20px 10px -10px #07590b, 0px 3px 0px -1px #07590b, inset 0px -20px 10px -10px #07590b;
   --rightFormButtonInner: -3px 0px 0px 0 #042055, inset 20px 0px 10px -10px #020818, 3px 0px 0px -1px #042055, inset -20px 0px 10px -10px #050d21;
   --formButtonInnerSmall: 0px -3px 0px -1px #042055, inset 0px 15px 10px -10px #020b24, 0px 3px 0px -1px #042055, inset 0px -15px 10px -10px #020b24;
   --buttonShadow: 1px 1px 6px 1px var(--boxShadow2);
@@ -129,7 +129,7 @@
   --insetButton: 0px 0px 0px 0px #001B01, 0px 0px 0px 0px #001B01, inset 0px 0px 0px 0px #001B01;
   --warmButtonLight: 1px 1px 8px 1px #cc392699;
   --warmButtonLightW: 1px 1px 6px 1px linear-gradient(90.5deg, rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
-  --hollowBox: 0px 0px 0px 0px #011203, 0px 0px 0px 0px #011203,inset 1px 1px 1px 0px #011203, inset 0px 0px 0px 1px #011203, 2px 2px 3px 0px rgba(0, 0, 0, .29); 
+  --hollowBox: 0px 0px 0px 0px #011203, 0px 0px 0px 0px #011203, inset 1px 1px 1px 0px #011203, inset 0px 0px 0px 1px #011203, 2px 2px 3px 0px rgba(0, 0, 0, .29);
   --hollowBox2: 0px 0px 0px 1px #041e50, 2px 2px 2px 0px #052054, inset 1px 1px 1px 0px #021035, inset 0px 0px 0px 1px #021035, 2px 2px 3px 0px rgba(0, 0, 0, .29);
   --hollowBoxThin: inset 1px 1px 0px 0px rgba(0, 0, 0, .5), 1px 1px 0px 0px #072463;
   --hollowLine: inset 0px 0px 0px 1px #000;

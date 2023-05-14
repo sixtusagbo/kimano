@@ -6376,7 +6376,7 @@ body.light_mode .HomeLogo svg path {
   --boxShadow3: rgba(0, 0, 0, .1);
   --boxShadow4: rgba(0, 0, 0, .4);
   --boxShadowX: #032161;
-  --darkShadow: #011704;
+  --darkShadow: #011B01;
   --darkShadowW: 0px 3px 8px 3px rgba(211, 214, 225, .6);
   --smallShadow: 1px 1px 2px 1px #011238;
   --smallShadowW: 1px 1px 2px 1px #dee3e9;
@@ -15950,27 +15950,4 @@ body {
   box-sizing: border-box;
   border-color: #e2e8f0;
   overflow-wrap: break-word;
-}
-
-.showcase_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nft_showcase {
-  position: relative;
-  height: 450px;
-  width: 500px;
-  padding: 0 !important;
-  background-color: transparent;
-}
-
-.nft_showcase video {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  z-index: 0;
-  border-radius: 20px;
 }
