@@ -1525,6 +1525,14 @@
   width: 100%
 }
 
+.ui-btn.disable {
+  background: hsla(0, 0%, 100%, .1);
+  opacity: 100;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+}
+
 @media only screen and (max-width: 1000px) {
   .operate[data-v-d5bef032] {
     padding: 20px 10px
