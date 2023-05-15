@@ -250,7 +250,7 @@ body.light_mode .control_item .control_input input {
   font-size: 16px;
   font-weight: bold;
   align-self: center;
-  background: linear-gradient(rgb(250, 156, 245) 1.6%, rgb(182, 76, 233) 98.2%);
+  background: linear-gradient(#fa9cf5 1.6%, #b64ce9 98.2%);
   padding: 10px 5px;
   border-radius: 10px;
   border-top-left-radius: 0;
