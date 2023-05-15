@@ -150,10 +150,10 @@
   -webkit-backdrop-filter: blur(22px);
   backdrop-filter: blur(22px);
   border-radius: 15px;
-  border: 2px solid #e6f85e;
+  border: 2px solid #d15ef8;
   max-width: 700px;
   margin: 0 auto;
-  min-height: 600px;
+  min-height: 436px;
   padding: 50px;
   text-align: center
 }
