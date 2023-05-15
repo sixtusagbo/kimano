@@ -1093,7 +1093,7 @@ a.blue_hero_btn span {
 
 .orange_txt_right_grad,
 .orange_txt_right_grad span {
-  background: linear-gradient(270deg, #11d617, #0752bb);
+  background: linear-gradient(270deg, #11d69b, #b64ce9);
   border-image-slice: 1;
   background-clip: text;
   -webkit-background-clip: text;
@@ -7283,7 +7283,7 @@ section.RiseV1Section h2 {
   text-align: center;
   font-size: 48px;
   font-weight: 800;
-  background: linear-gradient(270deg, #fb8b47, #ce2041);
+  background: linear-gradient(270deg, #11d69b, #b64ce9);
   border-image-slice: 1;
   -webkit-background-clip: text;
   background-clip: text;
@@ -14090,7 +14090,7 @@ body.home .token tbody {
   border-color: inherit;
 }
 
-.ad-km{
+.ad-km {
   width: 100%;
   border-radius: 10px;
   background-color: #fa9cf5;

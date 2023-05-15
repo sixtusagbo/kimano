@@ -99,10 +99,13 @@
   if (query_params.isEmbedded) {
     $(document.body).addClass('embedded');
 
-    if (query_params.theme) {
-      if (query_params.theme === "dark") {
-        $(document.body).removeClass('light_mode');
-        $(document.body).addClass('dark_mode');
+    if (query_params.theme === "dark") {
+      $(document.body).removeClass('light_mode');
+      $(document.body).addClass('dark_mode');
+    } else {
+      if ($(document.body).hasClass("dark_mode")) {
+        $(document.body).removeClass('dark_mode');
+        $(document.body).addClass('light_mode');
       }
     }
   }
